@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { BOCHUM_ADRESSEN_URL, BOCHUM_QUELLE_STAND, BOCHUM_WAHLKREISE } from "./config.js";
-import { berichteBuchstaben, type BuchstabenAdresse } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { wahlkreisFuer } from "./wahlkreis.js";
@@ -132,7 +132,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Bochum", buchstabenAdressen, strassen);
+  await ergaenzeBuchstabenAusnahmen("Bochum", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(BOCHUM_WAHLKREISE, 3);
 

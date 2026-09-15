@@ -1,5 +1,5 @@
 import { matchesParitaet } from "../shared/paritaet.js";
-import type { Bereich, Strasse } from "../shared/types.js";
+import type { Bereich, BuchstabenAusnahme, Strasse } from "../shared/types.js";
 
 export type Ergebnis =
   | { art: "eindeutig"; wk: string }
@@ -8,9 +8,37 @@ export type Ergebnis =
   | { art: "vermutung"; vermutung: string; grund: string }
   | { art: "kein-treffer"; bereiche: Bereich[] };
 
-export function ergebnisFuer(strasse: Strasse, nummer: number | null): Ergebnis {
+/**
+ * Ob für diese Straße eine Hausnummer nötig ist: bei geteilten Straßen und bei
+ * Straßen, in denen einzelne Hausnummern mit Buchstaben woanders liegen.
+ */
+export function brauchtHausnummer(strasse: Strasse): boolean {
+  return "b" in strasse || (strasse.z?.length ?? 0) > 0;
+}
+
+/** Die passende Buchstaben-Ausnahme; bei mehreren gewinnt die engste (einzelne Adresse vor "ab"). */
+export function ausnahmeFuer(
+  strasse: Strasse,
+  nummer: number,
+  zusatz: string,
+): BuchstabenAusnahme | undefined {
+  const buchstabe = /^[a-z]+/.exec(zusatz.trim().toLowerCase())?.[0];
+  if (!buchstabe || !strasse.z) return undefined;
+  const spanne = (a: BuchstabenAusnahme) => a.bis.charCodeAt(0) - a.von.charCodeAt(0);
+  return strasse.z
+    .filter((a) => a.nr === nummer && a.von <= buchstabe && buchstabe <= a.bis)
+    .sort((a, b) => spanne(a) - spanne(b))[0];
+}
+
+export function ergebnisFuer(strasse: Strasse, nummer: number | null, zusatz = ""): Ergebnis {
+  if (nummer !== null) {
+    const ausnahme = ausnahmeFuer(strasse, nummer, zusatz);
+    if (ausnahme) return { art: "treffer", wk: ausnahme.wk };
+  }
+
   if ("wk" in strasse) {
-    return { art: "eindeutig", wk: strasse.wk };
+    if (!brauchtHausnummer(strasse)) return { art: "eindeutig", wk: strasse.wk };
+    return nummer === null ? { art: "uebersicht", bereiche: [] } : { art: "treffer", wk: strasse.wk };
   }
 
   if (nummer === null) {

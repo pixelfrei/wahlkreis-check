@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { HAGEN_QUELLE_STAND, HAGEN_STRASSEN_URL, HAGEN_WAHLKREISE } from "./config.js";
-import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseHausnummernBereich } from "../freitextBereich.js";
@@ -18,9 +18,9 @@ const OUTPUT_PATH = "public/data/hagen.json";
  *   Einzeladresse "31a" (Buchstabenzusatz, keine Bereichsgrenze - Basisnummer
  *   bleibt 31). Das kollidiert numerisch mit der Hausnummer 31 aus Bezirk
  *   4205 (WB20, WK103) "5-31,32-38,43", die plain "31" bereits eindeutig
- *   abdeckt. Da unser Datenmodell Buchstabenzusätze bei Einzeladressen nicht
- *   abbildet, wird die Einzeladresse "31a" hier entfernt (analog zum
- *   Werneweg-Fall in Münster) - "31" bleibt korrekt WK103 zugeordnet.
+ *   abdeckt. "31a" wird deshalb nicht als Hausnummer 31 geführt, sondern als
+ *   Buchstaben-Ausnahme (BUCHSTABEN_AUSNAHMEN unten) - "31" bleibt WK103,
+ *   "31a" WK104.
  * - Franzstr., Bezirk 4204 (WB20, WK103): "1b-54,60-70 ger.,72-76" - das
  *   letzte Segment "72-76" trägt (anders als das direkt davor stehende
  *   "60-70 ger.") keinen Paritäts-Hinweis, wirkt also wie ein fehlendes
@@ -32,6 +32,9 @@ const KORRIGIERTE_BEREICHE = new Map<string, string>([
   ["Buntebachstr.|4211", "42,45a-111"],
   ["Franzstr.|4204", "1b-54,60-70 ger.,72-76 ger."],
 ]);
+
+/** Einzeladressen mit Buchstabe, die oben aus den Bereichen entfernt wurden. */
+const BUCHSTABEN_AUSNAHMEN = [{ strasse: "Buntebachstr.", nummer: 31, zusatz: "a", bezirkNr: 4211 }];
 
 interface HagenZeile {
   strasse: string;
@@ -92,7 +95,11 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Hagen", buchstabenAusZeilen(byStrasse), strassen);
+  const buchstabenAdressen = [
+    ...buchstabenAusZeilen(byStrasse),
+    ...BUCHSTABEN_AUSNAHMEN.map(({ bezirkNr, ...a }) => ({ ...a, wk: wahlkreisFuer(bezirkNr) })),
+  ];
+  await ergaenzeBuchstabenAusnahmen("Hagen", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(HAGEN_WAHLKREISE, 2);
 

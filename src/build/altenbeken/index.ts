@@ -7,7 +7,7 @@ import {
   ALTENBEKEN_QUELLE_STAND,
   ALTENBEKEN_WAHLKREISE,
 } from "./config.js";
-import { berichteBuchstaben } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { ALKIS_KATASTERBEZIRK_URL, ladeGemarkungen } from "../alkisGemarkung.js";
@@ -43,7 +43,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Altenbeken", buchstabenAdressen, strassen);
+  await ergaenzeBuchstabenAusnahmen("Altenbeken", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(ALTENBEKEN_WAHLKREISE, 2);
 

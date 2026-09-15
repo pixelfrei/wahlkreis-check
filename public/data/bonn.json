@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Bonn",
     "stand": "2022-05",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://wahlen.bonn.de/wahlen/LTW2022/05314000/praesentation/opendata-strassen.csv"
     ],
@@ -258,6 +258,14 @@
           "von": 84,
           "bis": 108,
           "par": "g",
+          "wk": "31"
+        }
+      ],
+      "z": [
+        {
+          "nr": 2,
+          "von": "a",
+          "bis": "z",
           "wk": "31"
         }
       ]
@@ -4806,6 +4814,14 @@
           "von": 38,
           "bis": 42,
           "par": "b",
+          "wk": "30"
+        }
+      ],
+      "z": [
+        {
+          "nr": 11,
+          "von": "b",
+          "bis": "z",
           "wk": "30"
         }
       ]

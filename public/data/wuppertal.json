@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Wuppertal",
     "stand": "2026-09",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://daten.wuppertal.de/Politik_Wahlen/Kommunalwahlbezirke_EPSG25832_JSON.json",
       "https://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_JSON.json"
@@ -10656,6 +10656,20 @@
           "par": "g",
           "wk": "32"
         }
+      ],
+      "z": [
+        {
+          "nr": 1,
+          "von": "a",
+          "bis": "a",
+          "wk": "34"
+        },
+        {
+          "nr": 9,
+          "von": "a",
+          "bis": "b",
+          "wk": "32"
+        }
       ]
     },
     {
@@ -19223,7 +19237,15 @@
     },
     {
       "n": "Steinberg",
-      "wk": "33"
+      "wk": "33",
+      "z": [
+        {
+          "nr": 1,
+          "von": "a",
+          "bis": "a",
+          "wk": "34"
+        }
+      ]
     },
     {
       "n": "Steinberger Weg",
@@ -20938,7 +20960,21 @@
     },
     {
       "n": "Weinberg",
-      "wk": "33"
+      "wk": "33",
+      "z": [
+        {
+          "nr": 8,
+          "von": "f",
+          "bis": "g",
+          "wk": "32"
+        },
+        {
+          "nr": 8,
+          "von": "l",
+          "bis": "l",
+          "wk": "32"
+        }
+      ]
     },
     {
       "n": "Weißenburgstr.",
@@ -22449,7 +22485,15 @@
     },
     {
       "n": "Zillertal",
-      "wk": "34"
+      "wk": "34",
+      "z": [
+        {
+          "nr": 1,
+          "von": "b",
+          "bis": "b",
+          "wk": "32"
+        }
+      ]
     },
     {
       "n": "Zillertaler Str.",

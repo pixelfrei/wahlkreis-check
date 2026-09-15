@@ -6,7 +6,7 @@ import {
   WUPPERTAL_QUELLE_STAND,
   WUPPERTAL_WAHLKREISE,
 } from "./config.js";
-import { berichteBuchstaben, type BuchstabenAdresse } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import {
@@ -150,7 +150,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Wuppertal", buchstabenAdressen, strassen);
+  await ergaenzeBuchstabenAusnahmen("Wuppertal", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(WUPPERTAL_WAHLKREISE, 3);
 

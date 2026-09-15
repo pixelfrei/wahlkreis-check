@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { SOLINGEN_QUELLE_STAND, SOLINGEN_STRASSEN_URL, SOLINGEN_WAHLKREISE } from "./config.js";
-import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseHausnummernBereich } from "../freitextBereich.js";
@@ -66,7 +66,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Solingen", buchstabenAusZeilen(byStrasse), strassen);
+  await ergaenzeBuchstabenAusnahmen("Solingen", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(SOLINGEN_WAHLKREISE, 2);
 

@@ -27,6 +27,7 @@ export function koelnZeileZuRohZeilen(zeile: KoelnZeile): RohZeile[] {
     const buchstaben = buchstabenGrenzen(
       { nummer: vonBasis, zusatz: zusatzVon(zeile.ungeradeVon) },
       { nummer: bis, zusatz: zusatzVon(zeile.ungeradeBis) },
+      vonBasis !== bis,
     );
     ergebnisse.push({ von, bis, par: "u", wk: zeile.landtag, ...(buchstaben && { buchstaben }) });
   }
@@ -38,6 +39,7 @@ export function koelnZeileZuRohZeilen(zeile: KoelnZeile): RohZeile[] {
     const buchstaben = buchstabenGrenzen(
       { nummer: vonBasis, zusatz: zusatzVon(zeile.geradeVon) },
       { nummer: bis, zusatz: zusatzVon(zeile.geradeBis) },
+      vonBasis !== bis,
     );
     ergebnisse.push({ von, bis, par: "g", wk: zeile.landtag, ...(buchstaben && { buchstaben }) });
   }

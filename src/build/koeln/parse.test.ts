@@ -40,7 +40,7 @@ describe("koelnZeileZuRohZeilen", () => {
       geradeBis: "60",
     });
     expect(result).toEqual([
-      { von: 3, bis: 60, par: "g", wk: "16", buchstaben: [{ nummer: 2, zusatz: "a" }] },
+      { von: 3, bis: 60, par: "g", wk: "16", buchstaben: [{ nummer: 2, zusatz: "a", ab: true }] },
     ]);
   });
 

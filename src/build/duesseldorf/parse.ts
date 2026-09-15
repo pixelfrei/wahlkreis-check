@@ -27,14 +27,14 @@ export function duesseldorfZeileZuRohZeilen(zeile: DuesseldorfZeile): RohZeile[]
   if (zeile.ungeradeVon !== null && zeile.ungeradeBis !== null) {
     const vonBasis = parseInt(zeile.ungeradeVon, 10);
     const von = zeile.ungeradeVonZus ? vonBasis + 1 : vonBasis;
-    const buchstaben = buchstabenGrenzen({ nummer: vonBasis, zusatz: zeile.ungeradeVonZus }, null);
+    const buchstaben = buchstabenGrenzen({ nummer: vonBasis, zusatz: zeile.ungeradeVonZus }, null, true);
     ergebnisse.push({ von, bis: parseInt(zeile.ungeradeBis, 10), par: "u", wk, ...(buchstaben && { buchstaben }) });
   }
 
   if (zeile.geradeVon !== null && zeile.geradeBis !== null) {
     const vonBasis = parseInt(zeile.geradeVon, 10);
     const von = zeile.geradeVonZus ? vonBasis + 1 : vonBasis;
-    const buchstaben = buchstabenGrenzen({ nummer: vonBasis, zusatz: zeile.geradeVonZus }, null);
+    const buchstaben = buchstabenGrenzen({ nummer: vonBasis, zusatz: zeile.geradeVonZus }, null, true);
     ergebnisse.push({ von, bis: parseInt(zeile.geradeBis, 10), par: "g", wk, ...(buchstaben && { buchstaben }) });
   }
 

@@ -41,7 +41,7 @@ describe("parseHausnummernBereich", () => {
 
   it("verschiebt die untere Grenze eines Bereichs bei Buchstabenzusatz um eins", () => {
     expect(parseHausnummernBereich("94A-123", "39")).toEqual([
-      { von: 95, bis: 123, par: "b", wk: "39", buchstaben: [{ nummer: 94, zusatz: "a" }] },
+      { von: 95, bis: 123, par: "b", wk: "39", buchstaben: [{ nummer: 94, zusatz: "a", ab: true }] },
     ]);
   });
 

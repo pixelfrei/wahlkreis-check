@@ -145,7 +145,7 @@ describe("hammZeileZuRohZeilen", () => {
         geradeBis: "136",
       }),
     ).toEqual([
-      { von: 54, bis: 129, par: "u", wk: "118", buchstaben: [{ nummer: 53, zusatz: "a" }] },
+      { von: 54, bis: 129, par: "u", wk: "118", buchstaben: [{ nummer: 53, zusatz: "a", ab: true }] },
       { von: 56, bis: 136, par: "g", wk: "118" },
     ]);
   });

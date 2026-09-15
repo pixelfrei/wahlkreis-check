@@ -54,6 +54,9 @@ geliefert.
 - Beim Aufbereiten wird für jede Stadt jede Hausnummer jeder geteilten Straße
   durchprobiert: Keine Hausnummer darf zwei Wahlkreise ergeben. Widersprüche in den
   Quelldaten werden einzeln korrigiert und auf der Datenquellen-Seite dokumentiert.
+- Jede Hausnummer mit Buchstabenzusatz aus den Quelldaten (über 50.000) wird mit der
+  Suche der App nachgeschlagen. Wo „5b“ woanders liegt als „5“, ergänzt die Aufbereitung
+  eine Ausnahme an der Straße; bleibt danach eine Adresse falsch, bricht sie ab.
 - Für Dortmund wurden zehn Adressen, darunter die schwierigen Grenzfälle, von Hand mit dem
   Kartenviewer der Stadt verglichen: [docs/doris-stichprobe.md](docs/doris-stichprobe.md).
 - Unit- und Komponententests für Hausnummernlogik, Suche, Datenaufbereitung und
@@ -67,8 +70,9 @@ geliefert.
 - **Ältere Verzeichnisse:** Für einige Städte gibt es nur Straßenverzeichnisse früherer
   Wahlen (2016–2022). Die Zuordnung zum Wahlkreis stammt immer aus der aktuellen Anlage,
   seitdem neu entstandene Straßen können aber fehlen.
-- **Buchstabenzusätze** („5b“) werden nicht unterschieden. In den wenigen Fällen, in denen
-  „5“ und „5b“ in verschiedenen Wahlkreisen liegen, gilt die Hausnummer ohne Buchstaben.
+- **Buchstabenzusätze:** Liegen „5“ und „5b“ laut Quelle in verschiedenen Wahlkreisen,
+  führt die App „5b“ als Ausnahme. Buchstaben, die in den Quelldaten nicht vorkommen,
+  zählen wie die Hausnummer ohne Buchstaben.
 - **Datteln:** Ein Zwischenschritt (Wahlbezirk → Statistischer Bezirk) ist nicht amtlich
   belegt, sondern aus Straßennamen erschlossen – Details auf der Datenquellen-Seite.
 - **Keine Gewähr.** Im Zweifel gilt die Auskunft des Wahlamts der jeweiligen Stadt.

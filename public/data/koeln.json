@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Köln",
     "stand": "2025-07-15",
-    "gebaut_am": "2026-09-13",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://www.offenedaten-koeln.de/sites/default/files/distribution/Stra%25C3%259Fenverzeichnis_WAHL_2025-07-15.xlsx"
     ],
@@ -4329,6 +4329,14 @@
           "von": 25,
           "bis": 28,
           "par": "g",
+          "wk": "13"
+        }
+      ],
+      "z": [
+        {
+          "nr": 24,
+          "von": "a",
+          "bis": "z",
           "wk": "13"
         }
       ]
@@ -13782,6 +13790,14 @@
           "par": "g",
           "wk": "16"
         }
+      ],
+      "z": [
+        {
+          "nr": 239,
+          "von": "a",
+          "bis": "z",
+          "wk": "16"
+        }
       ]
     },
     {
@@ -20006,6 +20022,14 @@
           "von": 406,
           "bis": 522,
           "par": "g",
+          "wk": "17"
+        }
+      ],
+      "z": [
+        {
+          "nr": 296,
+          "von": "a",
+          "bis": "z",
           "wk": "17"
         }
       ]

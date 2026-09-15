@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { MARL_GEBREF_URL, MARL_QUELLE_STAND, MARL_STADTTEILE_URL, MARL_WAHLKREISE } from "./config.js";
-import { berichteBuchstaben } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { type BenanntesPolygon } from "../geo.js";
@@ -45,7 +45,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Marl", buchstabenAdressen, strassen);
+  await ergaenzeBuchstabenAusnahmen("Marl", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(MARL_WAHLKREISE, 2);
 

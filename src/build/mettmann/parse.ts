@@ -34,6 +34,7 @@ export function parseHausnummernBereich(bereich: string, wk: string): RohZeile {
     const buchstaben = buchstabenGrenzen(
       { nummer: vonBasis, zusatz: vonZusatz },
       { nummer: bis, zusatz: bisZusatz },
+      true,
     );
     return { von, bis, par, wk, ...(buchstaben && { buchstaben }) };
   }
@@ -41,7 +42,7 @@ export function parseHausnummernBereich(bereich: string, wk: string): RohZeile {
   const singleMatch = SINGLE_RE.exec(text);
   if (singleMatch) {
     const basis = parseInt(singleMatch[1]!, 10);
-    const buchstaben = buchstabenGrenzen({ nummer: basis, zusatz: singleMatch[2] }, null);
+    const buchstaben = buchstabenGrenzen({ nummer: basis, zusatz: singleMatch[2] }, null, false);
     return { von: basis, bis: basis, par: "b", wk, ...(buchstaben && { buchstaben }) };
   }
 

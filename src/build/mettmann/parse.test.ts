@@ -52,7 +52,7 @@ describe("parseHausnummernBereich", () => {
       par: "u",
       wk: "38",
       buchstaben: [
-        { nummer: 1, zusatz: "a" },
+        { nummer: 1, zusatz: "a", ab: true },
         { nummer: 3, zusatz: "a" },
       ],
     });
@@ -64,7 +64,7 @@ describe("parseHausnummernBereich", () => {
       bis: 88,
       par: "g",
       wk: "40",
-      buchstaben: [{ nummer: 42, zusatz: "a" }],
+      buchstaben: [{ nummer: 42, zusatz: "a", ab: true }],
     });
   });
 });

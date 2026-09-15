@@ -53,7 +53,9 @@
   <p>
     Beim Einlesen wird für jede Stadt automatisch geprüft, dass keine Hausnummer mehr als
     einem Wahlkreis zugeordnet ist. Wo sich die Quelldaten widersprechen, wurde der
-    Einzelfall korrigiert – diese Korrekturen stehen jeweils bei der Stadt. Für Dortmund
+    Einzelfall korrigiert – diese Korrekturen stehen jeweils bei der Stadt. Außerdem wird
+    jede Hausnummer mit Buchstabenzusatz aus den Quelldaten nachgeschlagen: Die App muss
+    für jede davon den Wahlkreis laut Quelle anzeigen. Für Dortmund
     wurden zusätzlich zehn Adressen von Hand mit dem Kartenviewer der Stadt verglichen
     (siehe <a href="#dortmund">Dortmund</a>).
   </p>
@@ -61,9 +63,11 @@
   <h3>Gut zu wissen</h3>
   <ul>
     <li>
-      <strong>Buchstabenzusätze:</strong> Die App fragt nur die Hausnummer ohne Buchstaben
-      ab. In den wenigen Fällen, in denen z. B. „5“ und „5b“ in unterschiedlichen
-      Wahlkreisen liegen, zeigt sie den Wahlkreis der Hausnummer ohne Buchstaben.
+      <strong>Buchstabenzusätze:</strong> Meist liegen „5“ und „5b“ im selben Wahlkreis. In
+      den wenigen Fällen, in denen das nicht so ist (NRW-weit knapp 30 Adressen, z. B.
+      Schilfweg 15b in Dortmund), führt die App die Adresse als Ausnahme und fragt bei
+      dieser Straße immer nach der Hausnummer. Buchstaben, die in den Quelldaten nicht
+      vorkommen, zählen wie die Hausnummer ohne Buchstaben.
     </li>
     <li>
       <strong>Ältere Verzeichnisse:</strong> Für einige Städte gibt es nur
@@ -321,9 +325,9 @@
   <p>
     Von 69.699 Adresspunkten liegen 69.690 eindeutig in genau einem Wahlkreis. Die
     übrigen 9 liegen rechnerisch in keinem (vermutlich genau auf einer Grenzlinie) und
-    werden nicht zugeordnet statt geraten. Bei 2 Hausnummern (z. B. Holbeinstraße 2)
-    liegen Gebäude mit Buchstabenzusatz in einem anderen Wahlkreis als die Hausnummer
-    selbst.
+    werden nicht zugeordnet statt geraten. Bei 2 Hausnummern (Holbeinstraße 2a, Windfang
+    75e) liegt das Gebäude mit Buchstabenzusatz in einem anderen Wahlkreis als die
+    Hausnummer selbst – die App führt diese Adressen als Ausnahme.
   </p>
   <h3>Warum nicht anders?</h3>
   <p>
@@ -366,8 +370,9 @@
   <p>
     Die Felder „Straße“ und „Hausnummer“ des Dienstes sind fehlerhaft befüllt (sie
     enthalten teils die Straße des Wahllokals). Gelesen wird deshalb das vollständige
-    Adressfeld. Bei 5 Hausnummern (z. B. Hermannshöhe 5) liegen Gebäude mit
-    Buchstabenzusatz in einem anderen Kommunalwahlbezirk als die Hausnummer selbst.
+    Adressfeld. Bei 5 Hausnummern (z. B. Hermannshöhe 5b bis 5j) liegen Gebäude mit
+    Buchstabenzusatz in einem anderen Wahlkreis als die Hausnummer selbst – die App führt
+    diese Adressen als Ausnahme.
   </p>
   <h3>Warum nicht anders?</h3>
   <p>
@@ -749,7 +754,8 @@
   <ul>
     <li>
       Buntebachstr.: Die Einzeladresse „31a“ (Stimmbezirk 4211) überschneidet sich mit
-      dem Bereich „5-31“ (Stimmbezirk 4205). Hausnummer 31 gehört zu Wahlkreis 103.
+      dem Bereich „5-31“ (Stimmbezirk 4205). Hausnummer 31 gehört zu Wahlkreis 103, 31a
+      wird als Ausnahme in Wahlkreis 104 geführt.
     </li>
     <li>
       Franzstr.: Beim Bereich „72-76“ (Stimmbezirk 4204) fehlt offenbar der Zusatz
@@ -1408,8 +1414,9 @@
   <h3>Besonderheiten</h3>
   <p>
     Von 61.700 Adressen liegen 61.699 eindeutig in genau einem Kommunalwahlbezirk. Bei 5
-    Hausnummern (z. B. Käshammer 1) liegen Gebäude mit Buchstabenzusatz in einem anderen
-    Bezirk als die Hausnummer selbst.
+    Hausnummern (z. B. Weinberg 8f, 8g und 8l) liegen Gebäude mit Buchstabenzusatz in
+    einem anderen Wahlkreis als die Hausnummer selbst – die App führt diese Adressen als
+    Ausnahme.
   </p>
   <h3>Warum nicht anders?</h3>
   <p>Der Vote Manager der Stadt enthält keine Straßendaten.</p>

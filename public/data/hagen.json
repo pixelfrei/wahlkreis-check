@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Hagen",
     "stand": "2025-09",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://wahlergebnisse.stadt-hagen.de/prod/KW2025/05914000/daten/opendata/opendata-strassen.csv"
     ],
@@ -788,6 +788,20 @@
           "par": "b",
           "wk": "104"
         }
+      ],
+      "z": [
+        {
+          "nr": 13,
+          "von": "a",
+          "bis": "z",
+          "wk": "104"
+        },
+        {
+          "nr": 75,
+          "von": "a",
+          "bis": "z",
+          "wk": "104"
+        }
       ]
     },
     {
@@ -1231,6 +1245,20 @@
           "von": 46,
           "bis": 111,
           "par": "b",
+          "wk": "104"
+        }
+      ],
+      "z": [
+        {
+          "nr": 31,
+          "von": "a",
+          "bis": "a",
+          "wk": "104"
+        },
+        {
+          "nr": 45,
+          "von": "a",
+          "bis": "z",
           "wk": "104"
         }
       ]
@@ -1863,6 +1891,14 @@
           "von": 72,
           "bis": 126,
           "par": "g",
+          "wk": "103"
+        }
+      ],
+      "z": [
+        {
+          "nr": 1,
+          "von": "b",
+          "bis": "z",
           "wk": "103"
         }
       ]

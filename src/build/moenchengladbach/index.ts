@@ -5,7 +5,7 @@ import {
   MOENCHENGLADBACH_STRASSEN_URL,
   MOENCHENGLADBACH_WAHLKREISE,
 } from "./config.js";
-import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseHausnummernBereich } from "../freitextBereich.js";
@@ -68,7 +68,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Mönchengladbach", buchstabenAusZeilen(byStrasse), strassen);
+  await ergaenzeBuchstabenAusnahmen("Mönchengladbach", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(MOENCHENGLADBACH_WAHLKREISE, 2);
 

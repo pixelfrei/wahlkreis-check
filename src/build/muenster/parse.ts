@@ -83,6 +83,7 @@ function parseZeile(row: string): MuensterZeile {
     const buchstaben = buchstabenGrenzen(
       { nummer: parseInt(von!, 10), zusatz: vonZusatz },
       { nummer: parseInt(bis!, 10), zusatz: bisZusatz },
+      true,
     );
     return {
       ...(buchstaben && { buchstaben }),
@@ -98,7 +99,7 @@ function parseZeile(row: string): MuensterZeile {
   if (einzeln) {
     const [, , strasse, nummer, zusatz, stimmbezirk] = einzeln;
     const n = parseInt(nummer!, 10);
-    const buchstaben = buchstabenGrenzen({ nummer: n, zusatz }, null);
+    const buchstaben = buchstabenGrenzen({ nummer: n, zusatz }, null, false);
     return {
       ...(buchstaben && { buchstaben }),
       strasse: strasse!,

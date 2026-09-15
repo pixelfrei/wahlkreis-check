@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Bochum",
     "stand": "2025-09",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://geoservicekkm.bochum.de/arcgis/rest/services/maponline/Wahlen/MapServer/16/query"
     ],
@@ -7563,6 +7563,20 @@
           "par": "g",
           "wk": "109"
         }
+      ],
+      "z": [
+        {
+          "nr": 5,
+          "von": "b",
+          "bis": "g",
+          "wk": "109"
+        },
+        {
+          "nr": 5,
+          "von": "j",
+          "bis": "j",
+          "wk": "109"
+        }
       ]
     },
     {
@@ -10360,7 +10374,15 @@
     },
     {
       "n": "Karl-Arnold-Str.",
-      "wk": "109"
+      "wk": "109",
+      "z": [
+        {
+          "nr": 25,
+          "von": "a",
+          "bis": "a",
+          "wk": "108"
+        }
+      ]
     },
     {
       "n": "Karl-Ernst-Str.",
@@ -15038,7 +15060,15 @@
     },
     {
       "n": "Schnatstr.",
-      "wk": "108"
+      "wk": "108",
+      "z": [
+        {
+          "nr": 5,
+          "von": "a",
+          "bis": "a",
+          "wk": "109"
+        }
+      ]
     },
     {
       "n": "Schöllmannstr.",
@@ -16233,6 +16263,14 @@
           "bis": 95,
           "par": "u",
           "wk": "108"
+        }
+      ],
+      "z": [
+        {
+          "nr": 15,
+          "von": "a",
+          "bis": "a",
+          "wk": "107"
         }
       ]
     },
@@ -18396,6 +18434,14 @@
           "von": 41,
           "bis": 41,
           "par": "u",
+          "wk": "107"
+        }
+      ],
+      "z": [
+        {
+          "nr": 30,
+          "von": "a",
+          "bis": "b",
           "wk": "107"
         }
       ]

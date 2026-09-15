@@ -76,6 +76,7 @@ export function buildStrassen(
     const buchstaben = buchstabenGrenzen(
       vonBasis !== null ? { nummer: vonBasis, zusatz: zusatzVon(row.hausnummer_von ?? "") } : null,
       bis !== null ? { nummer: bis, zusatz: zusatzVon(row.hausnummer_bis ?? "") } : null,
+      bis !== null && vonBasis !== bis,
     );
     list.push({ von, bis, par, wk, ...(buchstaben && { buchstaben }) });
     byStrasse.set(row.strasse, list);

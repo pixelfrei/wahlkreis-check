@@ -2,7 +2,7 @@ import { writeFile } from "node:fs/promises";
 import { PDFParse } from "pdf-parse";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { HILDEN_QUELLE_STAND, HILDEN_WAHLBUCH_URL, HILDEN_WAHLKREISE } from "./config.js";
-import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseWahlbuch } from "./parse.js";
@@ -59,7 +59,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Hilden", buchstabenAusZeilen(byStrasse), strassen);
+  await ergaenzeBuchstabenAusnahmen("Hilden", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(HILDEN_WAHLKREISE, 2);
 

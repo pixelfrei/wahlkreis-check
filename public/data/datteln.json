@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Datteln",
     "stand": "2025-09",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://wahlen.gkd-re.net/20250914/05562008/daten/opendata/opendata-strassen.csv"
     ],
@@ -416,6 +416,14 @@
           "bis": 23,
           "par": "b",
           "wk": "71"
+        }
+      ],
+      "z": [
+        {
+          "nr": 3,
+          "von": "a",
+          "bis": "z",
+          "wk": "72"
         }
       ]
     },

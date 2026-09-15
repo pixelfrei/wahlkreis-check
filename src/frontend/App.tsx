@@ -13,7 +13,7 @@ import {
   speichereGemeinde,
 } from "./gemeindeStorage.js";
 import { parseEingabe } from "./hausnummer.js";
-import { ergebnisFuer } from "./lookup.js";
+import { brauchtHausnummer, ergebnisFuer } from "./lookup.js";
 import {
   ersetzeAnker,
   infoseiteAusPfad,
@@ -33,7 +33,14 @@ import {
   nachDeployNeuLaden,
   seiteNeuLaden,
 } from "./seiten/laden.js";
-import type { Bereich, GemeindeEintrag, GemeindeIndex, Strasse, StrassenDaten } from "../shared/types.js";
+import type {
+  Bereich,
+  BuchstabenAusnahme,
+  GemeindeEintrag,
+  GemeindeIndex,
+  Strasse,
+  StrassenDaten,
+} from "../shared/types.js";
 import { findeGemeindeAnhandSlug, gemeindeSlug, slugAusPfad } from "./url.js";
 import { useGemeindeIndex } from "./useGemeindeIndex.js";
 import { useStrassenDaten } from "./useStrassenDaten.js";
@@ -747,17 +754,21 @@ function Ergebnis({
   kommune,
   inputRef,
 }: ErgebnisProps) {
-  const geteilt = "b" in strasse;
+  const hausnummerNoetig = brauchtHausnummer(strasse);
   const parsed = hausnummerInput.trim().length > 0 ? parseEingabe(hausnummerInput) : null;
-  const ergebnis = ergebnisFuer(strasse, parsed?.nummer ?? null);
+  const ergebnis = ergebnisFuer(strasse, parsed?.nummer ?? null, parsed?.zusatz ?? "");
   const ort = parsed ? `${strasse.n} ${hausnummerInput.trim()}` : strasse.n;
 
   return (
     <div className="seite">
-      {geteilt && (
+      {hausnummerNoetig && (
         <div className="karte hausnummer-eingabe">
           <label htmlFor="hausnummer">Hausnummer</label>
-          <p className="hinweis">Diese Straße ist geteilt – bitte Hausnummer eingeben.</p>
+          <p className="hinweis">
+            {"b" in strasse
+              ? "Diese Straße ist geteilt – bitte Hausnummer eingeben."
+              : "Einzelne Hausnummern mit Buchstaben liegen in einem anderen Wahlkreis – bitte Hausnummer eingeben."}
+          </p>
           <input
             id="hausnummer"
             ref={inputRef}
@@ -787,10 +798,11 @@ function Ergebnis({
         />
       ) : (
         <BereichsUebersicht
+          strasse={strasse}
           bereiche={ergebnis.bereiche}
           wahlkreisNamen={wahlkreisNamen}
           keinTreffer={ergebnis.art === "kein-treffer"}
-          onBereichWaehlen={(b) => onHausnummerChange(String(b.von))}
+          onHausnummerWaehlen={onHausnummerChange}
         />
       )}
 
@@ -838,16 +850,19 @@ function VermutungAnzeige({
 }
 
 function BereichsUebersicht({
+  strasse,
   bereiche,
   wahlkreisNamen,
   keinTreffer,
-  onBereichWaehlen,
+  onHausnummerWaehlen,
 }: {
+  strasse: Strasse;
   bereiche: Bereich[];
   wahlkreisNamen: Record<string, string>;
   keinTreffer: boolean;
-  onBereichWaehlen: (bereich: Bereich) => void;
+  onHausnummerWaehlen: (hausnummer: string) => void;
 }) {
+  const ausnahmen = strasse.z ?? [];
   return (
     <div className="uebersicht">
       {keinTreffer && (
@@ -855,27 +870,76 @@ function BereichsUebersicht({
           Diese Hausnummer ist im amtlichen Verzeichnis nicht geführt.
         </div>
       )}
-      <p className="abschnitt-titel">Hausnummernbereiche</p>
-      <ul className="bereichsliste">
-        {bereiche.map((b) => (
-          <li key={`${b.von}-${b.bis}-${b.par}`}>
-            <button type="button" className="bereich-eintrag karte" onClick={() => onBereichWaehlen(b)}>
-              <span className="bereich-zahlen">
-                {b.von === b.bis ? b.von : `${b.von}–${b.bis}`}
-              </span>
-              <span className="bereich-wk">
-                <span className={b.wk ? "wk-badge" : "wk-badge unklar"}>
-                  {b.wk ? `WK ${b.wk}` : "unklar"}
-                </span>
-                {b.wk && wahlkreisNamen[b.wk] && (
-                  <span className="bereich-wk-name">{wahlkreisNamen[b.wk]}</span>
-                )}
-              </span>
-            </button>
-          </li>
-        ))}
-      </ul>
+      {"wk" in strasse ? (
+        <>
+          <p className="abschnitt-titel">Hausnummern</p>
+          <div className="bereich-eintrag karte bereich-alle">
+            <span className="bereich-zahlen">Alle anderen</span>
+            <WahlkreisAngabe wk={strasse.wk} wahlkreisNamen={wahlkreisNamen} />
+          </div>
+        </>
+      ) : (
+        <>
+          <p className="abschnitt-titel">Hausnummernbereiche</p>
+          <ul className="bereichsliste">
+            {bereiche.map((b) => (
+              <li key={`${b.von}-${b.bis}-${b.par}`}>
+                <button
+                  type="button"
+                  className="bereich-eintrag karte"
+                  onClick={() => onHausnummerWaehlen(String(b.von))}
+                >
+                  <span className="bereich-zahlen">
+                    {b.von === b.bis ? b.von : `${b.von}–${b.bis}`}
+                  </span>
+                  <WahlkreisAngabe wk={b.wk} wahlkreisNamen={wahlkreisNamen} />
+                </button>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      {ausnahmen.length > 0 && (
+        <>
+          <p className="abschnitt-titel">Hausnummern mit Buchstaben</p>
+          <ul className="bereichsliste">
+            {ausnahmen.map((a) => (
+              <li key={`${a.nr}${a.von}-${a.bis}`}>
+                <button
+                  type="button"
+                  className="bereich-eintrag karte"
+                  onClick={() => onHausnummerWaehlen(`${a.nr}${a.von}`)}
+                >
+                  <span className="bereich-zahlen">{ausnahmeText(a)}</span>
+                  <WahlkreisAngabe wk={a.wk} wahlkreisNamen={wahlkreisNamen} />
+                </button>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
     </div>
+  );
+}
+
+function ausnahmeText(a: BuchstabenAusnahme): string {
+  if (a.bis === "z") return `ab ${a.nr}${a.von}`;
+  if (a.von === a.bis) return `${a.nr}${a.von}`;
+  return `${a.nr}${a.von}–${a.nr}${a.bis}`;
+}
+
+function WahlkreisAngabe({
+  wk,
+  wahlkreisNamen,
+}: {
+  wk: string | null;
+  wahlkreisNamen: Record<string, string>;
+}) {
+  return (
+    <span className="bereich-wk">
+      <span className={wk ? "wk-badge" : "wk-badge unklar"}>{wk ? `WK ${wk}` : "unklar"}</span>
+      {wk && wahlkreisNamen[wk] && <span className="bereich-wk-name">{wahlkreisNamen[wk]}</span>}
+    </span>
   );
 }
 

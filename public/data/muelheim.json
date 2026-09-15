@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Mülheim an der Ruhr",
     "stand": "2025-09",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://wahlpraesentation.muelheim-ruhr.de/kw25/05117000/daten/opendata/opendata-strassen.csv"
     ],
@@ -2138,6 +2138,14 @@
           "par": "b",
           "wk": "39"
         }
+      ],
+      "z": [
+        {
+          "nr": 136,
+          "von": "a",
+          "bis": "z",
+          "wk": "39"
+        }
       ]
     },
     {
@@ -2968,6 +2976,14 @@
           "von": 86,
           "bis": 148,
           "par": "b",
+          "wk": "64"
+        }
+      ],
+      "z": [
+        {
+          "nr": 21,
+          "von": "a",
+          "bis": "z",
           "wk": "64"
         }
       ]

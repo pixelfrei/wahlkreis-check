@@ -2,7 +2,7 @@ import { writeFile } from "node:fs/promises";
 import { PDFParse } from "pdf-parse";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { MUENSTER_QUELLE_STAND, MUENSTER_QUELLE_URL, MUENSTER_WAHLKREISE } from "./config.js";
-import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseRohtext } from "./parse.js";
@@ -68,7 +68,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Münster", buchstabenAusZeilen(byStrasse), strassen);
+  await ergaenzeBuchstabenAusnahmen("Münster", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(MUENSTER_WAHLKREISE, 3);
 

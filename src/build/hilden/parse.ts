@@ -48,6 +48,7 @@ function parseBereich(bereich: string): Omit<RohZeile, "wk"> {
     const buchstaben = buchstabenGrenzen(
       { nummer: parseInt(vonStr!, 10), zusatz: vonZusatz },
       { nummer: bis, zusatz: bisZusatz },
+      true,
     );
     return { von, bis, par, ...(buchstaben && { buchstaben }) };
   }
@@ -55,7 +56,7 @@ function parseBereich(bereich: string): Omit<RohZeile, "wk"> {
   const einzelnMatch = EINZELN_RE.exec(text);
   if (einzelnMatch) {
     const basis = parseInt(einzelnMatch[1]!, 10);
-    const buchstaben = buchstabenGrenzen({ nummer: basis, zusatz: einzelnMatch[2] }, null);
+    const buchstaben = buchstabenGrenzen({ nummer: basis, zusatz: einzelnMatch[2] }, null, false);
     return { von: basis, bis: basis, par: "b", ...(buchstaben && { buchstaben }) };
   }
 

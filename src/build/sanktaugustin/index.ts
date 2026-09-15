@@ -7,7 +7,7 @@ import {
   SANKT_AUGUSTIN_QUELLE_STAND,
   SANKT_AUGUSTIN_WAHLKREISE,
 } from "./config.js";
-import { berichteBuchstaben } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { ALKIS_KATASTERBEZIRK_URL, ladeGemarkungen } from "../alkisGemarkung.js";
@@ -43,7 +43,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  await berichteBuchstaben("Sankt Augustin", buchstabenAdressen, strassen);
+  await ergaenzeBuchstabenAusnahmen("Sankt Augustin", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(SANKT_AUGUSTIN_WAHLKREISE, 2);
 

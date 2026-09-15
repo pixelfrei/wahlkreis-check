@@ -1,6 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
-import { berichteBuchstaben, type BuchstabenAdresse } from "../buchstabenPruefung.js";
+import { ergaenzeBuchstabenAusnahmen, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { DUISBURG_QUELLE_STAND, DUISBURG_QUELLE_URL, DUISBURG_WAHLKREISE } from "./config.js";
@@ -109,7 +109,7 @@ async function main(): Promise<void> {
     const strasse = kandidaten.find((k) => namen.has(k)) ?? z.strasse;
     buchstabenAdressen.push({ strasse, nummer: z.hausnummer, zusatz: z.zusatz, wk: z.wk });
   }
-  await berichteBuchstaben("Duisburg", buchstabenAdressen, strassen);
+  await ergaenzeBuchstabenAusnahmen("Duisburg", buchstabenAdressen, strassen);
 
   const conflicts = runVollscan(strassen);
   if (conflicts.length > 0) {

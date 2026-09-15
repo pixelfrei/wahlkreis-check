@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Bielefeld",
     "stand": "2026-09",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://www.bielefeld01.de/md/WFS/wahlen/02?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=wahlkreis_land_pl_view&SRSNAME=EPSG:25832&OUTPUTFORMAT=text/csv",
       "https://www.bielefeld01.de/md/WFS/alkis_light/04?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=alkis_hauskoordinaten_p&SRSNAME=EPSG:25832&OUTPUTFORMAT=text/csv"
@@ -12479,7 +12479,15 @@
     },
     {
       "n": "Holbeinstraße",
-      "wk": "94"
+      "wk": "94",
+      "z": [
+        {
+          "nr": 2,
+          "von": "a",
+          "bis": "a",
+          "wk": "92"
+        }
+      ]
     },
     {
       "n": "Holenbruch",
@@ -24145,6 +24153,14 @@
           "von": 89,
           "bis": 89,
           "par": "u",
+          "wk": "92"
+        }
+      ],
+      "z": [
+        {
+          "nr": 75,
+          "von": "e",
+          "bis": "e",
           "wk": "92"
         }
       ]

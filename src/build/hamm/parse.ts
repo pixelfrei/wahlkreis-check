@@ -111,6 +111,7 @@ export function hammZeileZuRohZeilen(zeile: HammZeile): RohZeile[] {
     const buchstaben = buchstabenGrenzen(
       { nummer: vonBasis, zusatz: zusatzVon(zeile.ungeradeVon) },
       { nummer: bis, zusatz: zusatzVon(zeile.ungeradeBis) },
+      vonBasis !== bis,
     );
     ergebnisse.push({ von, bis, par: "u", wk: wk, ...(buchstaben && { buchstaben }) });
   }
@@ -122,6 +123,7 @@ export function hammZeileZuRohZeilen(zeile: HammZeile): RohZeile[] {
     const buchstaben = buchstabenGrenzen(
       { nummer: vonBasis, zusatz: zusatzVon(zeile.geradeVon) },
       { nummer: bis, zusatz: zusatzVon(zeile.geradeBis) },
+      vonBasis !== bis,
     );
     ergebnisse.push({ von, bis, par: "g", wk: wk, ...(buchstaben && { buchstaben }) });
   }

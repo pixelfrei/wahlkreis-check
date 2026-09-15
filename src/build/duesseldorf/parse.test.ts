@@ -33,7 +33,7 @@ describe("duesseldorfZeileZuRohZeilen", () => {
       geradeBis: "40",
     });
     expect(result).toEqual([
-      { von: 4, bis: 75, par: "u", wk: "42", buchstaben: [{ nummer: 3, zusatz: "a" }] },
+      { von: 4, bis: 75, par: "u", wk: "42", buchstaben: [{ nummer: 3, zusatz: "a", ab: true }] },
       { von: 30, bis: 40, par: "g", wk: "42" },
     ]);
   });

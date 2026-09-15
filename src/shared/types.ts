@@ -25,9 +25,21 @@ export interface Bereich {
   grund?: string;
 }
 
+/**
+ * Hausnummern mit Buchstabenzusatz, die in einem anderen Wahlkreis liegen als
+ * die Nummer selbst - z.B. { nr: 5, von: "b", bis: "j", wk: "109" } für 5b bis 5j.
+ * Gilt die Ausnahme ab einem Buchstaben für alle folgenden, ist bis "z".
+ */
+export interface BuchstabenAusnahme {
+  nr: number;
+  von: string;
+  bis: string;
+  wk: string;
+}
+
 export type Strasse =
-  | { n: string; wk: string }
-  | { n: string; b: Bereich[] };
+  | { n: string; wk: string; z?: BuchstabenAusnahme[] }
+  | { n: string; b: Bereich[]; z?: BuchstabenAusnahme[] };
 
 export interface StrassenDaten {
   meta: {

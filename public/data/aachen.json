@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Aachen",
     "stand": "2026-09",
-    "gebaut_am": "2026-09-14",
+    "gebaut_am": "2026-09-15",
     "quellen": [
       "https://geoserver.aachen.de/opendata/wahlen/ows?service=WFS&version=1.1.0&request=GetFeature&typeName=wahlen:bundestagswahl_2025_stimmbezirke&outputFormat=application/json",
       "https://geoserver.aachen.de/opendata/adressen/ows?&service=WFS&request=getfeature&typename=ac_adressen&outputformat=csv"

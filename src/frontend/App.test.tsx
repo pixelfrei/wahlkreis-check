@@ -26,6 +26,7 @@ const DORTMUND: StrassenDaten = {
   wahlkreise: { "111": "Dortmund I", "112": "Dortmund II" },
   strassen: [
     { n: "ABBOWEG", wk: "111" },
+    { n: "HOLBEINWEG", wk: "111", z: [{ nr: 2, von: "a", bis: "a", wk: "112" }] },
     {
       n: "ARDEYSTRAßE",
       b: [
@@ -254,6 +255,26 @@ describe("Straßensuche (innerhalb einer Gemeinde)", () => {
     await user.click(bereichEintrag);
 
     expect(await screen.findByText("111")).toBeInTheDocument();
+  });
+
+  it("fragt bei Straßen mit Buchstaben-Ausnahme nach der Hausnummer und wertet den Buchstaben aus", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await waehleDortmund(user);
+
+    await user.type(await screen.findByPlaceholderText("Straße eingeben ..."), "holbein");
+    await user.click(await screen.findByRole("button", { name: "HOLBEINWEG" }));
+
+    expect(await screen.findByText(/Einzelne Hausnummern mit Buchstaben/)).toBeInTheDocument();
+    expect(screen.getByText("Alle anderen")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /^2a/ })).toBeInTheDocument();
+
+    const feld = screen.getByPlaceholderText("Hausnummer");
+    await user.type(feld, "2");
+    expect(await screen.findByText("111")).toBeInTheDocument();
+
+    await user.type(feld, "a");
+    expect(await screen.findByText("112")).toBeInTheDocument();
   });
 
   it("springt über Zurück zur leeren Suche", async () => {

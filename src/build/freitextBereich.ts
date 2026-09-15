@@ -48,6 +48,7 @@ function parseSegment(segment: string, wk: string): RohZeile {
   const buchstaben = buchstabenGrenzen(
     { nummer: vonBasis, zusatz: vonZusatz },
     istBereich ? { nummer: bis, zusatz: bisZusatz } : null,
+    istBereich,
   );
   return { von, bis, par, wk, ...(buchstaben && { buchstaben }) };
 }
