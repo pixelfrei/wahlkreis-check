@@ -1,3 +1,4 @@
+import { buchstabenGrenzen } from "../buchstabenPruefung.js";
 import type { RohZeile } from "../gruppierung.js";
 import { wahlkreisFuer } from "./wahlkreis.js";
 
@@ -26,13 +27,15 @@ export function duesseldorfZeileZuRohZeilen(zeile: DuesseldorfZeile): RohZeile[]
   if (zeile.ungeradeVon !== null && zeile.ungeradeBis !== null) {
     const vonBasis = parseInt(zeile.ungeradeVon, 10);
     const von = zeile.ungeradeVonZus ? vonBasis + 1 : vonBasis;
-    ergebnisse.push({ von, bis: parseInt(zeile.ungeradeBis, 10), par: "u", wk });
+    const buchstaben = buchstabenGrenzen({ nummer: vonBasis, zusatz: zeile.ungeradeVonZus }, null);
+    ergebnisse.push({ von, bis: parseInt(zeile.ungeradeBis, 10), par: "u", wk, ...(buchstaben && { buchstaben }) });
   }
 
   if (zeile.geradeVon !== null && zeile.geradeBis !== null) {
     const vonBasis = parseInt(zeile.geradeVon, 10);
     const von = zeile.geradeVonZus ? vonBasis + 1 : vonBasis;
-    ergebnisse.push({ von, bis: parseInt(zeile.geradeBis, 10), par: "g", wk });
+    const buchstaben = buchstabenGrenzen({ nummer: vonBasis, zusatz: zeile.geradeVonZus }, null);
+    ergebnisse.push({ von, bis: parseInt(zeile.geradeBis, 10), par: "g", wk, ...(buchstaben && { buchstaben }) });
   }
 
   if (ergebnisse.length === 0) {

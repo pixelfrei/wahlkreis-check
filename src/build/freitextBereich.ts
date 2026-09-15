@@ -1,3 +1,4 @@
+import { buchstabenGrenzen } from "./buchstabenPruefung.js";
 import { BuildError, type RohZeile } from "./gruppierung.js";
 
 const SEGMENT_RE = /^(\d+)([a-zA-Z]?)(?:-(\d+)([a-zA-Z]?))?\s*(ger\.|ung\.)?$/;
@@ -36,7 +37,7 @@ function parseSegment(segment: string, wk: string): RohZeile {
   if (!match) {
     throw new BuildError(`Unbekanntes Hausnummern-Segment: "${segment}"`);
   }
-  const [, vonBasisStr, vonZusatz, bisStr, , qualifier] = match;
+  const [, vonBasisStr, vonZusatz, bisStr, bisZusatz, qualifier] = match;
 
   const vonBasis = parseInt(vonBasisStr!, 10);
   const istBereich = bisStr !== undefined;
@@ -44,5 +45,9 @@ function parseSegment(segment: string, wk: string): RohZeile {
   const bis = istBereich ? parseInt(bisStr, 10) : vonBasis;
   const par = qualifier === "ger." ? "g" : qualifier === "ung." ? "u" : "b";
 
-  return { von, bis, par, wk };
+  const buchstaben = buchstabenGrenzen(
+    { nummer: vonBasis, zusatz: vonZusatz },
+    istBereich ? { nummer: bis, zusatz: bisZusatz } : null,
+  );
+  return { von, bis, par, wk, ...(buchstaben && { buchstaben }) };
 }

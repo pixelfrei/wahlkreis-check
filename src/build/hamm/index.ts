@@ -2,6 +2,7 @@ import { writeFile } from "node:fs/promises";
 import { PDFParse } from "pdf-parse";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { HAMM_QUELLE_STAND, HAMM_QUELLE_URL, HAMM_WAHLKREISE } from "./config.js";
+import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import {
   BuildError,
   entferneUeberfluessigeAdresslose,
@@ -75,6 +76,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, entferneUeberfluessigeAdresslose(rows)));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Hamm", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(HAMM_WAHLKREISE, 2);
 

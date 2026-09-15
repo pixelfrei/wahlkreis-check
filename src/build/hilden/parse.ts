@@ -1,3 +1,4 @@
+import { buchstabenGrenzen } from "../buchstabenPruefung.js";
 import { BuildError, type RohZeile } from "../gruppierung.js";
 
 export interface HildenZeile {
@@ -40,17 +41,22 @@ function parseBereich(bereich: string): Omit<RohZeile, "wk"> {
 
   const bereichMatch = BEREICH_RE.exec(text);
   if (bereichMatch) {
-    const [, vonStr, vonZusatz, bisStr, , qualifier] = bereichMatch;
+    const [, vonStr, vonZusatz, bisStr, bisZusatz, qualifier] = bereichMatch;
     const von = vonZusatz ? parseInt(vonStr!, 10) + 1 : parseInt(vonStr!, 10);
     const bis = parseInt(bisStr!, 10);
     const par = qualifier === "gerade" ? "g" : qualifier === "ungerade" ? "u" : "b";
-    return { von, bis, par };
+    const buchstaben = buchstabenGrenzen(
+      { nummer: parseInt(vonStr!, 10), zusatz: vonZusatz },
+      { nummer: bis, zusatz: bisZusatz },
+    );
+    return { von, bis, par, ...(buchstaben && { buchstaben }) };
   }
 
   const einzelnMatch = EINZELN_RE.exec(text);
   if (einzelnMatch) {
     const basis = parseInt(einzelnMatch[1]!, 10);
-    return { von: basis, bis: basis, par: "b" };
+    const buchstaben = buchstabenGrenzen({ nummer: basis, zusatz: einzelnMatch[2] }, null);
+    return { von: basis, bis: basis, par: "b", ...(buchstaben && { buchstaben }) };
   }
 
   throw new BuildError(`Unbekanntes Hausnummern-Segment: "${bereich}"`);

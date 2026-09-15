@@ -1,4 +1,10 @@
 import type { Strasse, StrassenverzeichnisRecord, WahlraumRecord } from "../shared/types.js";
+import {
+  buchstabenAusZeilen,
+  buchstabenGrenzen,
+  zusatzVon,
+  type BuchstabenAdresse,
+} from "./buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "./gruppierung.js";
 import { hatBuchstabenzusatz, parseHausnummer, paritaetOf, zfill5 } from "./parse.js";
 
@@ -8,6 +14,7 @@ export interface JoinResult {
   strassen: Strasse[];
   wahlkreise: Record<string, string>;
   zeilenOhneStimmbezirk: { strasse: string; hausnummernbereich: string | null }[];
+  buchstabenAdressen: BuchstabenAdresse[];
 }
 
 export function buildStrassen(
@@ -66,7 +73,11 @@ export function buildStrassen(
         : vonBasis;
 
     const list = byStrasse.get(row.strasse) ?? [];
-    list.push({ von, bis, par, wk });
+    const buchstaben = buchstabenGrenzen(
+      vonBasis !== null ? { nummer: vonBasis, zusatz: zusatzVon(row.hausnummer_von ?? "") } : null,
+      bis !== null ? { nummer: bis, zusatz: zusatzVon(row.hausnummer_bis ?? "") } : null,
+    );
+    list.push({ von, bis, par, wk, ...(buchstaben && { buchstaben }) });
     byStrasse.set(row.strasse, list);
   }
 
@@ -76,5 +87,5 @@ export function buildStrassen(
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
 
-  return { strassen, wahlkreise, zeilenOhneStimmbezirk };
+  return { strassen, wahlkreise, zeilenOhneStimmbezirk, buchstabenAdressen: buchstabenAusZeilen(byStrasse) };
 }

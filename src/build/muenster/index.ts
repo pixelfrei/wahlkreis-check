@@ -2,6 +2,7 @@ import { writeFile } from "node:fs/promises";
 import { PDFParse } from "pdf-parse";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { MUENSTER_QUELLE_STAND, MUENSTER_QUELLE_URL, MUENSTER_WAHLKREISE } from "./config.js";
+import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseRohtext } from "./parse.js";
@@ -58,7 +59,7 @@ async function main(): Promise<void> {
   for (const zeile of zeilen) {
     const wk = wahlkreisFuer(zeile.stimmbezirk);
     const liste = byStrasse.get(zeile.strasse) ?? [];
-    liste.push({ von: zeile.von, bis: zeile.bis, par: zeile.par, wk });
+    liste.push({ von: zeile.von, bis: zeile.bis, par: zeile.par, wk, buchstaben: zeile.buchstaben });
     byStrasse.set(zeile.strasse, liste);
   }
 
@@ -67,6 +68,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Münster", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(MUENSTER_WAHLKREISE, 3);
 

@@ -56,7 +56,7 @@ describe("parseWahlbuch", () => {
   it("belässt die Basisnummer bei Buchstabenzusatz an der oberen Grenze", () => {
     const zeilen = parseWahlbuch(FIXTURE);
     const z = zeilen.find((z) => z.strasse === "Kirchhofstraße");
-    expect(z?.rohZeile).toEqual({ von: 2, bis: 18, par: "g" });
+    expect(z?.rohZeile).toEqual({ von: 2, bis: 18, par: "g", buchstaben: [{ nummer: 18, zusatz: "c" }] });
   });
 
   it("parst eine einzelne Hausnummer ohne Bereich", () => {

@@ -1,6 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { HAGEN_QUELLE_STAND, HAGEN_STRASSEN_URL, HAGEN_WAHLKREISE } from "./config.js";
+import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseHausnummernBereich } from "../freitextBereich.js";
@@ -91,6 +92,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Hagen", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(HAGEN_WAHLKREISE, 2);
 

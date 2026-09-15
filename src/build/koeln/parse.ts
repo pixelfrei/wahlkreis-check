@@ -1,4 +1,5 @@
 import type { RohZeile } from "../gruppierung.js";
+import { buchstabenGrenzen, zusatzVon } from "../buchstabenPruefung.js";
 import { hatBuchstabenzusatz, parseHausnummer } from "../parse.js";
 
 export interface KoelnZeile {
@@ -22,13 +23,23 @@ export function koelnZeileZuRohZeilen(zeile: KoelnZeile): RohZeile[] {
   if (zeile.ungeradeVon !== null && zeile.ungeradeBis !== null) {
     const vonBasis = parseHausnummer(zeile.ungeradeVon);
     const von = hatBuchstabenzusatz(zeile.ungeradeVon) ? vonBasis + 1 : vonBasis;
-    ergebnisse.push({ von, bis: parseHausnummer(zeile.ungeradeBis), par: "u", wk: zeile.landtag });
+    const bis = parseHausnummer(zeile.ungeradeBis);
+    const buchstaben = buchstabenGrenzen(
+      { nummer: vonBasis, zusatz: zusatzVon(zeile.ungeradeVon) },
+      { nummer: bis, zusatz: zusatzVon(zeile.ungeradeBis) },
+    );
+    ergebnisse.push({ von, bis, par: "u", wk: zeile.landtag, ...(buchstaben && { buchstaben }) });
   }
 
   if (zeile.geradeVon !== null && zeile.geradeBis !== null) {
     const vonBasis = parseHausnummer(zeile.geradeVon);
     const von = hatBuchstabenzusatz(zeile.geradeVon) ? vonBasis + 1 : vonBasis;
-    ergebnisse.push({ von, bis: parseHausnummer(zeile.geradeBis), par: "g", wk: zeile.landtag });
+    const bis = parseHausnummer(zeile.geradeBis);
+    const buchstaben = buchstabenGrenzen(
+      { nummer: vonBasis, zusatz: zusatzVon(zeile.geradeVon) },
+      { nummer: bis, zusatz: zusatzVon(zeile.geradeBis) },
+    );
+    ergebnisse.push({ von, bis, par: "g", wk: zeile.landtag, ...(buchstaben && { buchstaben }) });
   }
 
   return ergebnisse;

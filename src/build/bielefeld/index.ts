@@ -6,6 +6,7 @@ import {
   BIELEFELD_QUELLE_STAND,
   BIELEFELD_WAHLKREISE,
 } from "./config.js";
+import { berichteBuchstaben, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { baueBenanntesPolygon, findePolygon, parseWktPoint, type BenanntesPolygon } from "../geo.js";
@@ -72,6 +73,9 @@ async function ladeAdresspunkte(): Promise<Adresspunkt[]> {
   return ergebnis;
 }
 
+/** Adressen mit Buchstabenzusatz und ihrem berechneten Wahlkreis (für die Buchstaben-Prüfung). */
+const buchstabenAdressen: BuchstabenAdresse[] = [];
+
 interface HausnummerEintrag {
   wk: string;
   istUnbuchstabiert: boolean;
@@ -105,6 +109,9 @@ function baueHausnummernProStrasse(
     }
     const wk = treffer[0]!;
     const istUnbuchstabiert = p.suffix === "";
+    if (!istUnbuchstabiert) {
+      buchstabenAdressen.push({ strasse: p.strasse, nummer: p.hausnummer, zusatz: p.suffix.trim().toLowerCase(), wk });
+    }
     const hausnummern = byStrasse.get(p.strasse) ?? new Map<number, HausnummerEintrag>();
     byStrasse.set(p.strasse, hausnummern);
 
@@ -145,6 +152,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Bielefeld", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(BIELEFELD_WAHLKREISE, 3);
 

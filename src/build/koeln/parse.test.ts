@@ -39,7 +39,9 @@ describe("koelnZeileZuRohZeilen", () => {
       geradeVon: "2a",
       geradeBis: "60",
     });
-    expect(result).toEqual([{ von: 3, bis: 60, par: "g", wk: "16" }]);
+    expect(result).toEqual([
+      { von: 3, bis: 60, par: "g", wk: "16", buchstaben: [{ nummer: 2, zusatz: "a" }] },
+    ]);
   });
 
   it("liefert eine leere Liste, wenn keine Seite gesetzt ist", () => {

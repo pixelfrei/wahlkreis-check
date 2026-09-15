@@ -1,6 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { BOCHUM_ADRESSEN_URL, BOCHUM_QUELLE_STAND, BOCHUM_WAHLKREISE } from "./config.js";
+import { berichteBuchstaben, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { wahlkreisFuer } from "./wahlkreis.js";
@@ -68,6 +69,9 @@ async function ladeAlleAdressen(): Promise<ArcgisAttribute[]> {
  * Schwesterzeile als Anker): Hermannshöhe 5, Karl-Arnold-Str. 25,
  * Schnatstr. 5, Steinkuhlstr. 15, Ulmenallee 30.
  */
+/** Adressen mit Buchstabenzusatz und ihrem Wahlkreis (für die Buchstaben-Prüfung). */
+const buchstabenAdressen: BuchstabenAdresse[] = [];
+
 interface HausnummerEintrag {
   wk: string;
   istUnbuchstabiert: boolean;
@@ -82,6 +86,14 @@ function baueHausnummernProStrasse(rows: ArcgisAttribute[]): Map<string, Map<num
 
     const wk = wahlkreisFuer(row.KWBezirk);
     const istUnbuchstabiert = geparst.suffix === "";
+    if (!istUnbuchstabiert) {
+      buchstabenAdressen.push({
+        strasse: geparst.strasse,
+        nummer: geparst.hausnummer,
+        zusatz: geparst.suffix.trim().toLowerCase(),
+        wk,
+      });
+    }
     const hausnummern = byStrasse.get(geparst.strasse) ?? new Map<number, HausnummerEintrag>();
     byStrasse.set(geparst.strasse, hausnummern);
 
@@ -120,6 +132,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Bochum", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(BOCHUM_WAHLKREISE, 3);
 

@@ -1,3 +1,4 @@
+import { buchstabenGrenzen } from "../buchstabenPruefung.js";
 import { BuildError } from "../gruppierung.js";
 import type { Paritaet } from "../../shared/types.js";
 
@@ -20,8 +21,8 @@ const ROW_START_RE = /^((fortlaufend|gerade|ungerade)\t)?\d{5}\s/;
  * Hausnummer vorhanden".
  */
 const BEREICH_RE =
-  /^(fortlaufend|gerade|ungerade)\t(\d+)\s+(.+?)\s+(\d+)[a-zA-Z]?\s*-\s*(\d+)\s+(\S+)\t(\d+)[a-zA-Z]?$/;
-const EINZELN_RE = /^(\d+)\s+(.+?)\s+(\d+)[a-zA-Z]?\s+(\d+)\s+(\S+)$/;
+  /^(fortlaufend|gerade|ungerade)\t(\d+)\s+(.+?)\s+(\d+)([a-zA-Z]?)\s*-\s*(\d+)\s+(\S+)\t(\d+)([a-zA-Z]?)$/;
+const EINZELN_RE = /^(\d+)\s+(.+?)\s+(\d+)([a-zA-Z]?)\s+(\d+)\s+(\S+)$/;
 const OHNE_HAUSNUMMER_RE = /^(\d+)\s+(.+?)\s+Keine echte Hausnummer vorhanden$/;
 
 export interface MuensterZeile {
@@ -30,6 +31,8 @@ export interface MuensterZeile {
   bis: number | null;
   par: Paritaet | null;
   stimmbezirk: number;
+  /** Grenzen mit Buchstabenzusatz (nur für die Buchstaben-Prüfung, die Zuordnung ignoriert sie). */
+  buchstaben?: { nummer: number; zusatz: string }[];
 }
 
 function isSkipLine(line: string): boolean {
@@ -76,8 +79,13 @@ function mergeZeilen(lines: string[]): string[] {
 function parseZeile(row: string): MuensterZeile {
   const bereich = BEREICH_RE.exec(row);
   if (bereich) {
-    const [, folge, , strasse, von, stimmbezirk, , bis] = bereich;
+    const [, folge, , strasse, von, vonZusatz, stimmbezirk, , bis, bisZusatz] = bereich;
+    const buchstaben = buchstabenGrenzen(
+      { nummer: parseInt(von!, 10), zusatz: vonZusatz },
+      { nummer: parseInt(bis!, 10), zusatz: bisZusatz },
+    );
     return {
+      ...(buchstaben && { buchstaben }),
       strasse: strasse!,
       von: parseInt(von!, 10),
       bis: parseInt(bis!, 10),
@@ -88,9 +96,17 @@ function parseZeile(row: string): MuensterZeile {
 
   const einzeln = EINZELN_RE.exec(row);
   if (einzeln) {
-    const [, , strasse, nummer, stimmbezirk] = einzeln;
+    const [, , strasse, nummer, zusatz, stimmbezirk] = einzeln;
     const n = parseInt(nummer!, 10);
-    return { strasse: strasse!, von: n, bis: n, par: "b", stimmbezirk: parseInt(stimmbezirk!, 10) };
+    const buchstaben = buchstabenGrenzen({ nummer: n, zusatz }, null);
+    return {
+      ...(buchstaben && { buchstaben }),
+      strasse: strasse!,
+      von: n,
+      bis: n,
+      par: "b",
+      stimmbezirk: parseInt(stimmbezirk!, 10),
+    };
   }
 
   const ohneHausnummer = OHNE_HAUSNUMMER_RE.exec(row);

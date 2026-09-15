@@ -5,6 +5,7 @@ import {
   GELSENKIRCHEN_STRASSEN_URL,
   GELSENKIRCHEN_WAHLKREISE,
 } from "./config.js";
+import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { parseHausnummernBereich } from "../freitextBereich.js";
@@ -67,6 +68,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Gelsenkirchen", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(GELSENKIRCHEN_WAHLKREISE, 2);
 

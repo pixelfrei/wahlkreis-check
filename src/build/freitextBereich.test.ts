@@ -31,21 +31,23 @@ describe("parseHausnummernBereich", () => {
 
   it("behandelt eine einzelne Hausnummer als Punkt ohne Verschiebung, auch mit Buchstabenzusatz", () => {
     expect(parseHausnummernBereich("89A,89B", "64")).toEqual([
-      { von: 89, bis: 89, par: "b", wk: "64" },
-      { von: 89, bis: 89, par: "b", wk: "64" },
+      { von: 89, bis: 89, par: "b", wk: "64", buchstaben: [{ nummer: 89, zusatz: "a" }] },
+      { von: 89, bis: 89, par: "b", wk: "64", buchstaben: [{ nummer: 89, zusatz: "b" }] },
     ]);
-    expect(parseHausnummernBereich("2A", "64")).toEqual([{ von: 2, bis: 2, par: "b", wk: "64" }]);
+    expect(parseHausnummernBereich("2A", "64")).toEqual([
+      { von: 2, bis: 2, par: "b", wk: "64", buchstaben: [{ nummer: 2, zusatz: "a" }] },
+    ]);
   });
 
   it("verschiebt die untere Grenze eines Bereichs bei Buchstabenzusatz um eins", () => {
     expect(parseHausnummernBereich("94A-123", "39")).toEqual([
-      { von: 95, bis: 123, par: "b", wk: "39" },
+      { von: 95, bis: 123, par: "b", wk: "39", buchstaben: [{ nummer: 94, zusatz: "a" }] },
     ]);
   });
 
   it("braucht keine Anpassung bei Buchstabenzusatz an der oberen Grenze", () => {
     expect(parseHausnummernBereich("1-54C", "64")).toEqual([
-      { von: 1, bis: 54, par: "b", wk: "64" },
+      { von: 1, bis: 54, par: "b", wk: "64", buchstaben: [{ nummer: 54, zusatz: "c" }] },
     ]);
   });
 });

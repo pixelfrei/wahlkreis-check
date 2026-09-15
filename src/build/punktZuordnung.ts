@@ -1,3 +1,4 @@
+import type { BuchstabenAdresse } from "./buchstabenPruefung.js";
 import { findePolygon, type BenanntesPolygon, type Punkt } from "./geo.js";
 
 export interface AdressPunkt {
@@ -16,6 +17,8 @@ export interface ZuordnungsErgebnis {
   byStrasse: Map<string, Map<number, string>>;
   ohneTreffer: number;
   mehrdeutig: number;
+  /** Adressen mit Buchstabenzusatz und ihrem berechneten Wahlkreis (für die Buchstaben-Prüfung). */
+  buchstabenAdressen: BuchstabenAdresse[];
 }
 
 /**
@@ -38,6 +41,7 @@ export function ordneAdressenZu(
   const byStrasse = new Map<string, Map<number, HausnummerEintrag>>();
   let ohneTreffer = 0;
   let mehrdeutig = 0;
+  const buchstabenAdressen: BuchstabenAdresse[] = [];
 
   for (const p of punkte) {
     const treffer = findePolygon(p.punkt, polygone);
@@ -51,6 +55,9 @@ export function ordneAdressenZu(
     }
     const wk = wahlkreisFuer(treffer[0]!);
     const istUnbuchstabiert = p.suffix === "";
+    if (!istUnbuchstabiert) {
+      buchstabenAdressen.push({ strasse: p.strasse, nummer: p.hausnummer, zusatz: p.suffix.toLowerCase(), wk });
+    }
     const hausnummern = byStrasse.get(p.strasse) ?? new Map<number, HausnummerEintrag>();
     byStrasse.set(p.strasse, hausnummern);
 
@@ -66,5 +73,5 @@ export function ordneAdressenZu(
     for (const [hnr, eintrag] of hausnummern) flach.set(hnr, eintrag.wk);
     ergebnis.set(strasse, flach);
   }
-  return { byStrasse: ergebnis, ohneTreffer, mehrdeutig };
+  return { byStrasse: ergebnis, ohneTreffer, mehrdeutig, buchstabenAdressen };
 }

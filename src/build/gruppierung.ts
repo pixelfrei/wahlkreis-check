@@ -8,6 +8,8 @@ export interface RohZeile {
   bis: number | null;
   par: Bereich["par"] | null;
   wk: string | null;
+  /** Grenzen mit Buchstabenzusatz aus der Quelle (nur für die Buchstaben-Prüfung). */
+  buchstaben?: { nummer: number; zusatz: string }[];
 }
 
 /**

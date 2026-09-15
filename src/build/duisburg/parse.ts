@@ -6,6 +6,8 @@ export interface DuisburgZeile {
   strasse: string;
   stadtbezirk: string;
   hausnummer: number;
+  /** Buchstabenzusatz, kleingeschrieben ("" wenn keiner) - nur für die Buchstaben-Prüfung. */
+  zusatz?: string;
   wk: string;
 }
 

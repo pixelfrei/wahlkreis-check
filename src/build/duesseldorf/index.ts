@@ -5,6 +5,7 @@ import {
   DUESSELDORF_QUELLE_URL,
   DUESSELDORF_WAHLKREISE,
 } from "./config.js";
+import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import {
   BuildError,
   entferneUeberfluessigeAdresslose,
@@ -87,6 +88,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, entferneUeberfluessigeAdresslose(rows)));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Düsseldorf", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(DUESSELDORF_WAHLKREISE, 4);
 

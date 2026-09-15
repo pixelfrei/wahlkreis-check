@@ -1,6 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { KREFELD_QUELLE_STAND, KREFELD_STRASSEN_URL, KREFELD_WAHLKREISE } from "./config.js";
+import { berichteBuchstaben, buchstabenAusZeilen } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { wahlkreisFuer } from "./wahlkreis.js";
@@ -68,6 +69,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rows));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Krefeld", buchstabenAusZeilen(byStrasse), strassen);
 
   checkWahlkreisCount(KREFELD_WAHLKREISE, 2);
 

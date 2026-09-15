@@ -6,6 +6,7 @@ import {
   AACHEN_STIMMBEZIRKE_URL,
   AACHEN_WAHLKREISE,
 } from "./config.js";
+import { berichteBuchstaben, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse, type RohZeile } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import {
@@ -83,6 +84,9 @@ async function ladeAdresspunkte(): Promise<Adresspunkt[]> {
   return ergebnis;
 }
 
+/** Adressen mit Buchstabenzusatz und ihrem berechneten Wahlkreis (für die Buchstaben-Prüfung). */
+const buchstabenAdressen: BuchstabenAdresse[] = [];
+
 interface HausnummerEintrag {
   wk: string;
   istUnbuchstabiert: boolean;
@@ -115,6 +119,9 @@ function baueHausnummernProStrasse(
     const stadtteil = stadtteilAusStimmbezirk(treffer[0]!);
     const wk = wahlkreisFuerStadtteil(stadtteil);
     const istUnbuchstabiert = p.suffix === "";
+    if (!istUnbuchstabiert) {
+      buchstabenAdressen.push({ strasse: p.strasse, nummer: p.hausnummer, zusatz: p.suffix.trim().toLowerCase(), wk });
+    }
     const hausnummern = byStrasse.get(p.strasse) ?? new Map<number, HausnummerEintrag>();
     byStrasse.set(p.strasse, hausnummern);
 
@@ -155,6 +162,7 @@ async function main(): Promise<void> {
     strassen.push(gruppiereZuStrasse(name, rohZeilen));
   }
   strassen.sort((a, b) => a.n.localeCompare(b.n, "de"));
+  await berichteBuchstaben("Aachen", buchstabenAdressen, strassen);
 
   checkWahlkreisCount(AACHEN_WAHLKREISE, 2);
 

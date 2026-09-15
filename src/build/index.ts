@@ -1,5 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { STRASSENVERZEICHNIS_DATASET, WAHLRAUM_DATASET } from "./config.js";
+import { berichteBuchstaben } from "./buchstabenPruefung.js";
 import { BuildError, buildStrassen } from "./join.js";
 import { fetchAllRecords } from "./opendatasoft.js";
 import type {
@@ -23,12 +24,13 @@ async function main(): Promise<void> {
   const wahlraumRows = await fetchAllRecords<WahlraumRecord>(WAHLRAUM_DATASET);
   console.log(`  ${wahlraumRows.length} Zeilen geladen.`);
 
-  const { strassen, wahlkreise, zeilenOhneStimmbezirk } = buildStrassen(
+  const { strassen, wahlkreise, zeilenOhneStimmbezirk, buchstabenAdressen } = buildStrassen(
     strassenRows,
     wahlraumRows,
   );
 
   checkWahlkreisCount(wahlkreise, 4);
+  await berichteBuchstaben("Dortmund", buchstabenAdressen, strassen);
 
   const conflicts = runVollscan(strassen);
   if (conflicts.length > 0) {

@@ -1,5 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
+import { berichteBuchstaben, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse } from "../gruppierung.js";
 import { checkWahlkreisCount, findGaps, runVollscan } from "../validate.js";
 import { DUISBURG_QUELLE_STAND, DUISBURG_QUELLE_URL, DUISBURG_WAHLKREISE } from "./config.js";
@@ -36,6 +37,7 @@ async function ladeZeilen(): Promise<DuisburgZeile[]> {
   const iStatus = idx("STATUSTXT");
   const iStadtbezirk = idx("STADTBEZIRKTXT");
   const iLwk = idx("LANDTAGSWAHLKREIS");
+  const iZusatz = idx("ZUSATZ");
 
   const ergebnis: DuisburgZeile[] = [];
   for (const zeile of datenzeilen) {
@@ -52,6 +54,7 @@ async function ladeZeilen(): Promise<DuisburgZeile[]> {
       strasse: spalten[iName]!.replace(/"/g, ""),
       stadtbezirk: spalten[iStadtbezirk]!.replace(/"/g, ""),
       hausnummer,
+      zusatz: (spalten[iZusatz] ?? "").replace(/"/g, "").trim().toLowerCase(),
       wk: spalten[iLwk]!,
     });
   }
@@ -95,6 +98,18 @@ async function main(): Promise<void> {
   }
 
   checkWahlkreisCount(DUISBURG_WAHLKREISE, 3);
+
+  // Buchstaben-Prüfung: Straßen können oben umbenannt worden sein ("Ackerstr. (Süd)").
+  const stadtbezirkVon = new Map(physischeStrassen.map((p) => [p.strschl, p.stadtbezirk]));
+  const buchstabenAdressen: BuchstabenAdresse[] = [];
+  for (const z of zeilen) {
+    if (!z.zusatz) continue;
+    const bezirk = stadtbezirkVon.get(z.strschl);
+    const kandidaten = [`${z.strasse} (${bezirk}, ${z.strschl})`, `${z.strasse} (${bezirk})`, z.strasse];
+    const strasse = kandidaten.find((k) => namen.has(k)) ?? z.strasse;
+    buchstabenAdressen.push({ strasse, nummer: z.hausnummer, zusatz: z.zusatz, wk: z.wk });
+  }
+  await berichteBuchstaben("Duisburg", buchstabenAdressen, strassen);
 
   const conflicts = runVollscan(strassen);
   if (conflicts.length > 0) {

@@ -1,3 +1,4 @@
+import { buchstabenGrenzen } from "../buchstabenPruefung.js";
 import { BuildError, type RohZeile } from "../gruppierung.js";
 
 const RANGE_RE =
@@ -25,18 +26,23 @@ export function parseHausnummernBereich(bereich: string, wk: string): RohZeile {
 
   const rangeMatch = RANGE_RE.exec(text);
   if (rangeMatch) {
-    const [, vonBasisStr, vonZusatz, bisStr, , paritaet] = rangeMatch;
+    const [, vonBasisStr, vonZusatz, bisStr, bisZusatz, paritaet] = rangeMatch;
     const vonBasis = parseInt(vonBasisStr!, 10);
     const von = vonZusatz ? vonBasis + 1 : vonBasis;
     const bis = parseInt(bisStr!, 10);
     const par = paritaet === "gerade" ? "g" : paritaet === "ungerade" ? "u" : "b";
-    return { von, bis, par, wk };
+    const buchstaben = buchstabenGrenzen(
+      { nummer: vonBasis, zusatz: vonZusatz },
+      { nummer: bis, zusatz: bisZusatz },
+    );
+    return { von, bis, par, wk, ...(buchstaben && { buchstaben }) };
   }
 
   const singleMatch = SINGLE_RE.exec(text);
   if (singleMatch) {
     const basis = parseInt(singleMatch[1]!, 10);
-    return { von: basis, bis: basis, par: "b", wk };
+    const buchstaben = buchstabenGrenzen({ nummer: basis, zusatz: singleMatch[2] }, null);
+    return { von: basis, bis: basis, par: "b", wk, ...(buchstaben && { buchstaben }) };
   }
 
   throw new BuildError(`Unbekannter Hausnummernbereich: "${bereich}"`);
