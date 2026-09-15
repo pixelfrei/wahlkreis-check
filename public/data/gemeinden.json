@@ -1,0 +1,2018 @@
+{
+  "meta": {
+    "stand": "2025-08-31",
+    "quelle": "Anlage zu § 13 Absatz 1 Landeswahlgesetz NRW (recht.nrw.de); Kreis Höxter/Kreis Olpe Gemeindelisten via Wikipedia ergänzt"
+  },
+  "gemeinden": [
+    {
+      "name": "Aachen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "aachen.json"
+    },
+    {
+      "name": "Ahaus",
+      "typ": "einfach",
+      "wk": "77"
+    },
+    {
+      "name": "Ahlen",
+      "typ": "einfach",
+      "wk": "87"
+    },
+    {
+      "name": "Aldenhoven",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Alfter",
+      "typ": "einfach",
+      "wk": "27"
+    },
+    {
+      "name": "Alpen",
+      "typ": "einfach",
+      "wk": "58"
+    },
+    {
+      "name": "Alsdorf",
+      "typ": "einfach",
+      "wk": "3"
+    },
+    {
+      "name": "Altena",
+      "typ": "einfach",
+      "wk": "121"
+    },
+    {
+      "name": "Altenbeken",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "altenbeken.json"
+    },
+    {
+      "name": "Altenberge",
+      "typ": "einfach",
+      "wk": "83"
+    },
+    {
+      "name": "Anröchte",
+      "typ": "einfach",
+      "wk": "120"
+    },
+    {
+      "name": "Arnsberg",
+      "typ": "einfach",
+      "wk": "124"
+    },
+    {
+      "name": "Ascheberg",
+      "typ": "einfach",
+      "wk": "79"
+    },
+    {
+      "name": "Attendorn",
+      "typ": "einfach",
+      "wk": "128"
+    },
+    {
+      "name": "Augustdorf",
+      "typ": "einfach",
+      "wk": "99"
+    },
+    {
+      "name": "Bad Berleburg",
+      "typ": "einfach",
+      "wk": "127"
+    },
+    {
+      "name": "Bad Driburg",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Bad Honnef",
+      "typ": "einfach",
+      "wk": "26"
+    },
+    {
+      "name": "Bad Laasphe",
+      "typ": "einfach",
+      "wk": "127"
+    },
+    {
+      "name": "Bad Lippspringe",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Bad Münstereifel",
+      "typ": "einfach",
+      "wk": "8"
+    },
+    {
+      "name": "Bad Oeynhausen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "badoeynhausen.json"
+    },
+    {
+      "name": "Bad Salzuflen",
+      "typ": "einfach",
+      "wk": "97"
+    },
+    {
+      "name": "Bad Sassendorf",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Bad Wünnenberg",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Baesweiler",
+      "typ": "einfach",
+      "wk": "3"
+    },
+    {
+      "name": "Balve",
+      "typ": "einfach",
+      "wk": "122"
+    },
+    {
+      "name": "Barntrup",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Beckum",
+      "typ": "einfach",
+      "wk": "87"
+    },
+    {
+      "name": "Bedburg",
+      "typ": "einfach",
+      "wk": "5"
+    },
+    {
+      "name": "Bedburg-Hau",
+      "typ": "einfach",
+      "wk": "55"
+    },
+    {
+      "name": "Beelen",
+      "typ": "einfach",
+      "wk": "86"
+    },
+    {
+      "name": "Bergheim",
+      "typ": "einfach",
+      "wk": "5"
+    },
+    {
+      "name": "Bergisch Gladbach",
+      "typ": "einfach",
+      "wk": "21"
+    },
+    {
+      "name": "Bergkamen",
+      "typ": "einfach",
+      "wk": "117"
+    },
+    {
+      "name": "Bergneustadt",
+      "typ": "einfach",
+      "wk": "24"
+    },
+    {
+      "name": "Bestwig",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Beverungen",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Bielefeld",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "bielefeld.json"
+    },
+    {
+      "name": "Billerbeck",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Blankenheim",
+      "typ": "einfach",
+      "wk": "8"
+    },
+    {
+      "name": "Blomberg",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Bocholt",
+      "typ": "einfach",
+      "wk": "76"
+    },
+    {
+      "name": "Bochum",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "bochum.json"
+    },
+    {
+      "name": "Bönen",
+      "typ": "einfach",
+      "wk": "117"
+    },
+    {
+      "name": "Bonn",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "bonn.json"
+    },
+    {
+      "name": "Borchen",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Borgentreich",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Borgholzhausen",
+      "typ": "einfach",
+      "wk": "94"
+    },
+    {
+      "name": "Borken",
+      "typ": "einfach",
+      "wk": "76"
+    },
+    {
+      "name": "Bornheim",
+      "typ": "einfach",
+      "wk": "27"
+    },
+    {
+      "name": "Bottrop",
+      "typ": "einfach",
+      "wk": "75"
+    },
+    {
+      "name": "Brakel",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Breckerfeld",
+      "typ": "einfach",
+      "wk": "104"
+    },
+    {
+      "name": "Brilon",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Brüggen",
+      "typ": "einfach",
+      "wk": "53"
+    },
+    {
+      "name": "Brühl",
+      "typ": "einfach",
+      "wk": "7"
+    },
+    {
+      "name": "Bünde",
+      "typ": "einfach",
+      "wk": "91"
+    },
+    {
+      "name": "Burbach",
+      "typ": "einfach",
+      "wk": "126"
+    },
+    {
+      "name": "Büren",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Burscheid",
+      "typ": "einfach",
+      "wk": "22"
+    },
+    {
+      "name": "Castrop-Rauxel",
+      "typ": "einfach",
+      "wk": "72"
+    },
+    {
+      "name": "Coesfeld",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Dahlem",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Datteln",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "datteln.json"
+    },
+    {
+      "name": "Delbrück",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Detmold",
+      "typ": "einfach",
+      "wk": "99"
+    },
+    {
+      "name": "Dinslaken",
+      "typ": "einfach",
+      "wk": "57"
+    },
+    {
+      "name": "Dörentrup",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Dormagen",
+      "typ": "einfach",
+      "wk": "46"
+    },
+    {
+      "name": "Dorsten",
+      "typ": "einfach",
+      "wk": "71"
+    },
+    {
+      "name": "Dortmund",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "dortmund.json"
+    },
+    {
+      "name": "Drensteinfurt",
+      "typ": "einfach",
+      "wk": "87"
+    },
+    {
+      "name": "Drolshagen",
+      "typ": "einfach",
+      "wk": "128"
+    },
+    {
+      "name": "Duisburg",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "duisburg.json"
+    },
+    {
+      "name": "Dülmen",
+      "typ": "einfach",
+      "wk": "79"
+    },
+    {
+      "name": "Düren",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Düsseldorf",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "duesseldorf.json"
+    },
+    {
+      "name": "Eitorf",
+      "typ": "einfach",
+      "wk": "25"
+    },
+    {
+      "name": "Elsdorf",
+      "typ": "einfach",
+      "wk": "5"
+    },
+    {
+      "name": "Emmerich am Rhein",
+      "typ": "einfach",
+      "wk": "55"
+    },
+    {
+      "name": "Emsdetten",
+      "typ": "einfach",
+      "wk": "81"
+    },
+    {
+      "name": "Engelskirchen",
+      "typ": "einfach",
+      "wk": "24"
+    },
+    {
+      "name": "Enger",
+      "typ": "einfach",
+      "wk": "90"
+    },
+    {
+      "name": "Ennepetal",
+      "typ": "einfach",
+      "wk": "104"
+    },
+    {
+      "name": "Ennigerloh",
+      "typ": "einfach",
+      "wk": "86"
+    },
+    {
+      "name": "Ense",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Erftstadt",
+      "typ": "einfach",
+      "wk": "7"
+    },
+    {
+      "name": "Erkelenz",
+      "typ": "einfach",
+      "wk": "10"
+    },
+    {
+      "name": "Erkrath",
+      "typ": "einfach",
+      "wk": "38"
+    },
+    {
+      "name": "Erndtebrück",
+      "typ": "einfach",
+      "wk": "127"
+    },
+    {
+      "name": "Erwitte",
+      "typ": "einfach",
+      "wk": "120"
+    },
+    {
+      "name": "Eschweiler",
+      "typ": "einfach",
+      "wk": "4"
+    },
+    {
+      "name": "Eslohe (Sauerland)",
+      "typ": "einfach",
+      "wk": "124"
+    },
+    {
+      "name": "Espelkamp",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Essen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "essen.json"
+    },
+    {
+      "name": "Euskirchen",
+      "typ": "einfach",
+      "wk": "8"
+    },
+    {
+      "name": "Everswinkel",
+      "typ": "einfach",
+      "wk": "87"
+    },
+    {
+      "name": "Extertal",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Finnentrop",
+      "typ": "einfach",
+      "wk": "128"
+    },
+    {
+      "name": "Frechen",
+      "typ": "einfach",
+      "wk": "6"
+    },
+    {
+      "name": "Freudenberg",
+      "typ": "einfach",
+      "wk": "126"
+    },
+    {
+      "name": "Fröndenberg/Ruhr",
+      "typ": "einfach",
+      "wk": "115"
+    },
+    {
+      "name": "Gangelt",
+      "typ": "einfach",
+      "wk": "9"
+    },
+    {
+      "name": "Geilenkirchen",
+      "typ": "einfach",
+      "wk": "9"
+    },
+    {
+      "name": "Geldern",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Gelsenkirchen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "gelsenkirchen.json"
+    },
+    {
+      "name": "Gescher",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Geseke",
+      "typ": "einfach",
+      "wk": "120"
+    },
+    {
+      "name": "Gevelsberg",
+      "typ": "einfach",
+      "wk": "104"
+    },
+    {
+      "name": "Gladbeck",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "gladbeck.json"
+    },
+    {
+      "name": "Goch",
+      "typ": "einfach",
+      "wk": "55"
+    },
+    {
+      "name": "Grefrath",
+      "typ": "einfach",
+      "wk": "53"
+    },
+    {
+      "name": "Greven",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Grevenbroich",
+      "typ": "einfach",
+      "wk": "46"
+    },
+    {
+      "name": "Gronau (Westf.)",
+      "typ": "einfach",
+      "wk": "77"
+    },
+    {
+      "name": "Gummersbach",
+      "typ": "einfach",
+      "wk": "23"
+    },
+    {
+      "name": "Gütersloh",
+      "typ": "einfach",
+      "wk": "95"
+    },
+    {
+      "name": "Haan",
+      "typ": "einfach",
+      "wk": "38"
+    },
+    {
+      "name": "Hagen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "hagen.json"
+    },
+    {
+      "name": "Halle (Westf.)",
+      "typ": "einfach",
+      "wk": "94"
+    },
+    {
+      "name": "Hallenberg",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Haltern am See",
+      "typ": "einfach",
+      "wk": "71"
+    },
+    {
+      "name": "Halver",
+      "typ": "einfach",
+      "wk": "123"
+    },
+    {
+      "name": "Hamm",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "hamm.json"
+    },
+    {
+      "name": "Hamminkeln",
+      "typ": "einfach",
+      "wk": "59"
+    },
+    {
+      "name": "Harsewinkel",
+      "typ": "einfach",
+      "wk": "95"
+    },
+    {
+      "name": "Hattingen",
+      "typ": "einfach",
+      "wk": "105"
+    },
+    {
+      "name": "Havixbeck",
+      "typ": "einfach",
+      "wk": "85"
+    },
+    {
+      "name": "Heek",
+      "typ": "einfach",
+      "wk": "77"
+    },
+    {
+      "name": "Heiden",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Heiligenhaus",
+      "typ": "einfach",
+      "wk": "39"
+    },
+    {
+      "name": "Heimbach",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Heinsberg",
+      "typ": "einfach",
+      "wk": "9"
+    },
+    {
+      "name": "Hellenthal",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Hemer",
+      "typ": "einfach",
+      "wk": "122"
+    },
+    {
+      "name": "Hennef (Sieg)",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "hennef.json"
+    },
+    {
+      "name": "Herdecke",
+      "typ": "einfach",
+      "wk": "106"
+    },
+    {
+      "name": "Herford",
+      "typ": "einfach",
+      "wk": "90"
+    },
+    {
+      "name": "Herne",
+      "typ": "einfach",
+      "wk": "110"
+    },
+    {
+      "name": "Herscheid",
+      "typ": "einfach",
+      "wk": "123"
+    },
+    {
+      "name": "Herten",
+      "typ": "einfach",
+      "wk": "70"
+    },
+    {
+      "name": "Herzebrock-Clarholz",
+      "typ": "einfach",
+      "wk": "95"
+    },
+    {
+      "name": "Herzogenrath",
+      "typ": "einfach",
+      "wk": "3"
+    },
+    {
+      "name": "Hiddenhausen",
+      "typ": "einfach",
+      "wk": "90"
+    },
+    {
+      "name": "Hilchenbach",
+      "typ": "einfach",
+      "wk": "127"
+    },
+    {
+      "name": "Hilden",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "hilden.json"
+    },
+    {
+      "name": "Hille",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Holzwickede",
+      "typ": "einfach",
+      "wk": "115"
+    },
+    {
+      "name": "Hopsten",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Horn-Bad Meinberg",
+      "typ": "einfach",
+      "wk": "99"
+    },
+    {
+      "name": "Hörstel",
+      "typ": "einfach",
+      "wk": "81"
+    },
+    {
+      "name": "Horstmar",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Hövelhof",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Höxter",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Hückelhoven",
+      "typ": "einfach",
+      "wk": "10"
+    },
+    {
+      "name": "Hückeswagen",
+      "typ": "einfach",
+      "wk": "23"
+    },
+    {
+      "name": "Hüllhorst",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Hünxe",
+      "typ": "einfach",
+      "wk": "59"
+    },
+    {
+      "name": "Hürtgenwald",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Hürth",
+      "typ": "einfach",
+      "wk": "6"
+    },
+    {
+      "name": "Ibbenbüren",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Inden",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Iserlohn",
+      "typ": "einfach",
+      "wk": "121"
+    },
+    {
+      "name": "Isselburg",
+      "typ": "einfach",
+      "wk": "76"
+    },
+    {
+      "name": "Issum",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Jüchen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "juechen.json"
+    },
+    {
+      "name": "Jülich",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Kaarst",
+      "typ": "einfach",
+      "wk": "47"
+    },
+    {
+      "name": "Kalkar",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Kall",
+      "typ": "einfach",
+      "wk": "8"
+    },
+    {
+      "name": "Kalletal",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Kamen",
+      "typ": "einfach",
+      "wk": "117"
+    },
+    {
+      "name": "Kamp-Lintfort",
+      "typ": "einfach",
+      "wk": "58"
+    },
+    {
+      "name": "Kempen",
+      "typ": "einfach",
+      "wk": "53"
+    },
+    {
+      "name": "Kerken",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Kerpen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "kerpen.json"
+    },
+    {
+      "name": "Kevelaer",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Kierspe",
+      "typ": "einfach",
+      "wk": "123"
+    },
+    {
+      "name": "Kirchhundem",
+      "typ": "einfach",
+      "wk": "128"
+    },
+    {
+      "name": "Kirchlengern",
+      "typ": "einfach",
+      "wk": "91"
+    },
+    {
+      "name": "Kleve",
+      "typ": "einfach",
+      "wk": "55"
+    },
+    {
+      "name": "Köln",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "koeln.json"
+    },
+    {
+      "name": "Königswinter",
+      "typ": "einfach",
+      "wk": "26"
+    },
+    {
+      "name": "Korschenbroich",
+      "typ": "einfach",
+      "wk": "47"
+    },
+    {
+      "name": "Kranenburg",
+      "typ": "einfach",
+      "wk": "55"
+    },
+    {
+      "name": "Krefeld",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "krefeld.json"
+    },
+    {
+      "name": "Kreuzau",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Kreuztal",
+      "typ": "einfach",
+      "wk": "127"
+    },
+    {
+      "name": "Kürten",
+      "typ": "einfach",
+      "wk": "22"
+    },
+    {
+      "name": "Ladbergen",
+      "typ": "einfach",
+      "wk": "81"
+    },
+    {
+      "name": "Laer",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Lage",
+      "typ": "einfach",
+      "wk": "97"
+    },
+    {
+      "name": "Langenberg",
+      "typ": "einfach",
+      "wk": "96"
+    },
+    {
+      "name": "Langenfeld (Rhld.)",
+      "typ": "einfach",
+      "wk": "37"
+    },
+    {
+      "name": "Langerwehe",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Legden",
+      "typ": "einfach",
+      "wk": "77"
+    },
+    {
+      "name": "Leichlingen (Rhld.)",
+      "typ": "einfach",
+      "wk": "22"
+    },
+    {
+      "name": "Lemgo",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Lengerich",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Lennestadt",
+      "typ": "einfach",
+      "wk": "128"
+    },
+    {
+      "name": "Leopoldshöhe",
+      "typ": "einfach",
+      "wk": "97"
+    },
+    {
+      "name": "Leverkusen",
+      "typ": "einfach",
+      "wk": "20"
+    },
+    {
+      "name": "Lichtenau",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Lienen",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Lindlar",
+      "typ": "einfach",
+      "wk": "23"
+    },
+    {
+      "name": "Linnich",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Lippetal",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Lippstadt",
+      "typ": "einfach",
+      "wk": "120"
+    },
+    {
+      "name": "Lohmar",
+      "typ": "einfach",
+      "wk": "29"
+    },
+    {
+      "name": "Löhne",
+      "typ": "einfach",
+      "wk": "91"
+    },
+    {
+      "name": "Lotte",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Lübbecke",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Lüdenscheid",
+      "typ": "einfach",
+      "wk": "123"
+    },
+    {
+      "name": "Lüdinghausen",
+      "typ": "einfach",
+      "wk": "79"
+    },
+    {
+      "name": "Lügde",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Lünen",
+      "typ": "einfach",
+      "wk": "116"
+    },
+    {
+      "name": "Marienheide",
+      "typ": "einfach",
+      "wk": "23"
+    },
+    {
+      "name": "Marienmünster",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Marl",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "marl.json"
+    },
+    {
+      "name": "Marsberg",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Mechernich",
+      "typ": "einfach",
+      "wk": "8"
+    },
+    {
+      "name": "Meckenheim",
+      "typ": "einfach",
+      "wk": "26"
+    },
+    {
+      "name": "Medebach",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Meerbusch",
+      "typ": "einfach",
+      "wk": "47"
+    },
+    {
+      "name": "Meinerzhagen",
+      "typ": "einfach",
+      "wk": "123"
+    },
+    {
+      "name": "Menden (Sauerland)",
+      "typ": "einfach",
+      "wk": "122"
+    },
+    {
+      "name": "Merzenich",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Meschede",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Metelen",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Mettingen",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Mettmann",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "mettmann.json"
+    },
+    {
+      "name": "Minden",
+      "typ": "einfach",
+      "wk": "89"
+    },
+    {
+      "name": "Moers",
+      "typ": "einfach",
+      "wk": "60"
+    },
+    {
+      "name": "Möhnesee",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Mönchengladbach",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "moenchengladbach.json"
+    },
+    {
+      "name": "Monheim am Rhein",
+      "typ": "einfach",
+      "wk": "37"
+    },
+    {
+      "name": "Monschau",
+      "typ": "einfach",
+      "wk": "4"
+    },
+    {
+      "name": "Morsbach",
+      "typ": "einfach",
+      "wk": "24"
+    },
+    {
+      "name": "Much",
+      "typ": "einfach",
+      "wk": "25"
+    },
+    {
+      "name": "Mülheim an der Ruhr",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "muelheim.json"
+    },
+    {
+      "name": "Münster",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "muenster.json"
+    },
+    {
+      "name": "Nachrodt-Wiblingwerde",
+      "typ": "einfach",
+      "wk": "121"
+    },
+    {
+      "name": "Netphen",
+      "typ": "einfach",
+      "wk": "127"
+    },
+    {
+      "name": "Nettersheim",
+      "typ": "einfach",
+      "wk": "8"
+    },
+    {
+      "name": "Nettetal",
+      "typ": "einfach",
+      "wk": "53"
+    },
+    {
+      "name": "Neuenkirchen",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Neuenrade",
+      "typ": "einfach",
+      "wk": "122"
+    },
+    {
+      "name": "Neukirchen-Vluyn",
+      "typ": "einfach",
+      "wk": "60"
+    },
+    {
+      "name": "Neunkirchen",
+      "typ": "einfach",
+      "wk": "126"
+    },
+    {
+      "name": "Neunkirchen-Seelscheid",
+      "typ": "einfach",
+      "wk": "25"
+    },
+    {
+      "name": "Neuss",
+      "typ": "einfach",
+      "wk": "45"
+    },
+    {
+      "name": "Nideggen",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Niederkassel",
+      "typ": "einfach",
+      "wk": "28"
+    },
+    {
+      "name": "Niederkrüchten",
+      "typ": "einfach",
+      "wk": "53"
+    },
+    {
+      "name": "Niederzier",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Nieheim",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Nordkirchen",
+      "typ": "einfach",
+      "wk": "79"
+    },
+    {
+      "name": "Nordwalde",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Nörvenich",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Nottuln",
+      "typ": "einfach",
+      "wk": "85"
+    },
+    {
+      "name": "Nümbrecht",
+      "typ": "einfach",
+      "wk": "24"
+    },
+    {
+      "name": "Oberhausen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "oberhausen.json"
+    },
+    {
+      "name": "Ochtrup",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Odenthal",
+      "typ": "einfach",
+      "wk": "22"
+    },
+    {
+      "name": "Oelde",
+      "typ": "einfach",
+      "wk": "86"
+    },
+    {
+      "name": "Oer-Erkenschwick",
+      "typ": "einfach",
+      "wk": "69"
+    },
+    {
+      "name": "Oerlinghausen",
+      "typ": "einfach",
+      "wk": "97"
+    },
+    {
+      "name": "Olfen",
+      "typ": "einfach",
+      "wk": "79"
+    },
+    {
+      "name": "Olpe",
+      "typ": "einfach",
+      "wk": "128"
+    },
+    {
+      "name": "Olsberg",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Ostbevern",
+      "typ": "einfach",
+      "wk": "86"
+    },
+    {
+      "name": "Overath",
+      "typ": "einfach",
+      "wk": "22"
+    },
+    {
+      "name": "Paderborn",
+      "typ": "einfach",
+      "wk": "101"
+    },
+    {
+      "name": "Petershagen",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Plettenberg",
+      "typ": "einfach",
+      "wk": "122"
+    },
+    {
+      "name": "Porta Westfalica",
+      "typ": "einfach",
+      "wk": "89"
+    },
+    {
+      "name": "Preußisch Oldendorf",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Pulheim",
+      "typ": "einfach",
+      "wk": "5"
+    },
+    {
+      "name": "Radevormwald",
+      "typ": "einfach",
+      "wk": "36"
+    },
+    {
+      "name": "Raesfeld",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Rahden",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Ratingen",
+      "typ": "einfach",
+      "wk": "39"
+    },
+    {
+      "name": "Recke",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Recklinghausen",
+      "typ": "einfach",
+      "wk": "69"
+    },
+    {
+      "name": "Rees",
+      "typ": "einfach",
+      "wk": "55"
+    },
+    {
+      "name": "Reichshof",
+      "typ": "einfach",
+      "wk": "24"
+    },
+    {
+      "name": "Reken",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Remscheid",
+      "typ": "einfach",
+      "wk": "36"
+    },
+    {
+      "name": "Rheda-Wiedenbrück",
+      "typ": "einfach",
+      "wk": "96"
+    },
+    {
+      "name": "Rhede",
+      "typ": "einfach",
+      "wk": "76"
+    },
+    {
+      "name": "Rheinbach",
+      "typ": "einfach",
+      "wk": "27"
+    },
+    {
+      "name": "Rheinberg",
+      "typ": "einfach",
+      "wk": "58"
+    },
+    {
+      "name": "Rheine",
+      "typ": "einfach",
+      "wk": "81"
+    },
+    {
+      "name": "Rheurdt",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Rietberg",
+      "typ": "einfach",
+      "wk": "96"
+    },
+    {
+      "name": "Rödinghausen",
+      "typ": "einfach",
+      "wk": "91"
+    },
+    {
+      "name": "Roetgen",
+      "typ": "einfach",
+      "wk": "4"
+    },
+    {
+      "name": "Rommerskirchen",
+      "typ": "einfach",
+      "wk": "46"
+    },
+    {
+      "name": "Rosendahl",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Rösrath",
+      "typ": "einfach",
+      "wk": "21"
+    },
+    {
+      "name": "Ruppichteroth",
+      "typ": "einfach",
+      "wk": "25"
+    },
+    {
+      "name": "Rüthen",
+      "typ": "einfach",
+      "wk": "120"
+    },
+    {
+      "name": "Saerbeck",
+      "typ": "einfach",
+      "wk": "81"
+    },
+    {
+      "name": "Salzkotten",
+      "typ": "einfach",
+      "wk": "100"
+    },
+    {
+      "name": "Sankt Augustin",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "sanktaugustin.json"
+    },
+    {
+      "name": "Sassenberg",
+      "typ": "einfach",
+      "wk": "86"
+    },
+    {
+      "name": "Schalksmühle",
+      "typ": "einfach",
+      "wk": "123"
+    },
+    {
+      "name": "Schermbeck",
+      "typ": "einfach",
+      "wk": "59"
+    },
+    {
+      "name": "Schieder-Schwalenberg",
+      "typ": "einfach",
+      "wk": "99"
+    },
+    {
+      "name": "Schlangen",
+      "typ": "einfach",
+      "wk": "99"
+    },
+    {
+      "name": "Schleiden",
+      "typ": "einfach",
+      "wk": "12"
+    },
+    {
+      "name": "Schloß Holte-Stukenbrock",
+      "typ": "einfach",
+      "wk": "96"
+    },
+    {
+      "name": "Schmallenberg",
+      "typ": "einfach",
+      "wk": "124"
+    },
+    {
+      "name": "Schöppingen",
+      "typ": "einfach",
+      "wk": "77"
+    },
+    {
+      "name": "Schwalmtal",
+      "typ": "einfach",
+      "wk": "52"
+    },
+    {
+      "name": "Schwelm",
+      "typ": "einfach",
+      "wk": "105"
+    },
+    {
+      "name": "Schwerte",
+      "typ": "einfach",
+      "wk": "115"
+    },
+    {
+      "name": "Selfkant",
+      "typ": "einfach",
+      "wk": "9"
+    },
+    {
+      "name": "Selm",
+      "typ": "einfach",
+      "wk": "116"
+    },
+    {
+      "name": "Senden",
+      "typ": "einfach",
+      "wk": "79"
+    },
+    {
+      "name": "Sendenhorst",
+      "typ": "einfach",
+      "wk": "87"
+    },
+    {
+      "name": "Siegburg",
+      "typ": "einfach",
+      "wk": "29"
+    },
+    {
+      "name": "Siegen",
+      "typ": "einfach",
+      "wk": "126"
+    },
+    {
+      "name": "Simmerath",
+      "typ": "einfach",
+      "wk": "4"
+    },
+    {
+      "name": "Soest",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Solingen",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "solingen.json"
+    },
+    {
+      "name": "Sonsbeck",
+      "typ": "einfach",
+      "wk": "58"
+    },
+    {
+      "name": "Spenge",
+      "typ": "einfach",
+      "wk": "90"
+    },
+    {
+      "name": "Sprockhövel",
+      "typ": "einfach",
+      "wk": "105"
+    },
+    {
+      "name": "Stadtlohn",
+      "typ": "einfach",
+      "wk": "77"
+    },
+    {
+      "name": "Steinfurt",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Steinhagen",
+      "typ": "einfach",
+      "wk": "94"
+    },
+    {
+      "name": "Steinheim",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Stemwede",
+      "typ": "einfach",
+      "wk": "88"
+    },
+    {
+      "name": "Stolberg (Rhld.)",
+      "typ": "einfach",
+      "wk": "4"
+    },
+    {
+      "name": "Straelen",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Südlohn",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Sundern (Sauerland)",
+      "typ": "einfach",
+      "wk": "124"
+    },
+    {
+      "name": "Swisttal",
+      "typ": "einfach",
+      "wk": "27"
+    },
+    {
+      "name": "Tecklenburg",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Telgte",
+      "typ": "einfach",
+      "wk": "86"
+    },
+    {
+      "name": "Titz",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Tönisvorst",
+      "typ": "einfach",
+      "wk": "48"
+    },
+    {
+      "name": "Troisdorf",
+      "typ": "einfach",
+      "wk": "28"
+    },
+    {
+      "name": "Übach-Palenberg",
+      "typ": "einfach",
+      "wk": "9"
+    },
+    {
+      "name": "Uedem",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Unna",
+      "typ": "einfach",
+      "wk": "115"
+    },
+    {
+      "name": "Velbert",
+      "typ": "einfach",
+      "wk": "40"
+    },
+    {
+      "name": "Velen",
+      "typ": "einfach",
+      "wk": "78"
+    },
+    {
+      "name": "Verl",
+      "typ": "einfach",
+      "wk": "96"
+    },
+    {
+      "name": "Versmold",
+      "typ": "einfach",
+      "wk": "94"
+    },
+    {
+      "name": "Vettweiß",
+      "typ": "einfach",
+      "wk": "11"
+    },
+    {
+      "name": "Viersen",
+      "typ": "einfach",
+      "wk": "52"
+    },
+    {
+      "name": "Vlotho",
+      "typ": "einfach",
+      "wk": "98"
+    },
+    {
+      "name": "Voerde",
+      "typ": "einfach",
+      "wk": "58"
+    },
+    {
+      "name": "Vreden",
+      "typ": "einfach",
+      "wk": "77"
+    },
+    {
+      "name": "Wachtberg",
+      "typ": "einfach",
+      "wk": "26"
+    },
+    {
+      "name": "Wachtendonk",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Wadersloh",
+      "typ": "einfach",
+      "wk": "87"
+    },
+    {
+      "name": "Waldbröl",
+      "typ": "einfach",
+      "wk": "24"
+    },
+    {
+      "name": "Waldfeucht",
+      "typ": "einfach",
+      "wk": "9"
+    },
+    {
+      "name": "Waltrop",
+      "typ": "einfach",
+      "wk": "72"
+    },
+    {
+      "name": "Warburg",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Warendorf",
+      "typ": "einfach",
+      "wk": "86"
+    },
+    {
+      "name": "Warstein",
+      "typ": "einfach",
+      "wk": "120"
+    },
+    {
+      "name": "Wassenberg",
+      "typ": "einfach",
+      "wk": "10"
+    },
+    {
+      "name": "Weeze",
+      "typ": "einfach",
+      "wk": "54"
+    },
+    {
+      "name": "Wegberg",
+      "typ": "einfach",
+      "wk": "10"
+    },
+    {
+      "name": "Weilerswist",
+      "typ": "einfach",
+      "wk": "27"
+    },
+    {
+      "name": "Welver",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Wenden",
+      "typ": "einfach",
+      "wk": "128"
+    },
+    {
+      "name": "Werdohl",
+      "typ": "einfach",
+      "wk": "121"
+    },
+    {
+      "name": "Werl",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Wermelskirchen",
+      "typ": "einfach",
+      "wk": "22"
+    },
+    {
+      "name": "Werne",
+      "typ": "einfach",
+      "wk": "116"
+    },
+    {
+      "name": "Werther (Westf.)",
+      "typ": "einfach",
+      "wk": "94"
+    },
+    {
+      "name": "Wesel",
+      "typ": "einfach",
+      "wk": "59"
+    },
+    {
+      "name": "Wesseling",
+      "typ": "einfach",
+      "wk": "7"
+    },
+    {
+      "name": "Westerkappeln",
+      "typ": "einfach",
+      "wk": "82"
+    },
+    {
+      "name": "Wetter (Ruhr)",
+      "typ": "einfach",
+      "wk": "105"
+    },
+    {
+      "name": "Wettringen",
+      "typ": "einfach",
+      "wk": "80"
+    },
+    {
+      "name": "Wickede (Ruhr)",
+      "typ": "einfach",
+      "wk": "119"
+    },
+    {
+      "name": "Wiehl",
+      "typ": "einfach",
+      "wk": "24"
+    },
+    {
+      "name": "Willebadessen",
+      "typ": "einfach",
+      "wk": "102"
+    },
+    {
+      "name": "Willich",
+      "typ": "einfach",
+      "wk": "52"
+    },
+    {
+      "name": "Wilnsdorf",
+      "typ": "einfach",
+      "wk": "127"
+    },
+    {
+      "name": "Windeck",
+      "typ": "einfach",
+      "wk": "25"
+    },
+    {
+      "name": "Winterberg",
+      "typ": "einfach",
+      "wk": "125"
+    },
+    {
+      "name": "Wipperfürth",
+      "typ": "einfach",
+      "wk": "23"
+    },
+    {
+      "name": "Witten",
+      "typ": "einfach",
+      "wk": "106"
+    },
+    {
+      "name": "Wülfrath",
+      "typ": "einfach",
+      "wk": "40"
+    },
+    {
+      "name": "Wuppertal",
+      "typ": "geteilt",
+      "verfuegbar": true,
+      "datei": "wuppertal.json"
+    },
+    {
+      "name": "Würselen",
+      "typ": "einfach",
+      "wk": "3"
+    },
+    {
+      "name": "Xanten",
+      "typ": "einfach",
+      "wk": "58"
+    },
+    {
+      "name": "Zülpich",
+      "typ": "einfach",
+      "wk": "8"
+    }
+  ]
+}

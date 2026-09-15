@@ -1,0 +1,9069 @@
+{
+  "meta": {
+    "kommune": "Bonn",
+    "stand": "2022-05",
+    "gebaut_am": "2026-09-14",
+    "quellen": [
+      "https://wahlen.bonn.de/wahlen/LTW2022/05314000/praesentation/opendata-strassen.csv"
+    ],
+    "zuordnung": "gesetzesanlage"
+  },
+  "wahlkreise": {
+    "30": "Bonn I",
+    "31": "Bonn II"
+  },
+  "strassen": [
+    {
+      "n": "Abenteuerweg",
+      "wk": "31"
+    },
+    {
+      "n": "Abtstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Acherstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Achim-von-Arnim-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ackerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Adalbert-Stifter-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Adele-Schopenhauer-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Adelheidisplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Adelheidisstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Adenauerallee",
+      "wk": "30"
+    },
+    {
+      "n": "Adolf-Heuser-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Adolf-Hombitzer-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Adolf-Quad-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Adolfstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Adrianstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Aegidienstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Aennchenplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Aennchenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Aggerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Agnesstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Agnetendorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Agrippinenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ahornweg",
+      "wk": "31"
+    },
+    {
+      "n": "Ahrstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ahrweg",
+      "wk": "31"
+    },
+    {
+      "n": "Akazienweg",
+      "wk": "31"
+    },
+    {
+      "n": "Alaunbachweg",
+      "wk": "30"
+    },
+    {
+      "n": "Alberichstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Albert-Fischer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Albert-Schweitzer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Albertus-Magnus-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Alemannenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Alemannenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Alexander-Koenig-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Alexanderstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Alfred-Bucherer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Alfterer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Alice-Salomon-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Allensteiner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Aloys-Müller-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Aloys-Schulte-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Alsstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Alt Gensem",
+      "wk": "30"
+    },
+    {
+      "n": "Alte Bahnhofstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Alte Bonner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Alte Heerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Alte Schulstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Alte Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Altenburgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Alter Heerweg",
+      "b": [
+        {
+          "von": 3,
+          "bis": 20,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 22,
+          "bis": 38,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 31,
+          "bis": 37,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 39,
+          "bis": 63,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 65,
+          "bis": 71,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 72,
+          "bis": 82,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 83,
+          "bis": 125,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 84,
+          "bis": 108,
+          "par": "g",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Altrheinstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Am Agnesstift",
+      "wk": "30"
+    },
+    {
+      "n": "Am Alfterhof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Alten Forsthaus",
+      "wk": "31"
+    },
+    {
+      "n": "Am Alten Friedhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Alten Poststadion",
+      "wk": "30"
+    },
+    {
+      "n": "Am Alten Pütz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Alten Rheinarm",
+      "wk": "30"
+    },
+    {
+      "n": "Am Apfelbaum",
+      "wk": "30"
+    },
+    {
+      "n": "Am Arndtplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bach",
+      "wk": "30"
+    },
+    {
+      "n": "Am Baumgarten",
+      "wk": "31"
+    },
+    {
+      "n": "Am Berghang",
+      "wk": "30"
+    },
+    {
+      "n": "Am Birkenbruch",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bismarckturm",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bleichgraben",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bleidriesch",
+      "wk": "31"
+    },
+    {
+      "n": "Am Boeselagerhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Bogen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bolzplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Bommerich",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bonner Berg",
+      "wk": "30"
+    },
+    {
+      "n": "Am Bonner Bogen",
+      "wk": "30"
+    },
+    {
+      "n": "Am Botanischen Garten",
+      "wk": "31"
+    },
+    {
+      "n": "Am Botten",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bruch",
+      "wk": "31"
+    },
+    {
+      "n": "Am Brünnchen",
+      "wk": "30"
+    },
+    {
+      "n": "Am Büchel",
+      "wk": "31"
+    },
+    {
+      "n": "Am Buchenhang",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bungert",
+      "wk": "30"
+    },
+    {
+      "n": "Am Bungertsbusch",
+      "wk": "31"
+    },
+    {
+      "n": "Am Bürgerpark",
+      "wk": "30"
+    },
+    {
+      "n": "Am Burgfriedhof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Burggraben",
+      "wk": "31"
+    },
+    {
+      "n": "Am Burgpark",
+      "wk": "30"
+    },
+    {
+      "n": "Am Burgweiher",
+      "wk": "31"
+    },
+    {
+      "n": "Am Buschacker",
+      "wk": "31"
+    },
+    {
+      "n": "Am Buschhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Cöllenhof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Conzberg",
+      "wk": "30"
+    },
+    {
+      "n": "Am Dichbach",
+      "wk": "31"
+    },
+    {
+      "n": "Am Dickobskreuz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Dinaswerk",
+      "wk": "31"
+    },
+    {
+      "n": "Am Domblick",
+      "wk": "31"
+    },
+    {
+      "n": "Am Draitschbusch",
+      "wk": "31"
+    },
+    {
+      "n": "Am Ehrenmal",
+      "wk": "31"
+    },
+    {
+      "n": "Am Eichkamp",
+      "wk": "31"
+    },
+    {
+      "n": "Am Engelsbach",
+      "wk": "31"
+    },
+    {
+      "n": "Am Engelspfad",
+      "wk": "31"
+    },
+    {
+      "n": "Am Ennertbad",
+      "wk": "30"
+    },
+    {
+      "n": "Am Fahrweg",
+      "wk": "31"
+    },
+    {
+      "n": "Am Fasanenhang",
+      "wk": "30"
+    },
+    {
+      "n": "Am Finkenberg",
+      "wk": "30"
+    },
+    {
+      "n": "Am Finkenherd",
+      "wk": "31"
+    },
+    {
+      "n": "Am Frankenbad",
+      "wk": "30"
+    },
+    {
+      "n": "Am Friedhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Fronhof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Gäßchen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Gerhardsplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Glückshaus",
+      "wk": "31"
+    },
+    {
+      "n": "Am Götgesbach",
+      "wk": "31"
+    },
+    {
+      "n": "Am Güsgensberg",
+      "wk": "31"
+    },
+    {
+      "n": "Am Hähnchen",
+      "wk": "30"
+    },
+    {
+      "n": "Am Hang",
+      "wk": "30"
+    },
+    {
+      "n": "Am Hauptbahnhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Helpert",
+      "wk": "31"
+    },
+    {
+      "n": "Am Herrengarten",
+      "wk": "30"
+    },
+    {
+      "n": "Am Herz-Jesu-Kloster",
+      "wk": "30"
+    },
+    {
+      "n": "Am Hof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Hofgarten",
+      "wk": "30"
+    },
+    {
+      "n": "Am Höhnchen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Hölder",
+      "wk": "31"
+    },
+    {
+      "n": "Am Jesuitenhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Johanneskreuz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Johannisberg",
+      "wk": "30"
+    },
+    {
+      "n": "Am Josephinum",
+      "wk": "30"
+    },
+    {
+      "n": "Am Käferberg",
+      "wk": "31"
+    },
+    {
+      "n": "Am Kamin",
+      "wk": "30"
+    },
+    {
+      "n": "Am Karmelkloster",
+      "wk": "30"
+    },
+    {
+      "n": "Am Katzenlochbach",
+      "wk": "31"
+    },
+    {
+      "n": "Am Kettelerplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Klostergarten",
+      "wk": "31"
+    },
+    {
+      "n": "Am Klufterhof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Knippchen",
+      "wk": "30"
+    },
+    {
+      "n": "Am Köppekreuz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Kottenforst",
+      "wk": "31"
+    },
+    {
+      "n": "Am Krähenhorst",
+      "wk": "30"
+    },
+    {
+      "n": "Am Kreuter",
+      "wk": "31"
+    },
+    {
+      "n": "Am Kriegersgraben",
+      "wk": "30"
+    },
+    {
+      "n": "Am Kümpel",
+      "wk": "31"
+    },
+    {
+      "n": "Am Kurfürstenkreuz",
+      "wk": "31"
+    },
+    {
+      "n": "Am Kurpark",
+      "wk": "31"
+    },
+    {
+      "n": "Am Langen Graben",
+      "wk": "30"
+    },
+    {
+      "n": "Am Lappenweiher",
+      "wk": "31"
+    },
+    {
+      "n": "Am Ledenhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Lenkert",
+      "wk": "31"
+    },
+    {
+      "n": "Am Lindenbach",
+      "wk": "31"
+    },
+    {
+      "n": "Am Magdalenenkreuz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Marienhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Marienhospital",
+      "wk": "31"
+    },
+    {
+      "n": "Am Metternicher Hof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Michaelshof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Mönchshof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Mühlenberg",
+      "wk": "31"
+    },
+    {
+      "n": "Am Müllestump",
+      "wk": "30"
+    },
+    {
+      "n": "Am Nesselroder Hof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Neuen Lindenhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Neutor",
+      "wk": "30"
+    },
+    {
+      "n": "Am Nippenkreuz",
+      "wk": "31"
+    },
+    {
+      "n": "Am Nordpark",
+      "wk": "30"
+    },
+    {
+      "n": "Am Noßbacher Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Am Pappelhain",
+      "wk": "30"
+    },
+    {
+      "n": "Am Paulshof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Paulusacker",
+      "wk": "30"
+    },
+    {
+      "n": "Am Petrusacker",
+      "wk": "30"
+    },
+    {
+      "n": "Am Poppelsdorfer Weiher",
+      "wk": "31"
+    },
+    {
+      "n": "Am Prinzenrain",
+      "wk": "31"
+    },
+    {
+      "n": "Am Propsthof",
+      "b": [
+        {
+          "von": 3,
+          "bis": 17,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 49,
+          "bis": 108,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 109,
+          "bis": 127,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 110,
+          "bis": 152,
+          "par": "g",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Am Quintengarten",
+      "wk": "30"
+    },
+    {
+      "n": "Am Quirinusbrunnen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Rehsprung",
+      "wk": "30"
+    },
+    {
+      "n": "Am Rheindorfer Ufer",
+      "wk": "30"
+    },
+    {
+      "n": "Am Ringwall",
+      "wk": "30"
+    },
+    {
+      "n": "Am Römerkastell",
+      "wk": "30"
+    },
+    {
+      "n": "Am Römerlager",
+      "wk": "30"
+    },
+    {
+      "n": "Am Rosenrain",
+      "wk": "31"
+    },
+    {
+      "n": "Am Schänzchen",
+      "wk": "30"
+    },
+    {
+      "n": "Am Schaumburger Hof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Schickshof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Schloßbach",
+      "wk": "31"
+    },
+    {
+      "n": "Am Schloßplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Am Schörnchen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Schützenhof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Schwanenmorgen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Schwimmbad",
+      "wk": "31"
+    },
+    {
+      "n": "Am Sennertspfad",
+      "wk": "31"
+    },
+    {
+      "n": "Am Siepen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Sonnenberg",
+      "wk": "30"
+    },
+    {
+      "n": "Am Sonnenhang",
+      "wk": "31"
+    },
+    {
+      "n": "Am Spielplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Sportplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Stadion",
+      "wk": "30"
+    },
+    {
+      "n": "Am Stadtwald",
+      "wk": "31"
+    },
+    {
+      "n": "Am Steinbach",
+      "wk": "30"
+    },
+    {
+      "n": "Am Stingenberg",
+      "wk": "30"
+    },
+    {
+      "n": "Am Südfriedhof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Tanzberg",
+      "wk": "30"
+    },
+    {
+      "n": "Am Tiergarten",
+      "wk": "30"
+    },
+    {
+      "n": "Am Tönnessenkreuz",
+      "wk": "30"
+    },
+    {
+      "n": "Am Trajekt",
+      "wk": "30"
+    },
+    {
+      "n": "Am Turmhof",
+      "wk": "31"
+    },
+    {
+      "n": "Am Vogelherd",
+      "wk": "31"
+    },
+    {
+      "n": "Am Waldhang",
+      "wk": "31"
+    },
+    {
+      "n": "Am Waldrand",
+      "wk": "30"
+    },
+    {
+      "n": "Am Weckhasen",
+      "wk": "31"
+    },
+    {
+      "n": "Am Weidenbach",
+      "wk": "30"
+    },
+    {
+      "n": "Am Weidenstück",
+      "wk": "30"
+    },
+    {
+      "n": "Am Weiher",
+      "wk": "30"
+    },
+    {
+      "n": "Am Weinstock",
+      "wk": "30"
+    },
+    {
+      "n": "Am Weißen Stein",
+      "wk": "30"
+    },
+    {
+      "n": "Am Weitgarten",
+      "wk": "30"
+    },
+    {
+      "n": "Am Wesselpütz",
+      "wk": "31"
+    },
+    {
+      "n": "Am Wichelshof",
+      "wk": "30"
+    },
+    {
+      "n": "Am Winkel",
+      "wk": "31"
+    },
+    {
+      "n": "Am Wolfsbach",
+      "wk": "30"
+    },
+    {
+      "n": "Am Woltersweiher",
+      "wk": "31"
+    },
+    {
+      "n": "Am Ziegenbaum",
+      "wk": "31"
+    },
+    {
+      "n": "Am Zinnbruch",
+      "wk": "31"
+    },
+    {
+      "n": "Amalienhöhe",
+      "wk": "31"
+    },
+    {
+      "n": "Amselhang",
+      "wk": "31"
+    },
+    {
+      "n": "Amselweg",
+      "wk": "30"
+    },
+    {
+      "n": "Amsterdamer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "An Brenigs Ziegelei",
+      "wk": "31"
+    },
+    {
+      "n": "An den Buchen",
+      "wk": "31"
+    },
+    {
+      "n": "An den Eichen",
+      "wk": "31"
+    },
+    {
+      "n": "An den Hecken",
+      "wk": "30"
+    },
+    {
+      "n": "An den Kiefern",
+      "wk": "31"
+    },
+    {
+      "n": "An den Kreuzen",
+      "wk": "31"
+    },
+    {
+      "n": "An den Markthallen",
+      "wk": "30"
+    },
+    {
+      "n": "An der Arndtruhe",
+      "wk": "31"
+    },
+    {
+      "n": "An der Bärenwiese",
+      "wk": "30"
+    },
+    {
+      "n": "An der Burg Lede",
+      "wk": "30"
+    },
+    {
+      "n": "An der Burg Medinghoven",
+      "wk": "31"
+    },
+    {
+      "n": "An der Buschdorfer Burg",
+      "wk": "30"
+    },
+    {
+      "n": "An der Casselsruhe",
+      "wk": "31"
+    },
+    {
+      "n": "An der Dransdorfer Burg",
+      "wk": "30"
+    },
+    {
+      "n": "An der Dransdorfer Mühle",
+      "wk": "30"
+    },
+    {
+      "n": "An der Düne",
+      "wk": "30"
+    },
+    {
+      "n": "An der Elisabethkirche",
+      "wk": "30"
+    },
+    {
+      "n": "An der Esche",
+      "wk": "30"
+    },
+    {
+      "n": "An der Evangel. Kirche",
+      "wk": "30"
+    },
+    {
+      "n": "An der Haeschmaar",
+      "wk": "31"
+    },
+    {
+      "n": "An der Immenburg",
+      "wk": "30"
+    },
+    {
+      "n": "An der Josefshöhe",
+      "wk": "30"
+    },
+    {
+      "n": "An der Kelter",
+      "wk": "31"
+    },
+    {
+      "n": "An der Knappenmühle",
+      "wk": "30"
+    },
+    {
+      "n": "An der Kommende",
+      "wk": "31"
+    },
+    {
+      "n": "An der Küppe",
+      "wk": "30"
+    },
+    {
+      "n": "An der Kurfürstenquelle",
+      "wk": "31"
+    },
+    {
+      "n": "An der Landstr.",
+      "wk": "30"
+    },
+    {
+      "n": "An der Linde",
+      "wk": "30"
+    },
+    {
+      "n": "An der Margarethenkirche",
+      "wk": "30"
+    },
+    {
+      "n": "An der Marienkapelle",
+      "wk": "31"
+    },
+    {
+      "n": "An der Nesselburg",
+      "wk": "31"
+    },
+    {
+      "n": "An der Ohligsmühle",
+      "wk": "31"
+    },
+    {
+      "n": "An der Pfaffenmütze",
+      "wk": "30"
+    },
+    {
+      "n": "An der Post",
+      "wk": "30"
+    },
+    {
+      "n": "An der Rheindorfer Burg",
+      "wk": "30"
+    },
+    {
+      "n": "An der Schloßkirche",
+      "wk": "30"
+    },
+    {
+      "n": "An der Siebengebirgsbahn",
+      "wk": "30"
+    },
+    {
+      "n": "An der Steinbrücke",
+      "wk": "30"
+    },
+    {
+      "n": "An der Umkehr",
+      "wk": "30"
+    },
+    {
+      "n": "An der Vogelweide",
+      "wk": "30"
+    },
+    {
+      "n": "An der Waldau",
+      "wk": "31"
+    },
+    {
+      "n": "An der Windmühle",
+      "wk": "30"
+    },
+    {
+      "n": "An der Wolfsburg",
+      "wk": "30"
+    },
+    {
+      "n": "An der Ziegelei",
+      "wk": "31"
+    },
+    {
+      "n": "An Sankt Josef",
+      "wk": "30"
+    },
+    {
+      "n": "An Tiebes Eiche",
+      "wk": "30"
+    },
+    {
+      "n": "Andreas-Hermes-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Andreasstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Anemonenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Angelbisstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Anhalter Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ankerbachtalweg",
+      "wk": "30"
+    },
+    {
+      "n": "Anna-Schubring-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Annaberger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Annagraben",
+      "wk": "30"
+    },
+    {
+      "n": "Annaweg",
+      "wk": "31"
+    },
+    {
+      "n": "Anne-Marie-Prévot-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Annettenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Antilopenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Anton-Engels-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Anton-Mai-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Antoniterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Antoniusweg",
+      "wk": "30"
+    },
+    {
+      "n": "Argelanderstr.",
+      "b": [
+        {
+          "von": 2,
+          "bis": 86,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 3,
+          "bis": 139,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 88,
+          "bis": 150,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 141,
+          "bis": 165,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 158,
+          "bis": 158,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 160,
+          "bis": 160,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 167,
+          "bis": 183,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Arminiusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Arndtplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Arndtstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Arnoldstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Athener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Auerberger Allee",
+      "wk": "30"
+    },
+    {
+      "n": "Auerberger Mitte",
+      "wk": "30"
+    },
+    {
+      "n": "Auerhofstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Auestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Auf dem Bachfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Auf dem Brand",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Domhof",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Dransdorfer Berg",
+      "wk": "30"
+    },
+    {
+      "n": "Auf dem Essig",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Freibogen",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Gierolsrott",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Godesberg",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Heidgen",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Hirschberg",
+      "wk": "30"
+    },
+    {
+      "n": "Auf dem Huckstein",
+      "wk": "30"
+    },
+    {
+      "n": "Auf dem Hügel",
+      "b": [
+        {
+          "von": 6,
+          "bis": 6,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 7,
+          "bis": 97,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 14,
+          "bis": 80,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 99,
+          "bis": 125,
+          "par": "b",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Auf dem Junkerfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Kirchbüchel",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Kirchweg",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Maar",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Mühlenberg",
+      "wk": "30"
+    },
+    {
+      "n": "Auf dem Oelsfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Rabenplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Rotkopf",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Schellenberg",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Steinchen",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Tonnenpfad",
+      "wk": "30"
+    },
+    {
+      "n": "Auf dem Uhlberg",
+      "wk": "31"
+    },
+    {
+      "n": "Auf dem Weiler",
+      "wk": "31"
+    },
+    {
+      "n": "Auf den sechs Morgen",
+      "wk": "30"
+    },
+    {
+      "n": "Auf den Steinen",
+      "wk": "31"
+    },
+    {
+      "n": "Auf der Bitzen",
+      "wk": "31"
+    },
+    {
+      "n": "Auf der Clemensbitze",
+      "wk": "30"
+    },
+    {
+      "n": "Auf der Erk",
+      "b": [
+        {
+          "von": 1,
+          "bis": 11,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 12,
+          "bis": 16,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 13,
+          "bis": 13,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 15,
+          "bis": 15,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 17,
+          "bis": 29,
+          "par": "b",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Auf der Heide",
+      "wk": "31"
+    },
+    {
+      "n": "Auf der Hostert",
+      "wk": "31"
+    },
+    {
+      "n": "Auf der Kaiserfuhr",
+      "wk": "31"
+    },
+    {
+      "n": "Auf der Ley",
+      "wk": "31"
+    },
+    {
+      "n": "Auf der Rötschen",
+      "wk": "30"
+    },
+    {
+      "n": "Auf der Schleide",
+      "wk": "30"
+    },
+    {
+      "n": "Auf der Steige",
+      "wk": "31"
+    },
+    {
+      "n": "Auf der Steinkaule",
+      "wk": "30"
+    },
+    {
+      "n": "Auf der Urdel",
+      "wk": "31"
+    },
+    {
+      "n": "August-Bebel-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "August-Bier-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Augustastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Augustinusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Auguststr.",
+      "wk": "30"
+    },
+    {
+      "n": "Augustusring",
+      "wk": "30"
+    },
+    {
+      "n": "Aurelianastr.",
+      "wk": "30"
+    },
+    {
+      "n": "Austr.",
+      "wk": "31"
+    },
+    {
+      "n": "Axenfeldstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Azaleenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Babette-Koch-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Bachaue",
+      "wk": "31"
+    },
+    {
+      "n": "Bachemer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Bachstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Badener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Baguettestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Bahnhofstr.",
+      "b": [
+        {
+          "von": 2,
+          "bis": 11,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 17,
+          "bis": 61,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 62,
+          "bis": 152,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 63,
+          "bis": 67,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 77,
+          "bis": 153,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 157,
+          "bis": 175,
+          "par": "b",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Balthasar-Neumann-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Barbaraweg",
+      "wk": "31"
+    },
+    {
+      "n": "Basaltstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Basketsring",
+      "wk": "31"
+    },
+    {
+      "n": "Basteistr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bataverweg",
+      "wk": "30"
+    },
+    {
+      "n": "Baumschulallee",
+      "wk": "30"
+    },
+    {
+      "n": "Baumstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Baunscheidtstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Beckers Garten",
+      "wk": "31"
+    },
+    {
+      "n": "Beckstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Beethovenallee",
+      "wk": "31"
+    },
+    {
+      "n": "Beethovenplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Beethovenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Behringstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Belderberg",
+      "wk": "30"
+    },
+    {
+      "n": "Belderbuschstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bendenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Bennauerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bennerscheidweg",
+      "wk": "30"
+    },
+    {
+      "n": "Benngasse",
+      "wk": "31"
+    },
+    {
+      "n": "Bergergasse",
+      "wk": "30"
+    },
+    {
+      "n": "Bergfeldstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bergheimer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Berghovener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Bergiusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Bergmeisterstück",
+      "wk": "30"
+    },
+    {
+      "n": "Bergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Beringstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Berliner Freiheit",
+      "wk": "30"
+    },
+    {
+      "n": "Berliner Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Berliner Ring",
+      "wk": "31"
+    },
+    {
+      "n": "Bernard-Custodis-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Berner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Bernhardstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Bernkasteler Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Berta-Lungstras-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Bertha-von-Suttner-Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Beueler Bahnhofsplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Beueler Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Beuthener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Billrothstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Birkenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Birkheuserstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Birlinghovener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Birzentalstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bischofsplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Bismarckallee",
+      "wk": "31"
+    },
+    {
+      "n": "Bismarckstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Bitzerweg",
+      "wk": "30"
+    },
+    {
+      "n": "Blankenbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Blaukehlchenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Blaumeisenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Bleibtreustr.",
+      "wk": "30"
+    },
+    {
+      "n": "Blücherstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Blumenaustr.",
+      "wk": "31"
+    },
+    {
+      "n": "Blumenhof",
+      "wk": "30"
+    },
+    {
+      "n": "Blumenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bodelschwinghstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bodelschwinghweg",
+      "wk": "31"
+    },
+    {
+      "n": "Bodenstaffstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Bonifatiusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Bonner Logsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Bonner Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Bonner Talweg",
+      "b": [
+        {
+          "von": 1,
+          "bis": 65,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 4,
+          "bis": 150,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 67,
+          "bis": 121,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 135,
+          "bis": 175,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 176,
+          "bis": 268,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 269,
+          "bis": 327,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 270,
+          "bis": 276,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 288,
+          "bis": 318,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 328,
+          "bis": 344,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Bonngasse",
+      "wk": "30"
+    },
+    {
+      "n": "Borkenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Bornheimer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Borsigallee",
+      "wk": "31"
+    },
+    {
+      "n": "Bottlerplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Brahmsstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Brandenburger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Brassertufer",
+      "wk": "30"
+    },
+    {
+      "n": "Braunkehlchenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Bredowallee",
+      "wk": "31"
+    },
+    {
+      "n": "Breite Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Breiter Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Brentanostr.",
+      "wk": "31"
+    },
+    {
+      "n": "Breslauer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Briandstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Brieger Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Brigitte-Schröder-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Bröhlweg",
+      "wk": "30"
+    },
+    {
+      "n": "Broichstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Bröltalbahnweg",
+      "wk": "30"
+    },
+    {
+      "n": "Brombeerweg",
+      "wk": "31"
+    },
+    {
+      "n": "Brückenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Brucknerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Brüdergasse",
+      "wk": "30"
+    },
+    {
+      "n": "Brühler Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Brungsgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Brunhildstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Brunnenallee",
+      "wk": "31"
+    },
+    {
+      "n": "Brunnenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Brüsseler Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Büchelgarten",
+      "wk": "30"
+    },
+    {
+      "n": "Büchelstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Buchenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Buchfinkenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Buchholzstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Budapester Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Bukarester Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Bundeskanzlerplatz",
+      "b": [
+        {
+          "von": 1,
+          "bis": 15,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 2,
+          "bis": 6,
+          "par": "g",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Bungartstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Bunsenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Buntspechtweg",
+      "wk": "31"
+    },
+    {
+      "n": "Bunzlauer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Burbacher Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Burbankstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Burgblick",
+      "wk": "31"
+    },
+    {
+      "n": "Bürgerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Burggartenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Burggrafenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Burghofstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Burgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Burgweg",
+      "wk": "30"
+    },
+    {
+      "n": "Bürvigstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Buschackerweg",
+      "wk": "31"
+    },
+    {
+      "n": "Buschdorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Buschgarten",
+      "wk": "30"
+    },
+    {
+      "n": "Buschstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Buschweg",
+      "wk": "30"
+    },
+    {
+      "n": "Büttinghausenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Cäcilienstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Camminer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Camphausenallee",
+      "wk": "31"
+    },
+    {
+      "n": "Carl-Duisberg-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Carl-Justi-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Carl-Schurz-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Carl-Troll-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Carlo-Mense-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Caroline-Herschel-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Cäsariusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Caspar-D.-Friedrich-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Cassiusgraben",
+      "wk": "30"
+    },
+    {
+      "n": "Cellitinnenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Celsiusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Charles-de-Gaulle-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Charles-Wimar-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Charlotte-von-Stein-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Chemnitzer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Cheruskerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Chlodwigplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Christ-König-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Christian-Kölbach-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Christian-Lassen-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Christian-Miesen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Christoph-Fischer-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Clara-Schumann-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Clara-Viebig-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Clara-Wieck-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Clausiusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Clematisweg",
+      "wk": "31"
+    },
+    {
+      "n": "Clemens-August-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Clemens-August-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Clemensstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Clementiaweg",
+      "wk": "31"
+    },
+    {
+      "n": "Coburger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Colmantstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Combahnstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dachsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Dahlienweg",
+      "wk": "30"
+    },
+    {
+      "n": "Dahlmannstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 1,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 2,
+          "bis": 32,
+          "par": "b",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Damaschkestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dankwardstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Danziger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "De-Brezé-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "De-Gasperi-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Dechant-Heimbach-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Dechenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Deichmanns Aue",
+      "wk": "31"
+    },
+    {
+      "n": "Dellweg",
+      "wk": "30"
+    },
+    {
+      "n": "Delpstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Denglerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Derlestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dessaustr.",
+      "wk": "31"
+    },
+    {
+      "n": "Deutschherrenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dietkirchenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dietrich-Bonhoeffer-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Dietrichstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Diezstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Distelfinkweg",
+      "wk": "31"
+    },
+    {
+      "n": "Dixstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Doetschstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dohmstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dollendorfer Allee",
+      "wk": "30"
+    },
+    {
+      "n": "Dollendorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Domhofstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dompfaffenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Don-Bosco-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Donatusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dorfstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dornenkreuzstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dornheckenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dornierstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dorothea-Erxleben-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Dorotheenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dottendorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Drachenburgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Drachenfelsstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Drachenfelsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Dreholzstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dreieck",
+      "wk": "30"
+    },
+    {
+      "n": "Dreizehnmorgenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Dresdener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Dromersheimer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Drosselstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Drosselweg",
+      "wk": "30"
+    },
+    {
+      "n": "Droste-Hülshoff-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Drususstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dubliner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Dunantstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Dürenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Dyroffstr.",
+      "wk": "30"
+    },
+    {
+      "n": "E.-T.-A.-Hoffmann-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ebereschenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Edisonallee",
+      "wk": "31"
+    },
+    {
+      "n": "Edith-Stein-Anlage",
+      "wk": "31"
+    },
+    {
+      "n": "Eduard-Otto-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Eduard-Pflüger-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Eduard-Spoelgen-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Effertzstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Egerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ehrlichstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Eibenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Eichendorffstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Eichenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Eichhörnchenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Eifelstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Einsteinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Eintrachtstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Eisenacher Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Eislebenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Elbestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Elbingstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Elfstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Elisabeth-Daub-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Elisabeth-Enseling-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Elisabeth-Mayer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Elisabeth-Schwarzhaupt-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Elisabethstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Elisestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ellerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ellesdorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Elliger Höhe",
+      "wk": "31"
+    },
+    {
+      "n": "Elsa-Brändström-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Elsässer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Elsternweg",
+      "wk": "31"
+    },
+    {
+      "n": "Eltviller Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Emanuel-Leutze-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Embavenhof",
+      "wk": "31"
+    },
+    {
+      "n": "Emil-Nolde-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Emilie-Heyermann-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Emmy-Noether-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Endenicher Allee",
+      "b": [
+        {
+          "von": 1,
+          "bis": 1,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 2,
+          "bis": 56,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 3,
+          "bis": 3,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 5,
+          "bis": 63,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 60,
+          "bis": 70,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 82,
+          "bis": 146,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Endenicher Str.",
+      "b": [
+        {
+          "von": 6,
+          "bis": 54,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 41,
+          "bis": 53,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 55,
+          "bis": 114,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 125,
+          "bis": 193,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 140,
+          "bis": 140,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 220,
+          "bis": 240,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 246,
+          "bis": 294,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 267,
+          "bis": 293,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 295,
+          "bis": 343,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 345,
+          "bis": 377,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Engelbertzstr.",
+      "b": [
+        {
+          "von": 2,
+          "bis": 28,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 7,
+          "bis": 23,
+          "par": "u",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Engeltalstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Enggasse",
+      "wk": "31"
+    },
+    {
+      "n": "Ennemoserstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ennerthang",
+      "wk": "30"
+    },
+    {
+      "n": "Ennertstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Erftstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Erftweg",
+      "wk": "31"
+    },
+    {
+      "n": "Erfurtstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Erich-Böger-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Erich-Hoffmann-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Erlenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Ermekeilstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ermlandstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ernst-Abbe-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ernst-Meurer-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Ernst-Moritz-Arndt-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Ernst-Robert-Curtius-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Ernststr.",
+      "wk": "30"
+    },
+    {
+      "n": "Erste Fährgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Erzbergerufer",
+      "wk": "30"
+    },
+    {
+      "n": "Eschelbachstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Eschenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Espeler Wiese",
+      "wk": "30"
+    },
+    {
+      "n": "Espenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Estermannstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Estermannufer",
+      "wk": "30"
+    },
+    {
+      "n": "Ettenhausener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Ettighofferstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Etzelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Eulaliastr.",
+      "wk": "30"
+    },
+    {
+      "n": "Eulenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Eupener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Europaring",
+      "wk": "31"
+    },
+    {
+      "n": "Europastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Euskirchener Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Everhardstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ewigstr.",
+      "wk": "30"
+    },
+    {
+      "n": "F.-A.-Schmidt-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Fabristr.",
+      "wk": "30"
+    },
+    {
+      "n": "Fahrenheitstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fährstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Falkenbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Falkenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Fasanenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fasanenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Father-Bill-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Feldstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ferdinand-Lassalle-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ferdinand-Porsche-Str.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 12,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 13,
+          "bis": 33,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 14,
+          "bis": 54,
+          "par": "g",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Ferdinandstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fichtenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Fichtestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fideliostr.",
+      "wk": "30"
+    },
+    {
+      "n": "Finkenbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Finkenhof",
+      "wk": "31"
+    },
+    {
+      "n": "Finkenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Flemingstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Flensburger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Flerzheimer Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Fliederstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Flodelingsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Florastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Florentiusgraben",
+      "wk": "30"
+    },
+    {
+      "n": "Florusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Floßweg",
+      "wk": "31"
+    },
+    {
+      "n": "Flughafenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Flutgraben",
+      "wk": "30"
+    },
+    {
+      "n": "Fockestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fonckstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fontainengraben",
+      "wk": "31"
+    },
+    {
+      "n": "Fontanestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Forellstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Forststr.",
+      "wk": "31"
+    },
+    {
+      "n": "Forstweg",
+      "wk": "30"
+    },
+    {
+      "n": "Frankengraben",
+      "wk": "31"
+    },
+    {
+      "n": "Frankenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Frankenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Fränkische Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Franz-Böckle-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Franz-Buchbender-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Franz-Bücheler-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Franz-Grünkorn-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Franz-Josef-Strauß-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Franz-Linz-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Franz-Lohe-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Franziskanerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Franzstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Frascatistr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fraunhoferstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Frechengasse",
+      "wk": "31"
+    },
+    {
+      "n": "Freier Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Freiligrathstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Freudestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Fridtjof-Nansen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Frieda-Nadig-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Friedensplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Friedenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Friedensweg",
+      "wk": "30"
+    },
+    {
+      "n": "Friedhofstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Friedlandstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Friedrich-Bleek-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Friedrich-Breuer-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Friedrich-Ebert-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Friedrich-Ebert-Brücke",
+      "wk": "30"
+    },
+    {
+      "n": "Friedrich-Ebert-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Friedrich-Friesen-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Friedrich-Hirzebruch-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Friedrich-Schultze-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Friedrich-Wilhelm-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Friedrich-Wöhler-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Friedrichallee",
+      "wk": "31"
+    },
+    {
+      "n": "Friedrichstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Friesdorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Friesenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Friesenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Fritz-Bauer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Fritz-Erler-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Fritz-Schäffer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Fritz-Schroeder-Ufer",
+      "wk": "30"
+    },
+    {
+      "n": "Fritz-Tillmann-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Fröbelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Frongasse",
+      "wk": "31"
+    },
+    {
+      "n": "Fuchsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Fuderbachsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Fuhrweg",
+      "wk": "30"
+    },
+    {
+      "n": "Fürstenbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Fürstenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Füssenichgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Gabelsbergerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Galileistr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gallierweg",
+      "wk": "30"
+    },
+    {
+      "n": "Gallusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gandhistr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gangolfstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Garréstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gartenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gartenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Gaußstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gebrüder-Wright-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Geislarstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Geißlerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gellertstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Genscherallee",
+      "wk": "31"
+    },
+    {
+      "n": "Gensemer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Georg-von-Boeselager-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Georg-Weiß-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Georgstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gerastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gerberaweg",
+      "wk": "31"
+    },
+    {
+      "n": "Gerhard-Domagk-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gerhard-Krause-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Gerhard-Rohlfs-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Gerhard-Samuel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Gerhard-von-Are-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gerhardstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gerhart-Hauptmann-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gerichtsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Germanenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gernotstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Geschwister-Scholl-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Gielgenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gielsdorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gierenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Giergasse",
+      "wk": "30"
+    },
+    {
+      "n": "Gierolstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Giersbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ginsterweg",
+      "wk": "30"
+    },
+    {
+      "n": "Giselherstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Glatzer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gleiwitzer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Glockenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Glogauer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gluckstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Glückstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gneisenaustr.",
+      "wk": "31"
+    },
+    {
+      "n": "Goddardstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Godesberger Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Godesberger Hof",
+      "wk": "31"
+    },
+    {
+      "n": "Godesberger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Goebenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Goerdelerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Goetheallee",
+      "wk": "30"
+    },
+    {
+      "n": "Goethestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Goldbergweg",
+      "wk": "31"
+    },
+    {
+      "n": "Goldfußstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gorch-Fock-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Görlitzer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Görresstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gotenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gothastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Gottbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gottfried-Claren-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gottfried-Kinkel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Grabengasse",
+      "wk": "30"
+    },
+    {
+      "n": "Grabenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Graf-Galen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Graf-Stauffenberg-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Graf-von-Lehndorff-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Grasmückenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Graurheindorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gregor-Mendel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Greifswalder Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Grimmgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Gringsstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Grootestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Großenbuschstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Grubenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Grüner Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Guardinistr.",
+      "wk": "30"
+    },
+    {
+      "n": "Gudenauer Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Gunterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Güßgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Gustav-Kessler-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Gustav-Oel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Gustav-von-Veit-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Gutenbergallee",
+      "wk": "31"
+    },
+    {
+      "n": "Gutenbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Haager Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Haberbitze",
+      "wk": "30"
+    },
+    {
+      "n": "Haberstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Habsburgerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hafenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Haffstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hagenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hainbuchenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hainstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Haldenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hallestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hammstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Händelstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hangelarer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hangelarer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Hangstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hankelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hannah-Arendt-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hans-Böckler-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Hans-Böckler-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hans-Cloos-Str.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 5,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 2,
+          "bis": 2,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 4,
+          "bis": 4,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 6,
+          "bis": 33,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Hans-Grade-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hans-Iwand-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hans-Riegel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hans-Rosenberg-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hans-Sachs-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hans-Steger-Ufer",
+      "wk": "30"
+    },
+    {
+      "n": "Hans-Welzel-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hardtbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hardtstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hardtweg",
+      "wk": "30"
+    },
+    {
+      "n": "Hardtweiherstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Harleßstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hartsteinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hartwig-Hüser-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Haselnußweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hasenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hasertstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hatschiergasse",
+      "wk": "30"
+    },
+    {
+      "n": "Haubenlerchenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hauptstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hausdorffstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hauweg",
+      "wk": "31"
+    },
+    {
+      "n": "Havelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Haydnstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Heckelsgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Heckenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Hedwig-Dransfeld-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hegelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Heidebergenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Heidegartenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Heiderhofring",
+      "wk": "31"
+    },
+    {
+      "n": "Heideweg",
+      "wk": "30"
+    },
+    {
+      "n": "Heidgesallee",
+      "wk": "31"
+    },
+    {
+      "n": "Heilsbachstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Heimkehrerweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hein-Moeller-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinemannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinkelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Behr-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-Blömer-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Böll-Ring",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-Brüning-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Bursch-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-Dittmaier-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Els-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Fritsch-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Heine-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-Hertz-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Konen-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-Körner-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Lübke-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Lützeler-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Nauen-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-Sauer-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-Schneiders-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrich-Settels-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-von-Kleist-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Heinrich-von-Stephan-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Heinrichstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Heisenbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Heisterbacherhofstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Heisterbachstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Helene-Weber-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Helene-Weigel-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Helene-Wessel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Helenenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Helmholtzstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Helsinkistr.",
+      "wk": "30"
+    },
+    {
+      "n": "Henri-Parisot-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Henri-Spaak-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Henriettenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hensstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Herbert-Rabius-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Herderstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hermann-Dienz-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hermann-Ehlers-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hermann-Gmeiner-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hermann-Löns-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hermann-Milde-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hermann-Schlösser-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hermann-Wandersleb-Ring",
+      "wk": "31"
+    },
+    {
+      "n": "Hermannstädter Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hermannstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Herpenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Herrenacker",
+      "wk": "30"
+    },
+    {
+      "n": "Herseler Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Herwarthstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Herzogsfreudenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Heussallee",
+      "wk": "31"
+    },
+    {
+      "n": "Hildebrandstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hildegard-Wegscheider-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Himmelsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Himmerichweg",
+      "wk": "30"
+    },
+    {
+      "n": "Hindenburgallee",
+      "wk": "31"
+    },
+    {
+      "n": "Hinsenkampstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hinter Aue",
+      "wk": "31"
+    },
+    {
+      "n": "Hinter Hoben",
+      "wk": "31"
+    },
+    {
+      "n": "Hirschberger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hirschgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Hittorfstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hobsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hochkreuzallee",
+      "wk": "31"
+    },
+    {
+      "n": "Hochstadenring",
+      "wk": "30"
+    },
+    {
+      "n": "Hofstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hohe Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Höhenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hohenzollernplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Hohenzollernstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hohle Gasse",
+      "wk": "31"
+    },
+    {
+      "n": "Höhlenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hoholzstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Holbeinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hölderlinstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Holtorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Holunderweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hölzebergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Holzgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Holzlarer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Holzlarer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Honnefer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hopmannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Horionstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hospitalweg",
+      "wk": "31"
+    },
+    {
+      "n": "Hosterbacher Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hosterstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hövelweg",
+      "wk": "30"
+    },
+    {
+      "n": "Hoverstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hubert-Jedin-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Hubert-Maurer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hubert-Peter-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hubertinumshof",
+      "wk": "31"
+    },
+    {
+      "n": "Hubertusallee",
+      "wk": "31"
+    },
+    {
+      "n": "Hubertusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hugo-Haelschner-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Hugo-Junkers-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Humboldtstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Humbroichweg",
+      "wk": "30"
+    },
+    {
+      "n": "Hummerichs Bitze",
+      "wk": "30"
+    },
+    {
+      "n": "Humperdinckstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Hundeshagenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hunsrückstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Husarenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Hüttenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Igelweg",
+      "wk": "31"
+    },
+    {
+      "n": "Iltisweg",
+      "wk": "31"
+    },
+    {
+      "n": "Im Acker",
+      "wk": "31"
+    },
+    {
+      "n": "Im Ahlgasserfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Alten Wingert",
+      "wk": "30"
+    },
+    {
+      "n": "Im Apfelgarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Äuelchen",
+      "wk": "31"
+    },
+    {
+      "n": "Im Bachele",
+      "wk": "31"
+    },
+    {
+      "n": "Im Bachfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Bendel",
+      "wk": "31"
+    },
+    {
+      "n": "Im Bendenberg",
+      "wk": "31"
+    },
+    {
+      "n": "Im Birkenfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Im Blankert",
+      "wk": "30"
+    },
+    {
+      "n": "Im Blumengarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Bonnet",
+      "wk": "30"
+    },
+    {
+      "n": "Im Brandengarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Brocken",
+      "wk": "30"
+    },
+    {
+      "n": "Im Buchengrund",
+      "wk": "31"
+    },
+    {
+      "n": "Im Bungert",
+      "wk": "30"
+    },
+    {
+      "n": "Im Burgacker",
+      "wk": "31"
+    },
+    {
+      "n": "Im Dahl",
+      "wk": "30"
+    },
+    {
+      "n": "Im Dohm",
+      "wk": "30"
+    },
+    {
+      "n": "Im Dottenberg",
+      "wk": "31"
+    },
+    {
+      "n": "Im Eichholz",
+      "wk": "31"
+    },
+    {
+      "n": "Im Ellig",
+      "wk": "31"
+    },
+    {
+      "n": "Im Erlenbusch",
+      "wk": "31"
+    },
+    {
+      "n": "Im Erlengrund",
+      "wk": "31"
+    },
+    {
+      "n": "Im Etzental",
+      "wk": "31"
+    },
+    {
+      "n": "Im Feldpütz",
+      "wk": "31"
+    },
+    {
+      "n": "Im Frankenkeller",
+      "wk": "31"
+    },
+    {
+      "n": "Im Gensem",
+      "wk": "30"
+    },
+    {
+      "n": "Im Gerott",
+      "wk": "30"
+    },
+    {
+      "n": "Im Gesetz",
+      "wk": "30"
+    },
+    {
+      "n": "Im Göseler",
+      "wk": "31"
+    },
+    {
+      "n": "Im Gries",
+      "wk": "31"
+    },
+    {
+      "n": "Im großen Garten",
+      "wk": "30"
+    },
+    {
+      "n": "Im grünen Winkel",
+      "wk": "31"
+    },
+    {
+      "n": "Im Hag",
+      "wk": "31"
+    },
+    {
+      "n": "Im Heckengarten",
+      "wk": "30"
+    },
+    {
+      "n": "Im Hellengarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Herrngarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Hohn",
+      "wk": "31"
+    },
+    {
+      "n": "Im Hohnderfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Jagdfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Johdorf",
+      "wk": "30"
+    },
+    {
+      "n": "Im Jonengarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im jungen Wingert",
+      "wk": "31"
+    },
+    {
+      "n": "Im Kirchenbenden",
+      "wk": "31"
+    },
+    {
+      "n": "Im Krausfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Im Kremerich",
+      "wk": "30"
+    },
+    {
+      "n": "Im Maigarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Meisengarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Meisengrund",
+      "wk": "30"
+    },
+    {
+      "n": "Im Michelsfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Im Mohrenfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Im Mühlenbach",
+      "wk": "31"
+    },
+    {
+      "n": "Im Mühlenfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Niederfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Im Pesch",
+      "wk": "31"
+    },
+    {
+      "n": "Im Pfirsichgarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Pützfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Rebgarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Rheinfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Im Rheingarten",
+      "wk": "30"
+    },
+    {
+      "n": "Im Ringelsacker",
+      "wk": "31"
+    },
+    {
+      "n": "Im Röhfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Im Rosenberg",
+      "wk": "31"
+    },
+    {
+      "n": "Im Rosenhag",
+      "wk": "31"
+    },
+    {
+      "n": "Im Rübengarten",
+      "wk": "30"
+    },
+    {
+      "n": "Im Sand",
+      "wk": "30"
+    },
+    {
+      "n": "Im Schildchen",
+      "wk": "30"
+    },
+    {
+      "n": "Im Schmalzacker",
+      "wk": "31"
+    },
+    {
+      "n": "Im Sonnenpütz",
+      "wk": "31"
+    },
+    {
+      "n": "Im Sonnenwinkel",
+      "wk": "31"
+    },
+    {
+      "n": "Im Tannenbusch",
+      "wk": "30"
+    },
+    {
+      "n": "Im Thelenpfand",
+      "wk": "30"
+    },
+    {
+      "n": "Im Uckerfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Uhlengarten",
+      "wk": "30"
+    },
+    {
+      "n": "Im Verbott",
+      "wk": "30"
+    },
+    {
+      "n": "Im Versteck",
+      "wk": "30"
+    },
+    {
+      "n": "Im Vogelsang",
+      "wk": "31"
+    },
+    {
+      "n": "Im Weiler",
+      "wk": "31"
+    },
+    {
+      "n": "Im Weingarten",
+      "wk": "31"
+    },
+    {
+      "n": "Im Wiesengrund",
+      "wk": "31"
+    },
+    {
+      "n": "Im Wiesfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Im Wingert",
+      "wk": "31"
+    },
+    {
+      "n": "Im Winkel",
+      "wk": "30"
+    },
+    {
+      "n": "Im Wolfsgraben",
+      "wk": "31"
+    },
+    {
+      "n": "Im Wurzelbusch",
+      "wk": "31"
+    },
+    {
+      "n": "Im Ziegelfeld",
+      "wk": "30"
+    },
+    {
+      "n": "Immenburgstr.",
+      "b": [
+        {
+          "von": 12,
+          "bis": 31,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 33,
+          "bis": 33,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 38,
+          "bis": 42,
+          "par": "b",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "In den Bieshecken",
+      "wk": "30"
+    },
+    {
+      "n": "In den Dauen",
+      "wk": "30"
+    },
+    {
+      "n": "In den Erlen",
+      "wk": "30"
+    },
+    {
+      "n": "In den Weingärten",
+      "wk": "31"
+    },
+    {
+      "n": "In den Wiesen",
+      "wk": "30"
+    },
+    {
+      "n": "In der Aue",
+      "wk": "31"
+    },
+    {
+      "n": "In der Dahlbitze",
+      "wk": "30"
+    },
+    {
+      "n": "In der Dehlen",
+      "wk": "31"
+    },
+    {
+      "n": "In der Grächt",
+      "wk": "31"
+    },
+    {
+      "n": "In der Kumme",
+      "wk": "31"
+    },
+    {
+      "n": "In der Langhecke",
+      "wk": "31"
+    },
+    {
+      "n": "In der Lies",
+      "wk": "31"
+    },
+    {
+      "n": "In der Maar",
+      "wk": "31"
+    },
+    {
+      "n": "In der Persch",
+      "wk": "30"
+    },
+    {
+      "n": "In der Proffe",
+      "wk": "30"
+    },
+    {
+      "n": "In der Raste",
+      "wk": "31"
+    },
+    {
+      "n": "In der Roten Kanne",
+      "wk": "31"
+    },
+    {
+      "n": "In der Sürst",
+      "wk": "30"
+    },
+    {
+      "n": "In der Wehrhecke",
+      "wk": "31"
+    },
+    {
+      "n": "In der Wieste",
+      "wk": "31"
+    },
+    {
+      "n": "Insterburger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Ippendorfer Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Ippendorfer Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Irmintrudisstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ittenbacher Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Jagdweg",
+      "wk": "31"
+    },
+    {
+      "n": "Jägerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Jägerweg",
+      "wk": "31"
+    },
+    {
+      "n": "Jahnallee",
+      "wk": "31"
+    },
+    {
+      "n": "Jahnstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Jakob-Hengstler-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Jakob-Kaiser-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Jakob-Mager-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Jakobstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Jasminweg",
+      "wk": "30"
+    },
+    {
+      "n": "Jean-Paul-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Jenastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Joachimstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Johann-Bieser-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Johann-Link-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Johann-W.-Schirmer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Johann-Wirtz-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Johanna-Kinkel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Johanna-Kirchner-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Johannes-Henry-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Johannes-Müller-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Johannes-Norbisrath-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Johannes-v.-Hanstein-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Johannesstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Johanniterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Jonas-Cahn-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Josef-Böcker-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Josef-Kuth-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Josef-Schell-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Josef-Thiebes-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Josef-Wirmer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Josefstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Joseph-Beuys-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Joseph-Roth-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Joseph-Schumpeter-Allee",
+      "wk": "30"
+    },
+    {
+      "n": "Julius-Leber-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Julius-Palm-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Julius-Plücker-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Julius-Vorster-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Junkerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Justus-von-Liebig-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Kaiser-Friedrich-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Kaiser-Karl-Ring",
+      "wk": "30"
+    },
+    {
+      "n": "Kaiser-Konrad-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Kaiserplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Kaiserstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kalkuhlstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kallenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kanalstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kaninsberg",
+      "wk": "30"
+    },
+    {
+      "n": "Kannheideweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kantstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kapellenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kapellenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kapitelshof",
+      "wk": "30"
+    },
+    {
+      "n": "Kapuzinerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kardinal-Galen-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Arnold-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Karl-Barth-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Carstens-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Duwe-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Karl-F.-Schinkel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Finkelnburg-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Frowein-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Karl-Hoch-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Karl-Lambertz-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Karl-Legien-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Karl-Leisner-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Marx-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Meisen-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Karl-Wiltberger-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Karlrobert-Kreiten-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Karlstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Karmeliterstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Karthäuserplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Karthäuserstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Käsbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kasernenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kasseler Ley",
+      "wk": "30"
+    },
+    {
+      "n": "Kastanienweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kastellstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Katharina-Focke-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Katharinenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Käthe-Kollwitz-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Kattowitzer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Katzenburgweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kaufmannstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 56,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 57,
+          "bis": 83,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 58,
+          "bis": 58,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Kautexstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kekuléstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Keltenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Kelterweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kelzenbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kennedyallee",
+      "wk": "31"
+    },
+    {
+      "n": "Kennedybrücke",
+      "wk": "30"
+    },
+    {
+      "n": "Keplerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kesselgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Kessenicher Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Kiefernweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kinkelplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Kinkelstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kirchberg",
+      "wk": "31"
+    },
+    {
+      "n": "Kirchfeldstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kirchplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Kirchstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kirchweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kirchweingarten",
+      "wk": "31"
+    },
+    {
+      "n": "Kirschallee",
+      "wk": "31"
+    },
+    {
+      "n": "Klara-M.-Faßbinder-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Klarastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Klausgarten",
+      "wk": "30"
+    },
+    {
+      "n": "Kleine Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Kleinfeldstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kleingartenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Klemens-Hofbauer-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Klosterbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Klosterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Klosterweg",
+      "wk": "30"
+    },
+    {
+      "n": "Klufterbachtal",
+      "wk": "31"
+    },
+    {
+      "n": "Klufterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Koblenzer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Koernickestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kohlbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kohlkauler Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Köhlstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kolberger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Kolfhausstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kollegienweg",
+      "wk": "31"
+    },
+    {
+      "n": "Kollgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Kölnstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kolpingstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kolumbusring",
+      "wk": "31"
+    },
+    {
+      "n": "Kommanderiestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kommendeweg",
+      "wk": "30"
+    },
+    {
+      "n": "Kommentalweg",
+      "wk": "30"
+    },
+    {
+      "n": "Komtureistr.",
+      "wk": "31"
+    },
+    {
+      "n": "Königsberger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Königsberger Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Königsheimstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Königsplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Königstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 38,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 39,
+          "bis": 49,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 40,
+          "bis": 40,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 50,
+          "bis": 66,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 67,
+          "bis": 75,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 68,
+          "bis": 74,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 76,
+          "bis": 97,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Königswinterer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Konrad-Adenauer-Damm",
+      "wk": "31"
+    },
+    {
+      "n": "Konrad-Adenauer-Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Konrad-Zuse-Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Konradstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Konstantinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Konviktstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kopenhagener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Kopernikusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Körnerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kortrijker Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Köslinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kottenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kragstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kranenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Kraterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Krausgäßchen",
+      "wk": "30"
+    },
+    {
+      "n": "Kreisauer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Kreuzbergallee",
+      "wk": "31"
+    },
+    {
+      "n": "Kreuzbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kreuzbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Kreuzherrenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kreuzritterstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kreuzstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kriemhildstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Krokusweg",
+      "wk": "30"
+    },
+    {
+      "n": "Kronprinzenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kronstädter Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Krummfuhr",
+      "wk": "30"
+    },
+    {
+      "n": "Kucksteinweg",
+      "wk": "30"
+    },
+    {
+      "n": "Kuckucksweg",
+      "wk": "31"
+    },
+    {
+      "n": "Küdinghovener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Kunigundenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Küppersgarten",
+      "wk": "30"
+    },
+    {
+      "n": "Kurfürstenallee",
+      "wk": "31"
+    },
+    {
+      "n": "Kurfürstenplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Kurfürstenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Kurlandstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Kurt-G.-Kiesinger-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Kurt-Schumacher-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Küstriner Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ladestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lahnstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lahnweg",
+      "wk": "31"
+    },
+    {
+      "n": "Lambareneweg",
+      "wk": "30"
+    },
+    {
+      "n": "Lambertusweg",
+      "wk": "30"
+    },
+    {
+      "n": "Landgrabenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Landsberger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Langemarckstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Langenbachstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Langenbergsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Langer Grabenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Langgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Langwartweg",
+      "wk": "31"
+    },
+    {
+      "n": "Lannesdorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Lärchenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Laufenbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Laurentiusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Legionsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Lehnpütz",
+      "wk": "31"
+    },
+    {
+      "n": "Leibnizstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Leipziger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Lenaustr.",
+      "wk": "30"
+    },
+    {
+      "n": "Lengsdorfer Hauptstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lengsdorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Lennéstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Leo-Breuer-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Leonardusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lerchenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Lessenicher Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Lessingstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Letterhausstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Leuschnerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Levyweg",
+      "wk": "31"
+    },
+    {
+      "n": "Liebfrauenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Liegnitzer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Ließemer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Liestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Lievelingsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Ligusterweg",
+      "wk": "31"
+    },
+    {
+      "n": "Lilienthalstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lilienweg",
+      "wk": "31"
+    },
+    {
+      "n": "Limpericher Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Lindenallee",
+      "wk": "31"
+    },
+    {
+      "n": "Lindenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Lindenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Lindershausweg",
+      "wk": "30"
+    },
+    {
+      "n": "Lindstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lipschitzstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Lissaboner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Lisztstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Löbestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Loeschckestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Loestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Lohrbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lohrbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Loki-Schmidt-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Londoner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Lortzingstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lotharstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Löwenberger Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Löwenburgstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Löwenburgweg",
+      "wk": "30"
+    },
+    {
+      "n": "Lübener Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Lucas-Cranach-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Lückingstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ludwig-Erhard-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Ludwig-Erhard-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Ludwig-Richter-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ludwig-Schopp-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Luigi-Pirandello-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Luisenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lupinenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Lutfridstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Lützowstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Luxemburger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Lyngsbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Maarflach",
+      "wk": "30"
+    },
+    {
+      "n": "Maarhofplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Maarstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Maarweg",
+      "wk": "31"
+    },
+    {
+      "n": "Mackestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Madridstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Magdalenenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Magdalenenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Magdeburger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Magnolienweg",
+      "wk": "31"
+    },
+    {
+      "n": "Maidenheadstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mainzer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Malgisostr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mallwitzstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Malteserstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Malusiusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mandelbaumweg",
+      "wk": "31"
+    },
+    {
+      "n": "Marchstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Margaretenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Margarethenplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Maria-Montessori-Allee",
+      "wk": "30"
+    },
+    {
+      "n": "Maria-Tiefenbacher-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Marie-Curie-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Marie-Elisabeth-Lüders-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Marie-Kahle-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Marienburger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Marienforster Promenade",
+      "wk": "31"
+    },
+    {
+      "n": "Marienforster Steinweg",
+      "wk": "31"
+    },
+    {
+      "n": "Marienforster Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Marienstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Markt",
+      "wk": "30"
+    },
+    {
+      "n": "Marktbrücke",
+      "wk": "30"
+    },
+    {
+      "n": "Marktstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Markusplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Markusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Marta-Worringer-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Martin-Görgens-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Martin-Legros-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Martin-Luther-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Martin-Luther-King-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Martinsplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Martinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mary-Wigman-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Masurenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Mathonetstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Matthäistr.",
+      "wk": "31"
+    },
+    {
+      "n": "Matthias-Grünewald-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Mauerseglerweg",
+      "wk": "31"
+    },
+    {
+      "n": "Mauspfad",
+      "wk": "30"
+    },
+    {
+      "n": "Max-Born-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Max-Bruch-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Max-Cohen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Max-Ernst-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Max-Franz-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Max-Habermann-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Max-Löbner-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Max-Planck-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Maximilianstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Maxstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mechenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Meckenheimer Allee",
+      "b": [
+        {
+          "von": 65,
+          "bis": 88,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 89,
+          "bis": 107,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 90,
+          "bis": 100,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 108,
+          "bis": 164,
+          "par": "b",
+          "wk": "30"
+        },
+        {
+          "von": 169,
+          "bis": 169,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 171,
+          "bis": 171,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 176,
+          "bis": 180,
+          "par": "b",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Meckenheimer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Mecklenburger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Meerhausener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Meersburgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mehlbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Mehlemer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Mehlemstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Meindorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Meisenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Meitnerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Melbweg",
+      "wk": "31"
+    },
+    {
+      "n": "Memelweg",
+      "wk": "30"
+    },
+    {
+      "n": "Mendelssohnstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mendener Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Menuhinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Merianstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Merler Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Merowingerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mertensgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Meßdorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Messerschmittstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Michael-Leveilly-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Michael-Piel-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Michaelplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Michaelstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Milchgasserweg",
+      "wk": "30"
+    },
+    {
+      "n": "Mildred-Scheel-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Mirbachstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mirecourtstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mittelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Modestusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mohnweg",
+      "wk": "30"
+    },
+    {
+      "n": "Mohrenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mohrstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Moltkeplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Moltkestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mondorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Monheimstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mönkemöllerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Monschauer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Mordkapellenpfad",
+      "wk": "31"
+    },
+    {
+      "n": "Mörikestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Morseweg",
+      "wk": "31"
+    },
+    {
+      "n": "Moselstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Moselweg",
+      "wk": "31"
+    },
+    {
+      "n": "Mozartstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Muffendorfer Hauptstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Muffendorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Mühlenbachstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mühlenpfad",
+      "wk": "31"
+    },
+    {
+      "n": "Mühlenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Mühlenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Müldorfer Anger",
+      "wk": "30"
+    },
+    {
+      "n": "Müldorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Mülheimer Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Münsterberger Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Münsterplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Münsterstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Mutter-Barat-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Mutter-Theresa-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Nachtigallenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Nachtigallenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Nahestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Naheweg",
+      "wk": "31"
+    },
+    {
+      "n": "Narzissenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Nassestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Naumburger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Neckarstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Neefestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Neißestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Nelkenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Nelly-Sachs-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Nesselroder Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Netzestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Neuenahrer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Neuer Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Neustr.",
+      "wk": "30"
+    },
+    {
+      "n": "Newtonstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Nibelungenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Nideggerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Niebuhrstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Niederkasseler Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Niersteiner Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Nietzschestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Nikolaus-Becker-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Nikolaus-Groß-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Nikolausstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Nipkowstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Noeggerathstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Nonnenpfad",
+      "wk": "30"
+    },
+    {
+      "n": "Nonnenstrombergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Nonnstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Nordstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Nußallee",
+      "wk": "31"
+    },
+    {
+      "n": "Oberaustr.",
+      "wk": "31"
+    },
+    {
+      "n": "Oberdorfstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Obere Wilhelmstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Oberer Lindweg",
+      "wk": "31"
+    },
+    {
+      "n": "Oberkasseler Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Oberkasseler Ufer",
+      "wk": "30"
+    },
+    {
+      "n": "Obernierstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Oberstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Oderstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Oedekovener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Oeliedenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Oelser Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Offenbachstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ölbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ölbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Ollenhauerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Oppelner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Oppenhoffstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Orchideenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Ortwinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Oscar-Romero-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Oskar-Walzel-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Osloer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Ossietzkystr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ostpreußenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ostseestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Oststr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ostwaldstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Oswald-Achenbach-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Otto-Hahn-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Otto-Kühne-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Otto-Müller-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Oxfordstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Paffelsbergplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Pappelweg",
+      "wk": "31"
+    },
+    {
+      "n": "Paracelsusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Pariser Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Parkweg",
+      "wk": "31"
+    },
+    {
+      "n": "Pascalstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Pastoratsgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Paul-Clemen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Paul-Kemp-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Paul-Langen-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Paul-Magar-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Paul-Martini-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Paul-Schumacher-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Paulstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Paulusplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Paulusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Pecher Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Peenestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Pennefeldsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Perthesanlage",
+      "wk": "30"
+    },
+    {
+      "n": "Peter-Clever-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Peter-Heider-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Peter-Hensen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Peter-Klein-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Peter-Ohlenhardt-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Peter-Ruster-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Peter-Schwingen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Petersbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Petersbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Peterstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Peterweg",
+      "wk": "30"
+    },
+    {
+      "n": "Petrusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Pfaffenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Pfälzer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Pfarrer-Byns-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Pfarrer-Marten-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Pfarrer-Martini-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Pfarrer-Merck-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Pfarrer-Minartz-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Pfarrer-Pohl-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Pfarrer-Schneider-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Philipp-Reis-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Philippsonstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Philosophenring",
+      "wk": "31"
+    },
+    {
+      "n": "Pilgerweg",
+      "wk": "30"
+    },
+    {
+      "n": "Pionierstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Pipinstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Pirolweg",
+      "wk": "31"
+    },
+    {
+      "n": "Platanenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Platz der Deutschen Post",
+      "wk": "31"
+    },
+    {
+      "n": "Platz der Vereinten Nationen",
+      "wk": "31"
+    },
+    {
+      "n": "Pleimesstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Plittersdorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Pommernstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Poppelsdorfer Allee",
+      "b": [
+        {
+          "von": 15,
+          "bis": 31,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 24,
+          "bis": 40,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 35,
+          "bis": 51,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 41,
+          "bis": 114,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 53,
+          "bis": 81,
+          "par": "u",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Portlandweg",
+      "wk": "30"
+    },
+    {
+      "n": "Posener Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Poststr.",
+      "wk": "30"
+    },
+    {
+      "n": "Potsdamer Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Prager Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Pregelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Primelweg",
+      "wk": "30"
+    },
+    {
+      "n": "Prinz-Albert-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Prinz-Löwenstein-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Prinzenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Professor-Dennert-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Professor-Huber-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Professor-Neu-Allee",
+      "wk": "30"
+    },
+    {
+      "n": "Promenadenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Provinzialstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Pützchens Chaussee",
+      "wk": "30"
+    },
+    {
+      "n": "Pützchensweg",
+      "wk": "30"
+    },
+    {
+      "n": "Pützfelder Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Pützhecke",
+      "wk": "30"
+    },
+    {
+      "n": "Pützstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Pützweg",
+      "wk": "30"
+    },
+    {
+      "n": "Quantiusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Quellenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Quellenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Quirinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Quirinusplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Rabinstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Raiffeisenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ramersdorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Rastenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Rathausgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Rathausstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rathenauufer",
+      "wk": "30"
+    },
+    {
+      "n": "Ratiborstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rauchlochweg",
+      "wk": "30"
+    },
+    {
+      "n": "Réaumurstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Redoutenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Regerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Regina-Pacis-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Rehfuesstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Reichenbacher Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Reichsstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Reifenbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Reinold-Hagen-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Remigiusplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Remigiusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "René-Schickele-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Renoisstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Reuterstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 4,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 6,
+          "bis": 39,
+          "par": "b",
+          "wk": "31"
+        },
+        {
+          "von": 40,
+          "bis": 110,
+          "par": "g",
+          "wk": "31"
+        },
+        {
+          "von": 41,
+          "bis": 57,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 59,
+          "bis": 187,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 112,
+          "bis": 128,
+          "par": "g",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Reykjavikstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rhedenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rheinallee",
+      "wk": "31"
+    },
+    {
+      "n": "Rheinaustr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rheinbacher Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Rheinbleichardweg",
+      "wk": "31"
+    },
+    {
+      "n": "Rheindorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Rheingasse",
+      "wk": "30"
+    },
+    {
+      "n": "Rheingoldstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rheinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rheinweg",
+      "wk": "31"
+    },
+    {
+      "n": "Rheinwerkallee",
+      "wk": "30"
+    },
+    {
+      "n": "Rhenusallee",
+      "wk": "30"
+    },
+    {
+      "n": "Rhodosstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rhöndorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ria-Maternus-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Richard-Scherer-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Richard-Wagner-Str.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 61,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 2,
+          "bis": 32,
+          "par": "g",
+          "wk": "30"
+        },
+        {
+          "von": 34,
+          "bis": 54,
+          "par": "g",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Richthofenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rieckweg",
+      "wk": "31"
+    },
+    {
+      "n": "Riegelerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Riemannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Riemenschneiderstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Riesengebirgsstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Riesstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rilkestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Ringstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rita-Maiburg-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Rittershausstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Robelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Robert-Havemann-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Robert-Koch-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Robert-Schuman-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Robinienweg",
+      "wk": "31"
+    },
+    {
+      "n": "Rochusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rochusweg",
+      "wk": "31"
+    },
+    {
+      "n": "Röckesbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Röckumstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rodderbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rödderstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Roderichstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rodeweg",
+      "wk": "30"
+    },
+    {
+      "n": "Röhfeldstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Roisdorfer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Rolandstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rolandswerther Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Roleberstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rölsdorfstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Römerplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Römerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Römerweg",
+      "wk": "30"
+    },
+    {
+      "n": "Römlinghovener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Roncallistr.",
+      "wk": "30"
+    },
+    {
+      "n": "Röntgenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Roonstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rosenbach",
+      "wk": "30"
+    },
+    {
+      "n": "Rosenburgweg",
+      "wk": "31"
+    },
+    {
+      "n": "Rosenhain",
+      "wk": "31"
+    },
+    {
+      "n": "Rosenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rosental",
+      "wk": "30"
+    },
+    {
+      "n": "Rosenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Rostocker Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Rotdornweg",
+      "wk": "31"
+    },
+    {
+      "n": "Rothwiesenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Rotkehlchenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Rottenburgstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Röttgener Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Rottlandstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Rotweingarten",
+      "wk": "31"
+    },
+    {
+      "n": "Rubensstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rückelswiese",
+      "wk": "30"
+    },
+    {
+      "n": "Rude-Krüzche-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Rüdesheimer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Rüdigerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Rudolf-Hahn-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Rudolf-Herzog-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Rudolf-Stöcker-Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Rüngsdorfer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Rurweg",
+      "wk": "31"
+    },
+    {
+      "n": "Rüsterstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Saalestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Saarbrückener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Saarstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Saarweg",
+      "wk": "31"
+    },
+    {
+      "n": "Sachsenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Sachsenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Saemischstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Saime-Genc-Ring",
+      "wk": "30"
+    },
+    {
+      "n": "Saint-Cloud-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Salamanderweg",
+      "wk": "30"
+    },
+    {
+      "n": "Samansstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Samlandstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Sandkaule",
+      "wk": "30"
+    },
+    {
+      "n": "Sandorfstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Sankt Augustiner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Sankt-Augustinus-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Saynstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schaaffhausenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schallengasse",
+      "wk": "31"
+    },
+    {
+      "n": "Scharnhorststr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schaumburg-Lippe-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Schedestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Scheidfeldstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schenkendorfstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schevastesstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schickgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Schieffelingsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Schießbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Schießstandweg",
+      "wk": "31"
+    },
+    {
+      "n": "Schillerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schillingsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Schlegelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schlehenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Schleichstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schleidener Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Schlesienstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schloßallee",
+      "wk": "31"
+    },
+    {
+      "n": "Schloßstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schmidtbonnstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schmittenpfädchen",
+      "wk": "31"
+    },
+    {
+      "n": "Schmittgasser Kirchweg",
+      "wk": "31"
+    },
+    {
+      "n": "Schmittstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schneidemühler Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Schnorrenbergstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schnufertsberg",
+      "wk": "30"
+    },
+    {
+      "n": "Schönfeldstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schönwaldhaus",
+      "wk": "31"
+    },
+    {
+      "n": "Schopenhauerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schubertstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schüllerweg",
+      "wk": "31"
+    },
+    {
+      "n": "Schulplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Schulstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schultheißgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Schultheißstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schumannstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schützengraben",
+      "wk": "31"
+    },
+    {
+      "n": "Schützenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Schwalbengarten",
+      "wk": "31"
+    },
+    {
+      "n": "Schwalbenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Schwannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Schwarzbirkenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Schwarzer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Schweidnitzer Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Schweinheimer Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Schwertberger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Schwester-Melania-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Sebastianstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Sebastianusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Sebastianusweg",
+      "wk": "31"
+    },
+    {
+      "n": "Sedanstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Seehausstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Semmelweisstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Sertürnerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Servatiusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Servitenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Seufertstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Severinsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Sibyllenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Siebenbürgenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Siebengebirgsstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Siebenmorgenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Siegauenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Siegburger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Siegfried-Leopold-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Siegfriedstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Siegstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Siegweg",
+      "wk": "31"
+    },
+    {
+      "n": "Siemensstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Sigambrerweg",
+      "wk": "30"
+    },
+    {
+      "n": "Sigmund-Freud-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Simone-Veil-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Simonstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Simrockallee",
+      "wk": "31"
+    },
+    {
+      "n": "Simrockstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Soenneckenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Sommerbergweg",
+      "wk": "31"
+    },
+    {
+      "n": "Sonnenhag",
+      "wk": "31"
+    },
+    {
+      "n": "Sonnenhof",
+      "wk": "30"
+    },
+    {
+      "n": "Sonnenscheinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Sonnenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Spatzenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Spechtweg",
+      "wk": "31"
+    },
+    {
+      "n": "Sperberweg",
+      "wk": "31"
+    },
+    {
+      "n": "Spessartstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Spichernstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Spiegelhofstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Splickgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Spreestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Sprottauer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Starenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Stationsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Stegerwaldstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Steglitzer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Steinacker",
+      "wk": "30"
+    },
+    {
+      "n": "Steinbruchweg",
+      "wk": "30"
+    },
+    {
+      "n": "Steinerstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Steingasse",
+      "wk": "31"
+    },
+    {
+      "n": "Steinpilzweg",
+      "wk": "31"
+    },
+    {
+      "n": "Steinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Steinweg",
+      "wk": "31"
+    },
+    {
+      "n": "Stenzelbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Stephan-Lochner-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Stephanstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Sternenburgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Sternstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Sterntorbrücke",
+      "wk": "30"
+    },
+    {
+      "n": "Stettiner Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Steubenring",
+      "wk": "31"
+    },
+    {
+      "n": "Stieglitzweg",
+      "wk": "30"
+    },
+    {
+      "n": "Stieldorfer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Stiftsgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Stiftsplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Stiftsstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Stirzenhofstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Stockenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Stockholmer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Stolpmünder Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Stolpstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Strackhofstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Stralsunder Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Straßburger Weg",
+      "wk": "31"
+    },
+    {
+      "n": "Sträßchensweg",
+      "wk": "31"
+    },
+    {
+      "n": "Streffenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Stresemannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Stroofstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Stüffgenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Sudetenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Südstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Suebenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Susanne-Miller-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Swinemünder Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Talstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Talweg",
+      "wk": "30"
+    },
+    {
+      "n": "Tannenallee",
+      "wk": "31"
+    },
+    {
+      "n": "Tannenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Taunusstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Teichstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Telemannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Tempelstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Tentenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Teufelsbachweg",
+      "wk": "30"
+    },
+    {
+      "n": "Teutonenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Theaterplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Theaterstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Theodor-Brinkmann-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Theodor-Heuss-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Theodor-Litt-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Therese-Giehse-Weg",
+      "wk": "30"
+    },
+    {
+      "n": "Theresienau",
+      "wk": "30"
+    },
+    {
+      "n": "Theresienweg",
+      "wk": "31"
+    },
+    {
+      "n": "Thielstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Thomas-Mann-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Thomastr.",
+      "wk": "30"
+    },
+    {
+      "n": "Thuarstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Thüringer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Thusneldastr.",
+      "wk": "30"
+    },
+    {
+      "n": "Tilsiter Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Tränkweg",
+      "wk": "30"
+    },
+    {
+      "n": "Trierer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Troschelstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Truchseßstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Tulpenbaumweg",
+      "wk": "31"
+    },
+    {
+      "n": "Tulpenfeld",
+      "wk": "31"
+    },
+    {
+      "n": "Tulpenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Turmfalkenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Turmstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ubierstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ubierweg",
+      "wk": "30"
+    },
+    {
+      "n": "Uhlandstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Uhlgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Ulmenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Ulrich-Haberland-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Ulrich-von-Hassell-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Ungartenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Urstadtstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ursulastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Ürziger Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Usenerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Utestr.",
+      "wk": "31"
+    },
+    {
+      "n": "Václav-Havel-Platz",
+      "wk": "30"
+    },
+    {
+      "n": "Veilchenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Venantiusstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Venner Kirchweg",
+      "wk": "31"
+    },
+    {
+      "n": "Venner Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Venusberg-Campus",
+      "wk": "31"
+    },
+    {
+      "n": "Venusbergweg",
+      "wk": "31"
+    },
+    {
+      "n": "Verdistr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 43,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 2,
+          "bis": 28,
+          "par": "g",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Verweyenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Vikariegasse",
+      "wk": "31"
+    },
+    {
+      "n": "Viktor-Schnitzler-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Viktoriaplatz",
+      "wk": "31"
+    },
+    {
+      "n": "Viktoriastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Vilicher Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Villemombler Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Villenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Villichgasse",
+      "wk": "31"
+    },
+    {
+      "n": "Villiper Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Vinzenzstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Virchowstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Vivatsgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Vogtsgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Volkerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-den-Driesch-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Von-der-Heydt-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Groote-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Guericke-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Halberg-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Hompesch-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Hymmen-Platz",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Ketteler-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Von-Kügelgen-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Lapp-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Müllenark-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Pfingsten-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Von-Sandt-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Von-Sandt-Ufer",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Weichs-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Von-Witzleben-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Vorgebirgsbahnweg",
+      "wk": "30"
+    },
+    {
+      "n": "Vorgebirgsstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Vulkanstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Waasemstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wacholderweg",
+      "wk": "31"
+    },
+    {
+      "n": "Wachsbleiche",
+      "wk": "30"
+    },
+    {
+      "n": "Wachtelweg",
+      "wk": "31"
+    },
+    {
+      "n": "Waldauweg",
+      "wk": "31"
+    },
+    {
+      "n": "Waldburgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Waldenburger Ring",
+      "wk": "30"
+    },
+    {
+      "n": "Waldmeisenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Waldstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Waldweg",
+      "wk": "30"
+    },
+    {
+      "n": "Wallfahrtsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Walramstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Warschauer Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wasserland",
+      "wk": "31"
+    },
+    {
+      "n": "Wasserturmstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Weberstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Wegelerstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 13,
+          "par": "u",
+          "wk": "30"
+        },
+        {
+          "von": 2,
+          "bis": 14,
+          "par": "g",
+          "wk": "31"
+        }
+      ]
+    },
+    {
+      "n": "Wehrhausweg",
+      "wk": "30"
+    },
+    {
+      "n": "Weidengarten",
+      "wk": "31"
+    },
+    {
+      "n": "Weidenpeschweg",
+      "wk": "30"
+    },
+    {
+      "n": "Weidenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Weidenweg",
+      "wk": "30"
+    },
+    {
+      "n": "Weierbornstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Weiers Wiesen",
+      "wk": "30"
+    },
+    {
+      "n": "Weiherpfad",
+      "wk": "31"
+    },
+    {
+      "n": "Weiherstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Weilbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Weimarer Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Weinbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Weinbergweg",
+      "wk": "30"
+    },
+    {
+      "n": "Weinheimstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Weinrosenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Weißdornweg",
+      "wk": "31"
+    },
+    {
+      "n": "Weißenburgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Weißstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Welckerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Welfenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Welrichsweg",
+      "wk": "30"
+    },
+    {
+      "n": "Welschnonnenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Wendelstadtallee",
+      "wk": "31"
+    },
+    {
+      "n": "Wenzelgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Werdstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Werftstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Werner-Körvers-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wernher-von-Braun-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wesendonckstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 13,
+          "par": "u",
+          "wk": "31"
+        },
+        {
+          "von": 2,
+          "bis": 18,
+          "par": "g",
+          "wk": "30"
+        }
+      ]
+    },
+    {
+      "n": "Wesselheideweg",
+      "wk": "31"
+    },
+    {
+      "n": "Wesselstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Westpreußenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Weststr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wichernstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wichterichstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wiedemannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wiedstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wielandstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wielsgäßchen",
+      "wk": "31"
+    },
+    {
+      "n": "Wielstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wiener Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wieselweg",
+      "wk": "31"
+    },
+    {
+      "n": "Wiesenweg",
+      "wk": "31"
+    },
+    {
+      "n": "Wilfried-Hatzfeld-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wilhelm-Flohe-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wilhelm-Kerp-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Wilhelm-Levison-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Wilhelm-Neuss-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wilhelm-Spiritus-Ufer",
+      "wk": "30"
+    },
+    {
+      "n": "Wilhelmsplatz",
+      "wk": "30"
+    },
+    {
+      "n": "Wilhelmstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Willi-Graf-Ring",
+      "wk": "30"
+    },
+    {
+      "n": "Willy-Brandt-Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Windeckstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Windgassenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Windmühlenstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Winkelsweg",
+      "wk": "31"
+    },
+    {
+      "n": "Winston-Churchill-Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Winterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Winzerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wittelsbacherring",
+      "wk": "30"
+    },
+    {
+      "n": "Wittelsbacherstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wittenbergstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Witterschlicker Allee",
+      "wk": "31"
+    },
+    {
+      "n": "Witterschlicker Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Wittestr.",
+      "wk": "30"
+    },
+    {
+      "n": "Wolfgang-Paul-Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wolfsgasse",
+      "wk": "30"
+    },
+    {
+      "n": "Wolfstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Wolkenburgstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wolkenburgweg",
+      "wk": "30"
+    },
+    {
+      "n": "Wolterstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wörthstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Wupperstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Württemberger Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Wurzerstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Yalovastr.",
+      "wk": "31"
+    },
+    {
+      "n": "Yorckstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Zanderstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Zedernweg",
+      "wk": "31"
+    },
+    {
+      "n": "Zeisigweg",
+      "wk": "30"
+    },
+    {
+      "n": "Zeller Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Zeppelinstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Zietenstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Zingsheimstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Zipperstr.",
+      "wk": "30"
+    },
+    {
+      "n": "Zitelmannstr.",
+      "wk": "31"
+    },
+    {
+      "n": "Zoppoter Str.",
+      "wk": "30"
+    },
+    {
+      "n": "Zülpicher Str.",
+      "wk": "31"
+    },
+    {
+      "n": "Zum Kempenberg",
+      "wk": "31"
+    },
+    {
+      "n": "Zum Wingertsberg",
+      "wk": "31"
+    },
+    {
+      "n": "Zur Marterkapelle",
+      "wk": "31"
+    },
+    {
+      "n": "Zur Saalkirche",
+      "wk": "30"
+    },
+    {
+      "n": "Zweimühlenweg",
+      "wk": "30"
+    }
+  ]
+}

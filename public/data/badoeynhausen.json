@@ -1,0 +1,3748 @@
+{
+  "meta": {
+    "kommune": "Bad Oeynhausen",
+    "stand": "2025-09",
+    "gebaut_am": "2026-09-14",
+    "quellen": [
+      "https://wahl.owl-it.de/kw2025/05770004/daten/opendata/opendata-strassen.csv"
+    ],
+    "zuordnung": "gesetzesanlage"
+  },
+  "wahlkreise": {
+    "89": "Minden-Lübbecke II",
+    "91": "Herford II - Minden-Lübbecke III"
+  },
+  "strassen": [
+    {
+      "n": "Aalstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Ackerstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Ahornweg",
+      "wk": "89"
+    },
+    {
+      "n": "Albert-Rusch-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Albert-Schweitzer-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Alexander-Schmorell-Str.",
+      "wk": "89"
+    },
+    {
+      "n": "Allensteiner Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Alte Loher Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Alte Reichsstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Alter Garten",
+      "wk": "91"
+    },
+    {
+      "n": "Alter Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Alter Mindener Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Alter Postweg",
+      "wk": "91"
+    },
+    {
+      "n": "Alter Rehmer Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Alter Salzweg",
+      "wk": "91"
+    },
+    {
+      "n": "Alter Schulweg",
+      "wk": "89"
+    },
+    {
+      "n": "Am Adlerhorst",
+      "wk": "89"
+    },
+    {
+      "n": "Am Bauernholz",
+      "wk": "89"
+    },
+    {
+      "n": "Am Bergacker",
+      "wk": "91"
+    },
+    {
+      "n": "Am Berge",
+      "wk": "91"
+    },
+    {
+      "n": "Am Birkenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Am Bonneberg",
+      "wk": "89"
+    },
+    {
+      "n": "Am Borsiek",
+      "wk": "89"
+    },
+    {
+      "n": "Am Brinkkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Am Buchenberg",
+      "wk": "91"
+    },
+    {
+      "n": "Am Buchenhang",
+      "wk": "91"
+    },
+    {
+      "n": "Am Busch",
+      "wk": "91"
+    },
+    {
+      "n": "Am Großen Weserbogen",
+      "wk": "91"
+    },
+    {
+      "n": "Am Hagen",
+      "wk": "91"
+    },
+    {
+      "n": "Am Hallenbad",
+      "wk": "89"
+    },
+    {
+      "n": "Am Hambkebach",
+      "wk": "89"
+    },
+    {
+      "n": "Am Hang",
+      "wk": "91"
+    },
+    {
+      "n": "Am Häuhnerbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Am Hellberge",
+      "wk": "89"
+    },
+    {
+      "n": "Am Hohen Feld",
+      "wk": "89"
+    },
+    {
+      "n": "Am Hohen Ufer",
+      "wk": "91"
+    },
+    {
+      "n": "Am Horstkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Am Hüttensiek",
+      "wk": "89"
+    },
+    {
+      "n": "Am Klosterbrink",
+      "wk": "89"
+    },
+    {
+      "n": "Am Kokturkanal",
+      "wk": "89"
+    },
+    {
+      "n": "Am Königsholz",
+      "wk": "89"
+    },
+    {
+      "n": "Am Kurpark",
+      "wk": "89"
+    },
+    {
+      "n": "Am Lausiek",
+      "wk": "91"
+    },
+    {
+      "n": "Am Lehmstich",
+      "wk": "91"
+    },
+    {
+      "n": "Am Lohfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Am Lohpohl",
+      "wk": "91"
+    },
+    {
+      "n": "Am Maibaum",
+      "wk": "91"
+    },
+    {
+      "n": "Am Meierbach",
+      "wk": "91"
+    },
+    {
+      "n": "Am Meierhof",
+      "wk": "91"
+    },
+    {
+      "n": "Am Moorbad",
+      "wk": "91"
+    },
+    {
+      "n": "Am Mühlenteich",
+      "wk": "89"
+    },
+    {
+      "n": "Am Muldedamm",
+      "wk": "91"
+    },
+    {
+      "n": "Am Niederfeld",
+      "wk": "89"
+    },
+    {
+      "n": "Am Nordbahnhof",
+      "wk": "89"
+    },
+    {
+      "n": "Am Ortkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Am Osterbach",
+      "wk": "89"
+    },
+    {
+      "n": "Am Schäferfeld",
+      "wk": "89"
+    },
+    {
+      "n": "Am Schürsieksfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Am Schwedenstein",
+      "wk": "89"
+    },
+    {
+      "n": "Am Siel",
+      "wk": "91"
+    },
+    {
+      "n": "Am Sonnenhang",
+      "wk": "91"
+    },
+    {
+      "n": "Am Sportplatz",
+      "wk": "91"
+    },
+    {
+      "n": "Am Sprickerholz",
+      "wk": "89"
+    },
+    {
+      "n": "Am Steinfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Am Südfeld",
+      "wk": "89"
+    },
+    {
+      "n": "Am Thie",
+      "wk": "91"
+    },
+    {
+      "n": "Am Urnenfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Am Vorberg",
+      "wk": "91"
+    },
+    {
+      "n": "Am Vossiek",
+      "wk": "91"
+    },
+    {
+      "n": "Am Wasserwerk",
+      "wk": "89"
+    },
+    {
+      "n": "Am Wehr",
+      "wk": "91"
+    },
+    {
+      "n": "Am Werredamm",
+      "wk": "91"
+    },
+    {
+      "n": "Am Weserufer",
+      "wk": "91"
+    },
+    {
+      "n": "Am Westkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Am Wiehen",
+      "wk": "91"
+    },
+    {
+      "n": "Am Wiesendamm",
+      "wk": "91"
+    },
+    {
+      "n": "Am Wiesental",
+      "wk": "89"
+    },
+    {
+      "n": "Am Wiesk",
+      "wk": "91"
+    },
+    {
+      "n": "Am Wulfsbach",
+      "wk": "91"
+    },
+    {
+      "n": "Am Ziegenbach",
+      "wk": "89"
+    },
+    {
+      "n": "Amselweg",
+      "wk": "89"
+    },
+    {
+      "n": "Amtshausberger Weg",
+      "wk": "89"
+    },
+    {
+      "n": "An den Mühlwiesen",
+      "wk": "89"
+    },
+    {
+      "n": "An der Aula",
+      "wk": "91"
+    },
+    {
+      "n": "An der Autobahn",
+      "wk": "89"
+    },
+    {
+      "n": "An der Ebenöde",
+      "wk": "89"
+    },
+    {
+      "n": "An der Realschule",
+      "wk": "91"
+    },
+    {
+      "n": "An der Schloßmühle",
+      "wk": "91"
+    },
+    {
+      "n": "An der Steinfurt",
+      "wk": "91"
+    },
+    {
+      "n": "An der Südbahn",
+      "wk": "89"
+    },
+    {
+      "n": "An Schnatsmeiers Busch",
+      "wk": "89"
+    },
+    {
+      "n": "Anemonenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Anne-Frank-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Anne-Lindbergh-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Anselm-Feuerbach-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Apostelweg",
+      "wk": "91"
+    },
+    {
+      "n": "Appelkampstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Arminiusstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Arndtstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Arnimweg",
+      "wk": "89"
+    },
+    {
+      "n": "Arnold-Böcklin-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Aack",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Acker",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Berg",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Domhof",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Eichheister",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Gehren",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Heidkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Keile",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Kley",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Knick",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Köppen",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Plaase",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Rottwiehe",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Schlage",
+      "wk": "91"
+    },
+    {
+      "n": "Auf dem Siekorn",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Spielen",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Strüh",
+      "wk": "89"
+    },
+    {
+      "n": "Auf dem Wörden",
+      "wk": "91"
+    },
+    {
+      "n": "Auf den Blöcken",
+      "wk": "91"
+    },
+    {
+      "n": "Auf den Enden",
+      "wk": "89"
+    },
+    {
+      "n": "Auf den Planken",
+      "wk": "89"
+    },
+    {
+      "n": "Auf den Vier Stücken",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Bockhorst",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Brake",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Brede",
+      "wk": "89"
+    },
+    {
+      "n": "Auf der Brockschmiede",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Bülte",
+      "wk": "89"
+    },
+    {
+      "n": "Auf der Goldkuhle",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Höhe",
+      "wk": "89"
+    },
+    {
+      "n": "Auf der Horst",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Hude",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Lohe",
+      "wk": "89"
+    },
+    {
+      "n": "Auf der Spitze",
+      "wk": "89"
+    },
+    {
+      "n": "Auf der Steinbrede",
+      "wk": "89"
+    },
+    {
+      "n": "Auf der Twacht",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Wallücke",
+      "wk": "91"
+    },
+    {
+      "n": "Auf der Worth",
+      "wk": "91"
+    },
+    {
+      "n": "Aufm Hamfelde",
+      "wk": "91"
+    },
+    {
+      "n": "Aufm Knappe",
+      "wk": "91"
+    },
+    {
+      "n": "August-Hanke-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "August-Rasch-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "August-Rürup-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Augustaplatz",
+      "wk": "89"
+    },
+    {
+      "n": "Babbenhausener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Bachstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Bahnhofstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Bahnweg",
+      "wk": "89"
+    },
+    {
+      "n": "Bannenbühne",
+      "wk": "91"
+    },
+    {
+      "n": "Bauhofstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Beethovenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Bekweg",
+      "wk": "89"
+    },
+    {
+      "n": "Benninger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Bergkirchener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Bergstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Berkenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Berliner Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Bert-Brecht-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Besebrucher Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Besselstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Bessinger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Bettina-Brentano-Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Birkhahnweg",
+      "wk": "89"
+    },
+    {
+      "n": "Bismarckstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Bleichstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Blücherstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Blumenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Böllings Garten",
+      "wk": "91"
+    },
+    {
+      "n": "Böllingshöfen",
+      "wk": "91"
+    },
+    {
+      "n": "Borgmanns Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Borstenbachstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Borweg",
+      "wk": "89"
+    },
+    {
+      "n": "Bossenwinkel",
+      "wk": "91"
+    },
+    {
+      "n": "Bozener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Brahmsstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Brandenburger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Brands Kamp",
+      "wk": "89"
+    },
+    {
+      "n": "Breedenhagen",
+      "wk": "91"
+    },
+    {
+      "n": "Breedenkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Breedestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Breitenbachstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Breitensiek",
+      "wk": "91"
+    },
+    {
+      "n": "Brekerfeld",
+      "wk": "89"
+    },
+    {
+      "n": "Brennheider Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Breslauer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Breuers Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Brinkstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Bröderhausener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Brökerfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Bromberger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Brömmel",
+      "wk": "89"
+    },
+    {
+      "n": "Bromsenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Brötchenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Brucher Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Brückenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Brucknerstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Brüderstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Brunhildestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Brunnenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Buddestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Bühnenstau",
+      "wk": "91"
+    },
+    {
+      "n": "Bühnter Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Bühnter Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Bükerweg",
+      "wk": "91"
+    },
+    {
+      "n": "Bültestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Bunsenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Buschfeldweg",
+      "wk": "89"
+    },
+    {
+      "n": "Bussardweg",
+      "wk": "89"
+    },
+    {
+      "n": "Carl-Diem-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Carl-Jäcker-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Carl-Zeiss-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Charlottenplatz",
+      "wk": "89"
+    },
+    {
+      "n": "Cheruskerweg",
+      "wk": "89"
+    },
+    {
+      "n": "Clara-Winter-Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Daimlerstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Dampfmühlenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Danziger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Deesberger Allee",
+      "wk": "89"
+    },
+    {
+      "n": "Dehmer Bergweg",
+      "wk": "91"
+    },
+    {
+      "n": "Dehmer Bruch",
+      "wk": "91"
+    },
+    {
+      "n": "Dehmer Feld",
+      "wk": "91"
+    },
+    {
+      "n": "Dehmer Grund",
+      "wk": "91"
+    },
+    {
+      "n": "Dehmer Heide",
+      "wk": "91"
+    },
+    {
+      "n": "Dehmer Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Dessauer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Detmolder Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Dieselstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Diesterwegstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Dietrichstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Dingelkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Dörgen",
+      "wk": "91"
+    },
+    {
+      "n": "Dornenbreite",
+      "wk": "91"
+    },
+    {
+      "n": "Dornenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Dr.-Braun-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Dr.-Eckener-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Dr.-Hopmann-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Dr.-Klevinghaus-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Dr.-Louis-Lehmann-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Dr.-Neuhäußer-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Dr.-Sasse-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Dr.-Wüstenfeld-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Drosselweg",
+      "wk": "89"
+    },
+    {
+      "n": "Droste-Hülshoff-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Düstere Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Dusterstede",
+      "wk": "91"
+    },
+    {
+      "n": "Eckernkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Eduard-Sabirowsky-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Eggeweg",
+      "wk": "91"
+    },
+    {
+      "n": "Eichenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Eidinghausener Straße",
+      "b": [
+        {
+          "von": 2,
+          "bis": 7,
+          "par": "b",
+          "wk": "89"
+        },
+        {
+          "von": 8,
+          "bis": 14,
+          "par": "g",
+          "wk": "91"
+        },
+        {
+          "von": 11,
+          "bis": 11,
+          "par": "b",
+          "wk": "89"
+        },
+        {
+          "von": 15,
+          "bis": 100,
+          "par": "b",
+          "wk": "91"
+        },
+        {
+          "von": 103,
+          "bis": 200,
+          "par": "b",
+          "wk": "91"
+        }
+      ]
+    },
+    {
+      "n": "Eidingsen",
+      "wk": "91"
+    },
+    {
+      "n": "Einsteinstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Elbinger Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Elfenloh",
+      "wk": "91"
+    },
+    {
+      "n": "Elisabethstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Ellernstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Elsa-Brandström-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Elverdingsen",
+      "wk": "91"
+    },
+    {
+      "n": "Emsloh",
+      "wk": "91"
+    },
+    {
+      "n": "Engernweg",
+      "wk": "89"
+    },
+    {
+      "n": "Erfurter Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Ericaweg",
+      "wk": "91"
+    },
+    {
+      "n": "Erlenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Ermlandstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Ernst-Barlach-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Ernst-Wigand-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Ernteweg",
+      "wk": "91"
+    },
+    {
+      "n": "Eschentorstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Fährweg",
+      "wk": "89"
+    },
+    {
+      "n": "Falkenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Fallerslebenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Färberstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Fasanenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Fegerstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Feldbrandweg",
+      "wk": "91"
+    },
+    {
+      "n": "Feldstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Fesselgrund",
+      "wk": "91"
+    },
+    {
+      "n": "Fichtenkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Fichtestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Finkenburghang",
+      "wk": "91"
+    },
+    {
+      "n": "Finkenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Fischerbrink",
+      "wk": "89"
+    },
+    {
+      "n": "Flachsbleiche",
+      "wk": "91"
+    },
+    {
+      "n": "Föhrenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Fontanestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Forellenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Forststraße",
+      "wk": "89"
+    },
+    {
+      "n": "Frankenberger Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Frankenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Freiligrathstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Friedenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Friedhofstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Friedrich-Engels-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Friedrichsweg",
+      "wk": "91"
+    },
+    {
+      "n": "Friesenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Fritz-Bartling-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Fritz-Diekmann-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Fritz-Jöde-Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Fritz-Straßmann-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Fritz-Tarnow-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Fröbelweg",
+      "wk": "89"
+    },
+    {
+      "n": "Fuchsgrund",
+      "wk": "89"
+    },
+    {
+      "n": "Fünfhausen",
+      "wk": "91"
+    },
+    {
+      "n": "Fürstenwinkel",
+      "wk": "91"
+    },
+    {
+      "n": "Galileistraße",
+      "wk": "89"
+    },
+    {
+      "n": "Gartenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Gärtnereistraße",
+      "wk": "91"
+    },
+    {
+      "n": "Georgstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Gerhart-Hauptmann-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Gerstenlandweg",
+      "wk": "89"
+    },
+    {
+      "n": "Geschwister-Scholl-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Giebelsiek",
+      "wk": "91"
+    },
+    {
+      "n": "Ginsterweg",
+      "wk": "91"
+    },
+    {
+      "n": "Glatzer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Glockenbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Glogauer Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Gneisenaustraße",
+      "wk": "89"
+    },
+    {
+      "n": "Goethestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Gohfelder Poststraße",
+      "wk": "91"
+    },
+    {
+      "n": "Gohfelder Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Goldkuhlenkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Görlitzer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Gothaer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Granner Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Greifswalder Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Grelle",
+      "wk": "91"
+    },
+    {
+      "n": "Grellewiesen",
+      "wk": "91"
+    },
+    {
+      "n": "Grenzbachstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Grenzweg",
+      "wk": "89"
+    },
+    {
+      "n": "Griegstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Große Heide",
+      "wk": "91"
+    },
+    {
+      "n": "Großer Heidkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Großer Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Großes Feld",
+      "wk": "91"
+    },
+    {
+      "n": "Grubenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Grüner Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Grünlandweg",
+      "wk": "91"
+    },
+    {
+      "n": "Gudrunweg",
+      "wk": "89"
+    },
+    {
+      "n": "Guntherweg",
+      "wk": "89"
+    },
+    {
+      "n": "Haberisch",
+      "wk": "91"
+    },
+    {
+      "n": "Haberkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Habichtweg",
+      "wk": "89"
+    },
+    {
+      "n": "Hagenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Hahnenkampstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Halsterner Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Händelstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Handwerkerstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Hansmeiers Feld",
+      "wk": "91"
+    },
+    {
+      "n": "Hardenbergstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Hasenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Haspelweg",
+      "wk": "91"
+    },
+    {
+      "n": "Haupthöfe",
+      "wk": "91"
+    },
+    {
+      "n": "Hebbelweg",
+      "wk": "89"
+    },
+    {
+      "n": "Heckenrosenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Heckenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Hedingsen",
+      "wk": "91"
+    },
+    {
+      "n": "Hedingsener Feld",
+      "wk": "91"
+    },
+    {
+      "n": "Hedingsener Masch",
+      "wk": "91"
+    },
+    {
+      "n": "Hedingsener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Hegelweg",
+      "wk": "89"
+    },
+    {
+      "n": "Heidefeldweg",
+      "wk": "91"
+    },
+    {
+      "n": "Heidewinkel",
+      "wk": "91"
+    },
+    {
+      "n": "Heidkämpe",
+      "wk": "91"
+    },
+    {
+      "n": "Heidkampweg",
+      "wk": "91"
+    },
+    {
+      "n": "Heilenbrink",
+      "wk": "89"
+    },
+    {
+      "n": "Heinestraße",
+      "wk": "91"
+    },
+    {
+      "n": "Heinrich-Arning-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Heinrich-Böll-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Heinrich-Hertz-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Heinrich-Schütz-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Heinrichstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Heisenbergstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Helds Kamp",
+      "wk": "89"
+    },
+    {
+      "n": "Helenenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Hellerhagener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Hellsiek",
+      "wk": "91"
+    },
+    {
+      "n": "Herderweg",
+      "wk": "91"
+    },
+    {
+      "n": "Herforder Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Hermann-Bastert-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Hermann-Löns-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Hermannstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Heuental",
+      "wk": "91"
+    },
+    {
+      "n": "Hiekepoden",
+      "wk": "89"
+    },
+    {
+      "n": "Hilgenbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Hindenburgstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Hintere Masch",
+      "wk": "91"
+    },
+    {
+      "n": "Hinterm Busch",
+      "wk": "91"
+    },
+    {
+      "n": "Hinterm Gradierwerk",
+      "wk": "89"
+    },
+    {
+      "n": "Hinterm Schloß",
+      "wk": "91"
+    },
+    {
+      "n": "Hofäcker",
+      "wk": "91"
+    },
+    {
+      "n": "Hofstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Hohe Wacht",
+      "wk": "91"
+    },
+    {
+      "n": "Hoher Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Hohlweg",
+      "wk": "89"
+    },
+    {
+      "n": "Hokampweg",
+      "wk": "91"
+    },
+    {
+      "n": "Hölderlinstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Holdstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Holloweg",
+      "wk": "89"
+    },
+    {
+      "n": "Holwiesenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Holzbrede",
+      "wk": "91"
+    },
+    {
+      "n": "Holzmark",
+      "wk": "91"
+    },
+    {
+      "n": "Holzwiese",
+      "wk": "91"
+    },
+    {
+      "n": "Horsthang",
+      "wk": "91"
+    },
+    {
+      "n": "Horstweg",
+      "wk": "91"
+    },
+    {
+      "n": "Hubertusstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Hüffer Brink",
+      "wk": "89"
+    },
+    {
+      "n": "Hüffer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Hugo-Distler-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Humboldtstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Hummelweg",
+      "wk": "91"
+    },
+    {
+      "n": "Hünenring",
+      "wk": "91"
+    },
+    {
+      "n": "Hüttenkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Im Ellerngrund",
+      "wk": "91"
+    },
+    {
+      "n": "Im Flachssiek",
+      "wk": "89"
+    },
+    {
+      "n": "Im Kalberkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Im Keiten",
+      "wk": "91"
+    },
+    {
+      "n": "Im Kerksiek",
+      "wk": "89"
+    },
+    {
+      "n": "Im Krummen Kamp",
+      "wk": "89"
+    },
+    {
+      "n": "Im Kumpe",
+      "wk": "91"
+    },
+    {
+      "n": "Im Leingarten",
+      "wk": "91"
+    },
+    {
+      "n": "Im Meerbruch",
+      "wk": "91"
+    },
+    {
+      "n": "Im Meerfeld",
+      "wk": "89"
+    },
+    {
+      "n": "Im Meierdreh",
+      "wk": "89"
+    },
+    {
+      "n": "Im Neuen Land",
+      "wk": "91"
+    },
+    {
+      "n": "Im Neuenhagen",
+      "wk": "89"
+    },
+    {
+      "n": "Im Orte",
+      "wk": "91"
+    },
+    {
+      "n": "Im Rehagen",
+      "wk": "89"
+    },
+    {
+      "n": "Im Rottgarten",
+      "wk": "89"
+    },
+    {
+      "n": "Im Schwarzen Siek",
+      "wk": "91"
+    },
+    {
+      "n": "Im Siekertal",
+      "wk": "89"
+    },
+    {
+      "n": "Im Sonnenwinkel",
+      "wk": "91"
+    },
+    {
+      "n": "Im Stühe",
+      "wk": "91"
+    },
+    {
+      "n": "Im Wiehe",
+      "wk": "91"
+    },
+    {
+      "n": "Im Winkel",
+      "wk": "89"
+    },
+    {
+      "n": "In den Knieten",
+      "wk": "91"
+    },
+    {
+      "n": "In der Ahe",
+      "wk": "89"
+    },
+    {
+      "n": "In der Apke",
+      "wk": "89"
+    },
+    {
+      "n": "In der Feldmark",
+      "wk": "89"
+    },
+    {
+      "n": "In der Heue",
+      "wk": "89"
+    },
+    {
+      "n": "In der Masch",
+      "wk": "91"
+    },
+    {
+      "n": "In der Wiehwisch",
+      "wk": "91"
+    },
+    {
+      "n": "In der Wölpke",
+      "wk": "89"
+    },
+    {
+      "n": "Industriestraße",
+      "wk": "91"
+    },
+    {
+      "n": "Innsbrucker Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Isernbreede",
+      "wk": "89"
+    },
+    {
+      "n": "Jagdhüttenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Jagdweg",
+      "wk": "89"
+    },
+    {
+      "n": "Jahnstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Jenaer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Johann-Strauß-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Johanniterstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Jupiterweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kaarbachweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kaiser-Wilhelm-Platz",
+      "wk": "89"
+    },
+    {
+      "n": "Kaiserstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kalkacker",
+      "wk": "91"
+    },
+    {
+      "n": "Kampstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kanalstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kantplatz",
+      "wk": "89"
+    },
+    {
+      "n": "Kanutenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kappenberger Feld",
+      "wk": "89"
+    },
+    {
+      "n": "Kappenberger Hang",
+      "wk": "89"
+    },
+    {
+      "n": "Kappenberger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Karl-Brandt-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Karl-Harre-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Karl-Mohme-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Karl-Späth-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Karlstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kärntener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Käte-Walter-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Käthe-Kollwitz-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Käuzchenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Kehrweg",
+      "wk": "91"
+    },
+    {
+      "n": "Keplerstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Kerkbreede",
+      "wk": "89"
+    },
+    {
+      "n": "Kesselbrink",
+      "wk": "89"
+    },
+    {
+      "n": "Kiebitzweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kiefernweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kieskamp",
+      "wk": "91"
+    },
+    {
+      "n": "Kinkelbrink",
+      "wk": "89"
+    },
+    {
+      "n": "Kirchbreite",
+      "wk": "91"
+    },
+    {
+      "n": "Kirchplatz",
+      "wk": "89"
+    },
+    {
+      "n": "Kirchstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kirschenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kleeweg",
+      "wk": "91"
+    },
+    {
+      "n": "Klein Vlotho",
+      "wk": "91"
+    },
+    {
+      "n": "Kleine Heide",
+      "wk": "91"
+    },
+    {
+      "n": "Kleiner Dörgen",
+      "wk": "91"
+    },
+    {
+      "n": "Kleiner Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Kleines Lohfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Kleystraße",
+      "wk": "91"
+    },
+    {
+      "n": "Klinkerwerkstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Klocken Busch",
+      "wk": "89"
+    },
+    {
+      "n": "Klosterstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Klümpken",
+      "wk": "91"
+    },
+    {
+      "n": "Knappweg",
+      "wk": "89"
+    },
+    {
+      "n": "Knicksiek",
+      "wk": "91"
+    },
+    {
+      "n": "Kohlpottweg",
+      "wk": "89"
+    },
+    {
+      "n": "Kohlstätte",
+      "wk": "91"
+    },
+    {
+      "n": "Kolpingweg",
+      "wk": "91"
+    },
+    {
+      "n": "Königsberger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Königshagen",
+      "wk": "89"
+    },
+    {
+      "n": "Königstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kopernikusstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Korbmacherstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Körfker Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Körnerstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kornweg",
+      "wk": "89"
+    },
+    {
+      "n": "Kortenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kösliner Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Kösterweg",
+      "wk": "91"
+    },
+    {
+      "n": "Krachts Kamp",
+      "wk": "89"
+    },
+    {
+      "n": "Krellstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Kreuzkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Kreuzstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Kriemhildweg",
+      "wk": "89"
+    },
+    {
+      "n": "Kronenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kroppeloher Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Krügers Kamp",
+      "wk": "89"
+    },
+    {
+      "n": "Krummer Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Kumpsiek",
+      "wk": "91"
+    },
+    {
+      "n": "Kumpwinkel",
+      "wk": "91"
+    },
+    {
+      "n": "Kunsemöllerstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Kurt-Schumacher-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Kurt-Viole-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Kurweg",
+      "wk": "89"
+    },
+    {
+      "n": "Kurze Breite",
+      "wk": "91"
+    },
+    {
+      "n": "Kurze Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Kurzer Sielweg",
+      "wk": "91"
+    },
+    {
+      "n": "Kurzes Land",
+      "wk": "91"
+    },
+    {
+      "n": "Küstriner Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Lachsweg",
+      "wk": "91"
+    },
+    {
+      "n": "Landsberger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Lange Wand",
+      "wk": "91"
+    },
+    {
+      "n": "Langenhagen",
+      "wk": "91"
+    },
+    {
+      "n": "Langer Brink",
+      "wk": "91"
+    },
+    {
+      "n": "Lattensiek",
+      "wk": "91"
+    },
+    {
+      "n": "Lausitzer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Lehmkuhle",
+      "wk": "91"
+    },
+    {
+      "n": "Lehmstich",
+      "wk": "89"
+    },
+    {
+      "n": "Leibnizstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Leineweberweg",
+      "wk": "89"
+    },
+    {
+      "n": "Leinkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Lerchenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Lessingstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Liebigstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Liegnitzer Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Lienweg",
+      "wk": "89"
+    },
+    {
+      "n": "Lilienthalweg",
+      "wk": "91"
+    },
+    {
+      "n": "Lilienweg",
+      "wk": "91"
+    },
+    {
+      "n": "Lindenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Lisa-Hausmann-Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Lise-Meitner-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Lohacker",
+      "wk": "91"
+    },
+    {
+      "n": "Lohbreede",
+      "wk": "91"
+    },
+    {
+      "n": "Lohbuscher Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Loher Busch",
+      "wk": "89"
+    },
+    {
+      "n": "Loher Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Lohfeldweg",
+      "wk": "91"
+    },
+    {
+      "n": "Lortzingstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Lübberts Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Ludwig-Richter-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Luisenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Lütnants Feld",
+      "wk": "89"
+    },
+    {
+      "n": "Lützowstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Maiweg",
+      "wk": "91"
+    },
+    {
+      "n": "Marienstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Martin-Luther-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Martin-Schröder-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Maschhaupt",
+      "wk": "91"
+    },
+    {
+      "n": "Maschkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Maschweg",
+      "wk": "91"
+    },
+    {
+      "n": "Masurenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Mattenkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Matthias-Claudius-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Max-Liebermann-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Max-Planck-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Max-Reger-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Mecklenburger Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Meierdingsen",
+      "wk": "91"
+    },
+    {
+      "n": "Meierfreundstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Meierweg",
+      "wk": "91"
+    },
+    {
+      "n": "Meisenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Memeler Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Mendelstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Mepker Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Mergelbruch",
+      "wk": "89"
+    },
+    {
+      "n": "Mespelhop",
+      "wk": "91"
+    },
+    {
+      "n": "Mindener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Mittelbachweg",
+      "wk": "89"
+    },
+    {
+      "n": "Mittelstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Möllerweg",
+      "wk": "91"
+    },
+    {
+      "n": "Moltkestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Mönichhusen",
+      "wk": "91"
+    },
+    {
+      "n": "Moorbadplatz",
+      "wk": "91"
+    },
+    {
+      "n": "Moorwiese",
+      "wk": "91"
+    },
+    {
+      "n": "Mooskamp",
+      "wk": "89"
+    },
+    {
+      "n": "Mörikeweg",
+      "wk": "91"
+    },
+    {
+      "n": "Mozartstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Mühlensiek",
+      "wk": "91"
+    },
+    {
+      "n": "Mühlental",
+      "wk": "91"
+    },
+    {
+      "n": "Mühlenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Neinstedter Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Nelkenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Nibelungenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Niederbecksener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Niederdehme",
+      "wk": "91"
+    },
+    {
+      "n": "Niedergerkenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Noltings Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Nordstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Normannenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Oberbecksener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Obere Brake",
+      "wk": "91"
+    },
+    {
+      "n": "Obere Rottstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Obere Schlom",
+      "wk": "91"
+    },
+    {
+      "n": "Oberer Plattenberg",
+      "wk": "91"
+    },
+    {
+      "n": "Oderweg",
+      "wk": "91"
+    },
+    {
+      "n": "Oexen",
+      "wk": "91"
+    },
+    {
+      "n": "Oexener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Öringsener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Orionweg",
+      "wk": "91"
+    },
+    {
+      "n": "Osterbruch",
+      "wk": "91"
+    },
+    {
+      "n": "Osterfeldweg",
+      "wk": "91"
+    },
+    {
+      "n": "Ostermasch",
+      "wk": "91"
+    },
+    {
+      "n": "Osterweg",
+      "wk": "91"
+    },
+    {
+      "n": "Ostfalenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Ostkorso",
+      "wk": "89"
+    },
+    {
+      "n": "Ostpreußische Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Ottensweg",
+      "wk": "91"
+    },
+    {
+      "n": "Otto-Hahn-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Otto-Stahl-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Ovelgönner Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Pappelweg",
+      "wk": "89"
+    },
+    {
+      "n": "Parkstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Pastorenfeld",
+      "wk": "89"
+    },
+    {
+      "n": "Pastorenhang",
+      "wk": "91"
+    },
+    {
+      "n": "Paul-Baehr-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Pestalozzistraße",
+      "wk": "91"
+    },
+    {
+      "n": "Petriweg",
+      "wk": "91"
+    },
+    {
+      "n": "Pfarrer-Brünger-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Pfarrer-Dustmann-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Pfarrer-Krekeler-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Pfarrer-Seippel-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Pfarrkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Pfarrweg",
+      "wk": "91"
+    },
+    {
+      "n": "Pfauenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Pflugstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Piepers Busch",
+      "wk": "89"
+    },
+    {
+      "n": "Pirschweg",
+      "wk": "89"
+    },
+    {
+      "n": "Plattenberger Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Pollkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Pollstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Pommersche Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Portablick",
+      "wk": "89"
+    },
+    {
+      "n": "Portastraße",
+      "wk": "89"
+    },
+    {
+      "n": "Posener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Potsdamer Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Präses-Koch-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Prinzenwinkel",
+      "wk": "91"
+    },
+    {
+      "n": "Raiffeisenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Ramsiek",
+      "wk": "89"
+    },
+    {
+      "n": "Randstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Rastenburger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Rauhen Sundern",
+      "wk": "91"
+    },
+    {
+      "n": "Ravensberger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Reelser Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Reelserloh",
+      "wk": "89"
+    },
+    {
+      "n": "Rehmer Breede",
+      "wk": "89"
+    },
+    {
+      "n": "Rehmer Heide",
+      "wk": "89"
+    },
+    {
+      "n": "Rehmer Steinkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Rehweg",
+      "wk": "91"
+    },
+    {
+      "n": "Reihenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Reiterweg",
+      "wk": "91"
+    },
+    {
+      "n": "Rekerbrink",
+      "wk": "89"
+    },
+    {
+      "n": "Reuterstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Richard-Wagner-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Richteweg",
+      "wk": "91"
+    },
+    {
+      "n": "Riehe",
+      "wk": "91"
+    },
+    {
+      "n": "Rilkeweg",
+      "wk": "89"
+    },
+    {
+      "n": "Ringstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Rittelmeierweg",
+      "wk": "89"
+    },
+    {
+      "n": "Robert-Bosch-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Robertstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Rodland",
+      "wk": "91"
+    },
+    {
+      "n": "Roggenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Röhn",
+      "wk": "91"
+    },
+    {
+      "n": "Rolandstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Röntgenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Roonstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Rosenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Rossittener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Roterloh",
+      "wk": "91"
+    },
+    {
+      "n": "Rotkehlchenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Rückertstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Rüdigerweg",
+      "wk": "89"
+    },
+    {
+      "n": "Rudolf-Harbig-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Rudolf-Virchow-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Runder Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Ruschpohlkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Saaks Busch",
+      "wk": "89"
+    },
+    {
+      "n": "Saatweg",
+      "wk": "91"
+    },
+    {
+      "n": "Sachsenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Salzsiederpfad",
+      "wk": "89"
+    },
+    {
+      "n": "Sandbreede",
+      "wk": "91"
+    },
+    {
+      "n": "Sandweg",
+      "wk": "91"
+    },
+    {
+      "n": "Sauerbruchstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Schäferweg",
+      "wk": "91"
+    },
+    {
+      "n": "Scharnhorststraße",
+      "wk": "89"
+    },
+    {
+      "n": "Schellenbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Schillerstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Schlesische Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Schmalenbeck",
+      "wk": "91"
+    },
+    {
+      "n": "Schmaler Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Schmiedebrink",
+      "wk": "89"
+    },
+    {
+      "n": "Schnedingsen",
+      "wk": "91"
+    },
+    {
+      "n": "Schorbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Schubertstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Schülerstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Schulstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Schumannstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Schützenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Schwagerstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Schwalbenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Schwarzer Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Schwedenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Seegerstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Seitenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Selma-Lagerlöf-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Sennestraße",
+      "wk": "91"
+    },
+    {
+      "n": "Siedinghausener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Siedlerstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Siegfriedstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Sielallee",
+      "wk": "89"
+    },
+    {
+      "n": "Sielstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Silcherstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Siriusweg",
+      "wk": "91"
+    },
+    {
+      "n": "Solterwischer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Sonnenbrede",
+      "wk": "91"
+    },
+    {
+      "n": "Sonnenkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Sonnenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Spandauer Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Sperberweg",
+      "wk": "89"
+    },
+    {
+      "n": "Spindelweg",
+      "wk": "91"
+    },
+    {
+      "n": "Spitzwegstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Starkensiek",
+      "wk": "91"
+    },
+    {
+      "n": "Steffensweg",
+      "wk": "89"
+    },
+    {
+      "n": "Steiler Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Steinbergweg",
+      "wk": "89"
+    },
+    {
+      "n": "Steinegger Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Steinfeldstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Steinkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Steinstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Steubenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Stilles Tal",
+      "wk": "91"
+    },
+    {
+      "n": "Strangweg",
+      "wk": "89"
+    },
+    {
+      "n": "Strateweg",
+      "wk": "89"
+    },
+    {
+      "n": "Strühkamp",
+      "wk": "89"
+    },
+    {
+      "n": "Stüher Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Stüheweg",
+      "wk": "91"
+    },
+    {
+      "n": "Südbahnstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Südkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Südweg",
+      "wk": "89"
+    },
+    {
+      "n": "Sundern",
+      "wk": "91"
+    },
+    {
+      "n": "Sundernbusch",
+      "wk": "91"
+    },
+    {
+      "n": "Sundernkämpe",
+      "wk": "91"
+    },
+    {
+      "n": "Sundernwiehe",
+      "wk": "91"
+    },
+    {
+      "n": "Tannenbergstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Tannenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Taubenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Teegarten",
+      "wk": "91"
+    },
+    {
+      "n": "Teichstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Telemannweg",
+      "wk": "91"
+    },
+    {
+      "n": "Tempelhofer Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Theodor-Heuss-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Thorner Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Thüringer Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Tiggelweg",
+      "wk": "91"
+    },
+    {
+      "n": "Tilsiter Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Tiroler Weg",
+      "wk": "89"
+    },
+    {
+      "n": "Tongrubenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Tonstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Töpferweg",
+      "wk": "91"
+    },
+    {
+      "n": "Triftensiek",
+      "wk": "89"
+    },
+    {
+      "n": "Triftenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Turmstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Turnerweg",
+      "wk": "91"
+    },
+    {
+      "n": "Twellkämpe",
+      "wk": "89"
+    },
+    {
+      "n": "Uhlandstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Ulmenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Untere Bülte",
+      "wk": "91"
+    },
+    {
+      "n": "Untere Rottstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Unterer Plattenberg",
+      "wk": "91"
+    },
+    {
+      "n": "Unterm Dörgen",
+      "wk": "91"
+    },
+    {
+      "n": "Unterm Hahnenkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Unterm Kappenberg",
+      "wk": "89"
+    },
+    {
+      "n": "Unterm Mooskamp",
+      "wk": "89"
+    },
+    {
+      "n": "Valdorfer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Varnkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Viktoriastraße",
+      "wk": "89"
+    },
+    {
+      "n": "Vlothoer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Volkerweg",
+      "wk": "89"
+    },
+    {
+      "n": "Volmerdingsener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Volmser Heide",
+      "wk": "91"
+    },
+    {
+      "n": "Volmser Heidkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Volmserloh",
+      "wk": "91"
+    },
+    {
+      "n": "Von-Amstenradt-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Von-Kleist-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Von-Moeller-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Von-Puttkammer-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Von-Reden-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Von-Schloen-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Von-Siemens-Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Von-Sothen-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Von-Weißenfels-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Vorberger Rott",
+      "wk": "91"
+    },
+    {
+      "n": "Vorberger Südkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Vorberger Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Vorm Busch",
+      "wk": "91"
+    },
+    {
+      "n": "Vorm Holz",
+      "wk": "89"
+    },
+    {
+      "n": "Vorm Steinfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Voßbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Voßkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Wachtelweg",
+      "wk": "89"
+    },
+    {
+      "n": "Waldenburger Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Walderseestraße",
+      "wk": "89"
+    },
+    {
+      "n": "Wallücker Weg",
+      "wk": "91"
+    },
+    {
+      "n": "Warmer Krug",
+      "wk": "91"
+    },
+    {
+      "n": "Wasserriede",
+      "wk": "91"
+    },
+    {
+      "n": "Wasserstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Weberfeld",
+      "wk": "91"
+    },
+    {
+      "n": "Weberstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Wehrstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Weidenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Weimarer Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Weinstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Weiße Breite",
+      "wk": "91"
+    },
+    {
+      "n": "Weißer Kamp",
+      "wk": "91"
+    },
+    {
+      "n": "Weizenacker",
+      "wk": "91"
+    },
+    {
+      "n": "Weizenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Wellenstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Wendener Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Werfelweg",
+      "wk": "89"
+    },
+    {
+      "n": "Werrestraße",
+      "wk": "91"
+    },
+    {
+      "n": "Werster Heide",
+      "wk": "91"
+    },
+    {
+      "n": "Werster Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Werster Wiehe",
+      "wk": "91"
+    },
+    {
+      "n": "Wersterholz",
+      "wk": "91"
+    },
+    {
+      "n": "Weserhüttenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Weserstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Westerfeldstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Westfalenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Westkorso",
+      "wk": "89"
+    },
+    {
+      "n": "Westpreußische Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Westscheider Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Weststraße",
+      "wk": "89"
+    },
+    {
+      "n": "Wichernstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Wiehekamp",
+      "wk": "91"
+    },
+    {
+      "n": "Wiehengebirgsstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Wiehenweg",
+      "wk": "91"
+    },
+    {
+      "n": "Wiekriede",
+      "wk": "91"
+    },
+    {
+      "n": "Wielandstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Wiesenstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Wietelbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Wietelbülte",
+      "wk": "91"
+    },
+    {
+      "n": "Wieteleck",
+      "wk": "91"
+    },
+    {
+      "n": "Wikingerweg",
+      "wk": "91"
+    },
+    {
+      "n": "Wilhelm-Busch-Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Wilhelm-Rottwilm-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Wilhelm-Uhe-Straße",
+      "wk": "89"
+    },
+    {
+      "n": "Wilhelmstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Windmühlenweg",
+      "wk": "89"
+    },
+    {
+      "n": "Winkelweg",
+      "wk": "89"
+    },
+    {
+      "n": "Wittekindstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Wittelstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Wittenried",
+      "wk": "91"
+    },
+    {
+      "n": "Witthopstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Wöhrener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Wokers Feld",
+      "wk": "91"
+    },
+    {
+      "n": "Wolferdingsen",
+      "wk": "91"
+    },
+    {
+      "n": "Wolfshofstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Wolfsring",
+      "wk": "91"
+    },
+    {
+      "n": "Worthgarten",
+      "wk": "91"
+    },
+    {
+      "n": "Worthheide",
+      "wk": "91"
+    },
+    {
+      "n": "Worthkamp",
+      "wk": "91"
+    },
+    {
+      "n": "Worthweg",
+      "wk": "91"
+    },
+    {
+      "n": "Wulferdingsener Straße",
+      "wk": "91"
+    },
+    {
+      "n": "Wulfsbreede",
+      "wk": "91"
+    },
+    {
+      "n": "Wulfseck",
+      "wk": "91"
+    },
+    {
+      "n": "Wulfstraße",
+      "wk": "91"
+    },
+    {
+      "n": "Wurzelsiek",
+      "wk": "91"
+    },
+    {
+      "n": "Yorckstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Zaunkönigweg",
+      "wk": "89"
+    },
+    {
+      "n": "Zedernweg",
+      "wk": "91"
+    },
+    {
+      "n": "Zeppelinstraße",
+      "wk": "89"
+    },
+    {
+      "n": "Ziegeleistraße",
+      "wk": "91"
+    },
+    {
+      "n": "Ziepelbrink",
+      "wk": "91"
+    },
+    {
+      "n": "Zu den Meerwiesen",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Bache",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Dorfplatz",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Elfter Kopf",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Friedhof",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Fuchsloch",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Jägerplatz",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Kaarbach",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Langen Gras",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Markt",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Ostersiek",
+      "wk": "89"
+    },
+    {
+      "n": "Zum Poll",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Rehmer Eck",
+      "wk": "89"
+    },
+    {
+      "n": "Zum Reitsiek",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Riepelhof",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Ruschpohl",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Schürsiek",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Vorwerk",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Wenden",
+      "wk": "89"
+    },
+    {
+      "n": "Zum Wilden Schmied",
+      "wk": "91"
+    },
+    {
+      "n": "Zum Wolfswald",
+      "wk": "91"
+    },
+    {
+      "n": "Zur Bauernwiese",
+      "wk": "91"
+    },
+    {
+      "n": "Zur Egge",
+      "wk": "91"
+    },
+    {
+      "n": "Zur Hüffe",
+      "wk": "89"
+    },
+    {
+      "n": "Zur Kirche",
+      "wk": "91"
+    },
+    {
+      "n": "Zur Lutternschen Egge",
+      "wk": "91"
+    },
+    {
+      "n": "Zur Werremündung",
+      "wk": "91"
+    },
+    {
+      "n": "Zuschlag",
+      "wk": "89"
+    },
+    {
+      "n": "Zwischen den Wiesen",
+      "wk": "89"
+    }
+  ]
+}

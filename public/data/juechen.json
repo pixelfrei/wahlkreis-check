@@ -1,0 +1,1393 @@
+{
+  "meta": {
+    "kommune": "Jüchen",
+    "stand": "2025-09",
+    "gebaut_am": "2026-09-14",
+    "quellen": [
+      "https://wep.itk-rheinland.de/vm/prod/kw_2025/05162012/daten/opendata/opendata-strassen.csv"
+    ],
+    "zuordnung": "gesetzesanlage"
+  },
+  "wahlkreise": {
+    "46": "Rhein-Kreis Neuss II",
+    "47": "Rhein-Kreis Neuss III"
+  },
+  "strassen": [
+    {
+      "n": "\"Auf'm Pilgerweg\"",
+      "wk": "46"
+    },
+    {
+      "n": "Adam-Ries-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Adenauerplatz",
+      "wk": "47"
+    },
+    {
+      "n": "Adolph-Kolping-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Ahornweg",
+      "wk": "46"
+    },
+    {
+      "n": "Akazienweg",
+      "wk": "46"
+    },
+    {
+      "n": "Aldenhovener Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Alleestraße",
+      "wk": "47"
+    },
+    {
+      "n": "Alte Lindenschule",
+      "wk": "46"
+    },
+    {
+      "n": "Alte Römerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Am Ackergrund",
+      "wk": "46"
+    },
+    {
+      "n": "Am Alten Hof",
+      "wk": "47"
+    },
+    {
+      "n": "Am Alten Sportplatz",
+      "wk": "46"
+    },
+    {
+      "n": "Am Behrenhof",
+      "wk": "47"
+    },
+    {
+      "n": "Am Broicher Weg",
+      "wk": "46"
+    },
+    {
+      "n": "Am Dominger Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Am Engelrath",
+      "wk": "46"
+    },
+    {
+      "n": "Am Fließ",
+      "wk": "47"
+    },
+    {
+      "n": "Am Friedhof",
+      "wk": "46"
+    },
+    {
+      "n": "Am Fusseloch",
+      "wk": "47"
+    },
+    {
+      "n": "Am Gerhardsweiler",
+      "wk": "47"
+    },
+    {
+      "n": "Am Graben",
+      "wk": "47"
+    },
+    {
+      "n": "Am Holzer Knoten",
+      "wk": "47"
+    },
+    {
+      "n": "Am Hütz",
+      "wk": "47"
+    },
+    {
+      "n": "Am Jüchener Bach",
+      "wk": "46"
+    },
+    {
+      "n": "Am Kirchblick",
+      "wk": "46"
+    },
+    {
+      "n": "Am Kommer Bach",
+      "wk": "47"
+    },
+    {
+      "n": "Am Lindenkreuz",
+      "wk": "46"
+    },
+    {
+      "n": "Am Lindenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Am Markt",
+      "wk": "47"
+    },
+    {
+      "n": "Am Ringofen",
+      "wk": "47"
+    },
+    {
+      "n": "Am Scheideweg",
+      "wk": "46"
+    },
+    {
+      "n": "Am Scheurenpfad",
+      "wk": "47"
+    },
+    {
+      "n": "Am Steenblenk",
+      "wk": "46"
+    },
+    {
+      "n": "Am Tanneneck",
+      "wk": "47"
+    },
+    {
+      "n": "Am Ulmenberg",
+      "wk": "46"
+    },
+    {
+      "n": "Am Wolterskamp",
+      "wk": "47"
+    },
+    {
+      "n": "Am Zollbrett",
+      "wk": "47"
+    },
+    {
+      "n": "Amselstraße",
+      "wk": "47"
+    },
+    {
+      "n": "An der Burg",
+      "wk": "46"
+    },
+    {
+      "n": "An der Eiche",
+      "wk": "47"
+    },
+    {
+      "n": "An der Köhm",
+      "wk": "47"
+    },
+    {
+      "n": "An der Landstraße",
+      "wk": "46"
+    },
+    {
+      "n": "An der Maar",
+      "wk": "46"
+    },
+    {
+      "n": "An der Sandkaule",
+      "wk": "47"
+    },
+    {
+      "n": "An der Siedlung",
+      "wk": "47"
+    },
+    {
+      "n": "An der Turnhalle",
+      "wk": "47"
+    },
+    {
+      "n": "Asternweg",
+      "wk": "47"
+    },
+    {
+      "n": "Auf dem Acker",
+      "wk": "46"
+    },
+    {
+      "n": "Auf der Hecke",
+      "wk": "46"
+    },
+    {
+      "n": "Auf der Hoheneiche",
+      "wk": "46"
+    },
+    {
+      "n": "Auf der Löh",
+      "wk": "47"
+    },
+    {
+      "n": "Augustastraße",
+      "wk": "47"
+    },
+    {
+      "n": "Bachstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Bahnhofstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Bahnstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Barbarastraße",
+      "wk": "47"
+    },
+    {
+      "n": "Bärenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Baumstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Becherhof",
+      "wk": "47"
+    },
+    {
+      "n": "Beckerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Bedburdycker Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Beethovenstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Belmener Hof",
+      "wk": "47"
+    },
+    {
+      "n": "Bendweg",
+      "wk": "46"
+    },
+    {
+      "n": "Bertha-Von-Suttner-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Birkenallee",
+      "wk": "47"
+    },
+    {
+      "n": "Birkenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Birkenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Bismarckstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Bissen",
+      "wk": "47"
+    },
+    {
+      "n": "Blumenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Blumenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Bontenbroich",
+      "wk": "47"
+    },
+    {
+      "n": "Brabanterstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Braunstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Breslauer Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Broicher Kaul",
+      "wk": "46"
+    },
+    {
+      "n": "Broichstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Brückenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Buchenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Burgstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Buschgasse",
+      "wk": "47"
+    },
+    {
+      "n": "Buschhof",
+      "wk": "47"
+    },
+    {
+      "n": "Dahlienweg",
+      "wk": "47"
+    },
+    {
+      "n": "Damaschkestraße",
+      "wk": "46"
+    },
+    {
+      "n": "Danerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Dechant-Bäumer-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Dechant-Berger-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Dechant-Königs-Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Denkmalstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Dinkelweg",
+      "wk": "46"
+    },
+    {
+      "n": "Dürselen",
+      "wk": "47"
+    },
+    {
+      "n": "Düsterstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Dycker Hahnerhof",
+      "wk": "47"
+    },
+    {
+      "n": "Dycker Mühle",
+      "wk": "47"
+    },
+    {
+      "n": "Dycker Weinhaus",
+      "wk": "47"
+    },
+    {
+      "n": "Eduard-Bausch-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Eibenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Eichenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Elsa-Brandström-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Erftstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Erlenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Ernteweg",
+      "wk": "46"
+    },
+    {
+      "n": "Eschenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Espenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Eugen-Von-Mazenod-Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Falkensteinstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Fallerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Fasanenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Feldstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Fichtenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Fichtenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Finkenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Flaßrath",
+      "wk": "47"
+    },
+    {
+      "n": "Flaßrather Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Florastraße",
+      "wk": "47"
+    },
+    {
+      "n": "Frankenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Franz-Rixen-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Freiheitstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Friedensstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Friedhofstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Friedrich-Ebert-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Fuchsberg",
+      "wk": "47"
+    },
+    {
+      "n": "Fürther Hecke",
+      "wk": "46"
+    },
+    {
+      "n": "Gartenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Garzweiler Allee",
+      "wk": "47"
+    },
+    {
+      "n": "Georgstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Gerstenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Geschwister-Scholl-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Gierather Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Ginsterweg",
+      "wk": "47"
+    },
+    {
+      "n": "Goethestraße",
+      "wk": "47"
+    },
+    {
+      "n": "Gottfried-Könzgen-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Grevenbroicher Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Grüner Weg",
+      "wk": "46"
+    },
+    {
+      "n": "Grüner Winkel",
+      "wk": "47"
+    },
+    {
+      "n": "Grünstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Gubberather Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Gürtelweg",
+      "wk": "47"
+    },
+    {
+      "n": "Gutenbergstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Hackhausen",
+      "wk": "47"
+    },
+    {
+      "n": "Haferweg",
+      "wk": "46"
+    },
+    {
+      "n": "Hahnerhof",
+      "wk": "47"
+    },
+    {
+      "n": "Hahnerhofstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Hamscher Weiher",
+      "wk": "47"
+    },
+    {
+      "n": "Hamscherhof",
+      "wk": "47"
+    },
+    {
+      "n": "Hamscherstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Hans-Diekmann-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Hasenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Hauptstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Haus Neuenhoven",
+      "wk": "47"
+    },
+    {
+      "n": "Heckerweg",
+      "wk": "47"
+    },
+    {
+      "n": "Heerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Heinrich-Lersch-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Hemmerdener Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Hensenhof",
+      "wk": "47"
+    },
+    {
+      "n": "Herberath",
+      "wk": "47"
+    },
+    {
+      "n": "Herberather Weg",
+      "wk": "46"
+    },
+    {
+      "n": "Hermann-Löns-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Hildegard-von-Bingen-Str.",
+      "wk": "47"
+    },
+    {
+      "n": "Hochstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Hof Roth",
+      "wk": "47"
+    },
+    {
+      "n": "Hofstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Holzer Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Höningstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Hoppers",
+      "wk": "47"
+    },
+    {
+      "n": "Hubertusstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Huckingshof",
+      "wk": "47"
+    },
+    {
+      "n": "Humboldtstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Im Bauerfeld",
+      "wk": "47"
+    },
+    {
+      "n": "Im Broich",
+      "wk": "46"
+    },
+    {
+      "n": "Im Gierather Feld",
+      "wk": "46"
+    },
+    {
+      "n": "Im Kamp",
+      "wk": "47"
+    },
+    {
+      "n": "Im Wiesengrund",
+      "wk": "46"
+    },
+    {
+      "n": "Im Winkel",
+      "wk": "47"
+    },
+    {
+      "n": "In den Gärten",
+      "wk": "47"
+    },
+    {
+      "n": "In den Weiden",
+      "wk": "47"
+    },
+    {
+      "n": "In der Aue",
+      "wk": "47"
+    },
+    {
+      "n": "In der Bausch",
+      "wk": "46"
+    },
+    {
+      "n": "Jägerhof",
+      "wk": "47"
+    },
+    {
+      "n": "Jahnstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Jakobusweg",
+      "wk": "47"
+    },
+    {
+      "n": "Jüchener Mühle",
+      "wk": "47"
+    },
+    {
+      "n": "Jüchener Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Jüchenerbroich",
+      "wk": "47"
+    },
+    {
+      "n": "Jülicher Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Kamphausen",
+      "wk": "47"
+    },
+    {
+      "n": "Kanalstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Kapellenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Kastanienweg",
+      "wk": "46"
+    },
+    {
+      "n": "Kasterstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Käthe-Kollwitz-Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Keltenhof",
+      "wk": "47"
+    },
+    {
+      "n": "Keltenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Kelzenberger Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Kettelerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Kiefernweg",
+      "wk": "46"
+    },
+    {
+      "n": "Kirchgasse",
+      "wk": "46"
+    },
+    {
+      "n": "Kirchhofweg",
+      "wk": "47"
+    },
+    {
+      "n": "Kirchstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Kirchweg",
+      "wk": "47"
+    },
+    {
+      "n": "Kirschenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Klompenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Klosterstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Köhmweg",
+      "wk": "47"
+    },
+    {
+      "n": "Kölner Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Kolpingweg",
+      "wk": "47"
+    },
+    {
+      "n": "Königsberger Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Königstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Konrad-Duden-Allee",
+      "wk": "47"
+    },
+    {
+      "n": "Koxhof",
+      "wk": "46"
+    },
+    {
+      "n": "Kreuzstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Kurzer Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Landgrabenhof",
+      "wk": "47"
+    },
+    {
+      "n": "Langjaaß",
+      "wk": "47"
+    },
+    {
+      "n": "Langstegerweg",
+      "wk": "47"
+    },
+    {
+      "n": "Lärchenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Leerser Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Leostraße",
+      "wk": "47"
+    },
+    {
+      "n": "Leuffenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Ligusterweg",
+      "wk": "46"
+    },
+    {
+      "n": "Lindenhof",
+      "wk": "46"
+    },
+    {
+      "n": "Lindenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Lingenstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Lise-Meitner-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Marie-Juchacz-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Marienweg",
+      "wk": "47"
+    },
+    {
+      "n": "Markt",
+      "wk": "47"
+    },
+    {
+      "n": "Marktstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Martin-Köllen-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Martinusstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Meisingstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Memelstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Meyerkamp",
+      "wk": "46"
+    },
+    {
+      "n": "Mittelstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Montessoristraße",
+      "wk": "46"
+    },
+    {
+      "n": "Mozartstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Mühlenschleide",
+      "wk": "47"
+    },
+    {
+      "n": "Mühlenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Mürmeln",
+      "wk": "47"
+    },
+    {
+      "n": "Nelkenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Nelkenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Nelly-Sachs-Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Neuenhovener Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Neusser Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Niersstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Nikolauskloster",
+      "wk": "47"
+    },
+    {
+      "n": "Nordring",
+      "wk": "47"
+    },
+    {
+      "n": "Nordstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Odenkirchener Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Oderstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Oehmenhof",
+      "wk": "46"
+    },
+    {
+      "n": "Oststraße",
+      "wk": "46"
+    },
+    {
+      "n": "Otto-Hahn-Ring",
+      "wk": "47"
+    },
+    {
+      "n": "Pankratiusweg",
+      "wk": "47"
+    },
+    {
+      "n": "Pappelweg",
+      "wk": "46"
+    },
+    {
+      "n": "Parkstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Päscheng",
+      "wk": "47"
+    },
+    {
+      "n": "Pastor-Haarbeck-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Pastorengasse",
+      "wk": "47"
+    },
+    {
+      "n": "Paul-Körschgen-Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Pestalozzistraße",
+      "wk": "46"
+    },
+    {
+      "n": "Peter-Busch-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Peter-Stahs-Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Platanenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Pommernstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Poststraße",
+      "wk": "47"
+    },
+    {
+      "n": "Priesterath",
+      "wk": "47"
+    },
+    {
+      "n": "Quackshof",
+      "wk": "47"
+    },
+    {
+      "n": "Raiffeisenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Rathausstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Rather Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Ratherhofstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Rederhof",
+      "wk": "46"
+    },
+    {
+      "n": "Rektor-Thoma-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Rheinstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Rheydter Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Riekestraße",
+      "wk": "47"
+    },
+    {
+      "n": "Ringstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Roebershof",
+      "wk": "47"
+    },
+    {
+      "n": "Roggenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Römerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Rosenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Rosenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Rotdornweg",
+      "wk": "46"
+    },
+    {
+      "n": "Rotkehlchenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Rurstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Schaan",
+      "wk": "47"
+    },
+    {
+      "n": "Schelsener Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Scheulenbend",
+      "wk": "47"
+    },
+    {
+      "n": "Scheulenhof",
+      "wk": "47"
+    },
+    {
+      "n": "Schillerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Schlicher Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Schloß Dyck",
+      "wk": "47"
+    },
+    {
+      "n": "Schlossstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Schluppe-Schäng-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Schölenhof",
+      "wk": "47"
+    },
+    {
+      "n": "Schulstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Schürfweg",
+      "wk": "47"
+    },
+    {
+      "n": "Schwalbenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Siegmund-Blanckertz-Str.",
+      "wk": "47"
+    },
+    {
+      "n": "Siemensstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Silostraße",
+      "wk": "47"
+    },
+    {
+      "n": "Sonnenweg",
+      "wk": "47"
+    },
+    {
+      "n": "St.Leonhard-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Stadionstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Steinstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Stessener Pfad",
+      "wk": "46"
+    },
+    {
+      "n": "Stessener Weg",
+      "wk": "47"
+    },
+    {
+      "n": "Stolzenberg",
+      "wk": "47"
+    },
+    {
+      "n": "Talstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Tannenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Theodor-Heuss-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Tulpenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Tulpenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Ulmenstraße",
+      "wk": "46"
+    },
+    {
+      "n": "Unter den Linden",
+      "wk": "47"
+    },
+    {
+      "n": "Valderweg",
+      "wk": "47"
+    },
+    {
+      "n": "Veilchenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Vellrather Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Vogelsang",
+      "wk": "47"
+    },
+    {
+      "n": "Von Werth-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Von-Stauffenberg-Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Waat",
+      "wk": "47"
+    },
+    {
+      "n": "Wacholderweg",
+      "wk": "46"
+    },
+    {
+      "n": "Walter-Schönheit-Straße",
+      "wk": "46"
+    },
+    {
+      "n": "Wanloer Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Weichselstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Weidenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Weizenweg",
+      "wk": "46"
+    },
+    {
+      "n": "Weststraße",
+      "wk": "47"
+    },
+    {
+      "n": "Wey",
+      "wk": "47"
+    },
+    {
+      "n": "Weyerstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Wickrather Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Wiesenstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Wiesenweg",
+      "wk": "47"
+    },
+    {
+      "n": "Wilhelm-Wallenborn-Straße",
+      "wk": "47"
+    },
+    {
+      "n": "Wilhelmstraße",
+      "wk": "47"
+    },
+    {
+      "n": "Zaunkönigweg",
+      "wk": "47"
+    },
+    {
+      "n": "Zedernweg",
+      "wk": "46"
+    },
+    {
+      "n": "Zum Regiopark",
+      "wk": "47"
+    },
+    {
+      "n": "Zum Ruhdall",
+      "wk": "47"
+    },
+    {
+      "n": "Zur Kapelle",
+      "wk": "47"
+    }
+  ]
+}

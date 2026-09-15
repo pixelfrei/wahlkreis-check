@@ -1,0 +1,2033 @@
+{
+  "meta": {
+    "kommune": "Gladbeck",
+    "stand": "2024-10-30",
+    "gebaut_am": "2026-09-14",
+    "quellen": [
+      "https://abo-online.gkd-re.de/abo-online/PDFAusgabe?Info=YWdzPTA1NTYyMDE0fGluZm89QW10c2JsYXR0fG5ldHo9MXxwZGY9Mzc3NTk%3D"
+    ],
+    "zuordnung": "gesetzesanlage"
+  },
+  "wahlkreise": {
+    "73": "Gelsenkirchen I - Recklinghausen V",
+    "75": "Bottrop - Recklinghausen VI"
+  },
+  "strassen": [
+    {
+      "n": "Adlerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Adolf-Reichwein-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Agathastr.",
+      "wk": "73"
+    },
+    {
+      "n": "Agnesstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Ahornstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Akazienweg",
+      "wk": "73"
+    },
+    {
+      "n": "Albert-Einstein-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Albrechtstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Aldiekstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Alfredstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Allensteiner Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Allinghofstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Allkampstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Allmannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Almastr.",
+      "wk": "73"
+    },
+    {
+      "n": "Alte Radrennbahn",
+      "wk": "73"
+    },
+    {
+      "n": "Alter Sportplatz",
+      "wk": "73"
+    },
+    {
+      "n": "Am Allhagen",
+      "wk": "73"
+    },
+    {
+      "n": "Am Baumarkt",
+      "wk": "73"
+    },
+    {
+      "n": "Am Bergerot",
+      "wk": "73"
+    },
+    {
+      "n": "Am Dorffelde",
+      "wk": "75"
+    },
+    {
+      "n": "Am Haarbach",
+      "wk": "75"
+    },
+    {
+      "n": "Am Heimannshof",
+      "wk": "73"
+    },
+    {
+      "n": "Am Meyplatz",
+      "wk": "73"
+    },
+    {
+      "n": "Am Nattkamp",
+      "wk": "73"
+    },
+    {
+      "n": "Am Pferdekamp",
+      "wk": "73"
+    },
+    {
+      "n": "Am Roten Turm",
+      "wk": "73"
+    },
+    {
+      "n": "Am Sägewerk",
+      "wk": "73"
+    },
+    {
+      "n": "Am Südpark",
+      "wk": "73"
+    },
+    {
+      "n": "Am Wetterschacht",
+      "wk": "75"
+    },
+    {
+      "n": "Am Wiesenbusch",
+      "wk": "75"
+    },
+    {
+      "n": "An der Boy",
+      "wk": "75"
+    },
+    {
+      "n": "An der Erlwiese",
+      "wk": "73"
+    },
+    {
+      "n": "An der Lune",
+      "wk": "73"
+    },
+    {
+      "n": "An Klas' Kotten",
+      "wk": "73"
+    },
+    {
+      "n": "Antoniusstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Arenbergstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Astrid-Lindgren-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Auf dem Busch",
+      "wk": "73"
+    },
+    {
+      "n": "Auf'm Kley",
+      "wk": "73"
+    },
+    {
+      "n": "August-Brust-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "August-Schmidt-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "August-Wessendorf-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Bachstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Backhusweg",
+      "wk": "73"
+    },
+    {
+      "n": "Bahnhofstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Barbarastr.",
+      "wk": "73"
+    },
+    {
+      "n": "Beckerathstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Beckstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Beethovenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Behmerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Beisenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Bellingrottstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Bellmannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Bergmannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Bergstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Berkenstockstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Berkenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Berliner Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Bernhard-Poether-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Bernskamp",
+      "wk": "75"
+    },
+    {
+      "n": "Bertha-von-Suttner-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Bertolt-Brecht-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Bestenweg",
+      "wk": "75"
+    },
+    {
+      "n": "Beuthener Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Birkenweg",
+      "wk": "75"
+    },
+    {
+      "n": "Blindschacht",
+      "wk": "73"
+    },
+    {
+      "n": "Bloomsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Böcklersfeld",
+      "wk": "75"
+    },
+    {
+      "n": "Bodenbacher Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Bogenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Bohmertstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 99999,
+          "par": "g",
+          "wk": "75"
+        },
+        {
+          "von": 99,
+          "bis": 99,
+          "par": "u",
+          "wk": "73"
+        },
+        {
+          "von": 201,
+          "bis": 99999,
+          "par": "u",
+          "wk": "75"
+        }
+      ]
+    },
+    {
+      "n": "Bohnekampstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Bosslerweg",
+      "wk": "73"
+    },
+    {
+      "n": "Bottroper Str.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 38,
+          "par": "g",
+          "wk": "73"
+        },
+        {
+          "von": 1,
+          "bis": 43,
+          "par": "u",
+          "wk": "73"
+        },
+        {
+          "von": 48,
+          "bis": 158,
+          "par": "g",
+          "wk": "73"
+        },
+        {
+          "von": 65,
+          "bis": 167,
+          "par": "u",
+          "wk": "73"
+        },
+        {
+          "von": 176,
+          "bis": 178,
+          "par": "g",
+          "wk": "75"
+        },
+        {
+          "von": 241,
+          "bis": 99999,
+          "par": "u",
+          "wk": "75"
+        },
+        {
+          "von": 282,
+          "bis": 99999,
+          "par": "g",
+          "wk": "75"
+        }
+      ]
+    },
+    {
+      "n": "Boystr.",
+      "wk": "73"
+    },
+    {
+      "n": "Brabecker Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Brahmsstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Bramsfeld",
+      "wk": "73"
+    },
+    {
+      "n": "Brandenheide",
+      "wk": "75"
+    },
+    {
+      "n": "Brauckstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Breddestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Bremer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Breslauer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Breukerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Brinkerfeld",
+      "wk": "73"
+    },
+    {
+      "n": "Brinkerrott",
+      "wk": "73"
+    },
+    {
+      "n": "Brinskamp",
+      "wk": "75"
+    },
+    {
+      "n": "Brokamp",
+      "wk": "73"
+    },
+    {
+      "n": "Brucknerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Brüggenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Brunnenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Brüsseler Straße",
+      "wk": "73"
+    },
+    {
+      "n": "Buchenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Buersche Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Buersche Str. 32 - Ende gerade -",
+      "wk": "73"
+    },
+    {
+      "n": "Buersche Str. 35 - Ende ungerade -",
+      "wk": "73"
+    },
+    {
+      "n": "Bülser Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Burgstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Buschburenweg",
+      "wk": "75"
+    },
+    {
+      "n": "Buschfortweg",
+      "wk": "73"
+    },
+    {
+      "n": "Busfortshof",
+      "wk": "73"
+    },
+    {
+      "n": "Büskenweg",
+      "wk": "73"
+    },
+    {
+      "n": "Butendorfer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Buterweg",
+      "wk": "73"
+    },
+    {
+      "n": "Charlottenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Dahlmannsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Dechenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Dieckmannsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Diepenbrockstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Distelkamp",
+      "wk": "73"
+    },
+    {
+      "n": "Dorstener Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Döwelingsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Droste-Hülshoff-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Durchholzstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Dürerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Eggebrechtstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Eichendorffstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Eifeler Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Eikampstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Eisenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Elfriedenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Elisabeth-Selbert-Weg",
+      "wk": "75"
+    },
+    {
+      "n": "Elisabethstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Ellinghorster Str.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 7,
+          "par": "u",
+          "wk": "73"
+        },
+        {
+          "von": 60,
+          "bis": 99999,
+          "par": "g",
+          "wk": "75"
+        },
+        {
+          "von": 133,
+          "bis": 99999,
+          "par": "u",
+          "wk": "75"
+        }
+      ]
+    },
+    {
+      "n": "Eltener Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Emilienstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Emmichstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Emscherstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Enfieldstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Erlengrund",
+      "wk": "73"
+    },
+    {
+      "n": "Erlenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Ernststr.",
+      "wk": "75"
+    },
+    {
+      "n": "Essener Str. -",
+      "wk": "73"
+    },
+    {
+      "n": "Europastr.",
+      "wk": "73"
+    },
+    {
+      "n": "Ewaldstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Feldhauser Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Feldstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Flözweg",
+      "wk": "73"
+    },
+    {
+      "n": "Forststr.",
+      "wk": "73"
+    },
+    {
+      "n": "Franz-Zielasko-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Franzstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Frentroper Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Frentroper Str. Anfang - 1 A ungerade",
+      "wk": "75"
+    },
+    {
+      "n": "Friedenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Friedrich-Ebert-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Friedrichstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Frielinghausstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Fritz-Erler-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Fritz-Schupp-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Frochtwinkel",
+      "wk": "73"
+    },
+    {
+      "n": "Fußstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Gartenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Gecksheide",
+      "wk": "73"
+    },
+    {
+      "n": "Gertrudstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Geschwister-Scholl-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Gildenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Ginsterweg",
+      "wk": "73"
+    },
+    {
+      "n": "Glatzer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Glückaufstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Gluckstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Gluckstr. 27 A - Ende ungerade",
+      "wk": "73"
+    },
+    {
+      "n": "Goetheplatz",
+      "wk": "73"
+    },
+    {
+      "n": "Goethestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Goldbredde",
+      "wk": "75"
+    },
+    {
+      "n": "Gonheide",
+      "wk": "75"
+    },
+    {
+      "n": "Görlitzer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Gosepathweg",
+      "wk": "73"
+    },
+    {
+      "n": "Grabenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Greifswalder Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Grüner Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Grünewaldstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Gustav-Stresemann-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Hagelkreuzstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hagenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Haldenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Halfmannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hammerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Händelstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Händelstr. Anfang - 27 C ungerade",
+      "wk": "73"
+    },
+    {
+      "n": "Händelstr. Anfang - 32 A gerade",
+      "wk": "73"
+    },
+    {
+      "n": "Hansemannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Harsewinkelstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 14,
+          "par": "g",
+          "wk": "73"
+        },
+        {
+          "von": 141,
+          "bis": 99999,
+          "par": "u",
+          "wk": "75"
+        }
+      ]
+    },
+    {
+      "n": "Hartmannshof",
+      "wk": "73"
+    },
+    {
+      "n": "Harzer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Hauerweg",
+      "wk": "73"
+    },
+    {
+      "n": "Haverkampstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Haydnstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Heckenweg",
+      "wk": "73"
+    },
+    {
+      "n": "Hegemannsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Hegestr.",
+      "wk": "75"
+    },
+    {
+      "n": "Hegestr. 16 - 36 A gerade",
+      "wk": "75"
+    },
+    {
+      "n": "Heidkampstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Heinrich-Böll-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Heinrich-Hertz-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Heinrich-Krahn-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Heinrichstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Helmutstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Herbertstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Herderstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Heringstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hermann-Ehlers-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Hermann-Kappen-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Hermannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hildegardstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Hirschberger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Hochstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hofstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Höhenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Holbeinstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hölderlinstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hölscherweg",
+      "wk": "73"
+    },
+    {
+      "n": "Holthauser Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Holtkampstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Holunderweg",
+      "wk": "73"
+    },
+    {
+      "n": "Hornstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Horster Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Horster Str. 68 A - 82 gerade",
+      "wk": "73"
+    },
+    {
+      "n": "Horster Str. 79 A - 85 ungerade",
+      "wk": "73"
+    },
+    {
+      "n": "Hövelweg",
+      "wk": "75"
+    },
+    {
+      "n": "Hügelstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hülsenbusch",
+      "wk": "75"
+    },
+    {
+      "n": "Humboldtstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hunsrückstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Hürkamp",
+      "wk": "73"
+    },
+    {
+      "n": "Husmannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Huyssenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Im Dahl",
+      "wk": "73"
+    },
+    {
+      "n": "Im Linnerott",
+      "wk": "73"
+    },
+    {
+      "n": "Im Ort",
+      "wk": "73"
+    },
+    {
+      "n": "Im Papengatt",
+      "wk": "75"
+    },
+    {
+      "n": "In der Dorfheide",
+      "wk": "73"
+    },
+    {
+      "n": "In der Mark",
+      "wk": "73"
+    },
+    {
+      "n": "Insterburger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Johann-Harnischfeger-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Johannastr.",
+      "wk": "73"
+    },
+    {
+      "n": "Johannesstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Johowstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Josef-Franke-Weg",
+      "wk": "75"
+    },
+    {
+      "n": "Josef-Helmus-Weg",
+      "wk": "75"
+    },
+    {
+      "n": "Josefstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Jovyplatz",
+      "wk": "73"
+    },
+    {
+      "n": "Kampstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Kampstr. Anfang - 46 A gerade",
+      "wk": "75"
+    },
+    {
+      "n": "Kampstr. Anfang - 83 A ungerade",
+      "wk": "75"
+    },
+    {
+      "n": "Karl-Arnold-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Karl-Schneider-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Karlstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Kärntener Ring",
+      "wk": "73"
+    },
+    {
+      "n": "Kastanienstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Kiebitzheidestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Kieler Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Kirchhellener Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Kirchplatz",
+      "wk": "73"
+    },
+    {
+      "n": "Kirchstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Klarastr.",
+      "wk": "73"
+    },
+    {
+      "n": "Kleiststr.",
+      "wk": "73"
+    },
+    {
+      "n": "Klopstockstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Knappenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Köhnestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Kolberger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Kolpingstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Königsberger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Konrad-Adenauer-Allee",
+      "wk": "73"
+    },
+    {
+      "n": "Koopmannsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Körnerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Kortenkamp",
+      "wk": "73"
+    },
+    {
+      "n": "Kortestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Kösheide",
+      "wk": "75"
+    },
+    {
+      "n": "Kösliner Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Kreuzstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Krugstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Krusenkamp",
+      "wk": "73"
+    },
+    {
+      "n": "Kurt-Schumacher-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Lambertistr.",
+      "wk": "73"
+    },
+    {
+      "n": "Landstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Landstr. 115 - 175 A ungerade",
+      "wk": "73"
+    },
+    {
+      "n": "Lange Kämpe",
+      "wk": "73"
+    },
+    {
+      "n": "Lange Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Lehmstich",
+      "wk": "75"
+    },
+    {
+      "n": "Leineweberweg",
+      "wk": "73"
+    },
+    {
+      "n": "Lessingstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Lindemannweg",
+      "wk": "73"
+    },
+    {
+      "n": "Lindenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Lohstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Lökensweg",
+      "wk": "75"
+    },
+    {
+      "n": "Lortzingstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Lottenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Lötzener Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Lübecker Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Ludwig-Bette-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Luggenhölscherweg",
+      "wk": "73"
+    },
+    {
+      "n": "Luisenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Lukasstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Lützenkampstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Luxemburger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Marcq-en-Baroeul-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Margaretenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Maria-Theresien-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Marie-Curie-Weg",
+      "wk": "75"
+    },
+    {
+      "n": "Marienstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Märker Straße",
+      "wk": "73"
+    },
+    {
+      "n": "Marktplatz",
+      "wk": "73"
+    },
+    {
+      "n": "Marktstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Markusstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Martin-Luther-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Mathiasstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Matthäusstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Max-Planck-Weg",
+      "wk": "75"
+    },
+    {
+      "n": "Meerstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Meinenkamp",
+      "wk": "75"
+    },
+    {
+      "n": "Meisenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Memeler Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Mendelssohnstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Mertenweg",
+      "wk": "73"
+    },
+    {
+      "n": "Mesterfeld",
+      "wk": "75"
+    },
+    {
+      "n": "Mittelstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Möllerstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Möllerstr. Anfang - 3 A ungerade",
+      "wk": "75"
+    },
+    {
+      "n": "Möllerstr. Anfang - 8 A gerade",
+      "wk": "75"
+    },
+    {
+      "n": "Moltkebahn",
+      "wk": "73"
+    },
+    {
+      "n": "Moltkesiedlung",
+      "wk": "73"
+    },
+    {
+      "n": "Mörikestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Mozartstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Mühlenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Münsterländer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Nelkenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Nikolaus-Kopernikus-Weg",
+      "wk": "75"
+    },
+    {
+      "n": "Obere Goethestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Obere Schillerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Oberhof",
+      "wk": "73"
+    },
+    {
+      "n": "Odenwaldstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Oppelner Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Ortelsburger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Ortmannsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Oskarstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Otto-Hue-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Otto-Wels-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Ottostr.",
+      "wk": "73"
+    },
+    {
+      "n": "Partnerschaftsweg",
+      "wk": "75"
+    },
+    {
+      "n": "Paßmannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Paul-Loebe-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Paulstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Pelkumer Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Pestalozzidorf",
+      "wk": "75"
+    },
+    {
+      "n": "Pfarrer-Grünefeld-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Phönixstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Postallee",
+      "wk": "73"
+    },
+    {
+      "n": "Querschlag",
+      "wk": "73"
+    },
+    {
+      "n": "Querstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Rebbelmundstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Rebhuhnweg",
+      "wk": "73"
+    },
+    {
+      "n": "Redenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Reichenberger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Reimannsweg",
+      "wk": "73"
+    },
+    {
+      "n": "Rensekamp",
+      "wk": "73"
+    },
+    {
+      "n": "Rentforter Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Rethelstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Richard-Wagner-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Riekchenweg",
+      "wk": "73"
+    },
+    {
+      "n": "Riesenerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Ringeldorfer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Rockwool Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Roßheidestr.",
+      "wk": "73"
+    },
+    {
+      "n": "Rostocker Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Rottenburgstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Röttgersbank",
+      "wk": "73"
+    },
+    {
+      "n": "Rottstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Rüttgerstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Saarbrückener Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Sandstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 20,
+          "par": "g",
+          "wk": "73"
+        },
+        {
+          "von": 13,
+          "bis": 45,
+          "par": "u",
+          "wk": "73"
+        },
+        {
+          "von": 163,
+          "bis": 187,
+          "par": "u",
+          "wk": "75"
+        },
+        {
+          "von": 176,
+          "bis": 186,
+          "par": "g",
+          "wk": "75"
+        }
+      ]
+    },
+    {
+      "n": "Sauerländer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Schachtstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schanzenheide",
+      "wk": "73"
+    },
+    {
+      "n": "Schanzenhof",
+      "wk": "73"
+    },
+    {
+      "n": "Scheideweg",
+      "wk": "73"
+    },
+    {
+      "n": "Schillerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schlägelstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schleusenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schnyderweg",
+      "wk": "73"
+    },
+    {
+      "n": "Scholtwiese",
+      "wk": "75"
+    },
+    {
+      "n": "Scholver Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Schönbergstraße",
+      "wk": "73"
+    },
+    {
+      "n": "Schongauerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schroerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schubertstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schulstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schulte-Berge-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Schulte-Rentrop-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Schultenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Schumannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schürenkampstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schützenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Schwechater Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Sellerbeckstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Serlostr.",
+      "wk": "73"
+    },
+    {
+      "n": "Sigismund-v.-Radecki-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Söllerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Sonnenkamp",
+      "wk": "73"
+    },
+    {
+      "n": "Spessartstraße",
+      "wk": "73"
+    },
+    {
+      "n": "Spiekerstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Stallhermstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Stargarder Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Steigerweg",
+      "wk": "73"
+    },
+    {
+      "n": "Steinrottstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Steinstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Sternstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Stettiner Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Stollenstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Stralsunder Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Straßburger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Strickholtstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Talstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Taubenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Taunusstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Taunusstr. Anfang - 27 B ungerade",
+      "wk": "73"
+    },
+    {
+      "n": "Tauschlagstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Teisterstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Theodor-Heuss-Str.",
+      "wk": "75"
+    },
+    {
+      "n": "Theodorstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Thomas-Mann-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Thüringer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Tilsiter Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Tunnelstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Uechtmannstr.",
+      "b": [
+        {
+          "von": 1,
+          "bis": 46,
+          "par": "g",
+          "wk": "73"
+        },
+        {
+          "von": 1,
+          "bis": 37,
+          "par": "u",
+          "wk": "73"
+        },
+        {
+          "von": 55,
+          "bis": 63,
+          "par": "u",
+          "wk": "75"
+        },
+        {
+          "von": 82,
+          "bis": 99999,
+          "par": "g",
+          "wk": "75"
+        }
+      ]
+    },
+    {
+      "n": "Uferstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Uhlandstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Ulmenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Unverhofft",
+      "wk": "75"
+    },
+    {
+      "n": "Van-Suntum-Weg",
+      "wk": "73"
+    },
+    {
+      "n": "Vehrenbergstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Vehrenbergstr. Anfang - 101 A ungerade",
+      "wk": "73"
+    },
+    {
+      "n": "Veilchenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Von-Schwind-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Voßbrinkstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Voßstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Voßwiese",
+      "wk": "73"
+    },
+    {
+      "n": "Wachholderweg",
+      "wk": "73"
+    },
+    {
+      "n": "Wagenfeldstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Waldenburger Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Waldstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Waterbruch",
+      "wk": "73"
+    },
+    {
+      "n": "Waterhuck",
+      "wk": "73"
+    },
+    {
+      "n": "Weberstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Wehlingsweg",
+      "wk": "75"
+    },
+    {
+      "n": "Weiherstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Welheimer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Westerwälder Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Weusters Weg",
+      "wk": "75"
+    },
+    {
+      "n": "Wibbeltstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Wielandstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Wiesenstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Wiesmannstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Wilhelm-Olejnik-Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Wilhelmstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Willy-Brandt-Platz",
+      "wk": "73"
+    },
+    {
+      "n": "Winkelstr.",
+      "wk": "73"
+    },
+    {
+      "n": "Wismarer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Wittringer Str.",
+      "wk": "73"
+    },
+    {
+      "n": "Wodzislawweg",
+      "wk": "75"
+    },
+    {
+      "n": "Woorthstr.",
+      "wk": "75"
+    },
+    {
+      "n": "Ziegeleistr.",
+      "wk": "75"
+    },
+    {
+      "n": "Zollverein",
+      "wk": "75"
+    },
+    {
+      "n": "Zum Brink",
+      "wk": "73"
+    },
+    {
+      "n": "Zum Mühlenbach",
+      "wk": "73"
+    },
+    {
+      "n": "Zum Stadtwald",
+      "wk": "73"
+    },
+    {
+      "n": "Zweckeler Platz",
+      "wk": "73"
+    },
+    {
+      "n": "Zweckeler Str.",
+      "wk": "73"
+    }
+  ]
+}

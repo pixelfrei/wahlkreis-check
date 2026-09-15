@@ -1,0 +1,793 @@
+:root {
+  /* Volt-Markenfarben */
+  --lila: #502379;
+  --lila-tief: #3b1860;
+  --lila-hell: #aa94c0;
+  --gelb: #fdc220;
+  --rot: #e63e12;
+
+  /* Flächen & Text (hell) */
+  --hintergrund: #f5f2f8;
+  --flaeche: #ffffff;
+  --flaeche-2: #ede8f1;
+  --text: #140022;
+  --text-leise: #5f5470;
+  --rand: rgba(20, 0, 34, 0.08);
+  --akzent: var(--lila);
+  --markierung: rgba(253, 194, 32, 0.45);
+  --warn-flaeche: #fff6db;
+  --warn-rand: #fdc220;
+  --schatten: 0 1px 2px rgba(20, 0, 34, 0.06), 0 4px 16px rgba(20, 0, 34, 0.06);
+
+  --radius: 14px;
+  --radius-klein: 10px;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --hintergrund: #0f0a15;
+    --flaeche: #1b1325;
+    --flaeche-2: #261c33;
+    --text: #f2edf7;
+    --text-leise: #b3a6c4;
+    --rand: rgba(255, 255, 255, 0.08);
+    --akzent: #c9b3e0;
+    --markierung: rgba(253, 194, 32, 0.3);
+    --warn-flaeche: #2b2210;
+    --warn-rand: #b8860b;
+    --schatten: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
+    --lila-tief: #2a1045;
+  }
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--hintergrund);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input {
+  font-family: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--gelb);
+  outline-offset: 2px;
+}
+
+/* --- Rahmen --- */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.kopfleiste {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: calc(8px + env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) 8px
+    max(8px, env(safe-area-inset-left));
+  min-height: 60px;
+  background: linear-gradient(135deg, var(--lila) 0%, var(--lila-tief) 100%);
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(20, 0, 34, 0.2);
+}
+
+.titel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0 8px;
+  line-height: 1.2;
+}
+
+.titel-name {
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+
+.titel-stadt {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 12px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.icon-button:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.icon-button:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.inhalt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.seite {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px max(16px, env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom))
+    max(16px, env(safe-area-inset-left));
+}
+
+.seiten-titel {
+  margin: 4px 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.karte {
+  background: var(--flaeche);
+  border: 1px solid var(--rand);
+  border-radius: var(--radius);
+  box-shadow: var(--schatten);
+}
+
+/* --- Menü --- */
+
+.menu-ebene {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+}
+
+.menu-hintergrund {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 0, 20, 0.5);
+  animation: einblenden 0.2s ease;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: min(320px, 85vw);
+  padding: calc(8px + env(safe-area-inset-top)) 8px calc(16px + env(safe-area-inset-bottom));
+  background: var(--flaeche);
+  color: var(--text);
+  box-shadow: -8px 0 32px rgba(0, 0, 0, 0.25);
+  animation: hereinfahren 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.menu-kopf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  padding-left: 12px;
+  margin-bottom: 8px;
+}
+
+.menu-kopf .icon-button:hover {
+  background: var(--flaeche-2);
+}
+
+.menu-titel {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.menu-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-eintrag {
+  display: block;
+  width: 100%;
+  padding: 14px 12px;
+  border: none;
+  border-radius: var(--radius-klein);
+  background: none;
+  color: var(--text);
+  font-size: 1.05rem;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.menu-eintrag:hover,
+.menu-eintrag:active,
+.menu-eintrag[aria-current="page"] {
+  background: var(--flaeche-2);
+}
+
+.menu-eintrag[aria-current="page"] {
+  font-weight: 700;
+}
+
+.menu-liste-info {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rand);
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: auto;
+  padding: 16px 12px 0;
+  border-top: 1px solid var(--rand);
+  color: var(--text-leise);
+  font-size: 0.8rem;
+}
+
+@keyframes einblenden {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes hereinfahren {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+/* --- Suche --- */
+
+.suchfeld {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 6px 0 16px;
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  background: var(--flaeche);
+  box-shadow: var(--schatten);
+  color: var(--text-leise);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.suchfeld:focus-within {
+  border-color: var(--akzent);
+}
+
+.suchfeld input {
+  flex: 1;
+  min-width: 0;
+  padding: 16px 0;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 1.15rem;
+  outline: none;
+}
+
+.suchfeld input::placeholder {
+  color: var(--text-leise);
+  opacity: 0.8;
+}
+
+.suchfeld .leeren {
+  width: 40px;
+  height: 40px;
+  color: var(--text-leise);
+}
+
+.suchfeld .leeren:hover {
+  background: var(--flaeche-2);
+}
+
+.leer-hinweis {
+  margin: 8px 4px;
+  color: var(--text-leise);
+  font-size: 0.95rem;
+}
+
+.trefferliste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.trefferliste li + li {
+  border-top: 1px solid var(--rand);
+}
+
+.trefferliste li button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 52px;
+  padding: 12px 12px 12px 16px;
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 1.05rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.trefferliste li button svg {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  color: var(--text-leise);
+}
+
+.trefferliste li button:hover,
+.trefferliste li button:active {
+  background: var(--flaeche-2);
+}
+
+.treffer-name mark {
+  background: var(--markierung);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 1px;
+}
+
+.nicht-verfuegbar {
+  color: var(--text-leise);
+  font-weight: 700;
+}
+
+/* --- Ergebnis --- */
+
+.hausnummer-eingabe {
+  padding: 16px;
+}
+
+.hausnummer-eingabe label {
+  display: block;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.hausnummer-eingabe .hinweis {
+  margin: 4px 0 12px;
+  color: var(--text-leise);
+  font-size: 0.9rem;
+}
+
+.hausnummer-eingabe input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--rand);
+  border-radius: var(--radius-klein);
+  background: var(--flaeche-2);
+  color: var(--text);
+  font-size: 1.4rem;
+  font-weight: 700;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.hausnummer-eingabe input:focus {
+  border-color: var(--akzent);
+}
+
+.ergebnis-karte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 28px 20px 24px;
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 85% 0%, rgba(253, 194, 32, 0.22), transparent 45%),
+    linear-gradient(145deg, #6a2fa0 0%, var(--lila) 45%, var(--lila-tief) 100%);
+  color: #fff;
+  box-shadow: 0 12px 32px rgba(80, 35, 121, 0.35);
+}
+
+.ergebnis-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gelb);
+}
+
+.ergebnis-karte .zahl {
+  font-size: clamp(5.5rem, 34vw, 11rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin: 4px 0;
+}
+
+.ergebnis-karte .wk-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.ergebnis-karte .ort {
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.erklaerung {
+  margin: 0 4px;
+  color: var(--text-leise);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.hinweis-karte {
+  padding: 16px;
+  font-weight: 700;
+}
+
+.warn-karte {
+  padding: 18px 16px;
+  background: var(--warn-flaeche);
+  border-left: 5px solid var(--warn-rand);
+}
+
+.warn-karte .warnung {
+  margin: 0 0 16px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.warn-karte .vermutung-klein {
+  margin: 0 0 4px;
+  font-size: 1.35rem;
+}
+
+.warn-karte .grund {
+  margin: 0;
+  color: var(--text-leise);
+  font-size: 0.8rem;
+}
+
+.uebersicht {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.abschnitt-titel {
+  margin: 4px 4px 0;
+  color: var(--text-leise);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bereichsliste {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bereich-eintrag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 56px;
+  padding: 12px 14px;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    transform 0.1s ease,
+    background-color 0.15s ease;
+}
+
+.bereich-eintrag:hover {
+  background: var(--flaeche-2);
+}
+
+.bereich-eintrag:active {
+  transform: scale(0.99);
+}
+
+.bereich-zahlen {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.bereich-wk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  min-width: 0;
+  text-align: right;
+}
+
+.wk-badge {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--lila);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.wk-badge.unklar {
+  background: var(--flaeche-2);
+  color: var(--text-leise);
+}
+
+.bereich-wk-name {
+  color: var(--text-leise);
+  font-size: 0.8rem;
+}
+
+.pill-button {
+  align-self: center;
+  margin-top: 8px;
+  min-height: 48px;
+  padding: 12px 24px;
+  border: 2px solid var(--akzent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--akzent);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.pill-button:hover,
+.pill-button:active {
+  background: var(--akzent);
+  color: var(--flaeche);
+}
+
+/* Ladeanzeige erst nach kurzer Zeit einblenden, damit sie bei schnellem Laden nicht aufblitzt. */
+.status-screen.verzoegert {
+  animation: einblenden 0.2s ease 0.3s both;
+}
+
+/* --- Infoseiten (Inhalte aus src/frontend/seiten/) --- */
+
+.infoseite .karte {
+  padding: 24px;
+  overflow-wrap: anywhere;
+}
+
+.infoseite h1 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.infoseite h2 {
+  font-size: 1.1rem;
+  margin-top: 28px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--rand);
+}
+
+.infoseite .karte > h2:first-child {
+  margin-top: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.infoseite h3 {
+  margin: 20px 0 4px;
+  color: var(--text-leise);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.infoseite h3 + p,
+.infoseite h3 + ul {
+  margin-top: 4px;
+}
+
+.infoseite p {
+  line-height: 1.5;
+}
+
+.infoseite code {
+  background: var(--flaeche-2);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.infoseite ul {
+  padding-left: 20px;
+}
+
+.infoseite li {
+  margin-bottom: 8px;
+}
+
+.infoseite a {
+  color: var(--akzent);
+}
+
+/* Externe Links (verlassen die App) */
+.infoseite a[href^="http"]::after {
+  content: " ↗";
+  content: " ↗" / " (externer Link)";
+  font-size: 0.85em;
+}
+
+/* Sprungziele nicht unter der klebenden Kopfleiste verschwinden lassen */
+.infoseite [id] {
+  scroll-margin-top: 76px;
+}
+
+.infoseite .stand {
+  font-size: 0.85rem;
+  color: var(--text-leise);
+}
+
+.infoseite .hinweis-box {
+  padding: 12px;
+  border-radius: var(--radius-klein);
+  background: var(--flaeche-2);
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.infoseite .eckdaten,
+.infoseite .stadt-index {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.infoseite .eckdaten {
+  gap: 6px;
+  margin: 8px 0 12px;
+}
+
+.infoseite .eckdaten li,
+.infoseite .stadt-index li {
+  margin: 0;
+}
+
+.infoseite .eckdaten li {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--flaeche-2);
+  color: var(--text-leise);
+  font-size: 0.8rem;
+}
+
+.infoseite .eckdaten .methode {
+  background: var(--lila);
+  color: #fff;
+  font-weight: 700;
+}
+
+.infoseite .stadt-index {
+  gap: 8px;
+  margin: 12px 0 0;
+}
+
+.infoseite .stadt-index a {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid var(--rand);
+  border-radius: 999px;
+  background: var(--flaeche-2);
+  color: var(--text);
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.infoseite .stadt-index a:hover {
+  background: var(--rand);
+}
+
+.infoseite .nach-oben {
+  margin: 16px 0 0;
+  font-size: 0.85rem;
+}
+
+.status-screen {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  color: var(--text-leise);
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

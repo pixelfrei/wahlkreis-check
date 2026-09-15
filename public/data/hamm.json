@@ -1,0 +1,7192 @@
+{
+  "meta": {
+    "kommune": "Hamm",
+    "stand": "2025",
+    "gebaut_am": "2026-09-13",
+    "quellen": [
+      "https://www.hamm.de/fileadmin/user_upload/Medienarchiv_neu/Dokumente/Rathaus/Statistik_Wahl/Strassenverzeichnis_Stimmbezirke_Kommunalwahl.pdf"
+    ],
+    "zuordnung": "gesetzesanlage"
+  },
+  "wahlkreise": {
+    "117": "Unna III - Hamm II",
+    "118": "Hamm I"
+  },
+  "strassen": [
+    {
+      "n": "Abzweig Nordenfeldmark",
+      "wk": "118"
+    },
+    {
+      "n": "Ackerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Adalbert-Falk-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Adenauerallee",
+      "wk": "118"
+    },
+    {
+      "n": "Adlerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Adolf-Juckenack-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Adolf-Schillupp-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Adolfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Agnesstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ahlener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ahornallee",
+      "wk": "118"
+    },
+    {
+      "n": "Ahsegrund",
+      "wk": "118"
+    },
+    {
+      "n": "Ahseufer",
+      "wk": "118"
+    },
+    {
+      "n": "Akazienallee",
+      "wk": "118"
+    },
+    {
+      "n": "Albert-Einstein-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Albert-Funk-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Albert-Schweitzer-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Albert-Spieker-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Albert-Struck-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Albertsmeierhof",
+      "wk": "118"
+    },
+    {
+      "n": "Albertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Alfred-Fischer-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Alfred-Weber-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Alleestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Allener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Allensteiner Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Alois-Wiehagen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Alpendohlenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Alsenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Alsenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Alte Freisker Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Alte Landwehrstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Alte Lünener Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Alte Salzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Alte Soester Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Alter Grenzweg",
+      "wk": "118"
+    },
+    {
+      "n": "Alter Papenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Alter Uentroper Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Altmarker Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Alvenslebenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Am Bach",
+      "wk": "118"
+    },
+    {
+      "n": "Am Beckhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Beisenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Berg",
+      "wk": "118"
+    },
+    {
+      "n": "Am Böcken",
+      "wk": "118"
+    },
+    {
+      "n": "Am Boonekamp",
+      "wk": "117"
+    },
+    {
+      "n": "Am Bremsberg",
+      "wk": "117"
+    },
+    {
+      "n": "Am Brokhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Büchenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Busch",
+      "wk": "118"
+    },
+    {
+      "n": "Am Dahlhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Damm",
+      "wk": "118"
+    },
+    {
+      "n": "Am Ebertpark",
+      "wk": "118"
+    },
+    {
+      "n": "Am Eichenholz",
+      "wk": "118"
+    },
+    {
+      "n": "Am Entenschnabel",
+      "wk": "118"
+    },
+    {
+      "n": "Am Eversbach",
+      "wk": "118"
+    },
+    {
+      "n": "Am Feuerwehrhaus",
+      "wk": "117"
+    },
+    {
+      "n": "Am Finnbusch",
+      "wk": "118"
+    },
+    {
+      "n": "Am Freihof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Frienbusch",
+      "wk": "118"
+    },
+    {
+      "n": "Am Friggenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Fuhrbach",
+      "wk": "118"
+    },
+    {
+      "n": "Am Gallberg",
+      "wk": "118"
+    },
+    {
+      "n": "Am Grünhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hagenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hahnenbach",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hallohpark",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hämmschen",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hang",
+      "wk": "118"
+    },
+    {
+      "n": "Am Haunerhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Heessener Wald",
+      "wk": "118"
+    },
+    {
+      "n": "Am Heidbaum",
+      "wk": "118"
+    },
+    {
+      "n": "Am Heidgarten",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hellwege",
+      "wk": "117"
+    },
+    {
+      "n": "Am Hexenteich",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hofe",
+      "wk": "118"
+    },
+    {
+      "n": "Am Holtkamp",
+      "wk": "117"
+    },
+    {
+      "n": "Am Horsenknapp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Huckenholz",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hülsenbusch",
+      "wk": "118"
+    },
+    {
+      "n": "Am Hürenbusch",
+      "wk": "118"
+    },
+    {
+      "n": "Am Jägerhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Jugendheim",
+      "wk": "117"
+    },
+    {
+      "n": "Am Kalthof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Kappenbusch",
+      "wk": "118"
+    },
+    {
+      "n": "Am Kiesekamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Kirchgraben",
+      "wk": "118"
+    },
+    {
+      "n": "Am Kleibaum",
+      "wk": "118"
+    },
+    {
+      "n": "Am Kleihang",
+      "wk": "118"
+    },
+    {
+      "n": "Am Knüwen",
+      "wk": "118"
+    },
+    {
+      "n": "Am Königskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Kötterberg",
+      "wk": "118"
+    },
+    {
+      "n": "Am Langkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Lausbach",
+      "wk": "118"
+    },
+    {
+      "n": "Am Lindenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Maiershaus",
+      "wk": "118"
+    },
+    {
+      "n": "Am Maximilianpark",
+      "wk": "118"
+    },
+    {
+      "n": "Am Oberhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Ortsgüterbahnhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Pelkumer Bach",
+      "wk": "118"
+    },
+    {
+      "n": "Am Pilsholz",
+      "wk": "118"
+    },
+    {
+      "n": "Am Pulverschoppen",
+      "wk": "118"
+    },
+    {
+      "n": "Am Riemerskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Roggenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Rohland",
+      "wk": "118"
+    },
+    {
+      "n": "Am Roten Läppchen",
+      "wk": "118"
+    },
+    {
+      "n": "Am Sadelhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Schacht III",
+      "wk": "118"
+    },
+    {
+      "n": "Am Schmerberg",
+      "wk": "118"
+    },
+    {
+      "n": "Am Schräggraben",
+      "wk": "118"
+    },
+    {
+      "n": "Am Schürbusch",
+      "wk": "118"
+    },
+    {
+      "n": "Am Schützenplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Am Schwimmbad",
+      "wk": "118"
+    },
+    {
+      "n": "Am Sonnenknapp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Sportfreundeplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Am Sportplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Am Stadtbad",
+      "wk": "118"
+    },
+    {
+      "n": "Am Südbad",
+      "wk": "118"
+    },
+    {
+      "n": "Am Teigelkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Tibaum",
+      "wk": "117"
+    },
+    {
+      "n": "Am Tünner Berg",
+      "wk": "118"
+    },
+    {
+      "n": "Am Vossknapp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Wäldchen",
+      "wk": "118"
+    },
+    {
+      "n": "Am Wasserkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Wehrkipp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Weidbusch",
+      "wk": "117"
+    },
+    {
+      "n": "Am Weilenacker",
+      "wk": "118"
+    },
+    {
+      "n": "Am Weizenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Am Wellenbad",
+      "wk": "118"
+    },
+    {
+      "n": "Am Wemhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Weringhof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Werk",
+      "wk": "118"
+    },
+    {
+      "n": "Am Westerkamp",
+      "wk": "117"
+    },
+    {
+      "n": "Am Wevelshof",
+      "wk": "118"
+    },
+    {
+      "n": "Am Wieler",
+      "wk": "117"
+    },
+    {
+      "n": "Am Wiesenteich",
+      "wk": "117"
+    },
+    {
+      "n": "Am Ziegelofen",
+      "wk": "118"
+    },
+    {
+      "n": "Ammerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Amselstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Amtsstraße",
+      "wk": "118"
+    },
+    {
+      "n": "An den Fördertürmen",
+      "wk": "118"
+    },
+    {
+      "n": "An den Kirchen",
+      "wk": "117"
+    },
+    {
+      "n": "An der Ahse",
+      "wk": "118"
+    },
+    {
+      "n": "An der Autobahn",
+      "wk": "117"
+    },
+    {
+      "n": "An der Barbaraklinik",
+      "wk": "118"
+    },
+    {
+      "n": "An der Barbecke",
+      "wk": "118"
+    },
+    {
+      "n": "An der Bewer",
+      "wk": "118"
+    },
+    {
+      "n": "An der Bürgerhalle",
+      "wk": "118"
+    },
+    {
+      "n": "An der Dorfeiche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Drechener Kirche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Erlöserkirche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Falkschule",
+      "wk": "117"
+    },
+    {
+      "n": "An der Geinegge",
+      "wk": "118"
+    },
+    {
+      "n": "An der Gräfte",
+      "wk": "118"
+    },
+    {
+      "n": "An der Heckenrose",
+      "wk": "118"
+    },
+    {
+      "n": "An der Insel",
+      "wk": "118"
+    },
+    {
+      "n": "An der Johanneskirche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Kleinen Seseke",
+      "wk": "118"
+    },
+    {
+      "n": "An der Lehmkuhle",
+      "wk": "118"
+    },
+    {
+      "n": "An der Lohschule",
+      "wk": "118"
+    },
+    {
+      "n": "An der Marienkirche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Mattenbecke",
+      "wk": "118"
+    },
+    {
+      "n": "An der Rehwiese",
+      "wk": "118"
+    },
+    {
+      "n": "An der Schlage",
+      "wk": "118"
+    },
+    {
+      "n": "An der Schleuse",
+      "wk": "118"
+    },
+    {
+      "n": "An der Schlossmühle",
+      "wk": "118"
+    },
+    {
+      "n": "An der Spierkuhle",
+      "wk": "118"
+    },
+    {
+      "n": "An der Stadtlandwehr",
+      "wk": "118"
+    },
+    {
+      "n": "An der Steinernen Brücke",
+      "wk": "118"
+    },
+    {
+      "n": "An der Stephanuskirche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Theresienkirche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Uentroper Kirche",
+      "wk": "118"
+    },
+    {
+      "n": "An der Waldemei",
+      "wk": "117"
+    },
+    {
+      "n": "An der Windmühle",
+      "wk": "118"
+    },
+    {
+      "n": "Andreas-Schillack-Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Andreasstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Anemonenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Angerring",
+      "wk": "118"
+    },
+    {
+      "n": "Anhalter Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Annastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Anneliese-Hellbeck-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Anneliese-Messner-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Anthurienweg",
+      "wk": "118"
+    },
+    {
+      "n": "Anton-Maas-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Anton-Voss-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Antonistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ardennenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Argonner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Arminstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Arndtstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Arnold-Freymuth-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Arnsteinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Arthur-Dewitz-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ascherstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Asternstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Auerhahnweg",
+      "wk": "118"
+    },
+    {
+      "n": "Auf Börgers Hof",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Braken",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Brauk",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Brink",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Daberg",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Döhn",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Domm",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Felde",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Goor",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Hilkenhohl",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Höhkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Knuf",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Loh",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Placken",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Rott",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Schill",
+      "wk": "117"
+    },
+    {
+      "n": "Auf dem Schott",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Südfelde",
+      "wk": "118"
+    },
+    {
+      "n": "Auf dem Tigge",
+      "wk": "118"
+    },
+    {
+      "n": "Auf den Kämpen",
+      "wk": "118"
+    },
+    {
+      "n": "Auf der Bänkerheide",
+      "wk": "118"
+    },
+    {
+      "n": "Auf der Becke",
+      "wk": "118"
+    },
+    {
+      "n": "Auf der Breite",
+      "wk": "118"
+    },
+    {
+      "n": "Auf der Geist",
+      "wk": "118"
+    },
+    {
+      "n": "Auf der Helle",
+      "wk": "118"
+    },
+    {
+      "n": "Auf der Horst",
+      "wk": "118"
+    },
+    {
+      "n": "Auf der Stockei",
+      "wk": "117"
+    },
+    {
+      "n": "Auf Kösters Kamp",
+      "wk": "118"
+    },
+    {
+      "n": "August-Bebel-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "August-Brust-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "August-Heinrich-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "August-Macke-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "August-Schmidt-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "August-Schüttken-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "August-Siemsen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "August-Thyssen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Augustastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Augustin-Wibbelt-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Azaleenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bachstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Bahnhofstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bahnmeisterweg",
+      "wk": "118"
+    },
+    {
+      "n": "Bankerheide",
+      "wk": "118"
+    },
+    {
+      "n": "Bänklerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Banningstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Barbarastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Barbarossastraße",
+      "wk": "117"
+    },
+    {
+      "n": "Barnevelderweg",
+      "wk": "118"
+    },
+    {
+      "n": "Barsen",
+      "wk": "118"
+    },
+    {
+      "n": "Barsener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bartokstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Basaltstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bauernschöttgen",
+      "wk": "117"
+    },
+    {
+      "n": "Bäumerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Baumhofstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Baumhofweg",
+      "wk": "118"
+    },
+    {
+      "n": "Baumstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bayernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Behringstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Beisengeithe",
+      "wk": "118"
+    },
+    {
+      "n": "Beiseystraße",
+      "wk": "117"
+    },
+    {
+      "n": "Bekassinenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Benzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bergengruenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bergfinkenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Bergmannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Berkenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Berliner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bernhard-Ketzlick-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bernhard-Röllmann-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bernhard-Rüter-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bernhardstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bert-Brecht-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Besselstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Beukenbergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Beuthener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Beverfördering",
+      "wk": "118"
+    },
+    {
+      "n": "Beverkramenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Beverstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Biberweg",
+      "wk": "118"
+    },
+    {
+      "n": "Bickeweg",
+      "wk": "118"
+    },
+    {
+      "n": "Bierkamp",
+      "wk": "117"
+    },
+    {
+      "n": "Bimbergsheide",
+      "wk": "118"
+    },
+    {
+      "n": "Birkenallee",
+      "wk": "118"
+    },
+    {
+      "n": "Birkenfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Birkenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Birkhuhnweg",
+      "wk": "118"
+    },
+    {
+      "n": "Bismarckstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bittners Hof",
+      "wk": "118"
+    },
+    {
+      "n": "Blaufärberstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Blaukehlchenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Blauregenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Blücherstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Blumenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bockelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Böckenhege",
+      "wk": "118"
+    },
+    {
+      "n": "Bocksheideweg",
+      "wk": "117"
+    },
+    {
+      "n": "Bockumer Heide",
+      "wk": "118"
+    },
+    {
+      "n": "Bockumer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Bodelschwinghstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bogenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bönener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bonifatiusweg",
+      "wk": "117"
+    },
+    {
+      "n": "Borbergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bördenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Borgholz",
+      "wk": "118"
+    },
+    {
+      "n": "Bornstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Böttcherstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Braamer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bradfordstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brahestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brahmsstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bramwiese",
+      "wk": "118"
+    },
+    {
+      "n": "Brandenburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Brandheide",
+      "wk": "118"
+    },
+    {
+      "n": "Brändströmstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brauck",
+      "wk": "118"
+    },
+    {
+      "n": "Brauereistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Braunshof",
+      "wk": "117"
+    },
+    {
+      "n": "Brefeldstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brehmstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Breite Hecke",
+      "wk": "117"
+    },
+    {
+      "n": "Brentanostraße",
+      "wk": "118"
+    },
+    {
+      "n": "Breslauer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Brinkmanns Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Brinkstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brittaweg",
+      "wk": "118"
+    },
+    {
+      "n": "Brokbrede",
+      "wk": "118"
+    },
+    {
+      "n": "Brökermersch",
+      "wk": "118"
+    },
+    {
+      "n": "Bromberger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Brückenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brucknerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brüderstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brüggenkampstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Brüggenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Bruktererweg",
+      "wk": "117"
+    },
+    {
+      "n": "Buchenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Buchfinkenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Buchsbaumweg",
+      "wk": "118"
+    },
+    {
+      "n": "Bückeburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Bülowstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Bürgermeister-Schäfer-Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Buschkampstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Buschstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Büskenwiese",
+      "wk": "118"
+    },
+    {
+      "n": "Bussardstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Caldenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Caldenhofer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Cardijnstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Carl-Goerdeler-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Carl-Sonnenschein-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Carl-Zeiss-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Carlo-Schmid-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Carolinenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Ceresstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Charlotte-Bühler-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Charlottenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Chemnitzer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Christinenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Clausewitzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Clematisweg",
+      "wk": "118"
+    },
+    {
+      "n": "Clementine-Röper-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Condorstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Cosackstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Culmer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Dachshof",
+      "wk": "118"
+    },
+    {
+      "n": "Dahlbockums Hof",
+      "wk": "118"
+    },
+    {
+      "n": "Dahlienstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Daimlerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dambergskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Dambergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dammstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dänenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Danielstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Danziger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Dasbeck",
+      "wk": "118"
+    },
+    {
+      "n": "Dasbecker Markt",
+      "wk": "118"
+    },
+    {
+      "n": "Dasbecker Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Davidisstraße",
+      "wk": "118"
+    },
+    {
+      "n": "De-Wendel-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Deichmühle",
+      "wk": "117"
+    },
+    {
+      "n": "Delpstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dennehauptweg",
+      "wk": "118"
+    },
+    {
+      "n": "Derfflingerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dessauer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Detmolder Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Deutzholz",
+      "wk": "118"
+    },
+    {
+      "n": "Dickebank",
+      "wk": "118"
+    },
+    {
+      "n": "Dieckmanns Hof",
+      "wk": "118"
+    },
+    {
+      "n": "Dierhagenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Dieselstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Diesterwegstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Dietrich-Bonhoeffer-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Dietrichstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Distelfinkweg",
+      "wk": "118"
+    },
+    {
+      "n": "Distlerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Doenchstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dohlenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Dohmwirthhof",
+      "wk": "118"
+    },
+    {
+      "n": "Dolberger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Dompfaffenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Donauschleife",
+      "wk": "118"
+    },
+    {
+      "n": "Dorchkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Dörholtstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dornheideweg",
+      "wk": "118"
+    },
+    {
+      "n": "Dorotheenpfad",
+      "wk": "118"
+    },
+    {
+      "n": "Dortmunder Straße",
+      "b": [
+        {
+          "von": 6,
+          "bis": 8,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 13,
+          "bis": 25,
+          "par": "u",
+          "wk": "118"
+        },
+        {
+          "von": 14,
+          "bis": 46,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 47,
+          "bis": 63,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 50,
+          "bis": 116,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 67,
+          "bis": 173,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 118,
+          "bis": 170,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 174,
+          "bis": 180,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 177,
+          "bis": 225,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 182,
+          "bis": 194,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 206,
+          "bis": 210,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 231,
+          "bis": 245,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 251,
+          "bis": 255,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 259,
+          "bis": 273,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 277,
+          "bis": 315,
+          "par": "u",
+          "wk": "117"
+        }
+      ]
+    },
+    {
+      "n": "Dr.-Fielitz-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Dr.-Helmut-Hünnekens-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Dr.-Loeb-Caldenhof-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Dr.-Ludwig-Hartmann-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Dr.-Voßhage-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Dr.-Wilhelm-Lippmann-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Drei-Eichen-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Dresdener Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Drosselkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Drosselweg",
+      "wk": "118"
+    },
+    {
+      "n": "Droste-Hülshoff-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Dünnebank",
+      "wk": "118"
+    },
+    {
+      "n": "Düppelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Dürerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ebbermannshof",
+      "wk": "118"
+    },
+    {
+      "n": "Eberhardweg",
+      "wk": "118"
+    },
+    {
+      "n": "Eckenerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eckernkamp",
+      "wk": "117"
+    },
+    {
+      "n": "Eckeystraße",
+      "wk": "117"
+    },
+    {
+      "n": "Edisonstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Efeuweg",
+      "wk": "118"
+    },
+    {
+      "n": "Egelmehr",
+      "wk": "118"
+    },
+    {
+      "n": "Eibenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Eichelhäherweg",
+      "wk": "118"
+    },
+    {
+      "n": "Eichendorffweg",
+      "wk": "118"
+    },
+    {
+      "n": "Eichenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eichstedtstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eickhoffstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eisvogelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Eitelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Elberskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Elbinger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Elchstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eleonorenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Elisabeth-Schiemann-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Elisabethstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Elsässer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Elsingstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Elsterweg",
+      "wk": "118"
+    },
+    {
+      "n": "Engernweg",
+      "wk": "117"
+    },
+    {
+      "n": "Enniger",
+      "wk": "118"
+    },
+    {
+      "n": "Ennigerberg",
+      "wk": "118"
+    },
+    {
+      "n": "Ennigerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Enzianstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Erfurter Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Erich-Kästner-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Erich-Klausener-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Erich-Krämer-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Erich-Lütkenhaus-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Erich-Ollenhauer-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Erich-Polkaehn-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Erikastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Erlenbachstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Erlenfeldstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Erlenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Erlenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ermelinghofstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ernst-Heinkel-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Erzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eschenallee",
+      "wk": "118"
+    },
+    {
+      "n": "Eschenbuschstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eschenweg",
+      "wk": "117"
+    },
+    {
+      "n": "Eschstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Espenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Estorffstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eulenplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Eulerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eupenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Everdings Hof",
+      "wk": "118"
+    },
+    {
+      "n": "Ewald-Wortmann-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Ewaldstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Eylertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fabriciusweg",
+      "wk": "117"
+    },
+    {
+      "n": "Fahrenheitstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fährstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Falkenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fangstraße",
+      "b": [
+        {
+          "von": 1,
+          "bis": 3,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 2,
+          "bis": 8,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 9,
+          "bis": 119,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 10,
+          "bis": 120,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 122,
+          "bis": 146,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 133,
+          "bis": 141,
+          "par": "u",
+          "wk": "118"
+        }
+      ]
+    },
+    {
+      "n": "Färenbruch",
+      "wk": "118"
+    },
+    {
+      "n": "Fasanenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Fasanenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Feidikstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Feldgarten",
+      "wk": "118"
+    },
+    {
+      "n": "Feldlerchenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Feldstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Fels-Loh-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ferdinand-Krüger-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ferdinand-Poggel-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Feuerbachstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Feuerdornstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fichtestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fingerhutweg",
+      "wk": "118"
+    },
+    {
+      "n": "Finkenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fischerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Flensburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Fliederweg",
+      "wk": "118"
+    },
+    {
+      "n": "Flurstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fohlenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Föhrenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Forbachstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Forellenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Forstallee",
+      "wk": "118"
+    },
+    {
+      "n": "Forstlandwehr",
+      "wk": "118"
+    },
+    {
+      "n": "Frankenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Franz-Hitze-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Franz-Josef-Willemsen-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Franz-Marc-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Franz-Rotthäuser-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Franz-Steimann-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Franziskanerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Franzosenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Franzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Freiherr-vom-Stein-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Freiligrathstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Freisker Dorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Frieda-Rosenberg-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Friedensstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Friedhelm-Hengstenberg-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Friedhofsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Friedrich-Bergmann-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Friedrich-Ebert-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Friedrich-Engels-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Friedrich-Gruß-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Friedrichsfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Friedrichstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Frielick",
+      "wk": "118"
+    },
+    {
+      "n": "Frielicker Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Frielinghauser Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Frielingskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Friesenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Fritz-Erler-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Fritz-Everding-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Fritz-Geisler-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Fritz-Graeve-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Fritz-Heitsch-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Fritz-Husemann-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Fritz-Reuter-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Frommstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Fuchsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Funkelandstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Gabelsbergerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gallberger Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Gartenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gaußstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gebrüder-Funke-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Geibelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Geinegge",
+      "wk": "118"
+    },
+    {
+      "n": "Geisthofskönig",
+      "wk": "118"
+    },
+    {
+      "n": "Geistkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Geiststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Geithenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Geitheweg",
+      "wk": "118"
+    },
+    {
+      "n": "Geitlingweg",
+      "wk": "118"
+    },
+    {
+      "n": "Gellertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Georg-Friedrich-Händel-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Georgstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Geranienstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gerhard-Enters-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Gerhard-Krampe-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Gerhard-Mesenkamp-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Gerhard-Neuhaus-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Gerhardstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gersonstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gerstenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Gesellenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gewerbepark",
+      "wk": "118"
+    },
+    {
+      "n": "Gimpelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Ginsterweg",
+      "wk": "118"
+    },
+    {
+      "n": "Gladiolenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Glatzelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Glockenapfelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Glückaufstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gluckstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gneisenaustraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gobel-von-Drechen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Goebenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Goerallee",
+      "wk": "117"
+    },
+    {
+      "n": "Goethestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Goldbrinkstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Goldfasanenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Goldlärchenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Goldmersch",
+      "wk": "118"
+    },
+    {
+      "n": "Goldregenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Goldsternstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Goorkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Goorweg",
+      "wk": "118"
+    },
+    {
+      "n": "Görlitzer Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Görresstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gotenweg",
+      "wk": "117"
+    },
+    {
+      "n": "Gottfried-Bürger-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Gottfried-Könzgen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Graevinghoffstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Graf-von-Hövel-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Graudenzer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Gravensteiner Ring",
+      "wk": "118"
+    },
+    {
+      "n": "Greitebrede",
+      "wk": "118"
+    },
+    {
+      "n": "Grenzweg",
+      "wk": "118"
+    },
+    {
+      "n": "Gretchenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Grillparzerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Grimmstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Grönebergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gropiusstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Große Heide",
+      "wk": "117"
+    },
+    {
+      "n": "Große Kamp",
+      "wk": "118"
+    },
+    {
+      "n": "Große Werlstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Großer Sandweg",
+      "wk": "118"
+    },
+    {
+      "n": "Großstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Grottkauer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Grubenlicht",
+      "wk": "118"
+    },
+    {
+      "n": "Grüner Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Grüner Winkel",
+      "wk": "118"
+    },
+    {
+      "n": "Grünstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gülderlinggasse",
+      "wk": "118"
+    },
+    {
+      "n": "Günter-Degelmann-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Günter-Jäckering-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Günterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gustav-Heinemann-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Gustav-Hertz-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Gustav-Wieland-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Gut Nordhof",
+      "wk": "118"
+    },
+    {
+      "n": "Gutenbergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Gutermuthstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Haarener Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Haberkampstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Habichtshöhe",
+      "wk": "118"
+    },
+    {
+      "n": "Habichtsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Haeselerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hafenstraße",
+      "b": [
+        {
+          "von": 2,
+          "bis": 8,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 5,
+          "bis": 89,
+          "par": "u",
+          "wk": "118"
+        },
+        {
+          "von": 10,
+          "bis": 82,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 90,
+          "bis": 160,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 109,
+          "bis": 123,
+          "par": "u",
+          "wk": "117"
+        }
+      ]
+    },
+    {
+      "n": "Hagebuttenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hagedornweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hagenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hägerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hahnenfußweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hainbuchenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hambrei",
+      "wk": "118"
+    },
+    {
+      "n": "Hammer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hammerskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Hängebank",
+      "wk": "118"
+    },
+    {
+      "n": "Hannah-Arendt-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Hans-Böckler-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Hans-Böckler-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hans-Sachs-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hans-Werner-Langkamp-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Hansastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hardenbergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hardinghausstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Harringholzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hartriegelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Haselnussstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hasenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hauerwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Hauptstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Haus Kentrop",
+      "wk": "118"
+    },
+    {
+      "n": "Haverkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Hebbelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Heessener Dorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Heessener Markt",
+      "wk": "118"
+    },
+    {
+      "n": "Heessener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hegelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Heidebach",
+      "wk": "117"
+    },
+    {
+      "n": "Heidebrink",
+      "wk": "117"
+    },
+    {
+      "n": "Heideggerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Heidekamp",
+      "wk": "117"
+    },
+    {
+      "n": "Heideweg",
+      "wk": "118"
+    },
+    {
+      "n": "Heidewinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Heimstättenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Brüning-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Budde-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Heinrich-Heine-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Isenbeck-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Kamp-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Koch-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Lübke-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Reinköster-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Renninghoff-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Heinrich-Schmidt-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Heinrich-Schütz-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Wältermann-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Welken-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrich-Wiese-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinrichstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinz-Bülling-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Heinz-Kruse-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Heithofer Allee",
+      "wk": "118"
+    },
+    {
+      "n": "Heithofer Winkel",
+      "wk": "118"
+    },
+    {
+      "n": "Heitkampweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hellenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Hellmigsweg",
+      "wk": "117"
+    },
+    {
+      "n": "Hellweg",
+      "wk": "118"
+    },
+    {
+      "n": "Helmut-Pytlik-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Helmut-Simshäuser-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Herbert-Rust-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Herbertshof",
+      "wk": "118"
+    },
+    {
+      "n": "Herforder Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Hermann-Hölzel-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Hermann-Löns-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hermann-Pünder-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hermannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hermelinweg",
+      "wk": "118"
+    },
+    {
+      "n": "Herrenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Herringer Heide",
+      "wk": "117"
+    },
+    {
+      "n": "Herringer Markt",
+      "wk": "117"
+    },
+    {
+      "n": "Herringer Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Herschelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hessenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Heßlerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Heubergerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Heuermannstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Hirgensort",
+      "wk": "118"
+    },
+    {
+      "n": "Hirschgraben",
+      "wk": "118"
+    },
+    {
+      "n": "Hobreckerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hochstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Höferweg",
+      "wk": "117"
+    },
+    {
+      "n": "Hoffgarten",
+      "wk": "118"
+    },
+    {
+      "n": "Hohe Brede",
+      "wk": "118"
+    },
+    {
+      "n": "Hohe Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hohefeldweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hohekamp",
+      "wk": "118"
+    },
+    {
+      "n": "Hohenhöveler Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hohenzollernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hoher Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Holbeinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hölderlinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Holsen",
+      "wk": "118"
+    },
+    {
+      "n": "Holsteinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Holstenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Holteneck",
+      "wk": "118"
+    },
+    {
+      "n": "Hölter",
+      "wk": "118"
+    },
+    {
+      "n": "Holthöfener Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Holtkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Holtmannskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Holtumer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Holunderweg",
+      "wk": "118"
+    },
+    {
+      "n": "Holzkampweg",
+      "wk": "117"
+    },
+    {
+      "n": "Holzstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Homanns Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Hopfenhecke",
+      "wk": "118"
+    },
+    {
+      "n": "Hoppeistraße",
+      "wk": "117"
+    },
+    {
+      "n": "Horster Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Horsthölterweg",
+      "wk": "118"
+    },
+    {
+      "n": "Höveler Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hubert-Empting-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Hubert-Kirchhoff-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Hubert-Westermeier-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hubertusstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Huckenhollweg",
+      "wk": "118"
+    },
+    {
+      "n": "Huesmannweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hüffnerweg",
+      "wk": "117"
+    },
+    {
+      "n": "Hugo-Bröcker-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hugo-Küching-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Hülseistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hülshoffstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hülskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Hülsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Humbertweg",
+      "wk": "117"
+    },
+    {
+      "n": "Humboldtstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Humburgstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Humpertshof",
+      "wk": "118"
+    },
+    {
+      "n": "Husarenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hüserstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Hüttenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Hyazinthenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Ida-Goldstein-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Idastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Illinger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Iltishof",
+      "wk": "118"
+    },
+    {
+      "n": "Im Aul",
+      "wk": "118"
+    },
+    {
+      "n": "Im Bauernkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Birkholt",
+      "wk": "118"
+    },
+    {
+      "n": "Im Brauland",
+      "wk": "118"
+    },
+    {
+      "n": "Im Bremmen",
+      "wk": "118"
+    },
+    {
+      "n": "Im Brüggenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Dahl",
+      "wk": "118"
+    },
+    {
+      "n": "Im Dreischland",
+      "wk": "118"
+    },
+    {
+      "n": "Im Flureck",
+      "wk": "117"
+    },
+    {
+      "n": "Im Fuchswinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Gelben Schlot",
+      "wk": "118"
+    },
+    {
+      "n": "Im Giesendahl",
+      "wk": "118"
+    },
+    {
+      "n": "Im Griesenbruch",
+      "wk": "118"
+    },
+    {
+      "n": "Im Großen Klei",
+      "wk": "118"
+    },
+    {
+      "n": "Im Grundkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Hagen",
+      "wk": "118"
+    },
+    {
+      "n": "Im Hagenholt",
+      "wk": "118"
+    },
+    {
+      "n": "Im Harringholz",
+      "wk": "118"
+    },
+    {
+      "n": "Im Heitkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Hilgenfeld",
+      "wk": "117"
+    },
+    {
+      "n": "Im Holz",
+      "wk": "118"
+    },
+    {
+      "n": "Im Hüls",
+      "wk": "118"
+    },
+    {
+      "n": "Im Hülsei",
+      "wk": "118"
+    },
+    {
+      "n": "Im Josefswinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Jungfernbusch",
+      "wk": "118"
+    },
+    {
+      "n": "Im Karlswinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Kleekamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Landwehrwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Leinenfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Im Mühlenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Nachtigallental",
+      "wk": "118"
+    },
+    {
+      "n": "Im Nordfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Im Osskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Ostfelde",
+      "wk": "118"
+    },
+    {
+      "n": "Im Pählen",
+      "wk": "118"
+    },
+    {
+      "n": "Im Querschlag",
+      "wk": "117"
+    },
+    {
+      "n": "Im Rehwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Ried",
+      "wk": "118"
+    },
+    {
+      "n": "Im Rodennest",
+      "wk": "118"
+    },
+    {
+      "n": "Im Rosengarten",
+      "wk": "118"
+    },
+    {
+      "n": "Im Rosenhag",
+      "wk": "118"
+    },
+    {
+      "n": "Im Ruenfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Im Saiteneck",
+      "wk": "117"
+    },
+    {
+      "n": "Im Schilfwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Schladewinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Schöttken",
+      "wk": "118"
+    },
+    {
+      "n": "Im Spatzennest",
+      "wk": "118"
+    },
+    {
+      "n": "Im Steinwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Süderholt",
+      "wk": "118"
+    },
+    {
+      "n": "Im Südfeld",
+      "wk": "117"
+    },
+    {
+      "n": "Im Sundern",
+      "wk": "118"
+    },
+    {
+      "n": "Im Sutenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Tal",
+      "wk": "118"
+    },
+    {
+      "n": "Im Tierpark",
+      "wk": "118"
+    },
+    {
+      "n": "Im Weitkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Im Westfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Im Winkel",
+      "wk": "118"
+    },
+    {
+      "n": "Im Zengerott",
+      "wk": "118"
+    },
+    {
+      "n": "Imbuschstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Immanuel-Kant-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "In der Adel",
+      "wk": "118"
+    },
+    {
+      "n": "In der Brei",
+      "wk": "118"
+    },
+    {
+      "n": "In der Dill",
+      "wk": "117"
+    },
+    {
+      "n": "In der Dördel",
+      "wk": "117"
+    },
+    {
+      "n": "In der Fuchshöhle",
+      "wk": "118"
+    },
+    {
+      "n": "In der Gehr",
+      "wk": "118"
+    },
+    {
+      "n": "In der Geithe",
+      "wk": "118"
+    },
+    {
+      "n": "In der Haferheide",
+      "wk": "118"
+    },
+    {
+      "n": "In der Hasenvöde",
+      "wk": "118"
+    },
+    {
+      "n": "In der Hovesaat",
+      "wk": "118"
+    },
+    {
+      "n": "In der Huffel",
+      "wk": "118"
+    },
+    {
+      "n": "In der Kuhweide",
+      "wk": "118"
+    },
+    {
+      "n": "In der Lengde",
+      "wk": "118"
+    },
+    {
+      "n": "In der Mersch",
+      "wk": "118"
+    },
+    {
+      "n": "In der Niedervöhde",
+      "wk": "118"
+    },
+    {
+      "n": "In der Wöste",
+      "wk": "118"
+    },
+    {
+      "n": "In Süddinker",
+      "wk": "118"
+    },
+    {
+      "n": "Industriestraße",
+      "wk": "117"
+    },
+    {
+      "n": "Ingrid-Marie-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Insterburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Irgahnstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Irisweg",
+      "wk": "118"
+    },
+    {
+      "n": "Jägerallee",
+      "wk": "118"
+    },
+    {
+      "n": "Jägerstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Jahnstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Jakobstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Janssenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Jasminweg",
+      "wk": "118"
+    },
+    {
+      "n": "Johann-Sebastian-Bach-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Johann-Strauß-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Johanna-Melzer-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Johanna-Schwering-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Johannaweg",
+      "wk": "118"
+    },
+    {
+      "n": "Johannes-Junker-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Johannes-Rau-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Jonathanpfad",
+      "wk": "118"
+    },
+    {
+      "n": "Josef-Gockeln-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Josef-Schlichter-Allee",
+      "wk": "118"
+    },
+    {
+      "n": "Josef-Wiefels-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Josefstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Joseph-Haydn-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Juffernbuschstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Julienweg",
+      "wk": "118"
+    },
+    {
+      "n": "Junkermanns Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Jupiterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Jupp-Eickhoff-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Jürgen-Graef-Allee",
+      "wk": "118"
+    },
+    {
+      "n": "Justus-Liebig-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Jütlandweg",
+      "wk": "118"
+    },
+    {
+      "n": "K'Park-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Kaliszring",
+      "wk": "118"
+    },
+    {
+      "n": "Kamener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Kamillenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kämpe",
+      "wk": "118"
+    },
+    {
+      "n": "Kampshege",
+      "wk": "118"
+    },
+    {
+      "n": "Kampstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kanalstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Kandinskyweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kapellenweg",
+      "wk": "117"
+    },
+    {
+      "n": "Karl-Arnold-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Karl-Drilling-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Karl-Koßmann-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Karl-Marx-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Karl-Mecklenbrauck-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Karl-Mosterts-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Karl-Osterbrauck-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Karlheinz-Jung-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Karlsplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Karlstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Karwinkelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kaspar-Schulte-Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Kastanienweg",
+      "wk": "118"
+    },
+    {
+      "n": "Katharinenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Käthe-Kollwitz-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Kegenhoffweg",
+      "wk": "118"
+    },
+    {
+      "n": "Keitstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Keltenweg",
+      "wk": "117"
+    },
+    {
+      "n": "Kentroper Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Keplerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kerstheider Straße",
+      "b": [
+        {
+          "von": 2,
+          "bis": 96,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 5,
+          "bis": 89,
+          "par": "u",
+          "wk": "118"
+        },
+        {
+          "von": 137,
+          "bis": 153,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 140,
+          "bis": 160,
+          "par": "g",
+          "wk": "117"
+        }
+      ]
+    },
+    {
+      "n": "Kettermannweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kiebitzweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kiefernweg",
+      "wk": "117"
+    },
+    {
+      "n": "Killwinkler Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Kimbernweg",
+      "wk": "117"
+    },
+    {
+      "n": "Kirchspiel",
+      "wk": "118"
+    },
+    {
+      "n": "Kirchweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kirschenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kissinger Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Kissingerhöfen",
+      "wk": "118"
+    },
+    {
+      "n": "Kleiberweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kleinbahnstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kleine Alleestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kleine Amtsstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kleine Werlstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kleiner Sandweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kleiner Sommerkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Kleinweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kleistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Klemens-Hörster-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Klemmestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Klenzestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kletterrosenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Klopstockstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Klosterfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Klostergarten",
+      "wk": "118"
+    },
+    {
+      "n": "Klostermühlenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Klutestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Knabstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Knappenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Knäppers Grund",
+      "wk": "118"
+    },
+    {
+      "n": "Kobbenskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Köchlingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Köhlerstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Kohlmeisenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kolberger Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Kolbestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kolkrabenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kölnische Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Kolpingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Königgrätzer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Königsberger Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Königsheide",
+      "wk": "118"
+    },
+    {
+      "n": "Königstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Konrad-Biermann-Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Konradstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kopernikusstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kopfweidenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Koppelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kormoranweg",
+      "wk": "118"
+    },
+    {
+      "n": "Körnerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kornmersch",
+      "wk": "118"
+    },
+    {
+      "n": "Kösliner Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Kötterweg",
+      "wk": "117"
+    },
+    {
+      "n": "Kramannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Krämersweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kranichstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kranstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kreativ-Allee",
+      "wk": "118"
+    },
+    {
+      "n": "Krechtingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kreutzerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kreuzkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Krokusweg",
+      "wk": "118"
+    },
+    {
+      "n": "Krußenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Kuckucksweg",
+      "wk": "118"
+    },
+    {
+      "n": "Küferstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Kugelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kuhlbachweg",
+      "wk": "118"
+    },
+    {
+      "n": "Kuhlmannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kumper Heide",
+      "wk": "118"
+    },
+    {
+      "n": "Kumper Landstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kumper Vöhde",
+      "wk": "118"
+    },
+    {
+      "n": "Künnekestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kupferstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Kurt-Schumacher-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Kurt-Witte-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Kurze Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Küstriner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Laakerholzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Laarweg",
+      "wk": "118"
+    },
+    {
+      "n": "Ladestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lambertshof",
+      "wk": "118"
+    },
+    {
+      "n": "Landwehr",
+      "wk": "118"
+    },
+    {
+      "n": "Landwehrweg",
+      "wk": "118"
+    },
+    {
+      "n": "Längde",
+      "wk": "118"
+    },
+    {
+      "n": "Lange Reihe",
+      "wk": "118"
+    },
+    {
+      "n": "Lange Straße",
+      "b": [
+        {
+          "von": 2,
+          "bis": 40,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 5,
+          "bis": 75,
+          "par": "u",
+          "wk": "118"
+        },
+        {
+          "von": 52,
+          "bis": 86,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 77,
+          "bis": 149,
+          "par": "u",
+          "wk": "118"
+        },
+        {
+          "von": 90,
+          "bis": 152,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 159,
+          "bis": 233,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 162,
+          "bis": 260,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 239,
+          "bis": 367,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 266,
+          "bis": 270,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 280,
+          "bis": 390,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 369,
+          "bis": 385,
+          "par": "u",
+          "wk": "117"
+        }
+      ]
+    },
+    {
+      "n": "Lange Wende",
+      "wk": "118"
+    },
+    {
+      "n": "Langelandweg",
+      "wk": "118"
+    },
+    {
+      "n": "Langenhövel",
+      "wk": "118"
+    },
+    {
+      "n": "Langerbeinweg",
+      "wk": "118"
+    },
+    {
+      "n": "Langewanneweg",
+      "wk": "118"
+    },
+    {
+      "n": "Langhansstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lappenbredde",
+      "wk": "118"
+    },
+    {
+      "n": "Lassallestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lauenburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Laurentiusweg",
+      "wk": "118"
+    },
+    {
+      "n": "Leerfeldweg",
+      "wk": "118"
+    },
+    {
+      "n": "Legienstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Leibnizstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Leipziger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Lenaweg",
+      "wk": "118"
+    },
+    {
+      "n": "Leni-Schulze-Everding-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Lerchenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lessingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Letterhausstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Leuschnerstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Leuthenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Liafhardweg",
+      "wk": "118"
+    },
+    {
+      "n": "Liboriusweg",
+      "wk": "118"
+    },
+    {
+      "n": "Liebermannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Liebfrauenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Ligusterweg",
+      "wk": "118"
+    },
+    {
+      "n": "Lilienstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lilienthalstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Linckestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lindenfelder Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Lindenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lindhorststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lippehof",
+      "wk": "118"
+    },
+    {
+      "n": "Lippestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lise-Meitner-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Lisenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Lisztstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Löbbeweg",
+      "wk": "117"
+    },
+    {
+      "n": "Loddenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Lohauserholzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lohkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Lohweg",
+      "wk": "118"
+    },
+    {
+      "n": "Lönsring",
+      "wk": "118"
+    },
+    {
+      "n": "Lorbeerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Lortzingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Losekenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Lotharstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ludgeristraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ludwig-Erhard-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ludwig-Isenbeck-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Ludwig-Teleky-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ludwig-van-Beethoven-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ludwigstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Luickenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Luisenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Lünener Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Lupinenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Lütge Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Lütgenheide",
+      "wk": "118"
+    },
+    {
+      "n": "Lützowstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Magdalenenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Magdeburger Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Magnolienstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Maisfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Malvenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Mälzerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Mandelbaumweg",
+      "wk": "118"
+    },
+    {
+      "n": "Manfred-Billinger-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Mansfelder Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Manteuffelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Marderweg",
+      "wk": "118"
+    },
+    {
+      "n": "Margarethenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Maria-Aschhoff-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Marianne-Vogel-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Marie-Curie-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Marie-Juchacz-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Marienburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Marienstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Marinestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Marker Allee",
+      "wk": "118"
+    },
+    {
+      "n": "Marker Dorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Marker Kirchplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Markgrafenufer",
+      "wk": "118"
+    },
+    {
+      "n": "Märkische Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Marktplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Markusstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Markweg",
+      "wk": "118"
+    },
+    {
+      "n": "Marnestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Maronenweg",
+      "wk": "117"
+    },
+    {
+      "n": "Marsstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Martin-Luther-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Martinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Mathildestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Matthias-Claudius-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Max-Heinhold-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Max-Planck-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Max-von-Laue-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Maximilianstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Maybachstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Mazatlanstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Mecklenburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Meereweg",
+      "wk": "118"
+    },
+    {
+      "n": "Meisenhag",
+      "wk": "118"
+    },
+    {
+      "n": "Meisenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Memeler Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Mendelssohnstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Mennenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Menzelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Mercatorstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Merkurstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Mersch",
+      "wk": "118"
+    },
+    {
+      "n": "Merschbreite",
+      "wk": "117"
+    },
+    {
+      "n": "Merschstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Metzer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Michaelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Middendorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Milanweg",
+      "wk": "118"
+    },
+    {
+      "n": "Millöckerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Mindener Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Minister-Stein-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Mirabellenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Mistelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Mittelstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Mittorpsweg",
+      "wk": "117"
+    },
+    {
+      "n": "Möhnerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Molkereistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Möllerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Moltkestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Moosweg",
+      "wk": "118"
+    },
+    {
+      "n": "Mörikestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Moritz-Bacharach-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Möwenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Mozartstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Mühlenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Münsterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Muntenburgstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Museumsstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Nachtigallenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Nansenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Narzissenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Nassauerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Natteweg",
+      "wk": "118"
+    },
+    {
+      "n": "Neefstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Nelkenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Neptunstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Nerzweg",
+      "wk": "118"
+    },
+    {
+      "n": "Neue Bahnhofstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Neue Ostenheide",
+      "wk": "118"
+    },
+    {
+      "n": "Neuenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Neuer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Neufchâteaustraße",
+      "wk": "117"
+    },
+    {
+      "n": "Neuhof",
+      "wk": "118"
+    },
+    {
+      "n": "Neuruppiner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Neustädter Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Nicolaistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Nicolaus-Ehlen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Nieheimer Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Nieliesberg",
+      "wk": "118"
+    },
+    {
+      "n": "Nonnenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Norbertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Nordbögger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Norddinkerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Nordener Hütte",
+      "wk": "118"
+    },
+    {
+      "n": "Nordenheideweg",
+      "wk": "118"
+    },
+    {
+      "n": "Nordenstiftsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Nordenwall",
+      "wk": "118"
+    },
+    {
+      "n": "Nordfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Nordhaushof",
+      "wk": "118"
+    },
+    {
+      "n": "Nordring",
+      "wk": "118"
+    },
+    {
+      "n": "Nordstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Normannenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Nortbeck",
+      "wk": "118"
+    },
+    {
+      "n": "Nutriaweg",
+      "wk": "118"
+    },
+    {
+      "n": "Oberallener Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Obere Rothe",
+      "wk": "118"
+    },
+    {
+      "n": "Oberholsener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Oberonstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Oberster Kamp",
+      "wk": "118"
+    },
+    {
+      "n": "Oesterhege",
+      "wk": "118"
+    },
+    {
+      "n": "Ökonomierat-Peitzmeier-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Oleanderweg",
+      "wk": "118"
+    },
+    {
+      "n": "Ontariogrund",
+      "wk": "118"
+    },
+    {
+      "n": "Op de Wohrt",
+      "wk": "118"
+    },
+    {
+      "n": "Op der Heyde",
+      "wk": "118"
+    },
+    {
+      "n": "Op'n Spitol",
+      "wk": "118"
+    },
+    {
+      "n": "Oppelner Schleife",
+      "wk": "118"
+    },
+    {
+      "n": "Opsener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Oranienburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Orchideenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Orffstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Orionstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ostdorf",
+      "wk": "118"
+    },
+    {
+      "n": "Ostdorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ostenallee",
+      "wk": "118"
+    },
+    {
+      "n": "Ostendorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ostenheide",
+      "wk": "118"
+    },
+    {
+      "n": "Ostenwall",
+      "wk": "118"
+    },
+    {
+      "n": "Osterbönener Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Osterfliericher Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Ostfeldstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Ostholz",
+      "wk": "118"
+    },
+    {
+      "n": "Östingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ostpreußenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Ostring",
+      "wk": "118"
+    },
+    {
+      "n": "Oststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Osttünner Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Ostwennemarstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Oswaldstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Otterweg",
+      "wk": "118"
+    },
+    {
+      "n": "Otto-Brenner-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Otto-Hahn-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Otto-Hue-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Otto-Krafft-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Otto-Wels-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Ottostraße",
+      "wk": "118"
+    },
+    {
+      "n": "Overbergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Paderborner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Pählenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Palzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pankratiusplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Pankratiusweg",
+      "wk": "118"
+    },
+    {
+      "n": "Papenloh",
+      "wk": "118"
+    },
+    {
+      "n": "Papenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Pappelallee",
+      "wk": "118"
+    },
+    {
+      "n": "Paracelsuskarree",
+      "wk": "118"
+    },
+    {
+      "n": "Paracelsuspark",
+      "wk": "118"
+    },
+    {
+      "n": "Paracelsusstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Parkstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Parsevalstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Paul-Ehrlich-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Paul-Gerhardt-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Paul-Klee-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Paul-Mustroph-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Paulstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pedinghauser Markt",
+      "wk": "118"
+    },
+    {
+      "n": "Pelkumer Kirchplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Pelkumer Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Pelzerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pentlinger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Perlefeld",
+      "wk": "118"
+    },
+    {
+      "n": "Pestalozzistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Peter-Röttgen-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Peterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pfälzerweg",
+      "wk": "117"
+    },
+    {
+      "n": "Pfauenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pferdekamp",
+      "wk": "118"
+    },
+    {
+      "n": "Philipp-Reis-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Phönixstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Piebrockskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Pieperstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pillauer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Pilsheide",
+      "wk": "118"
+    },
+    {
+      "n": "Pinienweg",
+      "wk": "118"
+    },
+    {
+      "n": "Pirolweg",
+      "wk": "118"
+    },
+    {
+      "n": "Plaggenwiese",
+      "wk": "118"
+    },
+    {
+      "n": "Platanenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Platonstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Platz der Deutschen Einheit",
+      "wk": "118"
+    },
+    {
+      "n": "Plutostraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pollgartenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pommernschleife",
+      "wk": "117"
+    },
+    {
+      "n": "Posener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Poststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Pottkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Praetoriusweg",
+      "wk": "118"
+    },
+    {
+      "n": "Professor-Haindorf-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Pröpstingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Provinzialstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Prozessionsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Quellenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Quittenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Rabenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Radbodstraße",
+      "b": [
+        {
+          "von": 2,
+          "bis": 2,
+          "par": "g",
+          "wk": "118"
+        },
+        {
+          "von": 3,
+          "bis": 11,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 4,
+          "bis": 12,
+          "par": "g",
+          "wk": "118"
+        }
+      ]
+    },
+    {
+      "n": "Raiffeisenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rainweg",
+      "wk": "117"
+    },
+    {
+      "n": "Randweg",
+      "wk": "118"
+    },
+    {
+      "n": "Rastenburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Rathenaustraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rauchschwalbenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Rauchstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rautenstrauchstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Redoute",
+      "wk": "118"
+    },
+    {
+      "n": "Regerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Reginenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rehwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Reichenbacher Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Reiherstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Reimanns Kotten",
+      "wk": "118"
+    },
+    {
+      "n": "Reinenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Reinhard-zu-Rhynern-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Reiterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rembrandtstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Renninghoffweg",
+      "wk": "118"
+    },
+    {
+      "n": "Resedastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rheinsberger Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Rhynerberg",
+      "wk": "118"
+    },
+    {
+      "n": "Rhynernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ria-Tiemann-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Richard-Matthaei-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Richard-Wagner-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Richardstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Richthofenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rietzgartenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rilkestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ringstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ritterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Robert-Haase-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Robert-Koch-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Robert-Stolz-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Robertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rödinghauserstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Roggenkampweg",
+      "wk": "117"
+    },
+    {
+      "n": "Roggenwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Romberger Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Römerskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Römerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Röntgenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Roonstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rosa-Luxemburg-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Rosenhang",
+      "wk": "118"
+    },
+    {
+      "n": "Rosenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Rosenwinkel",
+      "wk": "118"
+    },
+    {
+      "n": "Roßbachstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rotbuchenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Rotdornschleife",
+      "wk": "118"
+    },
+    {
+      "n": "Rothebach",
+      "wk": "118"
+    },
+    {
+      "n": "Rotkehlchenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Röttgersbank",
+      "wk": "118"
+    },
+    {
+      "n": "Rottkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Rottwiese",
+      "wk": "118"
+    },
+    {
+      "n": "Rubensstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rückertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Rudolf-Breitscheid-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Rudolf-Otte-Weg",
+      "wk": "117"
+    },
+    {
+      "n": "Rudolfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ruppiner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Rüsterweg",
+      "wk": "118"
+    },
+    {
+      "n": "Saalkampweg",
+      "wk": "118"
+    },
+    {
+      "n": "Saarlandstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sachsenring",
+      "wk": "118"
+    },
+    {
+      "n": "Sachsenschleife",
+      "wk": "118"
+    },
+    {
+      "n": "Sachsenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Sadebaumweg",
+      "wk": "118"
+    },
+    {
+      "n": "Salzgitterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sandbochumer Straße",
+      "b": [
+        {
+          "von": 3,
+          "bis": 65,
+          "par": "u",
+          "wk": "118"
+        },
+        {
+          "von": 66,
+          "bis": 74,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 75,
+          "bis": 79,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 101,
+          "bis": 105,
+          "par": "u",
+          "wk": "117"
+        },
+        {
+          "von": 108,
+          "bis": 180,
+          "par": "g",
+          "wk": "117"
+        },
+        {
+          "von": 125,
+          "bis": 125,
+          "par": "u",
+          "wk": "117"
+        }
+      ]
+    },
+    {
+      "n": "Sandbrinkerfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Sanddornweg",
+      "wk": "118"
+    },
+    {
+      "n": "Sandstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sankt-Florian-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Sankt-Georgs-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Sankt-Reginen-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Saturnstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sauerbruchstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sautenser Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Schachtstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Schadowstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schäferstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schafhuder Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Schanzenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Scharnhorststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Scharpenwinkel",
+      "wk": "117"
+    },
+    {
+      "n": "Schaumburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Scheidinger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Schellingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schemmannshof",
+      "wk": "117"
+    },
+    {
+      "n": "Schieferstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schilbrede",
+      "wk": "118"
+    },
+    {
+      "n": "Schildkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Schillerplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Schillerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schillstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schinkelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schlägelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schlagenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Schlaunstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schlehdornstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schlehenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schleppweg",
+      "wk": "118"
+    },
+    {
+      "n": "Schlesierweg",
+      "wk": "118"
+    },
+    {
+      "n": "Schleswigstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schleusenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Schlossstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schmale Gasse",
+      "wk": "118"
+    },
+    {
+      "n": "Schmale Mersch",
+      "wk": "118"
+    },
+    {
+      "n": "Schmerhöfeler Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Schmiedestraße",
+      "wk": "117"
+    },
+    {
+      "n": "Schneckenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Schneikamp",
+      "wk": "118"
+    },
+    {
+      "n": "Schnepfenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Schopenhauerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schottschleife",
+      "wk": "118"
+    },
+    {
+      "n": "Schröderstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schubertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schuckertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schulstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schultenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schulzenweg",
+      "wk": "117"
+    },
+    {
+      "n": "Schumannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schürmanns Kamp",
+      "wk": "118"
+    },
+    {
+      "n": "Schützenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Schwabenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Schwalbenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Schwarzdornweg",
+      "wk": "118"
+    },
+    {
+      "n": "Schwarzer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Schwarzes Gold",
+      "wk": "118"
+    },
+    {
+      "n": "Schwelkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Sedanstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Seeburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Seelhofstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Seeschwalbenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Seidelbastweg",
+      "wk": "118"
+    },
+    {
+      "n": "Seilfahrt",
+      "wk": "117"
+    },
+    {
+      "n": "Selbachpark",
+      "wk": "118"
+    },
+    {
+      "n": "Selbachstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Selma-Löhnberg-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Selmigerheideweg",
+      "wk": "118"
+    },
+    {
+      "n": "Selmigstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sensburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Sepp-Herberger-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Seydlitzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sieboldstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Siedlungsstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Siegenbeckstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Siepmannskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Silberpappelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Silberstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Silcherstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Simonstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Singdrosselweg",
+      "wk": "118"
+    },
+    {
+      "n": "Sittichweg",
+      "wk": "118"
+    },
+    {
+      "n": "Smetanastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Soester Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Sommerkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Sonnenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sönnernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sophie-Buschkötter-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Sophienpfad",
+      "wk": "118"
+    },
+    {
+      "n": "Sorauer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Spechtstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Speicherstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Spenglerstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Sperberstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sperlingsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Spichernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Spitzwegstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sprangerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Spreewaldweg",
+      "wk": "118"
+    },
+    {
+      "n": "Stadionstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Stadthausstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Stahlstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Starenschleife",
+      "wk": "118"
+    },
+    {
+      "n": "Starenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Stauferstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Stefanstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Stegerwaldstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Steigerring",
+      "wk": "118"
+    },
+    {
+      "n": "Steinkauzweg",
+      "wk": "118"
+    },
+    {
+      "n": "Steinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Stephanusplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Sternrenettenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Sternstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Stettiner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Steubenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Stiftstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Stockumer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Storchholzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Storksbrede",
+      "wk": "118"
+    },
+    {
+      "n": "Strackstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Straßburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Sträters Kotten",
+      "wk": "118"
+    },
+    {
+      "n": "Streitland",
+      "wk": "118"
+    },
+    {
+      "n": "Stresemannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Südbräukerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Südenwall",
+      "wk": "118"
+    },
+    {
+      "n": "Sudetenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Südfeldweg",
+      "wk": "118"
+    },
+    {
+      "n": "Südgeist",
+      "wk": "118"
+    },
+    {
+      "n": "Südring",
+      "wk": "118"
+    },
+    {
+      "n": "Südstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sulkshege",
+      "wk": "118"
+    },
+    {
+      "n": "Sumpstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Sundern",
+      "wk": "118"
+    },
+    {
+      "n": "Sundernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Talstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tannenbergstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tannenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Tannenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Tannhäuserstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tarnowitzer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Taubenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Teichweg",
+      "wk": "118"
+    },
+    {
+      "n": "Teigelofen",
+      "wk": "118"
+    },
+    {
+      "n": "Teinertstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Telemannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Telgenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Tentstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Teutonenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Tharmannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Theo-Hölscher-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Theodor-Heuss-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Theodor-Heuss-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Theodor-Storm-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Theodorweg",
+      "wk": "118"
+    },
+    {
+      "n": "Thomasstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Thorner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Thüringer Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Tillystraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tilmannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tilsiter Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Tirpitzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Titaniastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tizianstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tom-Mutters-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Tomsonstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tondernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Töpferstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Torneweg",
+      "wk": "118"
+    },
+    {
+      "n": "Touler Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Treuburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Trianelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tucholskystraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tulpenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Tünner Blick",
+      "wk": "118"
+    },
+    {
+      "n": "Twärsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Uedinghoffstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Uentroper Dorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Uhlandstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Uhlenfeld",
+      "wk": "118"
+    },
+    {
+      "n": "Ulanenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ulmenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ulrichstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Unionstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Unnaer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Unterer Heideweg",
+      "wk": "118"
+    },
+    {
+      "n": "Unterster Kamp",
+      "wk": "118"
+    },
+    {
+      "n": "Uphofstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Uranusstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Urnenfeldstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Ursulastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Veilchenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Veistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Venusstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Verbindungsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Verdistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Viereggenkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Viktoriaplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Viktoriastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Vinzenzstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Virchowstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Vivaldistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Vöckinghauser Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Vogelbeerweg",
+      "wk": "118"
+    },
+    {
+      "n": "Vogelbrinkstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Vogels Spitze",
+      "wk": "118"
+    },
+    {
+      "n": "Vogelsang",
+      "wk": "118"
+    },
+    {
+      "n": "Vogelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Vogtskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Vöhde",
+      "wk": "118"
+    },
+    {
+      "n": "Volenspitweg",
+      "wk": "117"
+    },
+    {
+      "n": "Volkenhoffs Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Von-der-Kuhlen-Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Von-der-Marck-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Von-Galen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Von-Herder-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Von-Ketteler-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Von-Siemens-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Von-Thünen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Von-Vincke-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Vor dem Tore",
+      "wk": "118"
+    },
+    {
+      "n": "Vorheider Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Vorsterhauser Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Wachtelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Wagenbauerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Waldeckstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Waldenburger Straße",
+      "wk": "117"
+    },
+    {
+      "n": "Waldlehne",
+      "wk": "118"
+    },
+    {
+      "n": "Waldorfweg",
+      "wk": "118"
+    },
+    {
+      "n": "Waldstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Wallensteinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Walnussstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Walter-Arendt-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Walter-Kollo-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Walterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wambelner Berg",
+      "wk": "118"
+    },
+    {
+      "n": "Wambelner Bruch",
+      "wk": "118"
+    },
+    {
+      "n": "Wambelner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Warendorfer Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wasserfall",
+      "wk": "118"
+    },
+    {
+      "n": "Waterkamp",
+      "wk": "118"
+    },
+    {
+      "n": "Waterloostraße",
+      "wk": "117"
+    },
+    {
+      "n": "Weberskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Weberstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wedemhof",
+      "wk": "118"
+    },
+    {
+      "n": "Weetfelder Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wegastraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wehrstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Weidekampstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Weidenhecke",
+      "wk": "118"
+    },
+    {
+      "n": "Weidenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Weingarten",
+      "wk": "118"
+    },
+    {
+      "n": "Weinkamps Hof",
+      "wk": "118"
+    },
+    {
+      "n": "Weißdornweg",
+      "wk": "118"
+    },
+    {
+      "n": "Weißenburger Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Weißenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Weißsteiner Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Weizenacker",
+      "wk": "118"
+    },
+    {
+      "n": "Welfenstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Wellekötter-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Wellenbuschstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Welliéstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Wellingstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Werler Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Werner-Brackelmann-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Werner-Heisenberg-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wernerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wernher-von-Braun-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Westberger Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Westenfeldweg",
+      "wk": "118"
+    },
+    {
+      "n": "Westenfriedhofsweg",
+      "wk": "118"
+    },
+    {
+      "n": "Westentor",
+      "wk": "118"
+    },
+    {
+      "n": "Westenwall",
+      "wk": "118"
+    },
+    {
+      "n": "Westerburgweg",
+      "wk": "118"
+    },
+    {
+      "n": "Westerheideweg",
+      "wk": "118"
+    },
+    {
+      "n": "Westfalenschleife",
+      "wk": "117"
+    },
+    {
+      "n": "Westfalia Sportpark",
+      "wk": "118"
+    },
+    {
+      "n": "Westgeithe",
+      "wk": "118"
+    },
+    {
+      "n": "Westhofenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Westhofskamp",
+      "wk": "118"
+    },
+    {
+      "n": "Westhusen",
+      "wk": "118"
+    },
+    {
+      "n": "Westhusener Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Westpreußenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Westring",
+      "wk": "118"
+    },
+    {
+      "n": "Weststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Westtünner Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Wichernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wickenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Widumstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wiedehopfweg",
+      "wk": "118"
+    },
+    {
+      "n": "Wielandstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wiemanns Patt",
+      "wk": "118"
+    },
+    {
+      "n": "Wienholdstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wiescherhöfener Markt",
+      "wk": "118"
+    },
+    {
+      "n": "Wiescherhöfener Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wieselweg",
+      "wk": "118"
+    },
+    {
+      "n": "Wiesenacker",
+      "wk": "118"
+    },
+    {
+      "n": "Wiesenrain",
+      "wk": "117"
+    },
+    {
+      "n": "Wiesenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wiethausstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilbrede",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Busch-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Hokamp-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Lange-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Liebknecht-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Nabe-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Raabe-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Steinhausen-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Westerhoff-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelm-Wiehe-Straße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelminenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelmsplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Wilhelmstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Willy-Brandt-Platz",
+      "wk": "118"
+    },
+    {
+      "n": "Wilms Kotten",
+      "wk": "118"
+    },
+    {
+      "n": "Wilshorststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Windmühlenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Windthorststraße",
+      "wk": "118"
+    },
+    {
+      "n": "Winfriedplatz",
+      "wk": "118"
+    },
+    {
+      "n": "Winkelstraße",
+      "wk": "117"
+    },
+    {
+      "n": "Winkhausstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Winzerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wittekindstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wittmannstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Witzlebenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wolfgangstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wormhaidestraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wörthstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Wortmanns Grund",
+      "wk": "118"
+    },
+    {
+      "n": "Wüllnerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Yorkstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zaubernussweg",
+      "wk": "118"
+    },
+    {
+      "n": "Zechenbahnweg",
+      "wk": "118"
+    },
+    {
+      "n": "Zechenweg",
+      "wk": "117"
+    },
+    {
+      "n": "Zedernstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zehntgarbenweg",
+      "wk": "118"
+    },
+    {
+      "n": "Zeisigweg",
+      "wk": "118"
+    },
+    {
+      "n": "Zelterstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zeppelinstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ziegeleistraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ziegelstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ziehrerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Ziethenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zilleweg",
+      "wk": "118"
+    },
+    {
+      "n": "Zinnienstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zinzendorfstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zobelweg",
+      "wk": "118"
+    },
+    {
+      "n": "Zobtenstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zoetermeerstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zollstraße",
+      "wk": "118"
+    },
+    {
+      "n": "Zoppoter Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Zu den Alpen",
+      "wk": "118"
+    },
+    {
+      "n": "Zu den Buchen",
+      "wk": "118"
+    },
+    {
+      "n": "Zu den Eichen",
+      "wk": "118"
+    },
+    {
+      "n": "Zu den Pappeln",
+      "wk": "118"
+    },
+    {
+      "n": "Zum Bergwerk",
+      "wk": "117"
+    },
+    {
+      "n": "Zum Dahl",
+      "wk": "118"
+    },
+    {
+      "n": "Zum Heideblick",
+      "wk": "117"
+    },
+    {
+      "n": "Zum Hülsen",
+      "wk": "118"
+    },
+    {
+      "n": "Zum Sachsenhof",
+      "wk": "118"
+    },
+    {
+      "n": "Zum Schalthaus",
+      "wk": "118"
+    },
+    {
+      "n": "Zum Schloss Oberwerries",
+      "wk": "118"
+    },
+    {
+      "n": "Zum Torksfeld",
+      "wk": "117"
+    },
+    {
+      "n": "Zum Wassersportzentrum",
+      "wk": "117"
+    },
+    {
+      "n": "Zum Wiescherbach",
+      "wk": "118"
+    },
+    {
+      "n": "Zum Yachthafen",
+      "wk": "117"
+    },
+    {
+      "n": "Zur Dülmener Rose",
+      "wk": "118"
+    },
+    {
+      "n": "Zur Grünen Aue",
+      "wk": "118"
+    },
+    {
+      "n": "Zur Roten Fuhr",
+      "wk": "118"
+    },
+    {
+      "n": "Zuseweg",
+      "wk": "118"
+    },
+    {
+      "n": "Zwei-Schlösser-Weg",
+      "wk": "118"
+    },
+    {
+      "n": "Zwischen den Bahnen",
+      "wk": "118"
+    },
+    {
+      "n": "Zypressenstraße",
+      "wk": "118"
+    }
+  ]
+}

@@ -1,0 +1,3317 @@
+{
+  "meta": {
+    "kommune": "Hennef (Sieg)",
+    "stand": "2021-09",
+    "gebaut_am": "2026-09-14",
+    "quellen": [
+      "https://wahlen.kdvz.nrw/production/bw2021/05382020/daten/opendata/opendata-strassen.csv"
+    ],
+    "zuordnung": "gesetzesanlage"
+  },
+  "wahlkreise": {
+    "25": "Rhein-Sieg-Kreis I",
+    "26": "Rhein-Sieg-Kreis II"
+  },
+  "strassen": [
+    {
+      "n": "Abtsgartenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Abtshof",
+      "wk": "25"
+    },
+    {
+      "n": "Ackerchen",
+      "wk": "26"
+    },
+    {
+      "n": "Ackerstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Ackerweg",
+      "wk": "25"
+    },
+    {
+      "n": "Adenauerplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Adscheider Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Agathastraße",
+      "wk": "25"
+    },
+    {
+      "n": "Ahornweg",
+      "wk": "25"
+    },
+    {
+      "n": "Ahrenbach",
+      "wk": "25"
+    },
+    {
+      "n": "Akazienweg",
+      "wk": "25"
+    },
+    {
+      "n": "Albertstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Alfons-von-Liguori-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Alfred-Nobel-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Allner Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Allnerhof",
+      "wk": "25"
+    },
+    {
+      "n": "Alte Dorfstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Alte Ladestraße",
+      "wk": "25"
+    },
+    {
+      "n": "Altenbödinger Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Altenkirchener Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Alter Garten",
+      "wk": "26"
+    },
+    {
+      "n": "Alter Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Altglück",
+      "wk": "26"
+    },
+    {
+      "n": "Am Abtshof",
+      "wk": "25"
+    },
+    {
+      "n": "Am Ahrenbach",
+      "wk": "25"
+    },
+    {
+      "n": "Am Alftersgraben",
+      "wk": "25"
+    },
+    {
+      "n": "Am Allenter",
+      "wk": "25"
+    },
+    {
+      "n": "Am alten Weiher",
+      "wk": "25"
+    },
+    {
+      "n": "Am Bach",
+      "wk": "25"
+    },
+    {
+      "n": "Am Bachenhohn",
+      "wk": "25"
+    },
+    {
+      "n": "Am Bachgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Am Baumplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Am Berg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Berghang",
+      "wk": "26"
+    },
+    {
+      "n": "Am Bödinger Hof",
+      "wk": "25"
+    },
+    {
+      "n": "Am Brennofen",
+      "wk": "25"
+    },
+    {
+      "n": "Am Brölbach",
+      "wk": "25"
+    },
+    {
+      "n": "Am Burgblick",
+      "wk": "25"
+    },
+    {
+      "n": "Am Bürgerberg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Burghart",
+      "wk": "25"
+    },
+    {
+      "n": "Am Busch",
+      "wk": "25"
+    },
+    {
+      "n": "Am Dich",
+      "wk": "25"
+    },
+    {
+      "n": "Am Feldgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Am Floß",
+      "wk": "25"
+    },
+    {
+      "n": "Am Flutgraben",
+      "wk": "25"
+    },
+    {
+      "n": "Am Forst",
+      "wk": "25"
+    },
+    {
+      "n": "Am Frohnhof",
+      "wk": "26"
+    },
+    {
+      "n": "Am Fuchshaus",
+      "wk": "25"
+    },
+    {
+      "n": "Am Futterhof",
+      "wk": "25"
+    },
+    {
+      "n": "Am Gerhardsbungert",
+      "wk": "25"
+    },
+    {
+      "n": "Am Hahnenweiher",
+      "wk": "26"
+    },
+    {
+      "n": "Am Hanfbach",
+      "wk": "25"
+    },
+    {
+      "n": "Am Hang",
+      "wk": "25"
+    },
+    {
+      "n": "Am Heidegarten",
+      "wk": "26"
+    },
+    {
+      "n": "Am Heidgeshof",
+      "wk": "25"
+    },
+    {
+      "n": "Am Helenenstift",
+      "wk": "25"
+    },
+    {
+      "n": "Am Hennefer Damm",
+      "wk": "25"
+    },
+    {
+      "n": "Am Krausenbaum",
+      "wk": "26"
+    },
+    {
+      "n": "Am Kuckuck",
+      "wk": "25"
+    },
+    {
+      "n": "Am Kümpeler Busch",
+      "wk": "25"
+    },
+    {
+      "n": "Am Kuxberg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Liesenland",
+      "wk": "25"
+    },
+    {
+      "n": "Am Limbachsgraben",
+      "wk": "25"
+    },
+    {
+      "n": "Am Lorenzgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Am Markt",
+      "wk": "25"
+    },
+    {
+      "n": "Am Meisenbach",
+      "wk": "26"
+    },
+    {
+      "n": "Am Messkreuz",
+      "wk": "25"
+    },
+    {
+      "n": "Am Mittelfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Am Mühlengraben",
+      "wk": "25"
+    },
+    {
+      "n": "Am Rosenhügel",
+      "wk": "25"
+    },
+    {
+      "n": "Am Scheidssiefen",
+      "wk": "25"
+    },
+    {
+      "n": "Am Schiefenberg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Schildchen",
+      "wk": "25"
+    },
+    {
+      "n": "Am Schmalen Patt",
+      "wk": "25"
+    },
+    {
+      "n": "Am Schumachersgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Am Sonnenhang",
+      "wk": "26"
+    },
+    {
+      "n": "Am Spielgarten",
+      "wk": "26"
+    },
+    {
+      "n": "Am Spitzengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Am Sportplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Am Steg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Steimel",
+      "wk": "25"
+    },
+    {
+      "n": "Am Steimelsknippen",
+      "wk": "25"
+    },
+    {
+      "n": "Am Steiner Bruch",
+      "wk": "25"
+    },
+    {
+      "n": "Am Steinkäulchen",
+      "wk": "25"
+    },
+    {
+      "n": "Am Steinweg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Stück",
+      "wk": "25"
+    },
+    {
+      "n": "Am Süterich",
+      "wk": "25"
+    },
+    {
+      "n": "Am Tannenbusch",
+      "wk": "25"
+    },
+    {
+      "n": "Am Telegraph",
+      "wk": "26"
+    },
+    {
+      "n": "Am Wahlberg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Wäldchen",
+      "wk": "25"
+    },
+    {
+      "n": "Am Waldrand",
+      "wk": "25"
+    },
+    {
+      "n": "Am Wallgraben",
+      "wk": "25"
+    },
+    {
+      "n": "Am Weinberg",
+      "wk": "25"
+    },
+    {
+      "n": "Am Wiesenhang",
+      "wk": "26"
+    },
+    {
+      "n": "Am Wolfsbach",
+      "wk": "25"
+    },
+    {
+      "n": "Amselweg",
+      "wk": "25"
+    },
+    {
+      "n": "An den Eichen",
+      "wk": "25"
+    },
+    {
+      "n": "An den Ellmen",
+      "wk": "25"
+    },
+    {
+      "n": "An den Tannen",
+      "wk": "25"
+    },
+    {
+      "n": "An der Alten Poststation",
+      "wk": "25"
+    },
+    {
+      "n": "An der Alten Sieg",
+      "wk": "25"
+    },
+    {
+      "n": "An der Arndsbitze",
+      "wk": "25"
+    },
+    {
+      "n": "An der Brölbahn",
+      "wk": "25"
+    },
+    {
+      "n": "An der Kirche",
+      "wk": "26"
+    },
+    {
+      "n": "An der Klostermauer",
+      "wk": "25"
+    },
+    {
+      "n": "An der Lindkaule",
+      "wk": "25"
+    },
+    {
+      "n": "An der Obstwiese",
+      "wk": "25"
+    },
+    {
+      "n": "An der Stompeich",
+      "wk": "25"
+    },
+    {
+      "n": "An der Tränke",
+      "wk": "25"
+    },
+    {
+      "n": "An der Warther Bahn",
+      "wk": "25"
+    },
+    {
+      "n": "Annoplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Annostraße",
+      "wk": "25"
+    },
+    {
+      "n": "Antoniusstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Apolloniaweg",
+      "wk": "25"
+    },
+    {
+      "n": "Arenzhagen",
+      "wk": "26"
+    },
+    {
+      "n": "Ärgefeldstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Asbacher Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Astrid-Lindgren-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Attenberger Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Aueler Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Auenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Alten Garten",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Asbach",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Berg",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Beuel",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Blocksberg",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Bruch",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Driesch",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Feld",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Futterstück",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Hohn",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Komp",
+      "wk": "26"
+    },
+    {
+      "n": "Auf dem Könzenacker",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Krebs",
+      "wk": "26"
+    },
+    {
+      "n": "Auf dem Liemerich",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Niederhalberg",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Oberhalberg",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Platz",
+      "wk": "26"
+    },
+    {
+      "n": "Auf dem Sand",
+      "wk": "25"
+    },
+    {
+      "n": "Auf dem Schimmel",
+      "wk": "25"
+    },
+    {
+      "n": "Auf den Auen",
+      "wk": "26"
+    },
+    {
+      "n": "Auf den Birken",
+      "wk": "26"
+    },
+    {
+      "n": "Auf den Dornen",
+      "wk": "25"
+    },
+    {
+      "n": "Auf den Hähnen",
+      "wk": "26"
+    },
+    {
+      "n": "Auf den Steinen",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Bonspröng",
+      "wk": "26"
+    },
+    {
+      "n": "Auf der Eichenbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Gasse",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Harth",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Hochstadt",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Höhe",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Ley",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Löven",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Nachbarsheide",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Plette",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Sandkaule",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Steinkaule",
+      "wk": "25"
+    },
+    {
+      "n": "Auf der Weckenbitze",
+      "wk": "26"
+    },
+    {
+      "n": "Bachstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Bahnhofstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Bahnweg",
+      "wk": "25"
+    },
+    {
+      "n": "Bauernbergstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Beethovenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Beiert",
+      "wk": "25"
+    },
+    {
+      "n": "Berghagen",
+      "wk": "26"
+    },
+    {
+      "n": "Bergische Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Bergstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Bergweg",
+      "wk": "25"
+    },
+    {
+      "n": "Bierther Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Bingenberg",
+      "wk": "25"
+    },
+    {
+      "n": "Birkenallee",
+      "wk": "25"
+    },
+    {
+      "n": "Birkenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Bismarckstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Bitzerweg",
+      "wk": "26"
+    },
+    {
+      "n": "Blankenbacher Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Blankenberger Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Bleiche",
+      "wk": "25"
+    },
+    {
+      "n": "Bodelschwinghstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Bodenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Bödinger Hof",
+      "wk": "25"
+    },
+    {
+      "n": "Bödinger Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Bödinger Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Bohnenhof",
+      "wk": "25"
+    },
+    {
+      "n": "Bonner Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Boy-Lornsen-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Brahmsstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Breitenfeld",
+      "wk": "26"
+    },
+    {
+      "n": "Broichgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Broichhausener Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Bröldamm",
+      "wk": "25"
+    },
+    {
+      "n": "Brölstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Bröltalstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Brückenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Brüder-Grimm-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Brunnenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Bruno-Becker-Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Bruno-Günther-Meyer-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Buchenbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Buchenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Buchfinkenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Buchheide",
+      "wk": "26"
+    },
+    {
+      "n": "Buchholzer Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Buchwiese",
+      "wk": "25"
+    },
+    {
+      "n": "Büllesfeld",
+      "wk": "26"
+    },
+    {
+      "n": "Büllesfelder Weg",
+      "wk": "26"
+    },
+    {
+      "n": "Burg",
+      "wk": "25"
+    },
+    {
+      "n": "Bürgerweg",
+      "wk": "25"
+    },
+    {
+      "n": "Burggasse",
+      "wk": "25"
+    },
+    {
+      "n": "Burgstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Buscher Feld",
+      "wk": "26"
+    },
+    {
+      "n": "Buschweg",
+      "wk": "26"
+    },
+    {
+      "n": "Busstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Carlo-Collodi-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Cecilienstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Chronos-Platz",
+      "wk": "25"
+    },
+    {
+      "n": "Clara-Schumann-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Clemens-Brentano-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Conrad-Röntgen-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Dahlhausener Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Dambroicher Straße",
+      "wk": "26"
+    },
+    {
+      "n": "Darscheid",
+      "wk": "26"
+    },
+    {
+      "n": "Daubenschladestr.",
+      "wk": "25"
+    },
+    {
+      "n": "Deichstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Depensiefen",
+      "wk": "25"
+    },
+    {
+      "n": "Derenbach",
+      "wk": "25"
+    },
+    {
+      "n": "Dicke Hecke",
+      "wk": "25"
+    },
+    {
+      "n": "Dickhausengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Dickstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Dondorfer Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Doppelsgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Dorenbachweg",
+      "wk": "25"
+    },
+    {
+      "n": "Dorfplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Dornröschenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Drachenfelsstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Drei-Kaiser-Eiche",
+      "wk": "25"
+    },
+    {
+      "n": "Dreieck",
+      "wk": "26"
+    },
+    {
+      "n": "Dreisteinenweg",
+      "wk": "26"
+    },
+    {
+      "n": "Drosselweg",
+      "wk": "25"
+    },
+    {
+      "n": "Dürresbach",
+      "wk": "26"
+    },
+    {
+      "n": "Dürresbachstraße",
+      "wk": "25"
+    },
+    {
+      "n": "E.-T.-A.-Hoffmann-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Edgovener Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Edgover Berg",
+      "wk": "25"
+    },
+    {
+      "n": "Eichenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Eichfeld",
+      "wk": "26"
+    },
+    {
+      "n": "Eichholzer Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Eichhornstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Eichkuhle",
+      "wk": "26"
+    },
+    {
+      "n": "Eitorfer Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Emmy-von-Rhoden-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Enid-Blyton-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Erich-Kästner-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Erlenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Eschenbachstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Eudenbachstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Fährstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Fahrweg",
+      "wk": "25"
+    },
+    {
+      "n": "Falkenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Fasanenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Felderhauser Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Feldgartenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Feldweg",
+      "wk": "25"
+    },
+    {
+      "n": "Fernblick",
+      "wk": "25"
+    },
+    {
+      "n": "Finkenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Fliederweg",
+      "wk": "25"
+    },
+    {
+      "n": "Fluchtweg",
+      "wk": "25"
+    },
+    {
+      "n": "Flürchen",
+      "wk": "25"
+    },
+    {
+      "n": "Flutgraben",
+      "wk": "25"
+    },
+    {
+      "n": "Forellenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Frankfurter Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Freischeider Straße",
+      "wk": "26"
+    },
+    {
+      "n": "Friedensstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Friedhofsstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Friedhofsweg",
+      "wk": "25"
+    },
+    {
+      "n": "Friedrich-Ebert-Platz",
+      "wk": "25"
+    },
+    {
+      "n": "Fritz-Jacobi-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Fröbelweg",
+      "wk": "25"
+    },
+    {
+      "n": "Frohnenfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Frohnsiegel",
+      "wk": "26"
+    },
+    {
+      "n": "Funkgasse",
+      "wk": "25"
+    },
+    {
+      "n": "Gänsehof",
+      "wk": "26"
+    },
+    {
+      "n": "Gartenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Gartenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Gaswerkstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Geissenknippchen",
+      "wk": "26"
+    },
+    {
+      "n": "Geistinger Höhe",
+      "wk": "25"
+    },
+    {
+      "n": "Geistinger Platz",
+      "wk": "25"
+    },
+    {
+      "n": "Geistinger Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Gerberstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Gertrudenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Giesemichstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Ginsterweg",
+      "wk": "25"
+    },
+    {
+      "n": "Graf-Heinrich-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Grafenbungert",
+      "wk": "25"
+    },
+    {
+      "n": "Grenzweg",
+      "wk": "26"
+    },
+    {
+      "n": "Gretenbitze",
+      "wk": "26"
+    },
+    {
+      "n": "Griendskaule",
+      "wk": "25"
+    },
+    {
+      "n": "Grintener Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Große Bitze",
+      "wk": "26"
+    },
+    {
+      "n": "Grubenstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Grüner Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Günther-Landsknecht-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Gut Warther Höhe",
+      "wk": "25"
+    },
+    {
+      "n": "Gut Zissendorf",
+      "wk": "25"
+    },
+    {
+      "n": "Gutsblick",
+      "wk": "25"
+    },
+    {
+      "n": "Gutsgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Hadlaubweg",
+      "wk": "25"
+    },
+    {
+      "n": "Hählenhof",
+      "wk": "26"
+    },
+    {
+      "n": "Hahnenhardt",
+      "wk": "25"
+    },
+    {
+      "n": "Halberg",
+      "wk": "25"
+    },
+    {
+      "n": "Halberger Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Halberger Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Halmshanf",
+      "wk": "26"
+    },
+    {
+      "n": "Hanfer Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Hanfmühle",
+      "wk": "26"
+    },
+    {
+      "n": "Hanftalstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Hans-Böckler-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Hans-Böhm-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Hans-Christian-Andersen-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Hans-Weber-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Happerschosser Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Haselweg",
+      "wk": "25"
+    },
+    {
+      "n": "Hasengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Haus Attenbach",
+      "wk": "25"
+    },
+    {
+      "n": "Haus Ölgarten",
+      "wk": "26"
+    },
+    {
+      "n": "Heckelsberg",
+      "wk": "25"
+    },
+    {
+      "n": "Heckelsberger Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Heckenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Heidestr.",
+      "wk": "25"
+    },
+    {
+      "n": "Heilig-Kreuz-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Heinrich-Emans-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Heinrich-von-Morungen-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Heinz-Bohlscheid-Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Heisterbusch",
+      "wk": "25"
+    },
+    {
+      "n": "Helenenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Heltenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Hennefer Straße",
+      "wk": "26"
+    },
+    {
+      "n": "Hermann-Levy-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Hermann-Loens-Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Hermesmühle",
+      "wk": "26"
+    },
+    {
+      "n": "Hinter den Zäunen",
+      "wk": "25"
+    },
+    {
+      "n": "Hinter der Bitze",
+      "wk": "25"
+    },
+    {
+      "n": "Hof",
+      "wk": "25"
+    },
+    {
+      "n": "Hofen",
+      "wk": "26"
+    },
+    {
+      "n": "Hofener Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Hofwiese",
+      "wk": "26"
+    },
+    {
+      "n": "Höhenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Hohlenbacher Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Hohlweg",
+      "wk": "25"
+    },
+    {
+      "n": "Hohner Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Hollenbusch",
+      "wk": "25"
+    },
+    {
+      "n": "Holunderweg",
+      "wk": "25"
+    },
+    {
+      "n": "Holzenbirken",
+      "wk": "25"
+    },
+    {
+      "n": "Holzgasse",
+      "wk": "25"
+    },
+    {
+      "n": "Hommerich",
+      "wk": "26"
+    },
+    {
+      "n": "Hönscheidstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Hossenberg",
+      "wk": "25"
+    },
+    {
+      "n": "Hove",
+      "wk": "26"
+    },
+    {
+      "n": "Hubertusstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Hücheler Ring",
+      "wk": "25"
+    },
+    {
+      "n": "Hühnerweg",
+      "wk": "25"
+    },
+    {
+      "n": "Hülscheider Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Hümerichweg",
+      "wk": "25"
+    },
+    {
+      "n": "Humperdinckstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Hundseich",
+      "wk": "25"
+    },
+    {
+      "n": "Hundskehr",
+      "wk": "25"
+    },
+    {
+      "n": "Igelweg",
+      "wk": "25"
+    },
+    {
+      "n": "Iltisweg",
+      "wk": "25"
+    },
+    {
+      "n": "Im alten Garten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Auel",
+      "wk": "25"
+    },
+    {
+      "n": "Im Äuelchen",
+      "wk": "25"
+    },
+    {
+      "n": "Im Baumgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Beckersbungert",
+      "wk": "25"
+    },
+    {
+      "n": "Im Bitzengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Bödinger Garten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Bogen",
+      "wk": "25"
+    },
+    {
+      "n": "Im Bröltal",
+      "wk": "25"
+    },
+    {
+      "n": "Im Bungert",
+      "wk": "25"
+    },
+    {
+      "n": "Im Burgbungert",
+      "wk": "25"
+    },
+    {
+      "n": "Im Burghof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Dom",
+      "wk": "26"
+    },
+    {
+      "n": "Im Dorf",
+      "wk": "25"
+    },
+    {
+      "n": "Im Dorfgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Dreshagen",
+      "wk": "25"
+    },
+    {
+      "n": "Im Eremitengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Früngt",
+      "wk": "25"
+    },
+    {
+      "n": "Im Fuchsdriesch",
+      "wk": "25"
+    },
+    {
+      "n": "Im Fürfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Im Fußgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Gerhardshohn",
+      "wk": "25"
+    },
+    {
+      "n": "Im Grabenhof",
+      "wk": "25"
+    },
+    {
+      "n": "Im großen Garten",
+      "wk": "26"
+    },
+    {
+      "n": "Im Hagen",
+      "wk": "25"
+    },
+    {
+      "n": "Im Hain",
+      "wk": "25"
+    },
+    {
+      "n": "Im Hartfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Im Heidchen",
+      "wk": "25"
+    },
+    {
+      "n": "Im Helltgen",
+      "wk": "25"
+    },
+    {
+      "n": "Im Hochbusch",
+      "wk": "26"
+    },
+    {
+      "n": "Im Hof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Hofgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Hohlweg",
+      "wk": "25"
+    },
+    {
+      "n": "Im Hövergarten",
+      "wk": "26"
+    },
+    {
+      "n": "Im Katzsiefen",
+      "wk": "25"
+    },
+    {
+      "n": "Im Käulchenshof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Kierbusch",
+      "wk": "25"
+    },
+    {
+      "n": "Im kleinen Wieschen",
+      "wk": "26"
+    },
+    {
+      "n": "Im Knick",
+      "wk": "25"
+    },
+    {
+      "n": "Im Kningelthal",
+      "wk": "25"
+    },
+    {
+      "n": "Im Kochsgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Kochstor",
+      "wk": "25"
+    },
+    {
+      "n": "Im Kommerich",
+      "wk": "26"
+    },
+    {
+      "n": "Im Kornhof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Landbotenberg",
+      "wk": "25"
+    },
+    {
+      "n": "Im Lindenhof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Lohkamp",
+      "wk": "25"
+    },
+    {
+      "n": "Im Magdhof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Maisfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Im Marenshof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Marienfried",
+      "wk": "25"
+    },
+    {
+      "n": "Im Nassen Hof",
+      "wk": "25"
+    },
+    {
+      "n": "Im Obstgarten",
+      "wk": "26"
+    },
+    {
+      "n": "Im Rodemich",
+      "wk": "26"
+    },
+    {
+      "n": "Im Rosental",
+      "wk": "25"
+    },
+    {
+      "n": "Im Rübengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Im Scheidebungert",
+      "wk": "25"
+    },
+    {
+      "n": "Im Schloßpark",
+      "wk": "25"
+    },
+    {
+      "n": "Im Schulgarten",
+      "wk": "26"
+    },
+    {
+      "n": "Im Siegfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Im Stückgemich",
+      "wk": "26"
+    },
+    {
+      "n": "Im Tal",
+      "wk": "26"
+    },
+    {
+      "n": "Im Tannenhain",
+      "wk": "25"
+    },
+    {
+      "n": "Im tiefen Bruch",
+      "wk": "26"
+    },
+    {
+      "n": "Im Uhlenwinkel",
+      "wk": "26"
+    },
+    {
+      "n": "Im Unterdorf",
+      "wk": "25"
+    },
+    {
+      "n": "Im Wald",
+      "wk": "25"
+    },
+    {
+      "n": "Im Windwinkel",
+      "wk": "25"
+    },
+    {
+      "n": "Im Wingert",
+      "wk": "25"
+    },
+    {
+      "n": "Im Winkel",
+      "wk": "25"
+    },
+    {
+      "n": "In den Erlen",
+      "wk": "25"
+    },
+    {
+      "n": "In den Marktgärten",
+      "wk": "25"
+    },
+    {
+      "n": "In der Aue",
+      "wk": "25"
+    },
+    {
+      "n": "In der Bergwiese",
+      "wk": "25"
+    },
+    {
+      "n": "In der Delle",
+      "wk": "25"
+    },
+    {
+      "n": "In der Dränk",
+      "wk": "25"
+    },
+    {
+      "n": "In der Ecke",
+      "wk": "25"
+    },
+    {
+      "n": "In der Flent",
+      "wk": "25"
+    },
+    {
+      "n": "In der Fuchskaule",
+      "wk": "25"
+    },
+    {
+      "n": "In der Haarwiese",
+      "wk": "26"
+    },
+    {
+      "n": "In der Helden",
+      "wk": "25"
+    },
+    {
+      "n": "In der Kaue",
+      "wk": "25"
+    },
+    {
+      "n": "In der Mark",
+      "wk": "26"
+    },
+    {
+      "n": "In der Schülf",
+      "wk": "26"
+    },
+    {
+      "n": "In der Sellbach",
+      "wk": "25"
+    },
+    {
+      "n": "In der Wirdau",
+      "wk": "25"
+    },
+    {
+      "n": "Irisweg",
+      "wk": "25"
+    },
+    {
+      "n": "Irlenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Irmenbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Issertshof",
+      "wk": "26"
+    },
+    {
+      "n": "Jägerweg",
+      "wk": "25"
+    },
+    {
+      "n": "Jahnstraße",
+      "wk": "25"
+    },
+    {
+      "n": "James-Krüss-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Johann-Steimel-Platz",
+      "wk": "25"
+    },
+    {
+      "n": "Johann-Strawe-Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Johanna-Spyri-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Johannesweg",
+      "wk": "25"
+    },
+    {
+      "n": "Josef-Dietzgen-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Jüchtstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Jupp-Raderschad-Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Kaiserstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Kammbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Kantelberg",
+      "wk": "25"
+    },
+    {
+      "n": "Kapellenhügel",
+      "wk": "25"
+    },
+    {
+      "n": "Kapellenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Kapellenweg",
+      "wk": "26"
+    },
+    {
+      "n": "Karl-Müller-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Karlssonweg",
+      "wk": "25"
+    },
+    {
+      "n": "Kastanienweg",
+      "wk": "25"
+    },
+    {
+      "n": "Katharinastr.",
+      "wk": "25"
+    },
+    {
+      "n": "Katzenhardt",
+      "wk": "26"
+    },
+    {
+      "n": "Kegelswies",
+      "wk": "25"
+    },
+    {
+      "n": "Keplerstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Kiefernweg",
+      "wk": "26"
+    },
+    {
+      "n": "Kieskaule",
+      "wk": "25"
+    },
+    {
+      "n": "Kirchgasse",
+      "wk": "25"
+    },
+    {
+      "n": "Kirchstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Kirchweg",
+      "wk": "25"
+    },
+    {
+      "n": "Kleebungert",
+      "wk": "25"
+    },
+    {
+      "n": "Kleedriesch",
+      "wk": "25"
+    },
+    {
+      "n": "Klosberg",
+      "wk": "25"
+    },
+    {
+      "n": "Klostergut",
+      "wk": "25"
+    },
+    {
+      "n": "Klosterstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Knechtsberg",
+      "wk": "25"
+    },
+    {
+      "n": "Kneippweg",
+      "wk": "25"
+    },
+    {
+      "n": "Knippgierscheid",
+      "wk": "26"
+    },
+    {
+      "n": "Kolberger Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Kolpingstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Kölzweg",
+      "wk": "25"
+    },
+    {
+      "n": "Königsberger Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Königskauler Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Königstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Königswinterer Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Kratzhecke",
+      "wk": "25"
+    },
+    {
+      "n": "Krautscheider Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Kreuzfeldstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Kreuzstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Kreuzweg",
+      "wk": "25"
+    },
+    {
+      "n": "Krokusweg",
+      "wk": "25"
+    },
+    {
+      "n": "Kronprinzenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Krummer Morgen",
+      "wk": "25"
+    },
+    {
+      "n": "Krummer Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Kuchenbachstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Kümpeler Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Kümpeler Wiese",
+      "wk": "26"
+    },
+    {
+      "n": "Kunigundengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Künzenhohn",
+      "wk": "25"
+    },
+    {
+      "n": "Kürenbergstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Kurhausstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Kurparkstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Kurt-Schumacher-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Küsersgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Landgraben",
+      "wk": "25"
+    },
+    {
+      "n": "Landingersberg",
+      "wk": "25"
+    },
+    {
+      "n": "Langemichsiefen",
+      "wk": "26"
+    },
+    {
+      "n": "Laternenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Lauthausener Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Lehmkaule",
+      "wk": "25"
+    },
+    {
+      "n": "Lerchenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Lescheid",
+      "wk": "25"
+    },
+    {
+      "n": "Lescheider Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Lettestr.",
+      "wk": "25"
+    },
+    {
+      "n": "Lichstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Lichtenbergstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Liesberg",
+      "wk": "26"
+    },
+    {
+      "n": "Lilienweg",
+      "wk": "25"
+    },
+    {
+      "n": "Limersbach",
+      "wk": "25"
+    },
+    {
+      "n": "Lindenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Lindenstück",
+      "wk": "25"
+    },
+    {
+      "n": "Lipgenshof",
+      "wk": "25"
+    },
+    {
+      "n": "Lise-Meitner-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Löbach",
+      "wk": "26"
+    },
+    {
+      "n": "Löhestraße",
+      "wk": "25"
+    },
+    {
+      "n": "Löwenburgstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Ludwig-Bechstein-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Ludwigsweg",
+      "wk": "25"
+    },
+    {
+      "n": "Maditaweg",
+      "wk": "25"
+    },
+    {
+      "n": "Mahrberg",
+      "wk": "25"
+    },
+    {
+      "n": "Malerwinkel",
+      "wk": "25"
+    },
+    {
+      "n": "Marderweg",
+      "wk": "25"
+    },
+    {
+      "n": "Marie-Curie-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Marienkirchstraße",
+      "wk": "26"
+    },
+    {
+      "n": "Marienplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Marienstraße",
+      "wk": "26"
+    },
+    {
+      "n": "Markt",
+      "wk": "25"
+    },
+    {
+      "n": "Marktplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Marktsiefen",
+      "wk": "25"
+    },
+    {
+      "n": "Mauspfad",
+      "wk": "25"
+    },
+    {
+      "n": "Max-Born-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Max-Planck-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Mechthildisstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Mecklenburger Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Meiersheide",
+      "wk": "25"
+    },
+    {
+      "n": "Meisenhanf",
+      "wk": "26"
+    },
+    {
+      "n": "Meisenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Mendter Mark",
+      "wk": "26"
+    },
+    {
+      "n": "Mertener Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Meysstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Michael-Ende-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Michelsbergweg",
+      "wk": "25"
+    },
+    {
+      "n": "Michelshohn",
+      "wk": "25"
+    },
+    {
+      "n": "Michelweg",
+      "wk": "25"
+    },
+    {
+      "n": "Mintenweg",
+      "wk": "26"
+    },
+    {
+      "n": "Mioweg",
+      "wk": "25"
+    },
+    {
+      "n": "Mittelstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Mozartstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Mühlenbergstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Mühlental",
+      "wk": "25"
+    },
+    {
+      "n": "Mühlenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Müschmühlestraße",
+      "wk": "25"
+    },
+    {
+      "n": "Nachtigallenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Neuenhofer Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Nils-Holgersson-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Nordweg",
+      "wk": "26"
+    },
+    {
+      "n": "Nümmstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Oberaueler Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Oberdorf",
+      "wk": "25"
+    },
+    {
+      "n": "Obere Siegstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Oberpleiser Straße",
+      "wk": "26"
+    },
+    {
+      "n": "Ochsenhöhl",
+      "wk": "25"
+    },
+    {
+      "n": "Ölbergstraße",
+      "wk": "26"
+    },
+    {
+      "n": "Ölgartenstraße",
+      "wk": "26"
+    },
+    {
+      "n": "Oppelrather Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Otterweg",
+      "wk": "25"
+    },
+    {
+      "n": "Pantaleon-Schmitz-Platz",
+      "wk": "25"
+    },
+    {
+      "n": "Pastor-Büsching-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Pastor-Kolfenbach-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Peschhecke",
+      "wk": "26"
+    },
+    {
+      "n": "Petersgarten",
+      "wk": "26"
+    },
+    {
+      "n": "Petershohn",
+      "wk": "25"
+    },
+    {
+      "n": "Peterstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Peterswiese",
+      "wk": "25"
+    },
+    {
+      "n": "Picksfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Pleistalstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Pommernstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Postweg",
+      "wk": "25"
+    },
+    {
+      "n": "Priesterbergweg",
+      "wk": "26"
+    },
+    {
+      "n": "Pützemichweg",
+      "wk": "25"
+    },
+    {
+      "n": "Quadenhof",
+      "wk": "25"
+    },
+    {
+      "n": "Quellenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Querweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rahmtal",
+      "wk": "26"
+    },
+    {
+      "n": "Raiffeisenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Rasmusweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rathausweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rauschenbuchen",
+      "wk": "26"
+    },
+    {
+      "n": "Raveneck",
+      "wk": "25"
+    },
+    {
+      "n": "Ravenstein",
+      "wk": "25"
+    },
+    {
+      "n": "Reinmar-von-Zweter-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Reisertstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Rennesberg",
+      "wk": "25"
+    },
+    {
+      "n": "Renteigasse",
+      "wk": "25"
+    },
+    {
+      "n": "Rentmeisterberg",
+      "wk": "25"
+    },
+    {
+      "n": "Reutherstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Rheinstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Ringstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Röckelstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Ronjaweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rosenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rotdornweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rotkäppchenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rotlandsweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rotter Straße",
+      "wk": "26"
+    },
+    {
+      "n": "Röttgen",
+      "wk": "25"
+    },
+    {
+      "n": "Rundweg",
+      "wk": "25"
+    },
+    {
+      "n": "Rütsch",
+      "wk": "25"
+    },
+    {
+      "n": "Sanddornweg",
+      "wk": "25"
+    },
+    {
+      "n": "Schächer",
+      "wk": "25"
+    },
+    {
+      "n": "Schächerweg",
+      "wk": "25"
+    },
+    {
+      "n": "Scheffenstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Scheiderwiese",
+      "wk": "25"
+    },
+    {
+      "n": "Scherengasse",
+      "wk": "25"
+    },
+    {
+      "n": "Scheuren",
+      "wk": "26"
+    },
+    {
+      "n": "Scheurengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Scheurenmühle",
+      "wk": "26"
+    },
+    {
+      "n": "Schieferhof",
+      "wk": "25"
+    },
+    {
+      "n": "Schladersiefen",
+      "wk": "25"
+    },
+    {
+      "n": "Schleehecke",
+      "wk": "25"
+    },
+    {
+      "n": "Schleifenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Schlesische Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Schloßstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Schmaler Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Schmiedegasse",
+      "wk": "26"
+    },
+    {
+      "n": "Schmitzbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Schönblick",
+      "wk": "26"
+    },
+    {
+      "n": "Schöntalweg",
+      "wk": "25"
+    },
+    {
+      "n": "Schorfbitze",
+      "wk": "26"
+    },
+    {
+      "n": "Schreinersbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Schubertstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Schulstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Schulweg",
+      "wk": "25"
+    },
+    {
+      "n": "Schützenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Schwalbengasse",
+      "wk": "25"
+    },
+    {
+      "n": "Schwarzdornweg",
+      "wk": "25"
+    },
+    {
+      "n": "Seestr.",
+      "wk": "25"
+    },
+    {
+      "n": "Selbachstraße",
+      "wk": "26"
+    },
+    {
+      "n": "Seligenthaler Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Selma-Lagerlöf-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Siebengebirgsblick",
+      "wk": "25"
+    },
+    {
+      "n": "Siebengebirgsstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Siebengebirgsweg",
+      "wk": "25"
+    },
+    {
+      "n": "Siegallee",
+      "wk": "25"
+    },
+    {
+      "n": "Siegaue",
+      "wk": "25"
+    },
+    {
+      "n": "Siegblick",
+      "wk": "25"
+    },
+    {
+      "n": "Siegburger Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Siegburger Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Siegener Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Siegfeldstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Siegpromenade",
+      "wk": "25"
+    },
+    {
+      "n": "Siegstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Siegtalstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Sollstadt",
+      "wk": "25"
+    },
+    {
+      "n": "Sonnenburgstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Sonnenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Sövener Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Spelhof",
+      "wk": "25"
+    },
+    {
+      "n": "Sperlingsweg",
+      "wk": "25"
+    },
+    {
+      "n": "Spervogelstraße",
+      "wk": "25"
+    },
+    {
+      "n": "St. Michaelstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Stadtblick",
+      "wk": "25"
+    },
+    {
+      "n": "Stationsweg",
+      "wk": "25"
+    },
+    {
+      "n": "Steinbruchstr.",
+      "wk": "26"
+    },
+    {
+      "n": "Steinenkreuz",
+      "wk": "26"
+    },
+    {
+      "n": "Steiner Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Steinerhart",
+      "wk": "25"
+    },
+    {
+      "n": "Steinkaulerweg",
+      "wk": "25"
+    },
+    {
+      "n": "Steinstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Sterntaler Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Stettiner Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Stichweg",
+      "wk": "25"
+    },
+    {
+      "n": "Stillbungert",
+      "wk": "25"
+    },
+    {
+      "n": "Stöckerfeld",
+      "wk": "26"
+    },
+    {
+      "n": "Stoßdorfer Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Stotterheck",
+      "wk": "26"
+    },
+    {
+      "n": "Süchterscheider Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Südweg",
+      "wk": "25"
+    },
+    {
+      "n": "Talsperrenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Talstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Talweg",
+      "wk": "25"
+    },
+    {
+      "n": "Tannenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Taubenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Taufenberg",
+      "wk": "26"
+    },
+    {
+      "n": "Teichstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Theishohn",
+      "wk": "25"
+    },
+    {
+      "n": "Theodor-Heuss-Allee",
+      "wk": "25"
+    },
+    {
+      "n": "Tönneshof",
+      "wk": "25"
+    },
+    {
+      "n": "Tulpenweg",
+      "wk": "25"
+    },
+    {
+      "n": "Turmstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Über dem Rechen",
+      "wk": "25"
+    },
+    {
+      "n": "Überholz",
+      "wk": "26"
+    },
+    {
+      "n": "Uckerather Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Uferstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Unter Birken",
+      "wk": "26"
+    },
+    {
+      "n": "Unter dem Dachsenberg",
+      "wk": "25"
+    },
+    {
+      "n": "Unterbierth",
+      "wk": "25"
+    },
+    {
+      "n": "Unterdorfstraße",
+      "wk": "26"
+    },
+    {
+      "n": "Untere Hardt",
+      "wk": "26"
+    },
+    {
+      "n": "Uthweiler Straße",
+      "wk": "26"
+    },
+    {
+      "n": "Vogtstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Von Nesselrodeweg",
+      "wk": "25"
+    },
+    {
+      "n": "Wahnbachweg",
+      "wk": "25"
+    },
+    {
+      "n": "Waldhornweg",
+      "wk": "25"
+    },
+    {
+      "n": "Waldstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Warthstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Wasserweg",
+      "wk": "25"
+    },
+    {
+      "n": "Wehrfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Wehrstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Weidegarten",
+      "wk": "25"
+    },
+    {
+      "n": "Weidenbroich",
+      "wk": "25"
+    },
+    {
+      "n": "Weiherweg",
+      "wk": "25"
+    },
+    {
+      "n": "Weißdornweg",
+      "wk": "25"
+    },
+    {
+      "n": "Weitblick",
+      "wk": "25"
+    },
+    {
+      "n": "Wellesberger Straße",
+      "wk": "26"
+    },
+    {
+      "n": "Westerwaldstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Wiederschall",
+      "wk": "26"
+    },
+    {
+      "n": "Wiersberg",
+      "wk": "26"
+    },
+    {
+      "n": "Wiersberger Str.",
+      "wk": "26"
+    },
+    {
+      "n": "Wieselweg",
+      "wk": "25"
+    },
+    {
+      "n": "Wiesenstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Wiesenweg",
+      "wk": "26"
+    },
+    {
+      "n": "Wilhelm-Busch-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Wilhelm-Hauff-Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Wilhelmstr.",
+      "wk": "25"
+    },
+    {
+      "n": "Willenbusch",
+      "wk": "26"
+    },
+    {
+      "n": "Willi-Lindlar-Str.",
+      "wk": "25"
+    },
+    {
+      "n": "Willy-Brandt-Platz",
+      "wk": "25"
+    },
+    {
+      "n": "Wilmshecke",
+      "wk": "25"
+    },
+    {
+      "n": "Wingenshof",
+      "wk": "25"
+    },
+    {
+      "n": "Winkelweg",
+      "wk": "25"
+    },
+    {
+      "n": "Winzerstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Wippenhohn",
+      "wk": "26"
+    },
+    {
+      "n": "Wippenhohner Straße",
+      "wk": "25"
+    },
+    {
+      "n": "Wolfsbusch",
+      "wk": "25"
+    },
+    {
+      "n": "Wolkensteinstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Ziethenstraße",
+      "wk": "25"
+    },
+    {
+      "n": "Zinnestraße",
+      "wk": "26"
+    },
+    {
+      "n": "Zissendorfer Garten",
+      "wk": "25"
+    },
+    {
+      "n": "Zissendorfer Weg",
+      "wk": "25"
+    },
+    {
+      "n": "Zollgasse",
+      "wk": "25"
+    },
+    {
+      "n": "Zum alten Brunnen",
+      "wk": "25"
+    },
+    {
+      "n": "Zum alten Feld",
+      "wk": "25"
+    },
+    {
+      "n": "Zum alten Kirchweg",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Alten Sportplatz",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Altenfelderhof",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Bachhof",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Brünnchen",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Forst",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Gleichen",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Hapsberg",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Haus Ölgarten",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Herdchen",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Herrengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Hexenbusch",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Hochbusch",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Höhnerfeld",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Junkersfeld",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Katharinentor",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Kreuzgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Lüdersbach",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Metzengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Neuglück",
+      "wk": "26"
+    },
+    {
+      "n": "Zum Nümmer Hof",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Reinholdsgarten",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Rosengarten",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Scherbusch",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Siegtal",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Silberling",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Steimel",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Steimelsbach",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Steimelsberg",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Stolzwinkel",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Talblick",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Wahlbach",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Weingarten",
+      "wk": "25"
+    },
+    {
+      "n": "Zum Wiesengrund",
+      "wk": "25"
+    },
+    {
+      "n": "Zumhof",
+      "wk": "25"
+    },
+    {
+      "n": "Zur alten Gärtnerei",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Bitze",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Bornenbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Ehlenhardt",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Eichenbitze",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Geistinger Mark",
+      "wk": "26"
+    },
+    {
+      "n": "Zur Hammermühle",
+      "wk": "26"
+    },
+    {
+      "n": "Zur Hardt",
+      "wk": "26"
+    },
+    {
+      "n": "Zur Heide",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Hustert",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Hütte",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Lorenzhöhe",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Lüppich",
+      "wk": "26"
+    },
+    {
+      "n": "Zur Marienkapelle",
+      "wk": "26"
+    },
+    {
+      "n": "Zur Mühle",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Selbach",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Sieg",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Sonnenwiese",
+      "wk": "26"
+    },
+    {
+      "n": "Zur Stachelhardt",
+      "wk": "25"
+    },
+    {
+      "n": "Zur Thomaseiche",
+      "wk": "25"
+    }
+  ]
+}

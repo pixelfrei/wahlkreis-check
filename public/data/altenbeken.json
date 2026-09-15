@@ -1,0 +1,2588 @@
+{
+  "meta": {
+    "kommune": "Altenbeken",
+    "stand": "2026-07",
+    "gebaut_am": "2026-09-14",
+    "quellen": [
+      "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht",
+      "https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip"
+    ],
+    "zuordnung": "berechnet"
+  },
+  "wahlkreise": {
+    "100": "Paderborn I",
+    "101": "Paderborn II"
+  },
+  "strassen": [
+    {
+      "n": "Adenauerstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Agathastraße",
+      "wk": "100"
+    },
+    {
+      "n": "Ahornstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Alte Bahnhofstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Alter Kirchweg",
+      "wk": "101"
+    },
+    {
+      "n": "Alter Postweg",
+      "wk": "100"
+    },
+    {
+      "n": "Am alten Teich",
+      "wk": "100"
+    },
+    {
+      "n": "Am Alten Teiche",
+      "wk": "100"
+    },
+    {
+      "n": "Am Andreas Kloster",
+      "wk": "100"
+    },
+    {
+      "n": "Am Berge",
+      "wk": "100"
+    },
+    {
+      "n": "Am Blankenberge",
+      "wk": "100"
+    },
+    {
+      "n": "Am Brande",
+      "wk": "101"
+    },
+    {
+      "n": "Am Brandholz",
+      "b": [
+        {
+          "von": 1,
+          "bis": 1,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 2,
+          "bis": 2,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 3,
+          "bis": 3,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 4,
+          "bis": 6,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 7,
+          "bis": 7,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 10,
+          "bis": 10,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 11,
+          "bis": 15,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 16,
+          "bis": 16,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 17,
+          "bis": 17,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 18,
+          "bis": 20,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 21,
+          "bis": 21,
+          "par": "u",
+          "wk": "100"
+        }
+      ]
+    },
+    {
+      "n": "Am Breienwege",
+      "wk": "100"
+    },
+    {
+      "n": "Am Brokhof",
+      "wk": "100"
+    },
+    {
+      "n": "Am Dunerwege",
+      "wk": "100"
+    },
+    {
+      "n": "Am Eichenkamp",
+      "wk": "100"
+    },
+    {
+      "n": "Am Füllenhof",
+      "wk": "100"
+    },
+    {
+      "n": "Am Hammer",
+      "wk": "101"
+    },
+    {
+      "n": "Am Kalkofen",
+      "wk": "101"
+    },
+    {
+      "n": "Am Keimberg",
+      "wk": "100"
+    },
+    {
+      "n": "Am Keimberge",
+      "wk": "100"
+    },
+    {
+      "n": "Am Knobbenberg",
+      "wk": "100"
+    },
+    {
+      "n": "Am Koksberg",
+      "wk": "100"
+    },
+    {
+      "n": "Am Kuhlenborn",
+      "wk": "101"
+    },
+    {
+      "n": "Am Küstergarten",
+      "wk": "100"
+    },
+    {
+      "n": "Am Lammerberge",
+      "wk": "100"
+    },
+    {
+      "n": "Am Limberge",
+      "wk": "100"
+    },
+    {
+      "n": "Am Lindenhof",
+      "wk": "101"
+    },
+    {
+      "n": "Am Marktplatz",
+      "wk": "100"
+    },
+    {
+      "n": "Am Melkpad",
+      "wk": "101"
+    },
+    {
+      "n": "Am Miekenberg",
+      "wk": "101"
+    },
+    {
+      "n": "Am Mühlenbach",
+      "wk": "101"
+    },
+    {
+      "n": "Am Randor",
+      "wk": "100"
+    },
+    {
+      "n": "Am Rotenberg",
+      "wk": "100"
+    },
+    {
+      "n": "Am Saul",
+      "wk": "100"
+    },
+    {
+      "n": "Am Saule",
+      "wk": "100"
+    },
+    {
+      "n": "Am Schäferhof",
+      "wk": "100"
+    },
+    {
+      "n": "Am Siep",
+      "wk": "101"
+    },
+    {
+      "n": "Am Sportplatz",
+      "wk": "101"
+    },
+    {
+      "n": "Am Springe",
+      "wk": "100"
+    },
+    {
+      "n": "Am Stadtgraben",
+      "wk": "100"
+    },
+    {
+      "n": "Am Stadtwege",
+      "wk": "100"
+    },
+    {
+      "n": "Am Stapelsberg",
+      "wk": "101"
+    },
+    {
+      "n": "Am Subberge",
+      "wk": "100"
+    },
+    {
+      "n": "Am Viadukt",
+      "wk": "101"
+    },
+    {
+      "n": "An der Apuhlquelle",
+      "wk": "100"
+    },
+    {
+      "n": "An der B 64",
+      "wk": "100"
+    },
+    {
+      "n": "An der Breien",
+      "wk": "100"
+    },
+    {
+      "n": "An der Dorfbrücke",
+      "wk": "100"
+    },
+    {
+      "n": "An der Drift",
+      "wk": "100"
+    },
+    {
+      "n": "An der Durbeke",
+      "wk": "101"
+    },
+    {
+      "n": "An der Düstergrundheide",
+      "wk": "100"
+    },
+    {
+      "n": "An der Ebene",
+      "wk": "101"
+    },
+    {
+      "n": "An der Eller",
+      "wk": "100"
+    },
+    {
+      "n": "An der Gräfte",
+      "wk": "100"
+    },
+    {
+      "n": "An der Sallenkruke",
+      "wk": "100"
+    },
+    {
+      "n": "An der Wulferkuhle",
+      "wk": "100"
+    },
+    {
+      "n": "Antoniusstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Heng",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Hühnerfelde",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Keimberge",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Lammersberge",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Röhre",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Rühenfelde",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Springe",
+      "wk": "100"
+    },
+    {
+      "n": "Auf dem Subberge",
+      "wk": "100"
+    },
+    {
+      "n": "Auf den Hottensteinen",
+      "wk": "100"
+    },
+    {
+      "n": "Auf den Kölken",
+      "wk": "101"
+    },
+    {
+      "n": "Auf der Dune",
+      "wk": "100"
+    },
+    {
+      "n": "Auf der Ebene",
+      "wk": "101"
+    },
+    {
+      "n": "Auf'm Limberg",
+      "wk": "100"
+    },
+    {
+      "n": "Austertal",
+      "wk": "100"
+    },
+    {
+      "n": "Bachstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Badestraße",
+      "wk": "101"
+    },
+    {
+      "n": "Bahnhof Neuenheerse",
+      "wk": "100"
+    },
+    {
+      "n": "Bahnhofstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Bangern",
+      "wk": "100"
+    },
+    {
+      "n": "Bei der großen Kuhle",
+      "wk": "100"
+    },
+    {
+      "n": "Bei der Seilweihen",
+      "wk": "100"
+    },
+    {
+      "n": "Bei der Steinkuhle",
+      "wk": "100"
+    },
+    {
+      "n": "Beim Bühlbusch",
+      "wk": "100"
+    },
+    {
+      "n": "Bergkamp",
+      "wk": "100"
+    },
+    {
+      "n": "Bergstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Birkenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Bischof-Balduin-Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Bodentalsweg",
+      "wk": "100"
+    },
+    {
+      "n": "Bohnenthal",
+      "wk": "100"
+    },
+    {
+      "n": "Bokelweg",
+      "wk": "101"
+    },
+    {
+      "n": "Bollaes",
+      "wk": "101"
+    },
+    {
+      "n": "Bollerborn",
+      "wk": "101"
+    },
+    {
+      "n": "Bollerbornsberg",
+      "wk": "101"
+    },
+    {
+      "n": "Bollerbornstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Branthagenstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Bredenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Brocksberg",
+      "wk": "100"
+    },
+    {
+      "n": "Brokstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Brückenstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Bruderbusch",
+      "wk": "100"
+    },
+    {
+      "n": "Buchenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Bühlbusch",
+      "wk": "100"
+    },
+    {
+      "n": "Burgstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Caspar-Kropff-Weg",
+      "wk": "101"
+    },
+    {
+      "n": "Cheruskerstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Christian-Schütze-Straße",
+      "wk": "101"
+    },
+    {
+      "n": "Dammweg",
+      "wk": "100"
+    },
+    {
+      "n": "Diekweg",
+      "wk": "100"
+    },
+    {
+      "n": "Dionysiusstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Dorfstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Dr.-Pentrup-Straße",
+      "wk": "101"
+    },
+    {
+      "n": "Driburger Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Dringenberger Grund",
+      "wk": "100"
+    },
+    {
+      "n": "Dune",
+      "wk": "100"
+    },
+    {
+      "n": "Düstergrundheide",
+      "wk": "100"
+    },
+    {
+      "n": "Eckernkamp",
+      "wk": "100"
+    },
+    {
+      "n": "Eggering",
+      "wk": "101"
+    },
+    {
+      "n": "Eichendorffstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Eichenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Ekwortstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Ellerweg",
+      "wk": "100"
+    },
+    {
+      "n": "Emder Wald",
+      "wk": "100"
+    },
+    {
+      "n": "Erzkuhlenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Federathweg",
+      "wk": "101"
+    },
+    {
+      "n": "Feldmark",
+      "wk": "101"
+    },
+    {
+      "n": "Firtkamp",
+      "wk": "100"
+    },
+    {
+      "n": "Friedrich-Wilhelm-Weber-Straße",
+      "wk": "101"
+    },
+    {
+      "n": "Gänseberg",
+      "wk": "101"
+    },
+    {
+      "n": "Gardeweg",
+      "wk": "101"
+    },
+    {
+      "n": "Gartenstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Hachmannstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Haidhügelweg",
+      "wk": "101"
+    },
+    {
+      "n": "Happenberg",
+      "wk": "100"
+    },
+    {
+      "n": "Hartdorn",
+      "wk": "100"
+    },
+    {
+      "n": "Heideweg",
+      "wk": "100"
+    },
+    {
+      "n": "Heidhöfe",
+      "wk": "100"
+    },
+    {
+      "n": "Heinrich-Neuheuser-Weg",
+      "wk": "101"
+    },
+    {
+      "n": "Heinz-Küting-Weg",
+      "wk": "100"
+    },
+    {
+      "n": "Heistermannweg",
+      "b": [
+        {
+          "von": 1,
+          "bis": 1,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 2,
+          "bis": 2,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 3,
+          "bis": 3,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 4,
+          "bis": 4,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 5,
+          "bis": 5,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 6,
+          "bis": 6,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 7,
+          "bis": 7,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 8,
+          "bis": 8,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 9,
+          "bis": 9,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 10,
+          "bis": 10,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 11,
+          "bis": 11,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 12,
+          "bis": 12,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 13,
+          "bis": 13,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 14,
+          "bis": 14,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 15,
+          "bis": 15,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 16,
+          "bis": 16,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 17,
+          "bis": 17,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 18,
+          "bis": 18,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 19,
+          "bis": 19,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 20,
+          "bis": 22,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 23,
+          "bis": 25,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 26,
+          "bis": 40,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 41,
+          "bis": 41,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 42,
+          "bis": 42,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 43,
+          "bis": 43,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 44,
+          "bis": 44,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 45,
+          "bis": 45,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 46,
+          "bis": 46,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 47,
+          "bis": 47,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 48,
+          "bis": 48,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 49,
+          "bis": 49,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 50,
+          "bis": 50,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 51,
+          "bis": 51,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 52,
+          "bis": 52,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 53,
+          "bis": 53,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 54,
+          "bis": 54,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 55,
+          "bis": 55,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 56,
+          "bis": 58,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 59,
+          "bis": 59,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 60,
+          "bis": 60,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 61,
+          "bis": 61,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 62,
+          "bis": 62,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 63,
+          "bis": 63,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 64,
+          "bis": 64,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 65,
+          "bis": 65,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 66,
+          "bis": 66,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 67,
+          "bis": 67,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 68,
+          "bis": 68,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 69,
+          "bis": 69,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 70,
+          "bis": 70,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 71,
+          "bis": 71,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 72,
+          "bis": 72,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 73,
+          "bis": 75,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 76,
+          "bis": 76,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 77,
+          "bis": 77,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 78,
+          "bis": 78,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 79,
+          "bis": 87,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 91,
+          "bis": 93,
+          "par": "u",
+          "wk": "100"
+        }
+      ]
+    },
+    {
+      "n": "Hellweg",
+      "wk": "100"
+    },
+    {
+      "n": "Hesselhorns-Heide",
+      "wk": "100"
+    },
+    {
+      "n": "Himmelreich",
+      "wk": "101"
+    },
+    {
+      "n": "Hinter'm Hasehol",
+      "wk": "100"
+    },
+    {
+      "n": "Höhenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Höltenbrügge",
+      "wk": "100"
+    },
+    {
+      "n": "Hossenbergstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Hühnerfeld",
+      "wk": "100"
+    },
+    {
+      "n": "Hüttenstraße",
+      "b": [
+        {
+          "von": 1,
+          "bis": 1,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 2,
+          "bis": 2,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 3,
+          "bis": 3,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 4,
+          "bis": 4,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 5,
+          "bis": 5,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 6,
+          "bis": 6,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 7,
+          "bis": 7,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 8,
+          "bis": 8,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 9,
+          "bis": 9,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 10,
+          "bis": 12,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 13,
+          "bis": 13,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 14,
+          "bis": 14,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 15,
+          "bis": 15,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 16,
+          "bis": 16,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 17,
+          "bis": 17,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 18,
+          "bis": 18,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 19,
+          "bis": 19,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 20,
+          "bis": 20,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 21,
+          "bis": 23,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 24,
+          "bis": 24,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 25,
+          "bis": 25,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 26,
+          "bis": 26,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 27,
+          "bis": 27,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 28,
+          "bis": 28,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 29,
+          "bis": 29,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 30,
+          "bis": 30,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 31,
+          "bis": 31,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 32,
+          "bis": 32,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 33,
+          "bis": 33,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 34,
+          "bis": 34,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 35,
+          "bis": 35,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 36,
+          "bis": 36,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 37,
+          "bis": 37,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 38,
+          "bis": 38,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 39,
+          "bis": 39,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 40,
+          "bis": 40,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 41,
+          "bis": 41,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 42,
+          "bis": 42,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 43,
+          "bis": 45,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 46,
+          "bis": 46,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 47,
+          "bis": 47,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 48,
+          "bis": 50,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 51,
+          "bis": 51,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 52,
+          "bis": 52,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 53,
+          "bis": 53,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 54,
+          "bis": 54,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 55,
+          "bis": 55,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 56,
+          "bis": 58,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 59,
+          "bis": 59,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 60,
+          "bis": 60,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 61,
+          "bis": 61,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 62,
+          "bis": 62,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 63,
+          "bis": 63,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 64,
+          "bis": 64,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 65,
+          "bis": 65,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 66,
+          "bis": 66,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 67,
+          "bis": 67,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 68,
+          "bis": 68,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 72,
+          "bis": 78,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 79,
+          "bis": 79,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 80,
+          "bis": 80,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 81,
+          "bis": 81,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 82,
+          "bis": 82,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 83,
+          "bis": 83,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 84,
+          "bis": 88,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 94,
+          "bis": 98,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 99,
+          "bis": 99,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 100,
+          "bis": 114,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 118,
+          "bis": 120,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 126,
+          "bis": 128,
+          "par": "g",
+          "wk": "100"
+        }
+      ]
+    },
+    {
+      "n": "Im Alten Dieke",
+      "wk": "100"
+    },
+    {
+      "n": "Im Berge",
+      "wk": "100"
+    },
+    {
+      "n": "Im Flachenfeld",
+      "wk": "100"
+    },
+    {
+      "n": "Im Kerkloh",
+      "wk": "100"
+    },
+    {
+      "n": "Im Kuhlenborn",
+      "wk": "101"
+    },
+    {
+      "n": "Im Lilienhagen",
+      "wk": "100"
+    },
+    {
+      "n": "Im Sählen",
+      "wk": "100"
+    },
+    {
+      "n": "In den Gründen",
+      "b": [
+        {
+          "von": 1,
+          "bis": 1,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 7,
+          "bis": 7,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 76,
+          "bis": 76,
+          "par": "g",
+          "wk": "100"
+        }
+      ]
+    },
+    {
+      "n": "In den Krukenwiesen",
+      "wk": "100"
+    },
+    {
+      "n": "In der Dieke",
+      "wk": "100"
+    },
+    {
+      "n": "In der Dölsen",
+      "wk": "100"
+    },
+    {
+      "n": "In der Dune",
+      "wk": "100"
+    },
+    {
+      "n": "In der Giebelgrund",
+      "wk": "100"
+    },
+    {
+      "n": "In der Hünschenburg",
+      "wk": "100"
+    },
+    {
+      "n": "In der Reese",
+      "wk": "100"
+    },
+    {
+      "n": "In der Schlingbreien",
+      "wk": "100"
+    },
+    {
+      "n": "Industriestraße",
+      "wk": "100"
+    },
+    {
+      "n": "Johannes-Tofall-Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Johannesstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Kämpe",
+      "wk": "100"
+    },
+    {
+      "n": "Kirchplatz",
+      "wk": "101"
+    },
+    {
+      "n": "Klusstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Klusweide",
+      "wk": "100"
+    },
+    {
+      "n": "Kocksberg",
+      "wk": "100"
+    },
+    {
+      "n": "Kuhlbornstraße",
+      "b": [
+        {
+          "von": 1,
+          "bis": 1,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 2,
+          "bis": 2,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 3,
+          "bis": 5,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 6,
+          "bis": 6,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 7,
+          "bis": 7,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 8,
+          "bis": 8,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 9,
+          "bis": 9,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 10,
+          "bis": 10,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 11,
+          "bis": 11,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 12,
+          "bis": 12,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 13,
+          "bis": 13,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 14,
+          "bis": 14,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 15,
+          "bis": 15,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 16,
+          "bis": 16,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 17,
+          "bis": 17,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 18,
+          "bis": 18,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 19,
+          "bis": 19,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 20,
+          "bis": 20,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 21,
+          "bis": 21,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 22,
+          "bis": 22,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 23,
+          "bis": 23,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 24,
+          "bis": 24,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 25,
+          "bis": 25,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 26,
+          "bis": 26,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 27,
+          "bis": 27,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 28,
+          "bis": 28,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 29,
+          "bis": 29,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 30,
+          "bis": 30,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 31,
+          "bis": 31,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 32,
+          "bis": 32,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 33,
+          "bis": 33,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 34,
+          "bis": 34,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 35,
+          "bis": 35,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 36,
+          "bis": 36,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 37,
+          "bis": 37,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 38,
+          "bis": 38,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 39,
+          "bis": 39,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 40,
+          "bis": 40,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 41,
+          "bis": 41,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 42,
+          "bis": 42,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 43,
+          "bis": 43,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 44,
+          "bis": 44,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 45,
+          "bis": 45,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 46,
+          "bis": 46,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 47,
+          "bis": 49,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 50,
+          "bis": 64,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 65,
+          "bis": 65,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 66,
+          "bis": 66,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 67,
+          "bis": 67,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 68,
+          "bis": 68,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 69,
+          "bis": 75,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 76,
+          "bis": 76,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 77,
+          "bis": 77,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 78,
+          "bis": 78,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 79,
+          "bis": 79,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 80,
+          "bis": 80,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 81,
+          "bis": 81,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 82,
+          "bis": 82,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 83,
+          "bis": 83,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 84,
+          "bis": 84,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 85,
+          "bis": 85,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 86,
+          "bis": 86,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 87,
+          "bis": 87,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 88,
+          "bis": 88,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 89,
+          "bis": 89,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 90,
+          "bis": 90,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 91,
+          "bis": 91,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 92,
+          "bis": 92,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 93,
+          "bis": 93,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 94,
+          "bis": 94,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 95,
+          "bis": 95,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 96,
+          "bis": 96,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 97,
+          "bis": 97,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 98,
+          "bis": 100,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 106,
+          "bis": 108,
+          "par": "g",
+          "wk": "100"
+        }
+      ]
+    },
+    {
+      "n": "Kurt-Schumacher-Straße",
+      "wk": "101"
+    },
+    {
+      "n": "Küsenberg",
+      "wk": "100"
+    },
+    {
+      "n": "Lamfert",
+      "wk": "100"
+    },
+    {
+      "n": "Leinkenbusch",
+      "wk": "100"
+    },
+    {
+      "n": "Lilienhagen",
+      "wk": "100"
+    },
+    {
+      "n": "Limberg",
+      "wk": "100"
+    },
+    {
+      "n": "Lippstert",
+      "wk": "100"
+    },
+    {
+      "n": "Ludwigweg",
+      "b": [
+        {
+          "von": 2,
+          "bis": 2,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 3,
+          "bis": 3,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 4,
+          "bis": 4,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 5,
+          "bis": 5,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 6,
+          "bis": 6,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 7,
+          "bis": 7,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 8,
+          "bis": 8,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 9,
+          "bis": 9,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 10,
+          "bis": 10,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 11,
+          "bis": 11,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 12,
+          "bis": 12,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 13,
+          "bis": 13,
+          "par": "u",
+          "wk": "101"
+        },
+        {
+          "von": 14,
+          "bis": 14,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 15,
+          "bis": 15,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 16,
+          "bis": 16,
+          "par": "g",
+          "wk": "101"
+        },
+        {
+          "von": 17,
+          "bis": 17,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 18,
+          "bis": 18,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 19,
+          "bis": 19,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 20,
+          "bis": 20,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 21,
+          "bis": 21,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 22,
+          "bis": 38,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 39,
+          "bis": 39,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 40,
+          "bis": 40,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 41,
+          "bis": 41,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 42,
+          "bis": 42,
+          "par": "g",
+          "wk": "100"
+        },
+        {
+          "von": 43,
+          "bis": 43,
+          "par": "u",
+          "wk": "100"
+        },
+        {
+          "von": 44,
+          "bis": 44,
+          "par": "g",
+          "wk": "100"
+        }
+      ]
+    },
+    {
+      "n": "Mattenkamp",
+      "wk": "100"
+    },
+    {
+      "n": "Meierwiese",
+      "wk": "100"
+    },
+    {
+      "n": "Melmeke",
+      "wk": "101"
+    },
+    {
+      "n": "Mittelberg",
+      "wk": "101"
+    },
+    {
+      "n": "Mühlenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Natorpweg",
+      "wk": "101"
+    },
+    {
+      "n": "Netenberg",
+      "wk": "100"
+    },
+    {
+      "n": "Neuenheerser Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Oben Hohen Weg",
+      "wk": "101"
+    },
+    {
+      "n": "Oben Kulskampe",
+      "wk": "101"
+    },
+    {
+      "n": "Obere Sage",
+      "wk": "101"
+    },
+    {
+      "n": "Obermühlenweg",
+      "wk": "101"
+    },
+    {
+      "n": "Orthagen",
+      "wk": "100"
+    },
+    {
+      "n": "Ortwald",
+      "wk": "101"
+    },
+    {
+      "n": "Ortwaldstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Osningstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Ossensteg",
+      "wk": "101"
+    },
+    {
+      "n": "Osttorstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Paderborner Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Pater-Freitag-Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Peter-Hille-Weg",
+      "wk": "101"
+    },
+    {
+      "n": "Pfarrer-Dalkmann-Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Pfarrer-Schlottmann-Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Pfarrer-Weyrather-Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Pfennigfeld",
+      "wk": "100"
+    },
+    {
+      "n": "Rabengrund",
+      "wk": "100"
+    },
+    {
+      "n": "Radbaum",
+      "wk": "100"
+    },
+    {
+      "n": "Rauhegrund",
+      "wk": "100"
+    },
+    {
+      "n": "Reelsberg",
+      "wk": "100"
+    },
+    {
+      "n": "Rehberg",
+      "wk": "101"
+    },
+    {
+      "n": "Rehbergstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Richtsholz",
+      "wk": "100"
+    },
+    {
+      "n": "Ringstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Rosenkranz",
+      "wk": "100"
+    },
+    {
+      "n": "Rotdornweg",
+      "wk": "100"
+    },
+    {
+      "n": "Rotenbach",
+      "wk": "100"
+    },
+    {
+      "n": "Rothenberg",
+      "wk": "100"
+    },
+    {
+      "n": "Rühenfeld",
+      "wk": "101"
+    },
+    {
+      "n": "Rühenfeldweg",
+      "wk": "100"
+    },
+    {
+      "n": "Rüsternweg",
+      "wk": "100"
+    },
+    {
+      "n": "Sagebach",
+      "wk": "101"
+    },
+    {
+      "n": "Sagekamp",
+      "wk": "101"
+    },
+    {
+      "n": "Salenkruke",
+      "wk": "100"
+    },
+    {
+      "n": "Schaffmeisterweg",
+      "wk": "100"
+    },
+    {
+      "n": "Schlaunstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Schmiedestraße",
+      "wk": "101"
+    },
+    {
+      "n": "Scholandweg",
+      "wk": "101"
+    },
+    {
+      "n": "Schöne Aussicht",
+      "wk": "101"
+    },
+    {
+      "n": "Schulstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Schützenweg",
+      "wk": "101"
+    },
+    {
+      "n": "Schwaneyer Straße",
+      "wk": "100"
+    },
+    {
+      "n": "Schwarzer Weg",
+      "wk": "101"
+    },
+    {
+      "n": "Schwierts Kamp",
+      "wk": "100"
+    },
+    {
+      "n": "Sebastianstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Siemke",
+      "wk": "100"
+    },
+    {
+      "n": "Stapelsberg",
+      "wk": "101"
+    },
+    {
+      "n": "Steindrüfft",
+      "wk": "100"
+    },
+    {
+      "n": "Stricksgrund",
+      "wk": "100"
+    },
+    {
+      "n": "Suren Kämpe",
+      "wk": "100"
+    },
+    {
+      "n": "Tannenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Tegelweg",
+      "wk": "101"
+    },
+    {
+      "n": "Triftweg",
+      "wk": "100"
+    },
+    {
+      "n": "Über dem Wünschetal",
+      "wk": "100"
+    },
+    {
+      "n": "Ulmenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Ulrichstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Unter'm Broxberge",
+      "wk": "100"
+    },
+    {
+      "n": "Untere Sage",
+      "wk": "101"
+    },
+    {
+      "n": "Unterm Kobbenacken",
+      "wk": "101"
+    },
+    {
+      "n": "Unterm Limberg",
+      "wk": "100"
+    },
+    {
+      "n": "Unterm Stapelsberg",
+      "wk": "101"
+    },
+    {
+      "n": "Up'n Fautpad",
+      "wk": "101"
+    },
+    {
+      "n": "Urenberg",
+      "wk": "100"
+    },
+    {
+      "n": "Vietsbusch",
+      "wk": "101"
+    },
+    {
+      "n": "Volkwortstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Von-Bodelschwingh-Straße",
+      "wk": "101"
+    },
+    {
+      "n": "Vor dem Hasehol",
+      "wk": "100"
+    },
+    {
+      "n": "Vor dem Lichtenwalde",
+      "wk": "100"
+    },
+    {
+      "n": "Vor dem Miekenberge",
+      "wk": "101"
+    },
+    {
+      "n": "Vor dem Uhrenberge",
+      "wk": "100"
+    },
+    {
+      "n": "Vor'm Dicken Busche",
+      "wk": "100"
+    },
+    {
+      "n": "Vosskrögers Busch",
+      "wk": "100"
+    },
+    {
+      "n": "Wallstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Weidekamp",
+      "wk": "100"
+    },
+    {
+      "n": "Weißdornweg",
+      "wk": "100"
+    },
+    {
+      "n": "Westtorstraße",
+      "wk": "100"
+    },
+    {
+      "n": "Wienackerstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Wiesenweg",
+      "wk": "100"
+    },
+    {
+      "n": "Wilhelm-Henz-Weg",
+      "wk": "101"
+    },
+    {
+      "n": "Winpelbrede",
+      "wk": "100"
+    },
+    {
+      "n": "Winterbergstraße",
+      "wk": "101"
+    },
+    {
+      "n": "Wünschetal",
+      "wk": "100"
+    },
+    {
+      "n": "Würgedahl",
+      "wk": "100"
+    },
+    {
+      "n": "Zu den Krukenwiesen",
+      "wk": "100"
+    },
+    {
+      "n": "Zur Egge",
+      "wk": "100"
+    },
+    {
+      "n": "Zur Wulwerkuhle",
+      "wk": "100"
+    }
+  ]
+}

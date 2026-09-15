@@ -1,0 +1,1442 @@
+<!-- ================= Einleitung ================= -->
+<section class="karte">
+  <h1>Datenquellen</h1>
+  <p>
+    Hier steht für jede Stadt, woher die Straßendaten stammen und wie daraus der
+    Landtagswahlkreis bestimmt wird – mit Links zu den Originalquellen, damit sich jede
+    Angabe selbst nachprüfen lässt.
+  </p>
+
+  <h3>Grundlage für alle Städte</h3>
+  <p>
+    Welche Gebiete zu welchem Landtagswahlkreis gehören, legt die Anlage zu § 13 Abs. 1
+    des
+    <a
+      href="https://recht.nrw.de/lrgv/gesetz/19022026-gesetz-ueber-die-wahl-zum-landtag-des-landes-nordrhein-westfalen/"
+      >Landeswahlgesetzes NRW</a
+    >
+    fest (<a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+      >Anlage als PDF</a
+    >, Stand 31.08.2025). Sie beschreibt die Wahlkreise über Gemeinden und – bei Städten,
+    die auf mehrere Wahlkreise verteilt sind – über Stadtbezirke, Stadtteile,
+    Kommunalwahlbezirke oder Stimmbezirke. Die Städte selbst veröffentlichen dagegen meist
+    nur, welche Straße in welchem Bezirk liegt. Die App verbindet beides.
+  </p>
+
+  <h3>Drei Arten der Zuordnung</h3>
+  <ul>
+    <li>
+      <strong>Amtlich:</strong> Die Stadt veröffentlicht selbst ein Verzeichnis, das zu
+      jeder Straße oder Hausnummer den Landtagswahlkreis nennt.
+    </li>
+    <li>
+      <strong>Über das Landeswahlgesetz:</strong> Die Stadt veröffentlicht, in welchem
+      Bezirk (z. B. Stimmbezirk oder Stadtteil) eine Straße liegt. Zu welchem Wahlkreis
+      dieser Bezirk gehört, steht in der Anlage zum Landeswahlgesetz.
+    </li>
+    <li>
+      <strong>Aus Koordinaten berechnet:</strong> Gibt es kein Straßenverzeichnis mit
+      Bezirken, wird für jede amtliche Adresse anhand ihrer Koordinate bestimmt, in
+      welchem Bezirk oder Wahlkreis sie liegt.
+    </li>
+  </ul>
+
+  <h3>Warum nicht überall berechnen?</h3>
+  <p>
+    Eine Berechnung aus Koordinaten ist nur so genau wie die Grenzlinien und Adresspunkte.
+    Bei Häusern direkt an einer Grenze kann sie von der amtlichen Einteilung abweichen.
+    Wo eine Stadt ein Straßenverzeichnis mit Bezirken veröffentlicht, wird deshalb dieses
+    genutzt.
+  </p>
+
+  <h3>Prüfungen</h3>
+  <p>
+    Beim Einlesen wird für jede Stadt automatisch geprüft, dass keine Hausnummer mehr als
+    einem Wahlkreis zugeordnet ist. Wo sich die Quelldaten widersprechen, wurde der
+    Einzelfall korrigiert – diese Korrekturen stehen jeweils bei der Stadt. Für Dortmund
+    wurden zusätzlich zehn Adressen von Hand mit dem Kartenviewer der Stadt verglichen
+    (siehe <a href="#dortmund">Dortmund</a>).
+  </p>
+
+  <h3>Gut zu wissen</h3>
+  <ul>
+    <li>
+      <strong>Buchstabenzusätze:</strong> Die App fragt nur die Hausnummer ohne Buchstaben
+      ab. In den wenigen Fällen, in denen z. B. „5“ und „5b“ in unterschiedlichen
+      Wahlkreisen liegen, zeigt sie den Wahlkreis der Hausnummer ohne Buchstaben.
+    </li>
+    <li>
+      <strong>Ältere Verzeichnisse:</strong> Für einige Städte gibt es nur
+      Straßenverzeichnisse aus früheren Wahlen (2016 bis 2022). Die Zuordnung zum
+      Wahlkreis stammt trotzdem immer aus der aktuellen Anlage zum Landeswahlgesetz; nur
+      seitdem neu entstandene Straßen können fehlen.
+    </li>
+    <li>
+      <strong>Vote Manager:</strong> Viele Städte veröffentlichen ihre Wahlergebnisse mit
+      derselben Software („Vote Manager“), die auch ein Straßenverzeichnis zum Download
+      anbietet. Dieses nennt nie den Landtagswahlkreis, nur den Stimmbezirk – daher bei
+      vielen Städten der Weg über das Landeswahlgesetz. Bei manchen Städten ist die Datei
+      außerdem leer (nur Spaltenüberschriften).
+    </li>
+    <li>
+      <strong>Technik:</strong> Die Skripte, die diese Quellen einlesen und prüfen, liegen
+      im Quellcode des Projekts unter <code>src/build/</code>, je Stadt in einem eigenen
+      Ordner.
+    </li>
+  </ul>
+</section>
+
+<!-- ================= Inhaltsverzeichnis ================= -->
+<nav class="karte" id="staedte" aria-label="Städte">
+  <h2>Städte mit Straßensuche</h2>
+  <p>
+    Diese 30 Städte sind auf mehrere Landtagswahlkreise verteilt. Für sie gibt es in der
+    App eine Straßensuche:
+  </p>
+  <ul class="stadt-index">
+    <li><a href="#aachen">Aachen</a></li>
+    <li><a href="#altenbeken">Altenbeken</a></li>
+    <li><a href="#bad-oeynhausen">Bad Oeynhausen</a></li>
+    <li><a href="#bielefeld">Bielefeld</a></li>
+    <li><a href="#bochum">Bochum</a></li>
+    <li><a href="#bonn">Bonn</a></li>
+    <li><a href="#datteln">Datteln</a></li>
+    <li><a href="#dortmund">Dortmund</a></li>
+    <li><a href="#duisburg">Duisburg</a></li>
+    <li><a href="#duesseldorf">Düsseldorf</a></li>
+    <li><a href="#essen">Essen</a></li>
+    <li><a href="#gelsenkirchen">Gelsenkirchen</a></li>
+    <li><a href="#gladbeck">Gladbeck</a></li>
+    <li><a href="#hagen">Hagen</a></li>
+    <li><a href="#hamm">Hamm</a></li>
+    <li><a href="#hennef">Hennef (Sieg)</a></li>
+    <li><a href="#hilden">Hilden</a></li>
+    <li><a href="#juechen">Jüchen</a></li>
+    <li><a href="#kerpen">Kerpen</a></li>
+    <li><a href="#koeln">Köln</a></li>
+    <li><a href="#krefeld">Krefeld</a></li>
+    <li><a href="#marl">Marl</a></li>
+    <li><a href="#mettmann">Mettmann</a></li>
+    <li><a href="#moenchengladbach">Mönchengladbach</a></li>
+    <li><a href="#muelheim">Mülheim an der Ruhr</a></li>
+    <li><a href="#muenster">Münster</a></li>
+    <li><a href="#oberhausen">Oberhausen</a></li>
+    <li><a href="#sankt-augustin">Sankt Augustin</a></li>
+    <li><a href="#solingen">Solingen</a></li>
+    <li><a href="#wuppertal">Wuppertal</a></li>
+  </ul>
+  <p class="stand">
+    Alle anderen 366 Gemeinden liegen vollständig in einem Wahlkreis – siehe
+    <a href="#uebrige">Übrige Gemeinden</a>.
+  </p>
+</nav>
+
+<!-- ================= Aachen ================= -->
+<section class="karte" id="aachen">
+  <h2>Aachen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Aus Koordinaten berechnet</li>
+    <li>Stand: Abruf September 2026</li>
+  </ul>
+  <p>
+    Jede amtliche Adresse wird anhand ihrer Koordinate einem Stimmbezirk zugeordnet. Die
+    ersten zwei Ziffern der Stimmbezirk-Nummer sind die Stadtteil-Nummer (z. B. „1604“ →
+    Stadtteil 16 Hanbruch), und über die Stadtteile legt das Landeswahlgesetz die
+    Wahlkreise fest.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://geoserver.aachen.de/opendata/wahlen/ows?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=wahlen:bundestagswahl_2025_stimmbezirke&amp;outputFormat=application/json"
+        >Stimmbezirke (WFS-Layer „bundestagswahl_2025_stimmbezirke“)</a
+      >
+      – Grenzen aller 162 Stimmbezirke. Trotz des Namens dieselbe Einteilung wie bei der
+      Kommunalwahl.
+    </li>
+    <li>
+      <a
+        href="https://geoserver.aachen.de/opendata/adressen/ows?&amp;service=WFS&amp;request=getfeature&amp;typename=ac_adressen&amp;outputformat=csv"
+        >Adressen (WFS-Layer „ac_adressen“)</a
+      >
+      – rund 45.900 amtliche Adresspunkte.
+    </li>
+    <li>
+      Beide vom GeoServer der Stadt Aachen, Datenlizenz Deutschland – Namensnennung 2.0.
+    </li>
+    <li>
+      Ratsvorlage FB 01/0619/WP18 („Einteilung des Wahlgebietes in Wahlbezirke für die
+      Kommunalwahl 2025“) – bestätigt, dass die ersten zwei Ziffern der Stimmbezirk-Nummer
+      die Stadtteil-Nummer sind.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Wahlkreis 1 „Aachen I“ umfasst die Stadtbezirke Laurensberg, Richterich und
+      Haaren sowie von Aachen-Mitte die Stadtteile 10, 13–18, 21–25, 34, 47 und 48.
+      Wahlkreis 2 „Aachen II“ umfasst Kornelimünster/Walheim, Brand und Eilendorf sowie
+      von Aachen-Mitte die Stadtteile 31–33, 35–37, 41–43 und 46.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Alle 45.712 Adressen mit Hausnummer liegen eindeutig in genau einem Stimmbezirk. Die
+    Namen der Kommunalwahlbezirke folgen nicht den Stadtteilgrenzen – so enthält
+    Kommunalwahlbezirk 12 „Rothe Erde/Panneschopp“ die Stadtteile 34 und 33, die zu
+    verschiedenen Wahlkreisen gehören. Maßgeblich ist deshalb immer die
+    Stadtteil-Nummer.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <ul>
+    <li>
+      Das Vote-Manager-Straßenverzeichnis der Stadt ist bei allen geprüften Wahlterminen
+      seit 2009 leer.
+    </li>
+    <li>
+      Der offene Adressdatensatz nennt nur den Stadtbezirk. Aachen-Mitte ist aber selbst
+      auf beide Wahlkreise verteilt, für die rund 22.500 Adressen dort reicht das nicht.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Altenbeken ================= -->
+<section class="karte" id="altenbeken">
+  <h2>Altenbeken</h2>
+  <ul class="eckdaten">
+    <li class="methode">Aus Koordinaten berechnet</li>
+    <li>Stand: Adressdaten Juli 2026</li>
+  </ul>
+  <p>
+    Laut Landeswahlgesetz gehören die Ortsteile Buke und Schwaney zu Wahlkreis 100
+    „Paderborn I“, der Ortsteil Altenbeken zu Wahlkreis 101 „Paderborn II“. Die drei
+    Ortsteile entsprechen genau den drei Gemarkungen des Liegenschaftskatasters (bis 1975
+    eigenständige Gemeinden). Jede Adresse wird anhand ihrer Koordinate einer Gemarkung
+    zugeordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht"
+        >ALKIS-WFS NRW (vereinfacht)</a
+      >
+      von Geobasis NRW – Grenzen der Gemarkungen (Layer „KatasterBezirk“).
+    </li>
+    <li>
+      <a
+        href="https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip"
+        >Gebäudereferenzen NW</a
+      >
+      von Geobasis NRW – landesweites Verzeichnis aller Adressen mit Koordinate, davon
+      rund 3.400 in Altenbeken.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >
+      (Ortsteil → Wahlkreis).
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>Alle 3.355 Adressen liegen eindeutig in genau einer Gemarkung.</p>
+  <h3>Warum nicht anders?</h3>
+  <p>
+    Das Vote-Manager-Straßenverzeichnis der Gemeinde ist bei allen acht geprüften
+    Wahlterminen seit 2017 leer, auch bei der Landtagswahl 2022.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Bad Oeynhausen ================= -->
+<section class="karte" id="bad-oeynhausen">
+  <h2>Bad Oeynhausen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Wahlbezirk, die
+    Wahlraum-Übersicht zu jedem Wahlbezirk den Stadtteil. Über die Stadtteile ordnet das
+    Landeswahlgesetz den Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahl.owl-it.de/kw2025/05770004/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Wahlbezirk) und
+      <a
+        href="https://wahl.owl-it.de/kw2025/05770004/daten/opendata/opendata-wahllokale.csv"
+        >Wahlraum-Übersicht</a
+      >
+      (Wahlbezirk → Stadtteil). Keine ausdrückliche Lizenz angegeben, öffentlich frei
+      abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Stadtteile Bad Oeynhausen (Kernstadt), Lohe und Rehme (Wahlbezirke 010–110)
+      gehören zu Wahlkreis 89 „Minden-Lübbecke II“, Dehme, Eidinghausen, Werste,
+      Volmerdingsen und Wulferdingsen (Wahlbezirke 120–220) zu Wahlkreis 91 „Herford II –
+      Minden-Lübbecke III“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Bielefeld ================= -->
+<section class="karte" id="bielefeld">
+  <h2>Bielefeld</h2>
+  <ul class="eckdaten">
+    <li class="methode">Aus Koordinaten berechnet</li>
+    <li>Stand: Abruf September 2026</li>
+  </ul>
+  <p>
+    Die Stadt veröffentlicht die Grenzen der Landtagswahlkreise selbst als Geodaten. Jede
+    amtliche Adresse wird anhand ihrer Koordinate direkt einem Wahlkreis zugeordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.bielefeld01.de/md/WFS/wahlen/02?SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=GetFeature&amp;TYPENAME=wahlkreis_land_pl_view&amp;SRSNAME=EPSG:25832&amp;OUTPUTFORMAT=text/csv"
+        >Landtagswahlkreise</a
+      >
+      aus dem Datensatz „Wahlen (Stimmbezirke, Wahlbezirke, Landtagswahlkreise)“ –
+      Grenzen der Wahlkreise 92 „Bielefeld I“, 93 „Bielefeld II“ und 94 „Gütersloh I –
+      Bielefeld III“.
+    </li>
+    <li>
+      <a
+        href="https://www.bielefeld01.de/md/WFS/alkis_light/04?SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=GetFeature&amp;TYPENAME=alkis_hauskoordinaten_p&amp;SRSNAME=EPSG:25832&amp;OUTPUTFORMAT=text/csv"
+        >ALKIS Gebäude – Hauskoordinaten</a
+      >
+      – rund 69.700 amtliche Adresspunkte.
+    </li>
+    <li>Beide von der Stadt Bielefeld, Datenlizenz Deutschland – Zero – 2.0.</li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Von 69.699 Adresspunkten liegen 69.690 eindeutig in genau einem Wahlkreis. Die
+    übrigen 9 liegen rechnerisch in keinem (vermutlich genau auf einer Grenzlinie) und
+    werden nicht zugeordnet statt geraten. Bei 2 Hausnummern (z. B. Holbeinstraße 2)
+    liegen Gebäude mit Buchstabenzusatz in einem anderen Wahlkreis als die Hausnummer
+    selbst.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <p>
+    Das Vote-Manager-Straßenverzeichnis der Stadt ist bei allen fünf geprüften
+    Wahlterminen leer.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Bochum ================= -->
+<section class="karte" id="bochum">
+  <h2>Bochum</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Ein Geodatendienst der Stadt nennt zu jeder einzelnen Adresse (rund 65.800) den
+    Kommunalwahlbezirk. Über die Kommunalwahlbezirke ordnet das Landeswahlgesetz den
+    Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://geoservicekkm.bochum.de/arcgis/rest/services/maponline/Wahlen/MapServer/16"
+        >Geodatendienst „Wahlen“, Ebene „AdressenMitWahllokal“</a
+      >
+      der Stadt Bochum (Adresse → Kommunalwahlbezirk).
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Wahlkreis 107 „Bochum I“ umfasst die Kommunalwahlbezirke 10, 11, 17, 31–33 und
+      41–45, Wahlkreis 108 „Bochum II“ 13, 51–54 und 61–65, Wahlkreis 109 „Bochum III“ 12,
+      14–16, 18 und 21–27.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Die Felder „Straße“ und „Hausnummer“ des Dienstes sind fehlerhaft befüllt (sie
+    enthalten teils die Straße des Wahllokals). Gelesen wird deshalb das vollständige
+    Adressfeld. Bei 5 Hausnummern (z. B. Hermannshöhe 5) liegen Gebäude mit
+    Buchstabenzusatz in einem anderen Kommunalwahlbezirk als die Hausnummer selbst.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <p>
+    Das Vote-Manager-Straßenverzeichnis der Stadt ist bei allen geprüften Wahlterminen
+    leer.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Bonn ================= -->
+<section class="karte" id="bonn">
+  <h2>Bonn</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Landtagswahl 2022</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk. Die ersten
+    Ziffern der Stimmbezirk-Nummer (geteilt durch 10) sind die Nummer des
+    Kommunalwahlbezirks, über den das Landeswahlgesetz den Wahlkreis zuordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://opendata.bonn.de/dataset/landtagswahl-2022">Landtagswahl 2022</a>
+      aus dem Open-Data-Portal der Stadt Bonn (Straße/Hausnummernbereich → Stimmbezirk).
+      Die Wahllokal-Liste desselben Datensatzes bestätigt die Umrechnung für alle
+      Kommunalwahlbezirke (z. B. „Briefwahlbezirk 020 (Bonn-Castell / Rheindorf-Süd)“ =
+      Kommunalwahlbezirk 02).
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Fast alle Kommunalwahlbezirke gehören komplett zu Wahlkreis 30 „Bonn I“ oder 31
+      „Bonn II“. Nur Kommunalwahlbezirk 14 (Endenich II) ist nach Stimmbezirken geteilt:
+      141, 142 und 144 → Wahlkreis 30, 143 und 145 → Wahlkreis 31.
+    </li>
+  </ul>
+  <h3>Korrekturen</h3>
+  <p>
+    Welschnonnenstr.: Die Bereichsangabe „-1,7,15“ enthält ein offensichtlich
+    fehlerhaftes Minuszeichen und wird als „1,7,15“ gelesen.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Datteln ================= -->
+<section class="karte" id="datteln">
+  <h2>Datteln</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße einen von 19 Wahlbezirken.
+    Wahlbezirk 1 wird Wahlkreis 71 „Recklinghausen III“ zugeordnet, alle anderen
+    Wahlkreis 72 „Recklinghausen IV“.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlen.gkd-re.net/20250914/05562008/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Wahlbezirk 1–19). Keine ausdrückliche Lizenz angegeben,
+      öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Statistischen Bezirke 190 (Ahsen) und 280 (Bauerschaft Ostleven) gehören zu
+      Wahlkreis 71, alle übrigen zu Wahlkreis 72.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Datteln ist die einzige Stadt, bei der ein Zwischenschritt nicht amtlich belegt ist:
+    Die Wahlbezirke sind nur durchnummeriert, eine offizielle Tabelle „Wahlbezirk →
+    Statistischer Bezirk“ wurde nicht gefunden. Alle Hinweise sprechen dafür, dass
+    Wahlbezirk 1 genau Ahsen und Ostleven umfasst: Nur er enthält die Ahsener Allee, den
+    Ostlevener Weg und den größten Teil der Ahsener Straße, und beide Bezirke bilden
+    zusammen die abgegrenzte Nordwestecke der Stadt.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Dortmund ================= -->
+<section class="karte" id="dortmund">
+  <h2>Dortmund</h2>
+  <ul class="eckdaten">
+    <li class="methode">Amtlich</li>
+    <li>Stand: Wahlen September 2025</li>
+  </ul>
+  <p>
+    Zwei Datensätze der Stadt werden verbunden: Das Straßenverzeichnis nennt zu jedem
+    Hausnummernbereich den Stimmbezirk, die Wahlraum-Liste zu jedem Stimmbezirk den
+    Landtagswahlkreis.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://open-data.dortmund.de/explore/dataset/strassenverzeichnis-wahlen-september-2025/information/"
+        >Straßenverzeichnis – Wahlen September 2025</a
+      >
+      (Straße/Hausnummernbereich → Stimmbezirk)
+    </li>
+    <li>
+      <a
+        href="https://open-data.dortmund.de/explore/dataset/wahlraume-kommunalwahl-2025/information/"
+        >Wahlräume Kommunalwahl 2025</a
+      >
+      (Stimmbezirk → Landtagswahlkreis)
+    </li>
+    <li>
+      Beide aus dem Open-Data-Portal der Stadt Dortmund, Datenlizenz Deutschland –
+      Namensnennung 2.0.
+    </li>
+  </ul>
+  <h3>Prüfung</h3>
+  <p>
+    Zehn Adressen, davon fünf aus Straßen, die auf mehrere Wahlkreise verteilt sind,
+    wurden am 13.09.2026 von Hand im Kartenviewer
+    <a
+      href="https://geoweb1.digistadtdo.de/doris_gdi/mapapps4/resources/apps/kommunalwahl2020/index.html"
+      >DORIS – Wahlgebiete Dortmund</a
+    >
+    (Ebene „Landtagswahlkreise“) nachgeschlagen. Alle zehn stimmen mit der App überein,
+    auch Grenzfälle wie Schilfweg 15/15b und Ernst-Mehlich-Straße 13.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Duisburg ================= -->
+<section class="karte" id="duisburg">
+  <h2>Duisburg</h2>
+  <ul class="eckdaten">
+    <li class="methode">Amtlich</li>
+    <li>Stand: Abruf September 2026</li>
+  </ul>
+  <p>
+    Das Adressverzeichnis der Stadt nennt zu jeder einzelnen Hausnummer direkt den
+    Landtagswahlkreis.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://opendata-duisburg.de/dataset/adressen"
+        >Adressen – Aktuell Hausnummern</a
+      >
+      aus dem Open-Data-Portal der Stadt Duisburg, Lizenz CC BY 3.0 DE.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    In Duisburg gibt es viele gleichnamige Straßen in verschiedenen Stadtteilen (z. B.
+    „Ackerstr.“ viermal). Wo diese in unterschiedlichen Wahlkreisen liegen, zeigt die App
+    den Stadtbezirk in Klammern an, z. B. „Ackerstr. (Süd)“ oder „Ackerstr.
+    (Rheinhausen)“.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Düsseldorf ================= -->
+<section class="karte" id="duesseldorf">
+  <h2>Düsseldorf</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Januar 2025</li>
+  </ul>
+  <p>
+    Das allgemeine Straßenverzeichnis der Stadt nennt zu jeder Straße Stadtbezirk und
+    Stadtteil. Die Wahlkreise folgen den Stadtbezirken; nur die Stadtbezirke 6 und 8 sind
+    zusätzlich nach Stadtteilen aufgeteilt.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://opendata.duesseldorf.de/dataset/stra%C3%9Fenverzeichnis-d%C3%BCsseldorf"
+        >Straßenverzeichnis Düsseldorf</a
+      >
+      (Straße/Hausnummer → Stadtbezirk/Stadtteil), Datenlizenz Deutschland – Zero – 2.0.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >
+      (Stadtbezirk/Stadtteil → Wahlkreise 41–44 „Düsseldorf I“ bis „Düsseldorf IV“).
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Straßen ohne Hausnummern (z. B. Brücken, Tunnel, Zubringer) sind nicht in der Suche
+    enthalten.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <p>
+    Die Stadt veröffentlicht auch ein Straßenverzeichnis zur Kommunalwahl. Es steht aber
+    unter „Andere geschlossene Lizenz“ ohne verlinkte Nutzungsbedingungen und wird
+    deshalb bewusst nicht verwendet – auch nicht zum Gegenprüfen.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Essen ================= -->
+<section class="karte" id="essen">
+  <h2>Essen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Landtagswahl 2022</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk. Die ersten
+    Ziffern der Stimmbezirk-Nummer (geteilt durch 100) sind die amtliche
+    Stadtteil-Nummer (z. B. „00101 (Stadtkern)“ = Stadtteil 1 Stadtkern). Über die
+    Stadtteile ordnet das Landeswahlgesetz den Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://opendata.essen.de/dataset/stra%C3%9Fenverzeichnis-und-wahllokale-landtagswahl-2022"
+        >Straßenverzeichnis und Wahllokale Landtagswahl 2022</a
+      >
+      aus dem Open-Data-Portal der Stadt Essen, Datenlizenz Deutschland – Namensnennung
+      2.0.
+    </li>
+    <li>
+      <a
+        href="https://de.wikipedia.org/wiki/Liste_der_Stadtbezirke_und_Stadtteile_von_Essen"
+        >Liste der Stadtbezirke und Stadtteile von Essen</a
+      >
+      (Wikipedia) – Nummern und Stadtbezirk aller 50 Stadtteile.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Stadtbezirke IV und V bilden Wahlkreis 65 „Essen I“; VI und VII plus drei
+      Stadtteile aus Stadtbezirk I Wahlkreis 66 „Essen II“; Stadtbezirk III plus fünf
+      Stadtteile aus I und einer aus II Wahlkreis 67 „Essen III“; VIII und IX plus drei
+      Stadtteile aus II Wahlkreis 68 „Essen IV“.
+    </li>
+  </ul>
+  <h3>Korrekturen</h3>
+  <ul>
+    <li>
+      Die Datei wurde offenbar zwischendurch in Excel geöffnet: Hausnummernbereiche wie
+      „1-24“ wurden dabei in Datumsangaben wie „Jan 24“ oder „01. Okt“ verwandelt (240
+      von 2.912 Angaben). Diese werden zurückgerechnet.
+    </li>
+    <li>
+      Die Umlaute in der Datei sind fehlerhaft kodiert („RÃ¼ttenscheider“ statt
+      „Rüttenscheider“) und werden beim Einlesen repariert.
+    </li>
+    <li>
+      Wittenbergstr. 14 steht sowohl im Stimmbezirk 1013 (Rüttenscheid, „2-58 ger.“) als
+      auch im Stimmbezirk 1402 (Stadtwald, „107,14“, andere Postleitzahl). Die „14“ bei
+      Stadtwald ist offenbar ein Fehler; Hausnummer 14 gehört zu Rüttenscheid (Wahlkreis
+      67).
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Gelsenkirchen ================= -->
+<section class="karte" id="gelsenkirchen">
+  <h2>Gelsenkirchen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Landtagswahl 2022</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk. Dessen erste
+    Ziffer ist der Stadtbezirk (z. B. „5106“ → Stadtbezirk 5 Süd), und die Wahlkreise
+    folgen den Stadtbezirken.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahl.gelsenkirchen.de/votemanager/20220515/05513000/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Landtagswahl 2022</a
+      >
+      (Straße/Hausnummernbereich → Stimmbezirk). Die Namen der Wahlräume bestätigen die
+      Umrechnung (z. B. alle Stimmbezirke mit „2“ in Buer/Hassel = Stadtbezirk Nord).
+      Keine ausdrückliche Lizenz angegeben, öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Stadtbezirke 2 (Nord) und 3 (West) gehören zu Wahlkreis 73 „Gelsenkirchen I –
+      Recklinghausen V“, 1 (Mitte), 4 (Ost) und 5 (Süd) zu Wahlkreis 74 „Gelsenkirchen
+      II“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Gladbeck ================= -->
+<section class="karte" id="gladbeck">
+  <h2>Gladbeck</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Bekanntmachung vom 30.10.2024</li>
+  </ul>
+  <p>
+    Das Wahlbezirksverzeichnis im Amtsblatt der Stadt nennt zu jeder Straße den
+    Kommunalwahlbezirk samt Stadtbezirk. Über die Stadtbezirke ordnet das
+    Landeswahlgesetz den Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://abo-online.gkd-re.de/abo-online/PDFAusgabe?Info=YWdzPTA1NTYyMDE0fGluZm89QW10c2JsYXR0fG5ldHo9MXxwZGY9Mzc3NTk%3D"
+        >Amtliche Bekanntmachung der Stadt Gladbeck, Ausgabe 23/24 vom 30.10.2024</a
+      >
+      – Wahlbezirksverzeichnis auf Straßenebene zur Kommunalwahl 2025 (PDF).
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Stadtbezirke Rentfort-Nord, Schultendorf, Alt-Rentfort und Ellinghorst
+      gehören zu Wahlkreis 75 „Bottrop – Recklinghausen VI“, die übrigen (Mitte I/II,
+      Zweckel, Butendorf, Brauck, Rosenhügel) zu Wahlkreis 73 „Gelsenkirchen I –
+      Recklinghausen V“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Hagen ================= -->
+<section class="karte" id="hagen">
+  <h2>Hagen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk. Dessen
+    mittlere zwei Ziffern sind die Wahlbezirk-Nummer (z. B. „1091“ → Wahlbezirk 09), über
+    die das Landeswahlgesetz den Wahlkreis zuordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlergebnisse.stadt-hagen.de/prod/KW2025/05914000/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Stimmbezirk). Keine ausdrückliche Lizenz angegeben,
+      öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a
+        href="https://wahlergebnisse.stadt-hagen.de/prod/KW2025/05914000/html5/Wahlbuch.pdf"
+        >Wahlbuch der Kommunalwahl 2025</a
+      >
+      – bestätigt die Umrechnung über die Namen der Wahl- und Stimmbezirke (z. B.
+      Stimmbezirke 1031/1032 unter Wahlbezirk 03 „Altenhagen-West“).
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Wahlkreis 103 „Hagen I“ umfasst die Wahlbezirke 01–08 und 11–20. Wahlkreis 104
+      „Hagen II – Ennepe-Ruhr-Kreis III“ umfasst die Wahlbezirke 09, 10 und 21–26 sowie
+      die Städte Breckerfeld, Ennepetal und Gevelsberg.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Die erste Ziffer der Stimmbezirk-Nummer (alter Stadtbezirk) spielt für den Wahlkreis
+    keine Rolle: Wahlbezirk 20 „Eilpe-Zentrum/Oberhagen“ enthält Stimmbezirke mit „1“
+    (1201/1202) und mit „4“ (4203–4205).
+  </p>
+  <h3>Korrekturen</h3>
+  <ul>
+    <li>
+      Buntebachstr.: Die Einzeladresse „31a“ (Stimmbezirk 4211) überschneidet sich mit
+      dem Bereich „5-31“ (Stimmbezirk 4205). Hausnummer 31 gehört zu Wahlkreis 103.
+    </li>
+    <li>
+      Franzstr.: Beim Bereich „72-76“ (Stimmbezirk 4204) fehlt offenbar der Zusatz
+      „ger.“, den das direkt davor stehende „60-70 ger.“ trägt. Ohne ihn würde er sich
+      mit „55-121 ung.“ (Stimmbezirk 4211) überschneiden. Er wird als „72-76 ger.“
+      gelesen.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Hamm ================= -->
+<section class="karte" id="hamm">
+  <h2>Hamm</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt (PDF) nennt zu jedem Straßenabschnitt den
+    Stadtbezirk. Nur ein Stadtbezirk gehört zu einem anderen Wahlkreis als der Rest.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.hamm.de/fileadmin/user_upload/Medienarchiv_neu/Dokumente/Rathaus/Statistik_Wahl/Strassenverzeichnis_Stimmbezirke_Kommunalwahl.pdf"
+        >Straßenverzeichnis zu den Kommunalwahlbezirken 2025</a
+      >
+      (Straße/Hausnummernbereich → Stadtbezirk). Keine ausdrückliche Lizenz angegeben,
+      öffentlich frei abrufbares amtliches Verzeichnis.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Der Stadtbezirk Herringen gehört zu Wahlkreis 117 „Unna III – Hamm II“, die
+      übrigen sechs Stadtbezirke bilden Wahlkreis 118 „Hamm I“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Hennef ================= -->
+<section class="karte" id="hennef">
+  <h2>Hennef (Sieg)</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Bundestagswahl 2021</li>
+  </ul>
+  <p>
+    Das Landeswahlgesetz teilt Hennef direkt nach einzelnen Stimmbezirken auf. Das
+    Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlen.kdvz.nrw/production/bw2021/05382020/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Bundestagswahl 2021</a
+      >
+      (Straße → Stimmbezirk). Keine ausdrückliche Lizenz angegeben, öffentlich frei
+      abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: 29 Stimmbezirke gehören zu Wahlkreis 25 „Rhein-Sieg-Kreis I“, die Stimmbezirke
+      112, 131, 132 und 170 zu Wahlkreis 26 „Rhein-Sieg-Kreis II“.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Dass die Stimmbezirke von 2021 noch gelten, bestätigen die veröffentlichten
+    Ergebnisse der Kommunalwahl 2025 (Ratswahl): Sie führen genau dieselben 33
+    Stimmbezirke (011 bis 200).
+  </p>
+  <h3>Korrekturen</h3>
+  <p>
+    Die Anlage zum Landeswahlgesetz nennt für Wahlkreis 25 den Stimmbezirk „202“, den es
+    in Hennef nicht gibt. Gemeint ist offensichtlich Stimmbezirk „200“ (Bödingen,
+    Lauthausen/Oberauel), der in beiden städtischen Verzeichnissen vorkommt und in der
+    Anlage sonst fehlen würde.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <p>
+    Das Straßenverzeichnis zur Kommunalwahl 2025 ist leer (nur Spaltenüberschriften).
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Hilden ================= -->
+<section class="karte" id="hilden">
+  <h2>Hilden</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Eine Beschlussvorlage des Wahlausschusses listet, welche Straßen und
+    Hausnummernbereiche zu welchem der 20 Wahlbezirke gehören. Über die Wahlbezirke
+    ordnet das Landeswahlgesetz den Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://gi.hilden.de/bi/getfile.asp?id=119392&amp;type=do"
+        >Einteilung des Hildener Stadtgebietes in Wahlbezirke</a
+      >
+      (Ratsinformationssystem, Beschluss des Wahlausschusses vom 07.10.2024, Anlage 1).
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Kommunalwahlbezirke 3010–3050 und 3070–3100 gehören zu Wahlkreis 37
+      „Mettmann I“, 3060 und 3110–3220 zu Wahlkreis 38 „Mettmann II“. Seit der
+      Neueinteilung zur Kommunalwahl 2025 gibt es nur noch die Bezirke bis 3200.
+    </li>
+  </ul>
+  <h3>Korrekturen</h3>
+  <p>
+    Hochdahler Straße 47 steht sowohl in Wahlbezirk 3080 („1 - 47 ungerade“) als auch in
+    Wahlbezirk 3170 („46 - 69 ungerade“). Da der zweite Bereich mit einer geraden Zahl
+    beginnt, ist die gemeinte Grenze vermutlich 45/46. Hausnummer 47 wird deshalb
+    Wahlkreis 38 zugeordnet.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <ul>
+    <li>
+      Das Vote-Manager-Straßenverzeichnis der Stadt ist bei allen drei geprüften
+      Wahlterminen leer.
+    </li>
+    <li>Der Kartendienst im Geoportal der Stadt ist nur mit Anmeldung zugänglich.</li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Jüchen ================= -->
+<section class="karte" id="juechen">
+  <h2>Jüchen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Gemeinde nennt zu jeder Straße den Stimmbezirk. Dessen
+    Nummer geteilt durch 10 ist der Kommunalwahlbezirk (z. B. „0151“ → 15), über den das
+    Landeswahlgesetz den Wahlkreis zuordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wep.itk-rheinland.de/vm/prod/kw_2025/05162012/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Stimmbezirk). Keine ausdrückliche Lizenz angegeben,
+      öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Kommunalwahlbezirke 14–17 gehören zu Wahlkreis 46 „Rhein-Kreis Neuss II“,
+      1–13, 18 und 19 zu Wahlkreis 47 „Rhein-Kreis Neuss III“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Kerpen ================= -->
+<section class="karte" id="kerpen">
+  <h2>Kerpen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk, die
+    Wahlraum-Übersicht zu jedem Stimmbezirk den Ortsteil. Über die Ortsteile ordnet das
+    Landeswahlgesetz den Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlen.kdvz.nrw/production/kw2025/05362032/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Stimmbezirk) und
+      <a
+        href="https://wahlen.kdvz.nrw/production/kw2025/05362032/daten/opendata/opendata-wahllokale.csv"
+        >Wahlraum-Übersicht</a
+      >
+      (Stimmbezirk → Ortsteil). Keine ausdrückliche Lizenz angegeben, öffentlich frei
+      abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Balkhausen, Brüggen/Türnich und die Kernstadt Kerpen gehören zu Wahlkreis 7
+      „Rhein-Erft-Kreis III“, Mödrath/Kerpen-Nord, Blatzheim, Buir, Manheim, Sindorf,
+      Horrem und Neu-Bottenbroich/Horrem-Nord-Ost zu Wahlkreis 6 „Rhein-Erft-Kreis II“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Köln ================= -->
+<section class="karte" id="koeln">
+  <h2>Köln</h2>
+  <ul class="eckdaten">
+    <li class="methode">Amtlich</li>
+    <li>Stand: 15.07.2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt in der Fassung „Wahlen“ nennt zu jedem
+    Hausnummernbereich direkt den Landtagswahlkreis (13 „Köln I“ bis 19 „Köln VII“).
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://www.offenedaten-koeln.de/dataset/koelner-strassenverzeichnis"
+        >Kölner Straßenverzeichnis</a
+      >, Fassung „Wahlen“ (Excel, halbjährlich aktualisiert), aus dem Open-Data-Portal der
+      Stadt Köln, Datenlizenz Deutschland – Namensnennung 2.0.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Krefeld ================= -->
+<section class="karte" id="krefeld">
+  <h2>Krefeld</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Dezember 2016</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stadtbezirk. Die
+    Wahlkreise folgen den Stadtbezirken, keine Straße ist zwischen zwei Stadtbezirken
+    aufgeteilt.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://open.nrw/dataset/strabenverzeichnis-12-2016-der-stadt-krefeld-odp"
+        >Straßenverzeichnis 12/2016 der Stadt Krefeld</a
+      >
+      (Straße → Stadtbezirk 1–9), über Open.NRW.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Stadtbezirke 1 (West), 5 (Süd), 6 (Fischeln) und 7 (Oppum-Linn) gehören zu
+      Wahlkreis 48 „Krefeld I – Viersen III“, 2 (Nord), 3 (Hüls), 4 (Mitte), 8 (Ost) und 9
+      (Uerdingen) zu Wahlkreis 49 „Krefeld II“.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Das Verzeichnis nennt auch Landtagswahlkreise, aber noch mit den Nummern von vor der
+    Wahlkreisreform (47/48). Diese werden nicht verwendet – nur die Stadtbezirke, die sich
+    seitdem nicht geändert haben. Straßen, die nach 2016 entstanden sind, können fehlen.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Marl ================= -->
+<section class="karte" id="marl">
+  <h2>Marl</h2>
+  <ul class="eckdaten">
+    <li class="methode">Aus Koordinaten berechnet</li>
+    <li>Stand: Adressdaten Juli 2026</li>
+  </ul>
+  <p>
+    Laut Landeswahlgesetz gehört nur der Stadtteil Polsum zu Wahlkreis 71
+    „Recklinghausen III“, der Rest von Marl zu Wahlkreis 70 „Recklinghausen II“. Jede
+    Adresse wird anhand ihrer Koordinate einem Stadtteil zugeordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://geoservice.gkd-re.de/wss/service/KreisRE_WFS_KRE-I03_GEBIETE/guest?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=Gebietsgliederung%3ASTADTTEILE_MARL&amp;srsName=EPSG:25832"
+        >Stadtteile Marl</a
+      >
+      – Geodatendienst des Kreises Recklinghausen mit den Grenzen der Marler Stadtteile.
+    </li>
+    <li>
+      <a
+        href="https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip"
+        >Gebäudereferenzen NW</a
+      >
+      von Geobasis NRW – landesweites Verzeichnis aller Adressen mit Koordinate, davon
+      rund 20.900 in Marl.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >
+      (Stadtteil 50 Polsum → Wahlkreis 71, übrige Stadtteile → Wahlkreis 70).
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Von 20.887 Adressen liegen 20.886 eindeutig in genau einem Stadtteil. Eine liegt
+    rechnerisch außerhalb aller Stadtteilgrenzen und wird nicht zugeordnet.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <ul>
+    <li>
+      Das Vote-Manager-Straßenverzeichnis der Stadt ist bei allen geprüften Wahlterminen
+      leer.
+    </li>
+    <li>Die Stadt veröffentlicht keinen eigenen Adressdatensatz mit Koordinaten.</li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Mettmann ================= -->
+<section class="karte" id="mettmann">
+  <h2>Mettmann</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Kommunalwahlbezirk – mit
+    genau der Nummer, die auch das Landeswahlgesetz verwendet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlen.regioit.de/3/km2025/05158024/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Kommunalwahlbezirk). Keine ausdrückliche Lizenz
+      angegeben, öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Kommunalwahlbezirke 5010 und 5040–5100 gehören zu Wahlkreis 38 „Mettmann
+      II“, 5020, 5030 und 5110–5190 zu Wahlkreis 40 „Mettmann IV“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Mönchengladbach ================= -->
+<section class="karte" id="moenchengladbach">
+  <h2>Mönchengladbach</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Wahlbezirk. Jeder der 33
+    Wahlbezirke wurde anhand der Wahlräume einem Stadtteil zugeordnet, und über die
+    Stadtteile ordnet das Landeswahlgesetz den Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wep.itk-rheinland.de/vm/prod/kw_2025/05116000/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Wahlbezirk). Keine ausdrückliche Lizenz angegeben,
+      öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a href="https://news.bz-mg.de/wahlbezirke-2025/">Liste der 33 Wahlbezirke</a>
+      (news.bz-mg.de) – unabhängige Gegenprüfung der Stadtteil-Zuordnung.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >
+      (44 Stadtteile → Wahlkreis 50 „Mönchengladbach I“ oder 51 „Mönchengladbach II“).
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Anders als in anderen Städten lässt sich die Wahlbezirk-Nummer nicht rechnerisch in
+    eine Stadtteil-Nummer umwandeln. Die Zuordnung beruht auf den Namen der Wahlräume
+    (z. B. „Kath. Grundschule Venn“ → Venn); bei nicht eindeutigen Namen wurde die Lage
+    der Einrichtung einzeln nachgeschlagen (z. B. „Bischöfliche Marienschule“ → Windberg,
+    „Franz-Meyers-Gymnasium“ → Giesenkirchen).
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Mülheim ================= -->
+<section class="karte" id="muelheim">
+  <h2>Mülheim an der Ruhr</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Kommunalwahl 2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk. Dessen erste
+    zwei Ziffern sind der Kommunalwahlbezirk, über den das Landeswahlgesetz den Wahlkreis
+    zuordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlpraesentation.muelheim-ruhr.de/kw25/05117000/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Kommunalwahl 2025</a
+      >
+      (Straße/Hausnummernbereich → Stimmbezirk). Keine ausdrückliche Lizenz angegeben,
+      öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Kommunalwahlbezirke 26 (Saarner Kuppe) und 27 (Saarn-Süd/Mintard/Selbeck)
+      gehören zu Wahlkreis 39 „Mettmann III – Mülheim II“, die übrigen 25 zu Wahlkreis 64
+      „Mülheim I“.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Münster ================= -->
+<section class="karte" id="muenster">
+  <h2>Münster</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: 19.05.2025</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis des Stadtplanungsamts nennt zu jeder Straße den Stimmbezirk.
+    Dessen Nummer geteilt durch 10 ist der Kommunalwahlbezirk, über den das
+    Landeswahlgesetz den Wahlkreis zuordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/61_stadtentwicklung/pdf/Strassenverzeichnis_Muenster_mit_Stimmbezirk_und_Bezirksvertretung_vorlaeufig_20250519.pdf"
+        >Straßenverzeichnis mit Stimmbezirk und Bezirksvertretung</a
+      >
+      (PDF, Straße/Hausnummer → Stimmbezirk). Die Orte der Wahlräume bestätigen die
+      Umrechnung (z. B. Stimmbezirke 311–315 alle in Gievenbeck = Kommunalwahlbezirk 31).
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Die Kommunalwahlbezirke 03, 05, 06, 14–19 und 31–33 gehören zu Wahlkreis 83
+      „Münster I – Steinfurt IV“, 04, 07–10 und 20–26 zu Wahlkreis 84 „Münster II“, 01,
+      02, 11–13 und 27–30 zu Wahlkreis 85 „Münster III – Coesfeld III“.
+    </li>
+  </ul>
+  <h3>Korrekturen</h3>
+  <p>
+    Werneweg 137: Die Hausnummern 137a und 137b/c liegen in verschiedenen Stimmbezirken.
+    Beide gehören aber zu Wahlkreis 85, der Einzelfall hat also keine Auswirkung auf das
+    Ergebnis.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Oberhausen ================= -->
+<section class="karte" id="oberhausen">
+  <h2>Oberhausen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Landtagswahl 2022</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße den Stimmbezirk. Dessen
+    führende Ziffern sind der Kommunalwahlbezirk (z. B. „1803“ → 18). Die
+    Kommunalwahlbezirke gehören zu Stadtbezirken, und die Wahlkreise folgen den
+    Stadtbezirken.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlen.regioit.de/2/LW2022/05119000/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Landtagswahl 2022</a
+      >
+      (Straße/Hausnummernbereich → Stimmbezirk). Keine ausdrückliche Lizenz angegeben,
+      öffentlich frei abrufbar.
+    </li>
+    <li>
+      <a
+        href="https://wahlen.regioit.de/2/km2025/05119000/daten/opendata/opendata-wahllokale.csv"
+        >Wahlraumverzeichnis der Kommunalwahl 2025</a
+      >
+      – bestätigt die Kommunalwahlbezirke über ihre Namen (z. B. „1301 Buschhausen“).
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Wahlkreis 56 „Oberhausen I“ umfasst die Stadtbezirke Alt-Oberhausen und
+      Osterfeld, Wahlkreis 57 „Oberhausen II – Wesel I“ den Stadtbezirk Sterkrade
+      (zusammen mit Dinslaken).
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Die Nummern der Kommunalwahlbezirke sind nicht sauber nach Stadtbezirken sortiert:
+    01–12 gehören zu Alt-Oberhausen, 13–24 zu Sterkrade (auch 13 „Buschhausen“) und 25–29
+    zu Osterfeld (auch 25–28 „Klosterhardt“, „Eisenheim“, „Rothebusch“). Die Zuordnung
+    ist über die offiziellen Stadtteillisten je Stadtbezirk (oberhausen.de, Wikipedia)
+    geprüft.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Sankt Augustin ================= -->
+<section class="karte" id="sankt-augustin">
+  <h2>Sankt Augustin</h2>
+  <ul class="eckdaten">
+    <li class="methode">Aus Koordinaten berechnet</li>
+    <li>Stand: Adressdaten Juli 2026</li>
+  </ul>
+  <p>
+    Laut Landeswahlgesetz gehört nur der Stadtteil Menden zu Wahlkreis 28
+    „Rhein-Sieg-Kreis IV“, die übrigen Stadtteile zu Wahlkreis 29 „Rhein-Sieg-Kreis V“.
+    Die Stadtteile entsprechen den Gemarkungen des Liegenschaftskatasters; jede Adresse
+    wird anhand ihrer Koordinate einer Gemarkung zugeordnet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht"
+        >ALKIS-WFS NRW (vereinfacht)</a
+      >
+      von Geobasis NRW – Grenzen der Gemarkungen Hangelar, Niedermenden, Niederpleis,
+      Obermenden, Siegburg-Mülldorf, Birlinghoven, Buisdorf und Meindorf.
+    </li>
+    <li>
+      <a
+        href="https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip"
+        >Gebäudereferenzen NW</a
+      >
+      von Geobasis NRW – landesweites Verzeichnis aller Adressen mit Koordinate, davon
+      rund 15.800 in Sankt Augustin.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >
+      (dort „Sankt-Augustin“ geschrieben): Menden → Wahlkreis 28; Birlinghoven, Buisdorf,
+      Hangelar, Meindorf, Mülldorf, Niederpleis und Ort → Wahlkreis 29.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Menden besteht aus den zwei Gemarkungen Niedermenden und Obermenden. Der Stadtteil
+    „Ort“ hat keine eigene Gemarkung – das spielt keine Rolle, weil alle Stadtteile außer
+    Menden zu Wahlkreis 29 gehören. Alle 15.759 Adressen liegen eindeutig in genau einer
+    Gemarkung.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <p>
+    Das Vote-Manager-Straßenverzeichnis der Stadt ist bei allen fünf geprüften
+    Wahlterminen leer.
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Solingen ================= -->
+<section class="karte" id="solingen">
+  <h2>Solingen</h2>
+  <ul class="eckdaten">
+    <li class="methode">Über das Landeswahlgesetz</li>
+    <li>Stand: Bundestagswahl 2021</li>
+  </ul>
+  <p>
+    Das Straßenverzeichnis der Stadt nennt zu jeder Straße eine dreistellige
+    Bezirksnummer (z. B. „123“ = Kommunalwahlbezirk 12, Stimmbezirk 3). Über
+    Kommunalwahlbezirke und einen einzelnen Stimmbezirk ordnet das Landeswahlgesetz den
+    Wahlkreis zu.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wahlen.kdvz.nrw/production/bw2021/05122000/daten/opendata/opendata-strassen.csv"
+        >Straßenverzeichnis Bundestagswahl 2021</a
+      >
+      (Straße → Bezirksnummer). Keine ausdrückliche Lizenz angegeben, öffentlich frei
+      abrufbar.
+    </li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Wahlkreis 34 „Wuppertal III – Solingen II“ umfasst den Stadtbezirk Gräfrath, aus
+      dem Stadtbezirk Mitte die Kommunalwahlbezirke 15 „Klauberg-Hasseldelle-Kohlfurth“
+      und 16 „Kannenhof-Meigen-Halfeshof“ sowie aus Kommunalwahlbezirk 12
+      „Innenstadt-Süd“ nur den Stimmbezirk 123. Der Rest gehört zu Wahlkreis 35
+      „Solingen I“.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Dass die Bezirksnummern von 2021 noch gelten, bestätigen die veröffentlichten
+    Ergebnisse der Kommunalwahl 2025 (Wahl der Bezirksvertretungen): Jede der fünf
+    Bezirksvertretungen führt genau dieselben Stimmbezirk-Gruppen (11–16, 21–27, 31–34,
+    41–46, 51–53).
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <p>
+    Das Straßenverzeichnis zur Kommunalwahl 2025 ist leer (nur Spaltenüberschriften).
+  </p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Wuppertal ================= -->
+<section class="karte" id="wuppertal">
+  <h2>Wuppertal</h2>
+  <ul class="eckdaten">
+    <li class="methode">Aus Koordinaten berechnet</li>
+    <li>Stand: Abruf September 2026</li>
+  </ul>
+  <p>
+    Jede amtliche Adresse wird anhand ihrer Koordinate einem Kommunalwahlbezirk
+    zugeordnet. Dessen Nummer (z. B. „06“, „51“) ist genau die, die das Landeswahlgesetz
+    verwendet.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a
+        href="https://daten.wuppertal.de/Politik_Wahlen/Kommunalwahlbezirke_EPSG25832_JSON.json"
+        >Kommunalwahlbezirke Wuppertal</a
+      >
+      – Grenzen aller 33 Kommunalwahlbezirke.
+    </li>
+    <li>
+      <a
+        href="https://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_JSON.json"
+        >Georeferenzierte Bestandsadressen Wuppertal</a
+      >
+      – rund 61.700 amtliche Adresspunkte, wöchentlich aktualisiert.
+    </li>
+    <li>Beide aus dem Open-Data-Portal der Stadt Wuppertal, Lizenz CC BY 4.0.</li>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >: Acht der zehn Stadtbezirke gehören komplett zu einem Wahlkreis. Geteilt sind nur
+      Elberfeld und Barmen. Wahlkreis 32 „Wuppertal I“: aus Barmen die
+      Kommunalwahlbezirke 51 und 53, dazu Oberbarmen, Heckinghausen,
+      Langerfeld-Beyenburg und Ronsdorf. Wahlkreis 33 „Wuppertal II“: aus Elberfeld 01–05,
+      aus Barmen 52, 54 und 55, dazu Uellendahl-Katernberg. Wahlkreis 34 „Wuppertal III –
+      Solingen II“: aus Elberfeld 06 (Friedrichsberg), dazu Elberfeld-West, Vohwinkel und
+      Cronenberg.
+    </li>
+  </ul>
+  <h3>Besonderheiten</h3>
+  <p>
+    Von 61.700 Adressen liegen 61.699 eindeutig in genau einem Kommunalwahlbezirk. Bei 5
+    Hausnummern (z. B. Käshammer 1) liegen Gebäude mit Buchstabenzusatz in einem anderen
+    Bezirk als die Hausnummer selbst.
+  </p>
+  <h3>Warum nicht anders?</h3>
+  <p>Der Vote Manager der Stadt enthält keine Straßendaten.</p>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
+
+<!-- ================= Übrige Gemeinden ================= -->
+<section class="karte" id="uebrige">
+  <h2>Übrige Gemeinden</h2>
+  <p>
+    Alle anderen 366 Gemeinden in Nordrhein-Westfalen liegen vollständig in einem
+    Landtagswahlkreis. Die App zeigt dort den Wahlkreis sofort an, ohne Straßensuche.
+  </p>
+  <h3>Quellen</h3>
+  <ul>
+    <li>
+      <a href="https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf"
+        >Anlage zum Landeswahlgesetz</a
+      >
+      (Gemeinde → Wahlkreis, Stand 31.08.2025).
+    </li>
+    <li>
+      Für den Kreis Höxter und den Kreis Olpe nennt die Anlage nur den Kreis, nicht die
+      einzelnen Gemeinden. Diese sind ergänzt nach Wikipedia:
+      <a href="https://de.wikipedia.org/wiki/Kreis_H%C3%B6xter">Kreis Höxter</a>,
+      <a href="https://de.wikipedia.org/wiki/Kreis_Olpe">Kreis Olpe</a>.
+    </li>
+  </ul>
+  <p class="nach-oben"><a href="#staedte">↑ Zur Städteliste</a></p>
+</section>
