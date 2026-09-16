@@ -277,6 +277,19 @@ describe("Straßensuche (innerhalb einer Gemeinde)", () => {
     expect(await screen.findByText("112")).toBeInTheDocument();
   });
 
+  it("schlägt bei einem Tippfehler ähnliche Straßen vor", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await waehleDortmund(user);
+
+    await user.type(await screen.findByPlaceholderText("Straße eingeben ..."), "ardeystrase");
+
+    expect(await screen.findByText(/Keine genauen Treffer/)).toBeInTheDocument();
+    await user.click(await screen.findByRole("button", { name: "ARDEYSTRAßE" }));
+
+    expect(await screen.findByText(/geteilt/)).toBeInTheDocument();
+  });
+
   it("springt über Zurück zur leeren Suche", async () => {
     const user = userEvent.setup();
     render(<App />);

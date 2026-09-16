@@ -25,7 +25,12 @@ import {
   zurApp,
   type Infoseite,
 } from "./navigation.js";
-import { searchGemeinden, searchStrassen } from "./search.js";
+import {
+  searchAehnlicheGemeinden,
+  searchAehnlicheStrassen,
+  searchGemeinden,
+  searchStrassen,
+} from "./search.js";
 import {
   geladenerInhalt,
   infoseitenVorladen,
@@ -565,6 +570,7 @@ function Trefferliste<T>({
   zusatzVon,
   onWaehlen,
   leerHinweis,
+  unscharf = false,
 }: {
   query: string;
   treffer: T[];
@@ -572,6 +578,8 @@ function Trefferliste<T>({
   zusatzVon?: (item: T) => ReactNode;
   onWaehlen: (item: T) => void;
   leerHinweis: string;
+  /** true, wenn die Liste nur ähnlich geschriebene Namen enthält. */
+  unscharf?: boolean;
 }) {
   if (query.trim().length === 0) {
     return <p className="leer-hinweis">{leerHinweis}</p>;
@@ -580,7 +588,11 @@ function Trefferliste<T>({
     return <p className="leer-hinweis">Keine Treffer für „{query.trim()}“.</p>;
   }
   return (
-    <ul className="trefferliste karte">
+    <>
+      {unscharf && (
+        <p className="leer-hinweis">Keine genauen Treffer für „{query.trim()}“ – meintest du:</p>
+      )}
+      <ul className="trefferliste karte">
       {treffer.map((item) => (
         <li key={nameVon(item)}>
           <button type="button" onClick={() => onWaehlen(item)}>
@@ -590,9 +602,10 @@ function Trefferliste<T>({
             </span>
             <IconPfeilRechts />
           </button>
-        </li>
-      ))}
-    </ul>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
 
@@ -611,6 +624,8 @@ function GemeindeAuswahl({
   }, []);
 
   const matches = query.trim().length > 0 ? searchGemeinden(query, gemeinden) : [];
+  const aehnliche =
+    query.trim().length > 0 && matches.length === 0 ? searchAehnlicheGemeinden(query, gemeinden) : [];
 
   return (
     <AppShell>
@@ -624,7 +639,8 @@ function GemeindeAuswahl({
         />
         <Trefferliste
           query={query}
-          treffer={matches}
+          treffer={matches.length > 0 ? matches : aehnliche}
+          unscharf={aehnliche.length > 0}
           nameVon={(g) => g.name}
           zusatzVon={(g) =>
             g.typ === "geteilt" && !g.verfuegbar ? (
@@ -705,6 +721,9 @@ function Bereit({ data, onGemeindeAendern }: { data: StrassenDaten; onGemeindeAe
   }
 
   const matches = query.trim().length > 0 ? searchStrassen(query, data.strassen) : [];
+  // Erst bei erfolgloser Suche nach ähnlich geschriebenen Namen suchen (Tippfehler).
+  const aehnliche =
+    query.trim().length > 0 && matches.length === 0 ? searchAehnlicheStrassen(query, data.strassen) : [];
 
   return (
     <AppShell
@@ -723,7 +742,8 @@ function Bereit({ data, onGemeindeAendern }: { data: StrassenDaten; onGemeindeAe
         />
         <Trefferliste
           query={query}
-          treffer={matches}
+          treffer={matches.length > 0 ? matches : aehnliche}
+          unscharf={aehnliche.length > 0}
           nameVon={(s) => s.n}
           onWaehlen={setSelected}
           leerHinweis="z. B. Hauptstraße"

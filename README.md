@@ -14,6 +14,10 @@ Sekunden klar sein, welcher Formularstapel gezogen wird.
 - **Straßensuche für die 30 geteilten Städte** (z. B. Köln, Essen, Bochum, Marl), die auf
   mehrere Wahlkreise verteilt sind. Liegt eine Straße selbst in mehreren Wahlkreisen, fragt
   die App nach der Hausnummer.
+- **Suche mit Fehlertoleranz:** Groß-/Kleinschreibung, Umlaute, Bindestriche, Punkte und
+  Schreibweisen wie „str“, „straße“ oder „strasse“ sind egal, ebenso „St.“ statt „Sankt“.
+  Findet die Suche nichts, schlägt sie ähnlich geschriebene Namen vor („ardeystrase“ →
+  „ARDEYSTRAßE“) – ohne Netzanfrage, direkt im Browser.
 - **Für den Einsatz im Stehen gebaut:** einhändig bedienbar, die Wahlkreisnummer groß und
   kontrastreich, Ergebnis schon beim Tippen, automatischer Dunkelmodus.
 - **Nachvollziehbar:** Die Seite [Datenquellen](src/frontend/seiten/quellen.html) (in der
