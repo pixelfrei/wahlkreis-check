@@ -7,6 +7,23 @@ const LADER: Record<Infoseite, () => Promise<{ default: string }>> = {
   datenschutz: () => import("./datenschutz.html?raw"),
 };
 
+/**
+ * Persönliche Angaben (Impressum, verantwortliche Stelle im Datenschutz)
+ * gehören ins öffentliche Angebot, aber nicht in ein öffentliches Repository.
+ * Liegt neben einer Seite eine Datei "<name>.lokal.html", nimmt der Build
+ * diese statt der Fassung mit Platzhaltern. Die lokalen Dateien sind in
+ * .gitignore ausgeschlossen (siehe README, Abschnitt "Impressum").
+ */
+const LOKALE_FASSUNGEN = import.meta.glob("./*.lokal.html", {
+  query: "?raw",
+  import: "default",
+}) as Record<string, () => Promise<string>>;
+
+function lader(seite: Infoseite): () => Promise<string> {
+  const lokal = LOKALE_FASSUNGEN[`./${seite}.lokal.html`];
+  return lokal ?? (() => LADER[seite]().then((modul) => modul.default));
+}
+
 const laufend = new Map<Infoseite, Promise<string>>();
 const geladen = new Map<Infoseite, string>();
 
@@ -18,9 +35,9 @@ export function geladenerInhalt(seite: Infoseite): string | undefined {
 export function ladeInfoseite(seite: Infoseite): Promise<string> {
   let versprechen = laufend.get(seite);
   if (!versprechen) {
-    versprechen = LADER[seite]().then((modul) => {
-      geladen.set(seite, modul.default);
-      return modul.default;
+    versprechen = lader(seite)().then((inhalt) => {
+      geladen.set(seite, inhalt);
+      return inhalt;
     });
     // Fehlgeschlagene Versuche vergessen. Chrome merkt sich einen gescheiterten
     // Modul-Import allerdings bis zum Neuladen der Seite - siehe seiteNeuLaden().

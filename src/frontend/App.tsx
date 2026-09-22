@@ -25,6 +25,7 @@ import {
   zurApp,
   type Infoseite,
 } from "./navigation.js";
+import { neueVersionUebernehmen, serviceWorkerAnmelden } from "./pwa.js";
 import {
   searchAehnlicheGemeinden,
   searchAehnlicheStrassen,
@@ -58,6 +59,7 @@ export function App() {
   const pfad = usePfad();
   const infoseite = infoseiteAusPfad(pfad);
   const [stadt, setStadt] = useState<string | null>(null);
+  const [neueVersion, setNeueVersion] = useState(false);
 
   // Die App bleibt während einer Infoseite unsichtbar erhalten (Eingaben und
   // Ergebnis gehen nicht verloren); ihre Scrollposition wird mitgemerkt.
@@ -65,6 +67,8 @@ export function App() {
   const aufInfoseite = useRef(infoseite !== null);
 
   useEffect(() => infoseitenVorladen(), []);
+
+  useEffect(() => serviceWorkerAnmelden(() => setNeueVersion(true)), []);
 
   useEffect(() => {
     function merken() {
@@ -91,7 +95,42 @@ export function App() {
         <AppInhalt onStadt={setStadt} />
       </div>
       {infoseite && <InfoSeite key={infoseite} seite={infoseite} stadt={stadt} />}
+      {neueVersion && (
+        <AktualisierungsHinweis
+          onUebernehmen={neueVersionUebernehmen}
+          onSchliessen={() => setNeueVersion(false)}
+        />
+      )}
     </>
+  );
+}
+
+/**
+ * Neue Version steht bereit. Bewusst als Frage statt stillem Wechsel: mitten
+ * im Gespräch an der Haustür soll sich die App nicht unter den Fingern ändern.
+ */
+export function AktualisierungsHinweis({
+  onUebernehmen,
+  onSchliessen,
+}: {
+  onUebernehmen: () => void;
+  onSchliessen: () => void;
+}) {
+  return (
+    <div className="aktualisierung karte" role="status">
+      <span className="aktualisierung-text">Neue Daten verfügbar.</span>
+      <button type="button" className="pill-button" onClick={onUebernehmen}>
+        Jetzt aktualisieren
+      </button>
+      <button
+        type="button"
+        className="icon-button"
+        aria-label="Hinweis schließen"
+        onClick={onSchliessen}
+      >
+        <IconX />
+      </button>
+    </div>
   );
 }
 

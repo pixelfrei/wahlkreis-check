@@ -3,3 +3,6 @@ dist/
 .wrangler/
 .DS_Store
 *.DS_Store
+
+# Impressum/Datenschutz mit echten persönlichen Daten - nur lokal, nicht ins Repository
+*.lokal.html

@@ -783,6 +783,45 @@ input {
   font-size: 0.85rem;
 }
 
+/* --- Hinweis auf eine neue Version --- */
+
+.aktualisierung {
+  position: fixed;
+  left: max(12px, env(safe-area-inset-left));
+  right: max(12px, env(safe-area-inset-right));
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 616px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 16px;
+  animation: hochfahren 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.aktualisierung-text {
+  flex: 1;
+  font-size: 0.95rem;
+}
+
+.aktualisierung .pill-button {
+  margin-top: 0;
+  min-height: 40px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.aktualisierung .icon-button:hover {
+  background: var(--flaeche-2);
+}
+
+@keyframes hochfahren {
+  from {
+    transform: translateY(120%);
+  }
+}
+
 .status-screen {
   flex: 1;
   display: flex;

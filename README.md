@@ -18,6 +18,10 @@ Sekunden klar sein, welcher Formularstapel gezogen wird.
   Schreibweisen wie „str“, „straße“ oder „strasse“ sind egal, ebenso „St.“ statt „Sankt“.
   Findet die Suche nichts, schlägt sie ähnlich geschriebene Namen vor („ardeystrase“ →
   „ARDEYSTRAßE“) – ohne Netzanfrage, direkt im Browser.
+- **Offline nutzbar:** Nach dem ersten Aufruf liegt alles im Gerät – App und Daten aller
+  30 Städte (rund 0,4 MB übertragen). Die App lässt sich auf dem Startbildschirm
+  installieren und funktioniert im Keller, Hinterhof oder Funkloch. Neue Daten spielt sie
+  nicht stillschweigend ein, sondern fragt vorher.
 - **Für den Einsatz im Stehen gebaut:** einhändig bedienbar, die Wahlkreisnummer groß und
   kontrastreich, Ergebnis schon beim Tippen, automatischer Dunkelmodus.
 - **Nachvollziehbar:** Die Seite [Datenquellen](src/frontend/seiten/quellen.html) (in der
@@ -68,9 +72,8 @@ geliefert.
 
 ## Bekannte Einschränkungen
 
-- **Nicht offline nutzbar.** Die App braucht eine Internetverbindung, um die Straßendaten
-  einer Stadt zu laden. Einmal geladen, funktioniert die Suche ohne weitere Anfragen –
-  eine installierbare Offline-Version (PWA) gibt es aber noch nicht.
+- **Erster Aufruf braucht Internet.** Danach läuft die App offline. Beim iPhone muss sie
+  über „Teilen → Zum Home-Bildschirm“ installiert werden, das ist etwas versteckt.
 - **Ältere Verzeichnisse:** Für einige Städte gibt es nur Straßenverzeichnisse früherer
   Wahlen (2016–2022). Die Zuordnung zum Wahlkreis stammt immer aus der aktuellen Anlage,
   seitdem neu entstandene Straßen können aber fehlen.
@@ -90,7 +93,7 @@ npm install
 npm run dev        # Entwicklungsserver auf http://localhost:5173
 npm test           # alle Tests
 npx tsc --noEmit   # Typprüfung
-npm run build      # fertige App nach dist/
+npm run build      # fertige App nach dist/ (inklusive Service Worker)
 ```
 
 ### Aufbau
@@ -101,6 +104,7 @@ src/frontend/            React-App (Vite)
   seiten/                Inhalte von Datenquellen, Impressum und Datenschutz (HTML)
 src/build/               Skripte, die die Quelldaten laden, prüfen und aufbereiten
   <stadt>/               je geteilter Stadt ein eigener Ordner
+  sw.js, pwaPlugin.ts    Service Worker für die Offline-Nutzung (beim Build erzeugt)
 src/shared/              gemeinsame Typen und Logik
 public/data/             aufbereitete Daten, die die App lädt
   gemeinden.json         alle Gemeinden in NRW mit Wahlkreis bzw. Straßendatei
@@ -126,6 +130,22 @@ Hinweise:
   neue Widersprüche). Die Meldung nennt den Grund.
 - `public/data/gemeinden.json` wurde aus der Anlage zum Landeswahlgesetz erstellt und wird
   bei einer neuen Wahlkreiseinteilung von Hand angepasst.
+
+### Impressum und Datenschutz
+
+Die Seiten in `src/frontend/seiten/` enthalten für die verantwortliche Stelle nur
+Platzhalter – persönliche Daten gehören nicht in ein öffentliches Repository. Für den
+eigenen Betrieb legt man daneben eine Datei mit denselben Namen und der Endung
+`.lokal.html` an:
+
+```
+src/frontend/seiten/impressum.lokal.html
+src/frontend/seiten/datenschutz.lokal.html
+```
+
+Existieren sie, nimmt der Build diese statt der Platzhalter-Fassungen. Sie sind über
+`.gitignore` ausgeschlossen und landen daher nie im Repository – wohl aber in der
+veröffentlichten App, wo die Angaben ja hingehören.
 
 ### Veröffentlichen
 
