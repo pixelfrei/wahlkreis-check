@@ -109,7 +109,8 @@ src/shared/              gemeinsame Typen und Logik
 public/data/             aufbereitete Daten, die die App lädt
   gemeinden.json         alle Gemeinden in NRW mit Wahlkreis bzw. Straßendatei
   <stadt>.json           Straßen und Hausnummernbereiche einer geteilten Stadt
-docs/                    Dokumentation der Stichprobe gegen den Dortmunder Kartenviewer
+docs/                    Stichprobe gegen den Dortmunder Kartenviewer,
+                         festgehaltener Stand der Quellen (quellen-stand.json)
 ```
 
 ### Daten aktualisieren
@@ -130,6 +131,27 @@ Hinweise:
   neue Widersprüche). Die Meldung nennt den Grund.
 - `public/data/gemeinden.json` wurde aus der Anlage zum Landeswahlgesetz erstellt und wird
   bei einer neuen Wahlkreiseinteilung von Hand angepasst.
+
+### Quellen auf Änderungen prüfen
+
+Die Städte aktualisieren ihre Verzeichnisse ohne Ankündigung. Dieses Skript fragt alle
+Quell-Adressen ab und vergleicht sie mit dem festgehaltenen Stand
+(`docs/quellen-stand.json`):
+
+```sh
+npm run check:quellen                    # prüfen
+npm run check:quellen -- --uebernehmen   # aktuellen Stand festschreiben
+```
+
+Als Fingerabdruck dient, was der Server hergibt: ETag, Änderungsdatum oder der Inhalt
+selbst. Antworten von Geodiensten werden vorher vereinheitlicht, weil sie bei jeder
+Anfrage andere Kennungen, Zeitstempel und Reihenfolgen liefern. Bei einer Änderung oder
+einer nicht erreichbaren Quelle endet das Skript mit Fehlercode 1, eignet sich also für
+eine automatische Prüfung.
+
+Ablauf bei einer Meldung: betroffene Stadt neu bauen (`npm run build:data:<stadt>`),
+Unterschiede in `public/data/` ansehen, Tests laufen lassen, dann den Stand
+festschreiben.
 
 ### Impressum und Datenschutz
 
