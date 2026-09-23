@@ -34,8 +34,9 @@ jobs:
         shell: bash
         run: |
           set +e
-          npm run -s check:quellen > bericht.txt 2>&1
-          ergebnis=$?
+          # tee: Bericht landet im Protokoll UND in der Zusammenfassung des Laufs
+          npm run -s check:quellen 2>&1 | tee bericht.txt
+          ergebnis=${PIPESTATUS[0]}
           {
             echo "## Quellenprüfung"
             echo '```'
