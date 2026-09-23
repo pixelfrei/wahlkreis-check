@@ -124,6 +124,10 @@ async function koerperHash(antwort: Response): Promise<string | undefined> {
 /** Einzelne Aussetzer kommen vor - ein zweiter Versuch spart Fehlalarm. */
 async function holeMitZweitemVersuch(url: string, optionen: RequestInit): Promise<Response> {
   try {
+    const antwort = await fetch(url, optionen);
+    if (antwort.status < 500) return antwort;
+    // Serverfehler sind oft vorübergehend (überlastet, Zeitüberschreitung)
+    await new Promise((fertig) => setTimeout(fertig, 3000));
     return await fetch(url, optionen);
   } catch (ursache) {
     await new Promise((fertig) => setTimeout(fertig, 3000));
@@ -230,6 +234,10 @@ async function main(): Promise<void> {
   const neu: StandDatei = { geprueft_am: new Date().toISOString().slice(0, 10), quellen: {} };
   const geaendert: string[] = [];
   const fehler: string[] = [];
+  /** Gesperrte Quellen, die auch über den Helfer nicht antworten: melden, aber nicht scheitern. */
+  const warnungen: string[] = [];
+  const istGesperrt = (namen: string[]) =>
+    namen.some((n) => NICHT_AUS_RECHENZENTREN.has(n.split("/")[1] ?? ""));
   const eintraege = [...quellen.entries()];
 
   for (let i = 0; i < eintraege.length; i += GLEICHZEITIG) {
@@ -239,14 +247,20 @@ async function main(): Promise<void> {
           const { fingerabdruck, status } = await pruefeQuelle(abruf, inhaltPruefen);
           neu.quellen[url] = { stadt, namen, fingerabdruck, status };
           const vorher = alt?.quellen[url];
-          if (status >= 400) fehler.push(`${namen.join(", ")}: HTTP ${status}\n    ${url}`);
+          if (status >= 400) {
+            const meldung = `${namen.join(", ")}: HTTP ${status}\n    ${url}`;
+            (imRechenzentrum && istGesperrt(namen) ? warnungen : fehler).push(meldung);
+            const vorher = alt?.quellen[url];
+            if (vorher) neu.quellen[url] = vorher;
+          }
           else if (vorher && vorher.fingerabdruck !== fingerabdruck) {
             geaendert.push(
               `${namen.join(", ")}\n    vorher: ${vorher.fingerabdruck}\n    jetzt:  ${fingerabdruck}\n    ${url}`,
             );
           }
         } catch (ursache) {
-          fehler.push(`${namen.join(", ")}: ${(ursache as Error).message}\n    ${url}`);
+          const meldung = `${namen.join(", ")}: ${(ursache as Error).message}\n    ${url}`;
+          (imRechenzentrum && istGesperrt(namen) ? warnungen : fehler).push(meldung);
           const vorher = alt?.quellen[url];
           if (vorher) neu.quellen[url] = vorher; // Stand nicht wegen eines Netzfehlers verlieren
         }
@@ -268,13 +282,20 @@ async function main(): Promise<void> {
   }
 
   const unbekannt = Object.values(neu.quellen).filter((q) => q.fingerabdruck.startsWith("unbekannt"));
-  const unveraendert = Object.keys(neu.quellen).length - geaendert.length - fehler.length;
-  console.log(`\n${unveraendert} unverändert, ${geaendert.length} geändert, ${fehler.length} nicht erreichbar`);
+  const unveraendert =
+    Object.keys(neu.quellen).length - geaendert.length - fehler.length - warnungen.length;
+  console.log(
+    `\n${unveraendert} unverändert, ${geaendert.length} geändert, ${fehler.length} nicht erreichbar` +
+      (warnungen.length > 0 ? `, ${warnungen.length} nur lokal prüfbar` : ""),
+  );
   if (unbekannt.length > 0) {
     console.log(`(${unbekannt.length} Quellen liefern keinen verwertbaren Fingerabdruck)`);
   }
   for (const eintrag of geaendert) console.log(`\nGEÄNDERT  ${eintrag}`);
   for (const eintrag of fehler) console.log(`\nFEHLER    ${eintrag}`);
+  for (const eintrag of warnungen) {
+    console.log(`\nHINWEIS   ${eintrag}\n    (sperrt Rechenzentren - bitte gelegentlich lokal prüfen)`);
+  }
 
   if (uebernehmen) {
     await writeFile(STAND_DATEI, `${JSON.stringify(neu, null, 2)}\n`, "utf-8");
