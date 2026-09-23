@@ -1,0 +1,51 @@
+name: Quellen prüfen
+
+# Die Städte aktualisieren ihre Straßenverzeichnisse ohne Ankündigung. Dieser
+# Ablauf prüft einmal pro Woche, ob sich eine Quelle geändert hat, und schlägt
+# fehl, wenn ja - GitHub schickt dann eine Benachrichtigung. Was zu tun ist,
+# steht in der Zusammenfassung des Laufs und in der README.
+on:
+  schedule:
+    # montags 6:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  # Änderungen am Ablauf selbst lösen einen Lauf aus, damit sie sich sofort prüfen lassen.
+  push:
+    paths:
+      - ".github/workflows/quellen.yml"
+      - "src/build/quellen*"
+
+permissions:
+  contents: read
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Quellen prüfen
+        shell: bash
+        run: |
+          set +e
+          npm run -s check:quellen > bericht.txt 2>&1
+          ergebnis=$?
+          {
+            echo "## Quellenprüfung"
+            echo '```'
+            cat bericht.txt
+            echo '```'
+            if [ $ergebnis -ne 0 ]; then
+              echo "### Nächste Schritte"
+              echo "1. Betroffene Stadt neu bauen: \`npm run build:data:<stadt>\`"
+              echo "2. Änderungen in \`public/data/\` prüfen, \`npm test\` laufen lassen"
+              echo "3. Stand festschreiben: \`npm run check:quellen -- --uebernehmen\`"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $ergebnis

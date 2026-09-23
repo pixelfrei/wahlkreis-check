@@ -153,6 +153,11 @@ Ablauf bei einer Meldung: betroffene Stadt neu bauen (`npm run build:data:<stadt
 Unterschiede in `public/data/` ansehen, Tests laufen lassen, dann den Stand
 festschreiben.
 
+Dieselbe Prüfung läuft automatisch **jeden Montag** als GitHub-Action
+(`.github/workflows/quellen.yml`) und lässt sich dort auch von Hand starten. Meldet sie
+eine Änderung, schlägt der Lauf fehl; welche Stadt betroffen ist, steht in der
+Zusammenfassung des Laufs.
+
 ### Impressum und Datenschutz
 
 Die Seiten in `src/frontend/seiten/` enthalten für die verantwortliche Stelle nur
