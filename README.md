@@ -155,9 +155,13 @@ festschreiben.
 
 Zwei Eigenheiten, die in der Praxis auffielen und berücksichtigt sind:
 
-- **Vier Quellen** (Bochum, Hagen, Jüchen, Mönchengladbach) lassen sich aus Rechenzentren
-  nicht abfragen. Die automatische Prüfung überspringt sie und weist darauf hin; von einem
-  normalen Anschluss aus werden sie ganz normal geprüft.
+- **Vier Quellen** (Bochum, Hagen, Jüchen, Mönchengladbach) sperren Anfragen aus
+  Rechenzentren aus, die automatische Prüfung erreicht sie also nicht direkt. Aus dem
+  Cloudflare-Netz heraus antworten sie dagegen. Dafür gibt es einen winzigen Worker
+  (`infra/quellen-helfer/`), der genau diese vier Adressen durchreicht – andere Adressen
+  lehnt er ab, er ist also kein offener Weiterleitungsdienst. Die Prüfung nutzt ihn, wenn
+  `QUELLEN_HELFER_URL` gesetzt ist (in der GitHub-Action eingetragen), sonst überspringt
+  sie die vier. Deploy des Helfers: `npm run deploy:quellen-helfer`.
 - **Duisburg** erzeugt seinen Export jede Nacht neu, Änderungsdatum und ETag wechseln also
   täglich. Dort wird deshalb der Inhalt verglichen statt der Kopfzeilen.
 

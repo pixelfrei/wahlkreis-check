@@ -80,6 +80,28 @@ describe("fasseQuellenZusammen", () => {
     ]);
   });
 
+  it("schickt gesperrte Quellen über den Helfer, behält aber die Original-Adresse als Kennung", () => {
+    const zusammen = fasseQuellenZusammen(
+      [{ stadt: "hagen", name: "HAGEN_STRASSEN_URL", url: "https://wahlergebnisse.example/strassen.csv" }],
+      "https://quellen-helfer.example/",
+    );
+    // Kennung bleibt die Original-Adresse, damit lokale und automatische Läufe vergleichbar sind
+    expect([...zusammen.keys()]).toEqual(["https://wahlergebnisse.example/strassen.csv"]);
+    expect(zusammen.get("https://wahlergebnisse.example/strassen.csv")!.abruf).toBe(
+      "https://quellen-helfer.example/?quelle=HAGEN_STRASSEN_URL",
+    );
+  });
+
+  it("lässt nicht gesperrte Quellen direkt abfragen, auch mit Helfer", () => {
+    const zusammen = fasseQuellenZusammen(
+      [{ stadt: "essen", name: "ESSEN_STRASSEN_URL", url: "https://opendata.example/strassen.csv" }],
+      "https://quellen-helfer.example/",
+    );
+    expect(zusammen.get("https://opendata.example/strassen.csv")!.abruf).toBe(
+      "https://opendata.example/strassen.csv",
+    );
+  });
+
   it("nutzt die Prüf-Adresse, wenn eine hinterlegt ist", () => {
     const zusammen = fasseQuellenZusammen([
       { stadt: "bochum", name: "BOCHUM_ADRESSEN_URL", url: "https://example.org/layer", pruefUrl: "https://example.org/layer?returnCountOnly=true" },

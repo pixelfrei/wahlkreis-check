@@ -32,6 +32,9 @@ jobs:
 
       - name: Quellen prüfen
         shell: bash
+        env:
+          # Reicht die vier aus Rechenzentren gesperrten Quellen durch (infra/quellen-helfer/)
+          QUELLEN_HELFER_URL: https://quellen-helfer.volt-8cc.workers.dev
         run: |
           set +e
           # tee: Bericht landet im Protokoll UND in der Zusammenfassung des Laufs

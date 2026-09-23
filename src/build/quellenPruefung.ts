@@ -161,22 +161,38 @@ async function pruefeQuelle(
   return { fingerabdruck: `${art}:${wert}`, status: antwort.status };
 }
 
-/** Quellen mit derselben Prüf-Adresse nur einmal abfragen. */
-export function fasseQuellenZusammen(
-  quellen: Quelle[],
-): Map<string, { stadt: string; namen: string[]; inhaltPruefen: boolean }> {
-  const nachUrl = new Map<string, { stadt: string; namen: string[]; inhaltPruefen: boolean }>();
+export interface ZuPruefen {
+  stadt: string;
+  namen: string[];
+  inhaltPruefen: boolean;
+  /**
+   * Adresse, die tatsächlich abgefragt wird. Weicht von der Kennung ab, wenn
+   * der Helfer-Worker dazwischengeschaltet ist - die Kennung bleibt die
+   * Original-Adresse, damit lokale und automatische Läufe vergleichbar sind.
+   */
+  abruf: string;
+}
+
+/**
+ * Quellen mit derselben Prüf-Adresse nur einmal abfragen. Ist ein
+ * Helfer-Worker angegeben, laufen die aus Rechenzentren gesperrten Quellen
+ * über ihn (siehe infra/quellen-helfer/).
+ */
+export function fasseQuellenZusammen(quellen: Quelle[], helfer?: string): Map<string, ZuPruefen> {
+  const nachUrl = new Map<string, ZuPruefen>();
   for (const q of quellen) {
-    const adresse = q.pruefUrl ?? q.url;
-    const vorhanden = nachUrl.get(adresse);
+    const kennung = q.pruefUrl ?? q.url;
+    const ueberHelfer = helfer && NICHT_AUS_RECHENZENTREN.has(q.name);
+    const vorhanden = nachUrl.get(kennung);
     if (vorhanden) {
       vorhanden.namen.push(`${q.stadt}/${q.name}`);
       vorhanden.inhaltPruefen ||= q.inhaltPruefen ?? false;
     } else {
-      nachUrl.set(adresse, {
+      nachUrl.set(kennung, {
         stadt: q.stadt,
         namen: [`${q.stadt}/${q.name}`],
         inhaltPruefen: q.inhaltPruefen ?? false,
+        abruf: ueberHelfer ? `${helfer.replace(/\/$/, "")}/?quelle=${q.name}` : kennung,
       });
     }
   }
@@ -196,15 +212,20 @@ async function main(): Promise<void> {
   // In einer automatischen Prüfung (GitHub setzt CI=true) die Quellen auslassen,
   // die aus Rechenzentren nicht erreichbar sind - sonst schlägt jeder Lauf fehl.
   const imRechenzentrum = process.env.CI === "true" && !process.argv.includes("--alle");
+  // Helfer-Worker: reicht die gesperrten Quellen aus dem Cloudflare-Netz durch.
+  const helfer = imRechenzentrum ? process.env.QUELLEN_HELFER_URL : undefined;
   const alleQuellen = await sammleQuellen();
-  const uebersprungen = imRechenzentrum
-    ? alleQuellen.filter((q) => NICHT_AUS_RECHENZENTREN.has(q.name))
-    : [];
+  const uebersprungen =
+    imRechenzentrum && !helfer ? alleQuellen.filter((q) => NICHT_AUS_RECHENZENTREN.has(q.name)) : [];
   const quellen = fasseQuellenZusammen(
     alleQuellen.filter((q) => !uebersprungen.includes(q)),
+    helfer,
   );
   const alt = await ladeStand();
-  console.log(`Prüfe ${quellen.size} Quellen ...${alt ? "" : " (noch kein gespeicherter Stand)"}`);
+  console.log(
+    `Prüfe ${quellen.size} Quellen ...${alt ? "" : " (noch kein gespeicherter Stand)"}` +
+      (helfer ? `\n(${NICHT_AUS_RECHENZENTREN.size} davon über den Helfer-Worker)` : ""),
+  );
 
   const neu: StandDatei = { geprueft_am: new Date().toISOString().slice(0, 10), quellen: {} };
   const geaendert: string[] = [];
@@ -213,9 +234,9 @@ async function main(): Promise<void> {
 
   for (let i = 0; i < eintraege.length; i += GLEICHZEITIG) {
     await Promise.all(
-      eintraege.slice(i, i + GLEICHZEITIG).map(async ([url, { stadt, namen, inhaltPruefen }]) => {
+      eintraege.slice(i, i + GLEICHZEITIG).map(async ([url, { stadt, namen, inhaltPruefen, abruf }]) => {
         try {
-          const { fingerabdruck, status } = await pruefeQuelle(url, inhaltPruefen);
+          const { fingerabdruck, status } = await pruefeQuelle(abruf, inhaltPruefen);
           neu.quellen[url] = { stadt, namen, fingerabdruck, status };
           const vorher = alt?.quellen[url];
           if (status >= 400) fehler.push(`${namen.join(", ")}: HTTP ${status}\n    ${url}`);

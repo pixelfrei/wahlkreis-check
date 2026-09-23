@@ -6,6 +6,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "check:quellen": "tsx src/build/quellenPruefung.ts",
+    "deploy:quellen-helfer": "wrangler deploy -c infra/quellen-helfer/wrangler.jsonc",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
