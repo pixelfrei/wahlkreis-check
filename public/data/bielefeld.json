@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Bielefeld",
     "stand": "2026-09",
-    "gebaut_am": "2026-09-15",
+    "gebaut_am": "2026-09-23",
     "quellen": [
       "https://www.bielefeld01.de/md/WFS/wahlen/02?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=wahlkreis_land_pl_view&SRSNAME=EPSG:25832&OUTPUTFORMAT=text/csv",
       "https://www.bielefeld01.de/md/WFS/alkis_light/04?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=alkis_hauskoordinaten_p&SRSNAME=EPSG:25832&OUTPUTFORMAT=text/csv"
@@ -11962,13 +11962,7 @@
           "wk": "92"
         },
         {
-          "von": 274,
-          "bis": 276,
-          "par": "g",
-          "wk": "92"
-        },
-        {
-          "von": 280,
+          "von": 272,
           "bis": 280,
           "par": "g",
           "wk": "92"

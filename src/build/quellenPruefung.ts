@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import { readFile, writeFile } from "node:fs/promises";
-import { sammleQuellen, type Quelle } from "./quellenListe.js";
+import { NICHT_AUS_RECHENZENTREN, sammleQuellen, type Quelle } from "./quellenListe.js";
 
 /**
  * Prüft, ob sich eine der Quellen geändert hat, aus denen die Straßendaten
@@ -33,19 +33,22 @@ interface StandDatei {
 }
 
 /**
- * Fingerabdruck einer Antwort. ETag und Änderungsdatum sind am
- * aussagekräftigsten; fehlen beide, hilft die Länge, sonst der Inhalt.
+ * Fingerabdruck einer Antwort. Änderungsdatum und Länge zuerst: Sie sind am
+ * verlässlichsten. ETags enthalten bei manchen Servern Datei-Interna, die sich
+ * je nach Server-Knoten unterscheiden - von zwei Rechnern aus gefragt kämen
+ * dann unterschiedliche Werte, obwohl sich nichts geändert hat (beobachtet bei
+ * Bad Oeynhausen). Bleibt beides aus, hilft der Inhalt selbst.
  */
 export function fingerabdruckAus(
   kopfzeilen: Headers,
   koerperHash?: string,
 ): { art: string; wert: string } {
+  const geaendert = kopfzeilen.get("last-modified");
+  const laenge = kopfzeilen.get("content-length");
+  if (geaendert) return { art: "geändert am", wert: laenge ? `${geaendert} (${laenge} Bytes)` : geaendert };
   const etag = kopfzeilen.get("etag");
   if (etag) return { art: "etag", wert: etag.replace(/^W\//, "") };
-  const geaendert = kopfzeilen.get("last-modified");
-  if (geaendert) return { art: "geändert am", wert: geaendert };
   if (koerperHash) return { art: "inhalt", wert: koerperHash };
-  const laenge = kopfzeilen.get("content-length");
   if (laenge) return { art: "länge", wert: laenge };
   return { art: "unbekannt", wert: "" };
 }
@@ -118,14 +121,37 @@ async function koerperHash(antwort: Response): Promise<string | undefined> {
   return hash.digest("hex").slice(0, 16);
 }
 
-async function pruefeQuelle(url: string): Promise<{ fingerabdruck: string; status: number }> {
+/** Einzelne Aussetzer kommen vor - ein zweiter Versuch spart Fehlalarm. */
+async function holeMitZweitemVersuch(url: string, optionen: RequestInit): Promise<Response> {
+  try {
+    return await fetch(url, optionen);
+  } catch (ursache) {
+    await new Promise((fertig) => setTimeout(fertig, 3000));
+    try {
+      return await fetch(url, optionen);
+    } catch {
+      throw ursache;
+    }
+  }
+}
+
+async function pruefeQuelle(
+  url: string,
+  inhaltPruefen = false,
+): Promise<{ fingerabdruck: string; status: number }> {
   const optionen = { headers: { "user-agent": KENNUNG } };
-  let antwort = await fetch(url, { ...optionen, method: "HEAD" });
+  let antwort = inhaltPruefen
+    ? await holeMitZweitemVersuch(url, optionen)
+    : await holeMitZweitemVersuch(url, { ...optionen, method: "HEAD" });
 
   // Manche Server kennen HEAD nicht oder liefern dabei nichts Brauchbares.
-  const brauchbar = antwort.headers.get("etag") ?? antwort.headers.get("last-modified");
+  const brauchbar = antwort.headers.get("last-modified") ?? antwort.headers.get("etag");
+  if (inhaltPruefen) {
+    const hash = antwort.ok ? await koerperHash(antwort) : undefined;
+    return { fingerabdruck: `inhalt:${hash ?? "?"}`, status: antwort.status };
+  }
   if (!antwort.ok || !brauchbar) {
-    antwort = await fetch(url, optionen);
+    antwort = await holeMitZweitemVersuch(url, optionen);
     const hash = antwort.ok ? await koerperHash(antwort) : undefined;
     const { art, wert } = fingerabdruckAus(antwort.headers, hash);
     return { fingerabdruck: `${art}:${wert}`, status: antwort.status };
@@ -136,13 +162,23 @@ async function pruefeQuelle(url: string): Promise<{ fingerabdruck: string; statu
 }
 
 /** Quellen mit derselben Prüf-Adresse nur einmal abfragen. */
-export function fasseQuellenZusammen(quellen: Quelle[]): Map<string, { stadt: string; namen: string[] }> {
-  const nachUrl = new Map<string, { stadt: string; namen: string[] }>();
+export function fasseQuellenZusammen(
+  quellen: Quelle[],
+): Map<string, { stadt: string; namen: string[]; inhaltPruefen: boolean }> {
+  const nachUrl = new Map<string, { stadt: string; namen: string[]; inhaltPruefen: boolean }>();
   for (const q of quellen) {
     const adresse = q.pruefUrl ?? q.url;
     const vorhanden = nachUrl.get(adresse);
-    if (vorhanden) vorhanden.namen.push(`${q.stadt}/${q.name}`);
-    else nachUrl.set(adresse, { stadt: q.stadt, namen: [`${q.stadt}/${q.name}`] });
+    if (vorhanden) {
+      vorhanden.namen.push(`${q.stadt}/${q.name}`);
+      vorhanden.inhaltPruefen ||= q.inhaltPruefen ?? false;
+    } else {
+      nachUrl.set(adresse, {
+        stadt: q.stadt,
+        namen: [`${q.stadt}/${q.name}`],
+        inhaltPruefen: q.inhaltPruefen ?? false,
+      });
+    }
   }
   return nachUrl;
 }
@@ -157,7 +193,16 @@ async function ladeStand(): Promise<StandDatei | null> {
 
 async function main(): Promise<void> {
   const uebernehmen = process.argv.includes("--uebernehmen");
-  const quellen = fasseQuellenZusammen(await sammleQuellen());
+  // In einer automatischen Prüfung (GitHub setzt CI=true) die Quellen auslassen,
+  // die aus Rechenzentren nicht erreichbar sind - sonst schlägt jeder Lauf fehl.
+  const imRechenzentrum = process.env.CI === "true" && !process.argv.includes("--alle");
+  const alleQuellen = await sammleQuellen();
+  const uebersprungen = imRechenzentrum
+    ? alleQuellen.filter((q) => NICHT_AUS_RECHENZENTREN.has(q.name))
+    : [];
+  const quellen = fasseQuellenZusammen(
+    alleQuellen.filter((q) => !uebersprungen.includes(q)),
+  );
   const alt = await ladeStand();
   console.log(`Prüfe ${quellen.size} Quellen ...${alt ? "" : " (noch kein gespeicherter Stand)"}`);
 
@@ -168,9 +213,9 @@ async function main(): Promise<void> {
 
   for (let i = 0; i < eintraege.length; i += GLEICHZEITIG) {
     await Promise.all(
-      eintraege.slice(i, i + GLEICHZEITIG).map(async ([url, { stadt, namen }]) => {
+      eintraege.slice(i, i + GLEICHZEITIG).map(async ([url, { stadt, namen, inhaltPruefen }]) => {
         try {
-          const { fingerabdruck, status } = await pruefeQuelle(url);
+          const { fingerabdruck, status } = await pruefeQuelle(url, inhaltPruefen);
           neu.quellen[url] = { stadt, namen, fingerabdruck, status };
           const vorher = alt?.quellen[url];
           if (status >= 400) fehler.push(`${namen.join(", ")}: HTTP ${status}\n    ${url}`);
@@ -186,6 +231,19 @@ async function main(): Promise<void> {
         }
       }),
     );
+  }
+
+  if (uebersprungen.length > 0) {
+    console.log(
+      `\nÜbersprungen (aus Rechenzentren nicht erreichbar, bitte lokal prüfen):\n  ` +
+        uebersprungen.map((q) => `${q.stadt}/${q.name}`).join("\n  "),
+    );
+    // Stand dieser Quellen unverändert übernehmen, damit er nicht verloren geht.
+    for (const q of uebersprungen) {
+      const adresse = q.pruefUrl ?? q.url;
+      const vorher = alt?.quellen[adresse];
+      if (vorher) neu.quellen[adresse] = vorher;
+    }
   }
 
   const unbekannt = Object.values(neu.quellen).filter((q) => q.fingerabdruck.startsWith("unbekannt"));

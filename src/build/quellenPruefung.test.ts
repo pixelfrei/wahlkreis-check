@@ -2,20 +2,27 @@ import { describe, expect, it } from "vitest";
 import { fasseQuellenZusammen, fingerabdruckAus, kanonischerInhalt } from "./quellenPruefung.js";
 
 describe("fingerabdruckAus", () => {
-  it("bevorzugt ETag, dann Änderungsdatum, dann Inhalt, dann Länge", () => {
-    const kopf = (werte: Record<string, string>) => new Headers(werte);
-    expect(fingerabdruckAus(kopf({ etag: '"abc"', "last-modified": "Mon, 01 Jan 2026 00:00:00 GMT" })))
-      .toEqual({ art: "etag", wert: '"abc"' });
-    expect(fingerabdruckAus(kopf({ "last-modified": "Mon, 01 Jan 2026 00:00:00 GMT" })))
-      .toEqual({ art: "geändert am", wert: "Mon, 01 Jan 2026 00:00:00 GMT" });
-    expect(fingerabdruckAus(kopf({ "content-length": "42" }), "hash123"))
-      .toEqual({ art: "inhalt", wert: "hash123" });
+  const kopf = (werte: Record<string, string>) => new Headers(werte);
+
+  it("nimmt Änderungsdatum und Länge vor dem ETag", () => {
+    // ETags enthalten bei manchen Servern Datei-Interna, die sich je nach
+    // Server-Knoten unterscheiden - das Änderungsdatum ist verlässlicher.
+    expect(
+      fingerabdruckAus(
+        kopf({ etag: '"abc"', "last-modified": "Mon, 01 Jan 2026 00:00:00 GMT", "content-length": "42" }),
+      ),
+    ).toEqual({ art: "geändert am", wert: "Mon, 01 Jan 2026 00:00:00 GMT (42 Bytes)" });
+  });
+
+  it("weicht auf ETag, Inhalt und Länge aus", () => {
+    expect(fingerabdruckAus(kopf({ etag: '"abc"' }))).toEqual({ art: "etag", wert: '"abc"' });
+    expect(fingerabdruckAus(kopf({}), "hash123")).toEqual({ art: "inhalt", wert: "hash123" });
     expect(fingerabdruckAus(kopf({ "content-length": "42" }))).toEqual({ art: "länge", wert: "42" });
     expect(fingerabdruckAus(kopf({}))).toEqual({ art: "unbekannt", wert: "" });
   });
 
   it("behandelt schwache ETags wie starke", () => {
-    expect(fingerabdruckAus(new Headers({ etag: 'W/"abc"' })).wert).toBe('"abc"');
+    expect(fingerabdruckAus(kopf({ etag: 'W/"abc"' })).wert).toBe('"abc"');
   });
 });
 
@@ -54,6 +61,13 @@ describe("kanonischerInhalt", () => {
 });
 
 describe("fasseQuellenZusammen", () => {
+  it("merkt sich, wenn für eine Adresse der Inhalt geprüft werden soll", () => {
+    const zusammen = fasseQuellenZusammen([
+      { stadt: "duisburg", name: "DUISBURG_QUELLE_URL", url: "https://example.org/a.csv", inhaltPruefen: true },
+    ]);
+    expect(zusammen.get("https://example.org/a.csv")!.inhaltPruefen).toBe(true);
+  });
+
   it("fragt dieselbe Adresse nur einmal ab und nennt alle Verwender", () => {
     const zusammen = fasseQuellenZusammen([
       { stadt: "Landesweit", name: "GEBREF_URL", url: "https://example.org/gebref.zip" },

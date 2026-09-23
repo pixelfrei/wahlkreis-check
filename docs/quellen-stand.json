@@ -1,5 +1,5 @@
 {
-  "geprueft_am": "2026-09-22",
+  "geprueft_am": "2026-09-23",
   "quellen": {
     "https://geoservicekkm.bochum.de/arcgis/rest/services/maponline/Wahlen/MapServer/16/query?where=1%3D1&returnCountOnly=true&f=json": {
       "stadt": "bochum",
@@ -14,7 +14,7 @@
       "namen": [
         "badoeynhausen/BAD_OEYNHAUSEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"b6d8-641192cf8a46e\"",
+      "fingerabdruck": "geändert am:Tue, 14 Oct 2025 07:17:24 GMT (46808 Bytes)",
       "status": 200
     },
     "https://geoserver.aachen.de/opendata/wahlen/ows?service=WFS&version=1.1.0&request=GetFeature&typeName=wahlen:bundestagswahl_2025_stimmbezirke&outputFormat=application/json": {
@@ -46,7 +46,7 @@
       "namen": [
         "bielefeld/BIELEFELD_ADRESSEN_URL"
       ],
-      "fingerabdruck": "inhalt:8b51d043f74dc30d",
+      "fingerabdruck": "inhalt:8d213bb1184833c8",
       "status": 200
     },
     "https://wahlen.gkd-re.net/20250914/05562008/daten/opendata/opendata-strassen.csv": {
@@ -54,7 +54,7 @@
       "namen": [
         "datteln/DATTELN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"4634-64352b88039d9\"",
+      "fingerabdruck": "geändert am:Tue, 11 Nov 2025 14:47:02 GMT (17972 Bytes)",
       "status": 200
     },
     "https://wahlen.bonn.de/wahlen/LTW2022/05314000/praesentation/opendata-strassen.csv": {
@@ -62,7 +62,7 @@
       "namen": [
         "bonn/BONN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"285860576968d81:0\"",
+      "fingerabdruck": "geändert am:Sun, 15 May 2022 14:37:45 GMT (136544 Bytes)",
       "status": 200
     },
     "https://geoportal2.duisburg.de/scripts/hnr_auskunft/export/aktHNr_alle.csv": {
@@ -70,23 +70,7 @@
       "namen": [
         "duisburg/DUISBURG_QUELLE_URL"
       ],
-      "fingerabdruck": "etag:\"53bd76a8424add1:0\"",
-      "status": 200
-    },
-    "https://opendata.duesseldorf.de/sites/default/files/Strassenverzeichnis_LHD_2025.csv": {
-      "stadt": "duesseldorf",
-      "namen": [
-        "duesseldorf/DUESSELDORF_QUELLE_URL"
-      ],
-      "fingerabdruck": "etag:\"365f4-6375b0930ab00\"",
-      "status": 200
-    },
-    "https://open-data.dortmund.de/api/explore/v2.1/catalog/datasets/strassenverzeichnis-wahlen-september-2025": {
-      "stadt": "Dortmund",
-      "namen": [
-        "Dortmund/STRASSENVERZEICHNIS_DATASET"
-      ],
-      "fingerabdruck": "inhalt:44136fa355b3678a",
+      "fingerabdruck": "inhalt:01a70fd4c94b56fe",
       "status": 200
     },
     "https://open-data.dortmund.de/api/explore/v2.1/catalog/datasets/wahlraume-kommunalwahl-2025": {
@@ -97,12 +81,20 @@
       "fingerabdruck": "inhalt:4a9e86aac17130c5",
       "status": 200
     },
-    "https://opendata.essen.de/sites/default/files/opendata-strassen_0.csv": {
-      "stadt": "essen",
+    "https://open-data.dortmund.de/api/explore/v2.1/catalog/datasets/strassenverzeichnis-wahlen-september-2025": {
+      "stadt": "Dortmund",
       "namen": [
-        "essen/ESSEN_STRASSEN_URL"
+        "Dortmund/STRASSENVERZEICHNIS_DATASET"
       ],
-      "fingerabdruck": "etag:\"2e395-5f052b8aec800\"",
+      "fingerabdruck": "inhalt:44136fa355b3678a",
+      "status": 200
+    },
+    "https://opendata.duesseldorf.de/sites/default/files/Strassenverzeichnis_LHD_2025.csv": {
+      "stadt": "duesseldorf",
+      "namen": [
+        "duesseldorf/DUESSELDORF_QUELLE_URL"
+      ],
+      "fingerabdruck": "geändert am:Thu, 12 Jun 2025 07:39:56 GMT (222708 Bytes)",
       "status": 200
     },
     "https://wahlen.kdvz.nrw/production/bw2021/05382020/daten/opendata/opendata-strassen.csv": {
@@ -110,15 +102,7 @@
       "namen": [
         "hennef/HENNEF_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"668f9cfd-9c73\"",
-      "status": 200
-    },
-    "https://www.hamm.de/fileadmin/user_upload/Medienarchiv_neu/Dokumente/Rathaus/Statistik_Wahl/Strassenverzeichnis_Stimmbezirke_Kommunalwahl.pdf": {
-      "stadt": "hamm",
-      "namen": [
-        "hamm/HAMM_QUELLE_URL"
-      ],
-      "fingerabdruck": "geändert am:Tue, 10 Dec 2024 16:11:04 GMT",
+      "fingerabdruck": "geändert am:Thu, 11 Jul 2024 08:51:09 GMT (40051 Bytes)",
       "status": 200
     },
     "https://wahl.gelsenkirchen.de/votemanager/20220515/05513000/daten/opendata/opendata-strassen.csv": {
@@ -126,7 +110,15 @@
       "namen": [
         "gelsenkirchen/GELSENKIRCHEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"71712068bdb8da1:0\"",
+      "fingerabdruck": "geändert am:Fri, 07 Jun 2024 09:30:59 GMT (95588 Bytes)",
+      "status": 200
+    },
+    "https://www.hamm.de/fileadmin/user_upload/Medienarchiv_neu/Dokumente/Rathaus/Statistik_Wahl/Strassenverzeichnis_Stimmbezirke_Kommunalwahl.pdf": {
+      "stadt": "hamm",
+      "namen": [
+        "hamm/HAMM_QUELLE_URL"
+      ],
+      "fingerabdruck": "geändert am:Tue, 10 Dec 2024 16:11:04 GMT (848110 Bytes)",
       "status": 200
     },
     "https://wahlergebnisse.stadt-hagen.de/prod/KW2025/05914000/daten/opendata/opendata-strassen.csv": {
@@ -134,7 +126,7 @@
       "namen": [
         "hagen/HAGEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"68db8cc2-14b16\"",
+      "fingerabdruck": "geändert am:Tue, 30 Sep 2025 07:54:42 GMT (84758 Bytes)",
       "status": 200
     },
     "https://abo-online.gkd-re.de/abo-online/PDFAusgabe?Info=YWdzPTA1NTYyMDE0fGluZm89QW10c2JsYXR0fG5ldHo9MXxwZGY9Mzc3NTk%3D": {
@@ -145,12 +137,12 @@
       "fingerabdruck": "inhalt:51fed408c008630d",
       "status": 200
     },
-    "https://wahlen.kdvz.nrw/production/kw2025/05362032/daten/opendata/opendata-strassen.csv": {
-      "stadt": "kerpen",
+    "https://opendata.essen.de/sites/default/files/opendata-strassen_0.csv": {
+      "stadt": "essen",
       "namen": [
-        "kerpen/KERPEN_STRASSEN_URL"
+        "essen/ESSEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"6a9fbdb6-84bf\"",
+      "fingerabdruck": "geändert am:Wed, 21 Dec 2022 08:56:00 GMT (189333 Bytes)",
       "status": 200
     },
     "https://wep.itk-rheinland.de/vm/prod/kw_2025/05162012/daten/opendata/opendata-strassen.csv": {
@@ -158,15 +150,15 @@
       "namen": [
         "juechen/JUECHEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"43bd-6407e732c923f\"",
+      "fingerabdruck": "geändert am:Mon, 06 Oct 2025 14:41:42 GMT (17341 Bytes)",
       "status": 200
     },
-    "https://www.offenedaten-koeln.de/sites/default/files/distribution/Stra%25C3%259Fenverzeichnis_WAHL_2025-07-15.xlsx": {
-      "stadt": "koeln",
+    "https://wahlen.kdvz.nrw/production/kw2025/05362032/daten/opendata/opendata-strassen.csv": {
+      "stadt": "kerpen",
       "namen": [
-        "koeln/KOELN_QUELLE_URL"
+        "kerpen/KERPEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"a0b4c-64580d9b656c0\"",
+      "fingerabdruck": "geändert am:Tue, 08 Sep 2026 07:48:06 GMT (33983 Bytes)",
       "status": 200
     },
     "https://www.offenesdatenportal.de/dataset/c1c44089-daa8-4cfa-9f04-9b781d3d4dbd/resource/9961d575-50d8-4916-983e-58dc37ff3e51/download/strassenverzeichnis-dezember-2016.csv": {
@@ -174,15 +166,7 @@
       "namen": [
         "krefeld/KREFELD_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"1730716617.9456518-150541-827266350\"",
-      "status": 200
-    },
-    "https://gi.hilden.de/bi/getfile.asp?id=119392&type=do": {
-      "stadt": "hilden",
-      "namen": [
-        "hilden/HILDEN_WAHLBUCH_URL"
-      ],
-      "fingerabdruck": "inhalt:540716baf64e75a8",
+      "fingerabdruck": "geändert am:Mon, 04 Nov 2024 10:36:57 GMT (150541 Bytes)",
       "status": 200
     },
     "https://www.wfs.nrw.de/geobasis/wfs_nw_alkis_vereinfacht?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=ave:KatasterBezirk&BBOX=51.72,8.85,51.82,9.02,urn:ogc:def:crs:EPSG::4326": {
@@ -193,13 +177,29 @@
       "fingerabdruck": "inhalt:8e7919ff336bd6c2",
       "status": 200
     },
+    "https://gi.hilden.de/bi/getfile.asp?id=119392&type=do": {
+      "stadt": "hilden",
+      "namen": [
+        "hilden/HILDEN_WAHLBUCH_URL"
+      ],
+      "fingerabdruck": "inhalt:540716baf64e75a8",
+      "status": 200
+    },
+    "https://www.offenedaten-koeln.de/sites/default/files/distribution/Stra%25C3%259Fenverzeichnis_WAHL_2025-07-15.xlsx": {
+      "stadt": "koeln",
+      "namen": [
+        "koeln/KOELN_QUELLE_URL"
+      ],
+      "fingerabdruck": "geändert am:Tue, 09 Dec 2025 08:39:31 GMT (658252 Bytes)",
+      "status": 200
+    },
     "https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip": {
       "stadt": "Landesweit",
       "namen": [
         "Landesweit/GEBREF_URL",
         "marl/MARL_GEBREF_URL"
       ],
-      "fingerabdruck": "etag:\"5c855bf-657a898074740\"",
+      "fingerabdruck": "geändert am:Tue, 28 Jul 2026 09:37:57 GMT (97015231 Bytes)",
       "status": 200
     },
     "https://wep.itk-rheinland.de/vm/prod/kw_2025/05116000/daten/opendata/opendata-strassen.csv": {
@@ -207,7 +207,7 @@
       "namen": [
         "moenchengladbach/MOENCHENGLADBACH_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"1832d-6407e7060afc7\"",
+      "fingerabdruck": "geändert am:Mon, 06 Oct 2025 14:40:55 GMT (99117 Bytes)",
       "status": 200
     },
     "https://wahlen.regioit.de/3/km2025/05158024/daten/opendata/opendata-strassen.csv": {
@@ -215,7 +215,7 @@
       "namen": [
         "mettmann/METTMANN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"77f8-63fd86db70e27\"",
+      "fingerabdruck": "geändert am:Sun, 28 Sep 2025 08:37:26 GMT (30712 Bytes)",
       "status": 200
     },
     "https://wahlpraesentation.muelheim-ruhr.de/kw25/05117000/daten/opendata/opendata-strassen.csv": {
@@ -223,15 +223,7 @@
       "namen": [
         "muelheim/MUELHEIM_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"107c3-63f769de82248\"",
-      "status": 200
-    },
-    "https://geoservice.gkd-re.de/wss/service/KreisRE_WFS_KRE-I03_GEBIETE/guest?service=WFS&version=1.1.0&request=GetFeature&typeName=Gebietsgliederung%3ASTADTTEILE_MARL&srsName=EPSG:25832": {
-      "stadt": "marl",
-      "namen": [
-        "marl/MARL_STADTTEILE_URL"
-      ],
-      "fingerabdruck": "inhalt:d1b70cbb8b163e0c",
+      "fingerabdruck": "geändert am:Tue, 23 Sep 2025 11:55:48 GMT (67523 Bytes)",
       "status": 200
     },
     "https://recht.nrw.de/system/files/2026-02/gv2026-4-5anlage1.pdf": {
@@ -242,12 +234,20 @@
       "fingerabdruck": "inhalt:58c350bc3f36bde8",
       "status": 200
     },
+    "https://geoservice.gkd-re.de/wss/service/KreisRE_WFS_KRE-I03_GEBIETE/guest?service=WFS&version=1.1.0&request=GetFeature&typeName=Gebietsgliederung%3ASTADTTEILE_MARL&srsName=EPSG:25832": {
+      "stadt": "marl",
+      "namen": [
+        "marl/MARL_STADTTEILE_URL"
+      ],
+      "fingerabdruck": "inhalt:d1b70cbb8b163e0c",
+      "status": 200
+    },
     "https://wahlen.regioit.de/2/LW2022/05119000/daten/opendata/opendata-strassen.csv": {
       "stadt": "oberhausen",
       "namen": [
         "oberhausen/OBERHAUSEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"1490b-5f6d60faf68fd\"",
+      "fingerabdruck": "geändert am:Tue, 14 Mar 2023 06:08:50 GMT (84235 Bytes)",
       "status": 200
     },
     "https://wahlen.kdvz.nrw/production/bw2021/05122000/daten/opendata/opendata-strassen.csv": {
@@ -255,15 +255,7 @@
       "namen": [
         "solingen/SOLINGEN_STRASSEN_URL"
       ],
-      "fingerabdruck": "etag:\"668f9b7a-ef38\"",
-      "status": 200
-    },
-    "https://daten.wuppertal.de/Politik_Wahlen/Kommunalwahlbezirke_EPSG25832_JSON.json": {
-      "stadt": "wuppertal",
-      "namen": [
-        "wuppertal/WUPPERTAL_KOMMUNALWAHLBEZIRKE_URL"
-      ],
-      "fingerabdruck": "etag:\"6ab228be-a1279\"",
+      "fingerabdruck": "geändert am:Thu, 11 Jul 2024 08:44:42 GMT (61240 Bytes)",
       "status": 200
     },
     "https://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_JSON.json": {
@@ -271,7 +263,15 @@
       "namen": [
         "wuppertal/WUPPERTAL_ADRESSEN_URL"
       ],
-      "fingerabdruck": "etag:\"6ab228c0-143e403\"",
+      "fingerabdruck": "geändert am:Tue, 22 Sep 2026 07:05:36 GMT (21226499 Bytes)",
+      "status": 200
+    },
+    "https://daten.wuppertal.de/Politik_Wahlen/Kommunalwahlbezirke_EPSG25832_JSON.json": {
+      "stadt": "wuppertal",
+      "namen": [
+        "wuppertal/WUPPERTAL_KOMMUNALWAHLBEZIRKE_URL"
+      ],
+      "fingerabdruck": "geändert am:Tue, 22 Sep 2026 07:05:34 GMT (660089 Bytes)",
       "status": 200
     },
     "https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/61_stadtentwicklung/pdf/Strassenverzeichnis_Muenster_mit_Stimmbezirk_und_Bezirksvertretung_vorlaeufig_20250519.pdf": {
@@ -279,7 +279,7 @@
       "namen": [
         "muenster/MUENSTER_QUELLE_URL"
       ],
-      "fingerabdruck": "etag:\"3f19a-6357c2ab9149c\"",
+      "fingerabdruck": "geändert am:Mon, 19 May 2025 12:21:09 GMT (258458 Bytes)",
       "status": 200
     }
   }

@@ -3,12 +3,35 @@ import { ALKIS_KATASTERBEZIRK_URL } from "./alkisGemarkung.js";
 import { STRASSENVERZEICHNIS_DATASET, WAHLRAUM_DATASET } from "./config.js";
 import { GEBREF_URL } from "./gebref.js";
 
+/**
+ * Quellen, die sich aus einem Rechenzentrum heraus nicht abfragen lassen
+ * (beobachtet am 2026-09-23 im GitHub-Lauf: Verbindung abgewiesen bzw.
+ * Zeitüberschreitung). Von einem normalen Anschluss aus funktionieren sie.
+ * Die automatische Prüfung überspringt sie deshalb und meldet das; lokal
+ * werden sie ganz normal geprüft.
+ */
+/**
+ * Quellen, die laufend neu erzeugt werden: Änderungsdatum und ETag wechseln
+ * dann täglich, obwohl der Inhalt gleich bleibt. Bei ihnen zählt der Inhalt.
+ * (Duisburg erzeugt seinen Export nachts neu - beobachtet am 2026-09-23.)
+ */
+export const INHALT_PRUEFEN = new Set(["DUISBURG_QUELLE_URL"]);
+
+export const NICHT_AUS_RECHENZENTREN = new Set([
+  "BOCHUM_ADRESSEN_URL",
+  "HAGEN_STRASSEN_URL",
+  "JUECHEN_STRASSEN_URL",
+  "MOENCHENGLADBACH_STRASSEN_URL",
+]);
+
 export interface Quelle {
   /** Stadt bzw. "Landesweit" für Quellen, die mehrere Städte versorgen. */
   stadt: string;
   /** Name der Konstante in der Konfiguration, z.B. ESSEN_STRASSEN_URL. */
   name: string;
   url: string;
+  /** Kopfzeilen ignorieren, immer den Inhalt vergleichen. */
+  inhaltPruefen?: boolean;
   /**
    * Adresse, die für die Änderungsprüfung abgefragt wird. Nötig bei Diensten,
    * deren Basis-Adresse ohne Parameter nur eine Info-Seite liefert - deren
@@ -78,7 +101,13 @@ export async function sammleQuellen(verzeichnis = "src/build"): Promise<Quelle[]
     for (const [name, wert] of Object.entries(modul)) {
       if (typeof wert === "string" && wert.startsWith("http")) {
         const pruefUrl = PRUEF_ADRESSEN[name];
-        quellen.push({ stadt: eintrag.name, name, url: wert, ...(pruefUrl && { pruefUrl }) });
+        quellen.push({
+          stadt: eintrag.name,
+          name,
+          url: wert,
+          ...(pruefUrl && { pruefUrl }),
+          ...(INHALT_PRUEFEN.has(name) && { inhaltPruefen: true }),
+        });
       }
     }
   }

@@ -153,6 +153,14 @@ Ablauf bei einer Meldung: betroffene Stadt neu bauen (`npm run build:data:<stadt
 Unterschiede in `public/data/` ansehen, Tests laufen lassen, dann den Stand
 festschreiben.
 
+Zwei Eigenheiten, die in der Praxis auffielen und berücksichtigt sind:
+
+- **Vier Quellen** (Bochum, Hagen, Jüchen, Mönchengladbach) lassen sich aus Rechenzentren
+  nicht abfragen. Die automatische Prüfung überspringt sie und weist darauf hin; von einem
+  normalen Anschluss aus werden sie ganz normal geprüft.
+- **Duisburg** erzeugt seinen Export jede Nacht neu, Änderungsdatum und ETag wechseln also
+  täglich. Dort wird deshalb der Inhalt verglichen statt der Kopfzeilen.
+
 Dieselbe Prüfung läuft automatisch **jeden Montag** als GitHub-Action
 (`.github/workflows/quellen.yml`) und lässt sich dort auch von Hand starten. Meldet sie
 eine Änderung, schlägt der Lauf fehl; welche Stadt betroffen ist, steht in der
