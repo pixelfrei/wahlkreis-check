@@ -1,0 +1,110 @@
+name: Daten aktualisieren
+
+# Baut die Straßendaten wöchentlich neu und legt bei inhaltlichen Änderungen
+# einen Änderungsvorschlag an. Übernommen wird von Hand - die Zuordnung
+# entscheidet über gültige Unterschriften, das soll niemand unbemerkt ändern.
+on:
+  schedule:
+    # montags 7:00 UTC, eine Stunde nach der Quellenprüfung
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Städte neu bauen
+        id: bauen
+        shell: bash
+        run: |
+          mkdir -p protokolle
+          staedte=$(node -e "
+            const { scripts } = require('./package.json');
+            const nurLokal = ['bochum', 'hagen', 'juechen', 'moenchengladbach'];
+            console.log(Object.keys(scripts)
+              .filter((s) => s.startsWith('build:data:'))
+              .map((s) => s.slice('build:data:'.length))
+              .filter((s) => !nurLokal.includes(s))
+              .join(' '));
+          ")
+          fehlgeschlagen=""
+          for stadt in $staedte; do
+            echo "::group::$stadt"
+            if npm run -s "build:data:$stadt" 2>&1 | tee "protokolle/$stadt.log"; then
+              echo "$stadt ok"
+            else
+              fehlgeschlagen="$fehlgeschlagen $stadt"
+            fi
+            echo "::endgroup::"
+          done
+          echo "fehlgeschlagen=${fehlgeschlagen# }" >> "$GITHUB_OUTPUT"
+
+      - name: Tests
+        run: npm test
+
+      - name: Änderungen zusammenfassen
+        id: bericht
+        shell: bash
+        run: |
+          # --zuruecksetzen verwirft Dateien, die sich nur im Baudatum unterscheiden
+          npm run -s bericht:daten -- --zuruecksetzen > bericht.md
+          if [ -n "$(git status --porcelain public/data)" ]; then
+            echo "aenderungen=ja" >> "$GITHUB_OUTPUT"
+          else
+            echo "aenderungen=nein" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Änderungsvorschlag anlegen
+        if: steps.bericht.outputs.aenderungen == 'ja'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          zweig="daten/automatisch"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$zweig"
+          git add public/data docs/quellen-stand.json
+          git commit -m "Straßendaten aktualisiert (automatisch)" -m "$(cat bericht.md)"
+          git push --force origin "$zweig"
+          if [ -z "$(gh pr list --head "$zweig" --state open --json number --jq '.[0].number')" ]; then
+            gh pr create --base main --head "$zweig" \
+              --title "Straßendaten aktualisiert" \
+              --body-file bericht.md
+          else
+            gh pr edit "$zweig" --body-file bericht.md
+          fi
+
+      - name: Zusammenfassung
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## Daten aktualisieren"
+            cat bericht.md 2>/dev/null || echo "kein Bericht erzeugt"
+            echo
+            if [ -n "${{ steps.bauen.outputs.fehlgeschlagen }}" ]; then
+              echo "### Fehlgeschlagen"
+              echo "${{ steps.bauen.outputs.fehlgeschlagen }}"
+            fi
+            echo "### Nur lokal baubar"
+            echo "Bochum, Hagen, Jüchen, Mönchengladbach (Quellen sperren Rechenzentren)."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fehlgeschlagene Städte melden
+        if: steps.bauen.outputs.fehlgeschlagen != ''
+        run: |
+          echo "Diese Städte ließen sich nicht bauen: ${{ steps.bauen.outputs.fehlgeschlagen }}"
+          exit 1

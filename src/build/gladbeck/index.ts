@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { schreibeDaten } from "../ausgabe.js";
 import { PDFParse } from "pdf-parse";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { GLADBECK_QUELLE_STAND, GLADBECK_QUELLE_URL, GLADBECK_WAHLKREISE } from "./config.js";
@@ -144,7 +144,7 @@ async function main(): Promise<void> {
     strassen,
   };
 
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
+  await schreibeDaten(OUTPUT_PATH, data);
 
   console.log("\n--- Report ---");
   console.log(`Zeilen Wahlbezirksverzeichnis: ${zeilen.length}`);
@@ -158,7 +158,6 @@ async function main(): Promise<void> {
       console.log(`  - ${g.strasse}: ${g.von}-${g.bis} nicht abgedeckt`);
     }
   }
-  console.log(`\n${OUTPUT_PATH} geschrieben.`);
 }
 
 main().catch((err: unknown) => {

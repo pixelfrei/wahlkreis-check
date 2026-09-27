@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { schreibeDaten } from "../ausgabe.js";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { ergaenzeBuchstabenAusnahmen, type BuchstabenAdresse } from "../buchstabenPruefung.js";
 import { BuildError, gruppiereZuStrasse } from "../gruppierung.js";
@@ -140,7 +140,7 @@ async function main(): Promise<void> {
     strassen,
   };
 
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
+  await schreibeDaten(OUTPUT_PATH, data);
 
   console.log("\n--- Report ---");
   console.log(`Zeilen (aktuell): ${zeilen.length}`);
@@ -152,7 +152,6 @@ async function main(): Promise<void> {
   if (gaps.length > 0) {
     console.log(`\nInfo: ${gaps.length} Lücke(n) in Hausnummernbereichen (unauffällig, da pro Adresse geliefert).`);
   }
-  console.log(`\n${OUTPUT_PATH} geschrieben.`);
 }
 
 main().catch((err: unknown) => {

@@ -24,6 +24,14 @@ export const NICHT_AUS_RECHENZENTREN = new Set([
   "MOENCHENGLADBACH_STRASSEN_URL",
 ]);
 
+/**
+ * Dieselben Städte als Ordnernamen: Ihre Quellen sperren Rechenzentren aus,
+ * die automatische Neuerstellung bei GitHub kann sie also nicht bauen. Ändert
+ * sich dort etwas, meldet es die Quellenprüfung (die über den Helfer-Worker
+ * geht) und der Build läuft von Hand.
+ */
+export const STAEDTE_NUR_LOKAL = ["bochum", "hagen", "juechen", "moenchengladbach"];
+
 export interface Quelle {
   /** Stadt bzw. "Landesweit" für Quellen, die mehrere Städte versorgen. */
   stadt: string;

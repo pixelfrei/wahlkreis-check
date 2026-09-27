@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { schreibeDaten } from "../ausgabe.js";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { KREFELD_QUELLE_STAND, KREFELD_STRASSEN_URL, KREFELD_WAHLKREISE } from "./config.js";
 import { ergaenzeBuchstabenAusnahmen, buchstabenAusZeilen } from "../buchstabenPruefung.js";
@@ -102,7 +102,7 @@ async function main(): Promise<void> {
     strassen,
   };
 
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
+  await schreibeDaten(OUTPUT_PATH, data);
 
   console.log("\n--- Report ---");
   console.log(`Zeilen Straßenverzeichnis: ${zeilen.length}`);
@@ -111,7 +111,6 @@ async function main(): Promise<void> {
   if (gaps.length > 0) {
     console.log(`\nWarnung: ${gaps.length} Lücke(n) in Hausnummernbereichen.`);
   }
-  console.log(`\n${OUTPUT_PATH} geschrieben.`);
 }
 
 main().catch((err: unknown) => {

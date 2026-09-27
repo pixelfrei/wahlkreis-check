@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { schreibeDaten } from "../ausgabe.js";
 import type { Strasse, StrassenDaten } from "../../shared/types.js";
 import { MARL_GEBREF_URL, MARL_QUELLE_STAND, MARL_STADTTEILE_URL, MARL_WAHLKREISE } from "./config.js";
 import { ergaenzeBuchstabenAusnahmen } from "../buchstabenPruefung.js";
@@ -80,7 +80,7 @@ async function main(): Promise<void> {
     strassen,
   };
 
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
+  await schreibeDaten(OUTPUT_PATH, data);
 
   console.log("\n--- Report ---");
   console.log(`Adresspunkte: ${punkte.length}`);
@@ -96,7 +96,6 @@ async function main(): Promise<void> {
       console.log(`  - ${g.strasse}: ${g.von}-${g.bis} nicht abgedeckt`);
     }
   }
-  console.log(`\n${OUTPUT_PATH} geschrieben.`);
 }
 
 main().catch((err: unknown) => {

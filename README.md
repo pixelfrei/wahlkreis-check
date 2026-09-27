@@ -132,6 +132,37 @@ Hinweise:
 - `public/data/gemeinden.json` wurde aus der Anlage zum Landeswahlgesetz erstellt und wird
   bei einer neuen Wahlkreiseinteilung von Hand angepasst.
 
+### Plausibilitätsprüfung beim Bauen
+
+Vor dem Schreiben vergleicht jede Aufbereitung den neuen Stand mit dem bisherigen. Kleine
+Änderungen laufen durch, größere werden gemeldet, grobe brechen den Build ab – etwa wenn
+eine Stadt eine halb leere Datei veröffentlicht oder ein Wahlkreis verschwindet. Das
+fängt Fälle ab, die die fachlichen Prüfungen nicht sehen können, weil die Daten in sich
+stimmig sind.
+
+Ist die große Änderung richtig (z. B. nach einer Gebietsreform), einmalig mit
+`PLAUSIBILITAET_IGNORIEREN=1 npm run build:data:<stadt>` bauen.
+
+Was sich gegenüber dem letzten Commit geändert hat, zeigt `npm run bericht:daten`.
+
+### Automatische Aktualisierung
+
+Zwei GitHub-Actions halten die Daten im Blick:
+
+| Ablauf | Wann | Was passiert |
+| --- | --- | --- |
+| `quellen.yml` | montags 6:00 UTC | prüft alle Quellen, schlägt bei Änderungen fehl |
+| `daten.yml` | montags 7:00 UTC | baut alle Städte neu, testet und legt bei inhaltlichen Änderungen einen Änderungsvorschlag an |
+
+Übernommen wird von Hand: Die Zuordnung entscheidet über gültige Unterschriften, deshalb
+sieht ein Mensch die Änderung an, bevor sie live geht. Der Änderungsvorschlag enthält eine
+Tabelle, welche Straßen neu, entfallen oder geändert sind. Nach dem Zusammenführen wird
+wie gewohnt veröffentlicht (`npm run build && npx wrangler deploy`).
+
+Bochum, Hagen, Jüchen und Mönchengladbach baut die Automatik nicht – ihre Quellen sperren
+Rechenzentren aus. Ändert sich dort etwas, meldet es die Quellenprüfung (sie erreicht sie
+über den Helfer-Worker), und der Build läuft von Hand.
+
 ### Quellen auf Änderungen prüfen
 
 Die Städte aktualisieren ihre Verzeichnisse ohne Ankündigung. Dieses Skript fragt alle
