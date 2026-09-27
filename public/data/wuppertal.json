@@ -2,7 +2,7 @@
   "meta": {
     "kommune": "Wuppertal",
     "stand": "2026-09",
-    "gebaut_am": "2026-09-15",
+    "gebaut_am": "2026-09-27",
     "quellen": [
       "https://daten.wuppertal.de/Politik_Wahlen/Kommunalwahlbezirke_EPSG25832_JSON.json",
       "https://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_JSON.json"
@@ -5997,6 +5997,18 @@
         },
         {
           "von": 110,
+          "bis": 110,
+          "par": "g",
+          "wk": "34"
+        },
+        {
+          "von": 111,
+          "bis": 111,
+          "par": "u",
+          "wk": "34"
+        },
+        {
+          "von": 112,
           "bis": 112,
           "par": "g",
           "wk": "34"
