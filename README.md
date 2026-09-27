@@ -159,6 +159,10 @@ sieht ein Mensch die Änderung an, bevor sie live geht. Der Änderungsvorschlag 
 Tabelle, welche Straßen neu, entfallen oder geändert sind. Nach dem Zusammenführen wird
 wie gewohnt veröffentlicht (`npm run build && npx wrangler deploy`).
 
+Am automatisch angelegten Änderungsvorschlag stehen keine Prüfhäkchen: GitHub startet bei
+Vorschlägen, die ein Ablauf selbst anlegt, bewusst keine weiteren Abläufe. Die Tests sind
+trotzdem gelaufen – im selben Ablauf, direkt vor dem Anlegen.
+
 Bochum, Hagen, Jüchen und Mönchengladbach baut die Automatik nicht – ihre Quellen sperren
 Rechenzentren aus. Ändert sich dort etwas, meldet es die Quellenprüfung (sie erreicht sie
 über den Helfer-Worker), und der Build läuft von Hand.
